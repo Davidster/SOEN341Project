@@ -4,7 +4,7 @@ in private through a chat in order to give them directive and feedback on
 their work. (draft)
 
 As a teacher assistant, I want to be able to provide or collect course related
-mateirals in order to give them tasks and collect the completed task.
+mateirals in order to give them tasks and collect the completed task. (draft)
 
 As a teacher assistant, I want to be able to make appointment with each team 
 without any scheduling conflict with their personal schedule so that I can meet 
