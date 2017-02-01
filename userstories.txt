@@ -13,3 +13,5 @@ As a teacher assistant, I want to be able to track the progress of the team's pr
 contribution of each team members in order to have a fair grading. (draft; more or less sure about the formulation)
 
 As a teacher assistant, I want to be able to create groups without having to contact the students via Moodle or email address. (draft - Alex)
+
+test
