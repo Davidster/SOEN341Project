@@ -1,4 +1,3 @@
-
 As a teacher assistant, I want to be able to communicate with a specific team 
 in private through a chat in order to give them directive and feedback on
 their work. (draft)
@@ -10,5 +9,5 @@ As a teacher assistant, I want to be able to make appointment with each team
 without any scheduling conflict with their personal schedule so that I can meet 
 them and discuss about their project and help them. (draft) 
 
-As a teacher assistant, I want to be able to see the contribution of each team members 
-in order to have a fair grading. (draft; more or less sure about the formulation)
+As a teacher assistant, I want to be able to track the progress of the team's project and the 
+contribution of each team members in order to have a fair grading. (draft; more or less sure about the formulation)
