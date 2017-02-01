@@ -1,5 +1,3 @@
-
-\# SOEN341Project
 Repository for holding SOEN 341 group project. 
 
 Team members:
