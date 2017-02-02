@@ -14,4 +14,8 @@ contribution of each team members in order to have a fair grading. (draft; more 
 
 As a teacher assistant, I want to be able to create groups without having to contact the students via Moodle or email address. (draft - Alex)
 
+As a teacher assistant, I want to be able to see which team members are online
+while I am communicating with a group through the chat so that I can keep track of
+the members that are participating. (draft)
+
 test
