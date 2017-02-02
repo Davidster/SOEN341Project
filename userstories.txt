@@ -18,8 +18,4 @@ As a teacher assistant, I want to be able to see which team members are online
 while I am communicating with a group through the chat so that I can keep track of
 the members that are participating. (draft)
 
-As a student, I want to be able to communicate with my team members through 
-an interactive chat available on the website so that I do not have to search 
-and contact them through other chat platforms. (not sure about this one - William)
-
 test
