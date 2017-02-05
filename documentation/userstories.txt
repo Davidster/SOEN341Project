@@ -1,21 +1,23 @@
-As a teacher assistant, I want to be able to communicate with a specific team 
+1) As a teacher assistant, I want to be able to communicate with a specific team 
 in private through a chat in order to give them directive and feedback on
 their work. (draft)
 
-As a teacher assistant, I want to be able to provide or collect course related
+2) As a teacher assistant, I want to be able to provide and collect course related
 materials in order to give them tasks and collect the completed task. (draft)
 
-As a teacher assistant, I want to be able to make appointment with each team 
-without any scheduling conflict with their personal schedule so that I can meet 
-them and discuss about their project and help them. (draft) 
+3) a) As a teacher assistant, I want to be able to make appointment with each team 
+so that I can meet them and discuss about their project and help them. (draft)
+b) As a teacher assistant, I want to be aware of the free time slots of each 
+team so that I can make appointments without any scheduling conflict with 
+their personal schedule.
 
-As a teacher assistant, I want to be able to track the progress of the team's project and the 
+4) As a teacher assistant, I want to be able to track the progress of the team's project and the 
 contribution of each team members in order to have a fair grading. (draft; more or less sure about the formulation)
 
-As a teacher assistant, I want to be able to create groups without having to contact the students via Moodle or email address. (draft - Alex)
+5) As a teacher assistant, I want to be able to create groups without having to contact the students via Moodle or email address. (draft - Alex)
 
-As a teacher assistant, I want to be able to see which team members are online
+6) As a teacher assistant, I want to be able to see which team members are online
 while I am communicating with a group through the chat so that I can keep track of
 the members that are participating. (draft)
 
-As a student, I want to be able to communicate with my team so that we can share ideas and build our project.
+7) As a student, I want to be able to communicate with my team so that we can share ideas and build our project.
