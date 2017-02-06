@@ -21,3 +21,6 @@ while I am communicating with a group through the chat so that I can keep track 
 the members that are participating. (draft)
 
 7) As a student, I want to be able to communicate with my team so that we can share ideas and build our project.
+
+8) As a student, I want to have a profile page where I can select for which project of mine I wish to work on.
+
