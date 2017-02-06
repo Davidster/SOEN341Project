@@ -1,7 +1,7 @@
 Repository for holding SOEN 341 group project. 
 
 Team members:
- - Alexande Robert-Smeets
+ - Alexandre Robert
  - David Huculak
  - Sai-Shan Gagnon
  - Willian Kingbédé
