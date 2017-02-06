@@ -11,26 +11,17 @@ materials in order to provide tasks to students.
 	b) As a teacher assistant, I want to be aware of a team's availability, 
 	in order to avoid scheduling conflicts when making appointments.
 
-4)(no issue associated) As a teacher assistant, I want to be able to track the progress of a team's project and record the 
-contribution of each team member, in order to evaluate every participant fairly. 
 
-5)(no issue associated) As a teacher assistant, I want to be able to create groups without having to contact the students via Moodle or email address. 
+4)(no issue associated) As a teacher assistant, I want to be able to create groups without having to contact the students via Moodle or email address. 
 
-6)(online participation) 
-	a) As a teacher assistant, I want to be able to see which team members are online
-	when I am communicating with a group through the private chat system, so that I can keep track of
-	the members that are participating. 
-	b) As a teacher assistant, I want to be able to keep track of each team members' contribution. 
-	
-(how about changing the issue a) for b) since 1 and 7 are already for communication 
+5)(online participation) As a teacher assistant, I want to be able to track the contribution of each team member, in order to evaluate every participant fairly. 
 
+6)(group communication) As a student, I want to be able to communicate with my team so that we can share ideas and build our project.
 
-7)(group communication) As a student, I want to be able to communicate with my team so that we can share ideas and build our project.
+7)(student profile) As a student, I want to have a profile page where I can select for which project of mine I wish to work on. 
 
-8)(student profile) As a student, I want to have a profile page where I can select for which project of mine I wish to work on. (Review - not sure if goal of project)
+8)(viewing materials) As a student, I would like to be able to view the course materials that the teacher's assistant might upload into my group.
 
-9)(viewing materials) As a student, I would like to be able to view the course materials that the teacher's assistant might upload into my group.
+9)(view group page) As a teaching assistant, I want to be able to view a page dedicated to a certain group, allowing me to view relevant information and interact with the team.
 
-10)(view group page) As a teaching assistant, I want to be able to view a page dedicated to a certain group, allowing me to view relevant information and interact with the team.
-
-11)(user account) As a student or teacher's assistant, I want to be able to log into the website with my personal account.
+10)(user account) As a student or teacher's assistant, I want to be able to log into the website with my personal account.
