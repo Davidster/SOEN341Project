@@ -1,0 +1,19 @@
+Tutorial #3 
+03/02/17
+Sprint 1 feedback
+
+general:
+
+- put slack chat on github
+- be more descriptive in commit messages
+- be active in slack chat
+- steady participation
+- marking scheme for sprint 2 not out yet
+- 2 reviewers to a pull request before merging code
+
+design:
+
+- reuse and modify software, web resources as much as possible
+- start working on a live chat
+- dont add functionnalities but refine,add/delete user stories
+- 
