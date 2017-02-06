@@ -2,22 +2,21 @@
 in private, through a chat system, in order to give them directives and feedback on
 their work. (draft)
 
-2) As a teacher assistant, I want to be able to provide and collect course related
-material, in order to give my students tasks and collect the completed work. (draft)
+2) As a teacher assistant, I want to be able to provide course related
+material, in order to give my students tasks and collect their completed work. (draft)
 
-3) a) As a teacher assistant, I want to be able to make appointment with each team 
-so that I can meet them and discuss about their project and help them. (draft)
-b) As a teacher assistant, I want to be aware of the free time slots of each 
-team so that I can make appointments without any scheduling conflict with 
-their personal schedule.
+3) a) As a teacher assistant, I want to be able to make appointment with each team,
+in order for me to discuss and help them on their project. (draft)
+b) As a teacher assistant, I want to be aware of a team's availability, 
+in order to avoid scheduling conflicts when making appointments.
 
 4) As a teacher assistant, I want to be able to track the progress of a team's project and record the 
 contribution of each team member, in order to evaluate every participant fairly. (draft; more or less sure about the formulation)
 
 5) As a teacher assistant, I want to be able to create groups without having to contact the students via Moodle or email address. 
 
-6) As a teacher assistant, I want to be able to see which team members are online,
-while I am communicating with a group through the chat so that I can keep track of
+6) As a teacher assistant, I want to be able to see which team members are online
+when I am communicating with a group through the private chat system, so that I can keep track of
 the members that are participating. (draft)
 
 7) As a student, I want to be able to communicate with my team so that we can share ideas and build our project.
