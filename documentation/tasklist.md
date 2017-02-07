@@ -20,6 +20,7 @@
   - Cliking a group leads to group page
 
 **Style anything and everything via CSS so it looks beautiful**
+
 **Hardcode any data as you see fit to make sure we have something displaying on the screen**
 
 *Format the list item with a [strikethrough](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) if it's complete*
