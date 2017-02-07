@@ -44,7 +44,8 @@ footer {
 	display: block;
 	text-decoration: none;
 	font-weight: normal;
-	padding: 12px 0 13px 0;
+	height: 22px;
+	padding: 13px 0 13px 0;
 	cursor: pointer;
 }
 
