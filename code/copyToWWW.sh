@@ -1,0 +1,1 @@
+scp -r ./ $1@login.encs.concordia.ca:/www/home/"$(echo $1 | head -c 1)"/$1/
