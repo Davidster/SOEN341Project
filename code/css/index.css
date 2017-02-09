@@ -169,19 +169,15 @@ footer {
 }
 
 
-		#opening{
-			color: gray;
-			text-align: center;
-			front-size: 150%;
-			front-family: Lucida Sans Unicode;
-		}
-		
+.opening{
+	color: gray;
+	text-align: center;
+	front-size: 150%;
+	front-family: Lucida Sans Unicode;
+}		
 
-		#about-page{
-			
-			color: black;
-			text-align: inherit; 
-			front-family: courier; 
-			
-		
-		}
+.about-page{		
+	color: black;
+	text-align: inherit; 
+	front-family: courier; 
+}
