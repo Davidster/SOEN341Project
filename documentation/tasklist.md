@@ -1,5 +1,8 @@
 ## Todo List:
 
+- **Assign story points to each user story**
+- **Assign number of hours to the items on this list**
+- **Reformat this list so each task goes under a user story**
 - Set up use of php on the site
 - Make a dummy DB request and display or log the result to prove that the DB is functioning
 - Update copyright info with something like: 'SOEN 341 project, Winter 2017'
