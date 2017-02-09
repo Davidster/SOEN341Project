@@ -1,6 +1,6 @@
 ## Todo List:
 
-- **Assign story points to each user story**
+- ~~Assign story points to each user story~~
 - **Assign number of hours to the items on this list**
 - **Reformat this list so each task goes under a user story heading**
 - ~~Set up use of php on the site~~
