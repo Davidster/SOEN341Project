@@ -1,0 +1,23 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "hey guys, im gunna grab the conversation logs from <#C3W8W4TEF|general> and <#C3WDG3ESZ|random> tonight and push them to the repo",
+        "ts": "1486687032.000293"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "if you have any incriminating messages, then go delete them  :joy:",
+        "ts": "1486687047.000294",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U3XFMDQ2J"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

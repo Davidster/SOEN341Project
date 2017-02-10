@@ -1,3 +1,7 @@
+<?php
+require_once 'sql_connect.php';
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -25,7 +29,7 @@
 		</nav>
 		<div id="page-content">
 			<div id="home-page" style="display: block">
-				<h1>Home page</h1>
+				Home page
 			</div>
 			<div id="register-page">
 				<h1>Register Page</h1>
@@ -45,42 +49,62 @@
 					<input type="submit" value = "Submit" />
 				</form>
 			</div>
-			<div id="login-page">
+			<?php
+			$form = "
+			<div id='login-page'>
 				<h1>Login Page</h1>
-				<form id="login" action="" method="post">
+				<form id='login' action='' method='post'>
 					<p>Enter your email:</p>
-					<input type="email" name="email" placeholder="Email Address" />
+					<input type='email' name='email' placeholder='Email Address' required/>
 					</br>
 					<p>Enter your password:</p>
-					<input type="password" name="password" placeholder="Password" />
-					<input type="submit" value="Enter" />
+					<input type='password' name='password' placeholder='Password' required/>
+					<input type='submit' value='Enter' name='logbtn'/>
 				</form>	
-			</div>
+			</div>";
+
+			echo $form;
+
+			//authentification
+			if(isset($_POST['logbtn']))
+			{
+				$email = $_POST['email'];
+				$password = $_POST['password'];
+
+				$dbsearch = "SELECT * FROM Ta where email = '$email'";
+				$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
+				$found = mysqli_num_rows($query); //returns number of found rows
+
+				//entry is found
+				if($found == 1)
+				{
+					$row = mysqli_fetch_assoc($query);
+					$dbfname = $row['fname'];
+					$dblname = $row['lname'];
+					$dbpassword = $row['password'];
+					$dbusername = $row['email'];
+					//password is correct
+					if($password == $dbpassword)
+					{
+						echo $welcome = "<h3>Login succesful, welcome  $dbfname!";
+					}
+					else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
+				}
+				else echo $nouserfound = "<h3> No such user found, please try again or register!</h3>";
+			}
+
+			;?>
+
 			<div id="contact-page">
-				<h1>Contact page</h1>
+				Contact page
 			</div>
 			<div id="about-page">
-				<h1>About page</h1>
-					<h1 class = "opening">Our Vision</h1>
-					<p class = "about">
-					Our mission is to provide a simple and useful web platform for group projects. This interface can be use for both, students and teacher's assistants, 
-					and supplies a good way to interact within the team and with the teacher assistant. 
-					</p>
-	
-					<h1 class="opening">About Us</h1>
-					<p class = "about">
-					We are a team of students in Software engineering and Computer engineering. Inspired by the idea of having a site dedicated to group projects, 
-					we decided to built a webstite that would contains all the features needed to work on the given project. 
-					</p>
-					
-					<br><br><br><br>
-	
-					<div class="about">To know more about our project, please visit our <a href = "https://github.com/Davidster/SOEN341Project.git"> GitHub repository </a>.</div>
-
+				About page
 			</div>
 		</div>
 		<footer>
-			<div class="legal">SOEN 341 project, Winter 2017.</div>
+			<div class="legal">Copyright 2016 Mikel Shifrin.</div>
+			<div class="contact">Contact us: 1800-123-4567 Proud company since 2016</div>
 		</footer>	
 	</body>
 </html>
