@@ -9,7 +9,7 @@ nav {
 	width: 100%;
 	padding: 0;
 	z-index: 1;
-	background-color: #585858;
+	background-color: #333;
 	border-bottom: 2px solid  #2EBC99;
 }
 
@@ -50,22 +50,20 @@ footer {
 }
 
 .menu li:hover {
-	color: #2EBC99;
+	background-color: #111;
 }
 
 #page-content > div {
 	display: none;
-	margin-top: 46px;
-}
-
-#register-page, #login-page {
-    font: 95% Arial, Helvetica, sans-serif;
+	font: 95% Arial, Helvetica, sans-serif;
     max-width: 400px;
     margin: 10px auto;
+    margin-top: 46px;
     padding: 16px;
     background: #F7F7F7;
 }
-#register-page h1, #login-page h1{
+
+h1 {
     background: #43D1AF;
     padding: 10px 0;
     font-size: 140%;
@@ -75,30 +73,8 @@ footer {
 	margin: -16px -16px 16px -16px;
 }
 
-#register-page input[type="date"],
-#register-page input[type="datetime"],
-#register-page input[type="email"],
-#register-page input[type="number"],
-#register-page input[type="password"],
-#register-page input[type="search"],
-#register-page input[type="text"],
-#register-page input[type="time"],
-#register-page input[type="url"],
-#register-page textarea,
-#register-page select,
-#login-page input[type="date"],
-#login-page input[type="datetime"],
-#login-page input[type="email"],
-#login-page input[type="number"],
-#login-page input[type="password"],
-#login-page input[type="search"],
-#login-page input[type="text"],
-#login-page input[type="time"],
-#login-page input[type="url"],
-#login-page textarea,
-#login-page select 
-{
-    -webkit-transition: all 0.30s ease-in-out;
+input, textarea, select {
+	-webkit-transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
@@ -115,39 +91,17 @@ footer {
     font: 95% Arial, Helvetica, sans-serif;
 }
 
-#register-page input[type="date"]:focus,
-#register-page input[type="datetime"]:focus,
-#register-page input[type="email"]:focus,
-#register-page input[type="number"]:focus,
-#register-page input[type="password"]:focus,
-#register-page input[type="search"]:focus,
-#register-page input[type="text"]:focus,
-#register-page input[type="time"]:focus,
-#register-page input[type="url"]:focus,
-#register-page textarea:focus,
-#register-page select:focus,
-#login-page input[type="date"]:focus,
-#login-page input[type="datetime"]:focus,
-#login-page input[type="email"]:focus,
-#login-page input[type="number"]:focus,
-#login-page input[type="password"]:focus,
-#login-page input[type="search"]:focus,
-#login-page input[type="text"]:focus,
-#login-page input[type="time"]:focus,
-#login-page input[type="url"]:focus,
-#login-page textarea:focus,
-#login-page select:focus
-{
-    box-shadow: 0 0 5px #43D1AF;
+input:focus, textarea:focus, select:focus {
+	box-shadow: 0 0 5px #43D1AF;
     padding: 3%;
     border: 1px solid #43D1AF;
 }
 
-#register-page input[type="submit"],
-#register-page input[type="button"],
-#login-page input[type="submit"],
-#login-page input[type="button"]
-{
+input[type="radio"] {
+	width: initial;
+}
+
+input[type="submit"], input[type="button"] {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -159,15 +113,12 @@ footer {
     border-right-style: none;
     border-left-style: none;    
     color: #fff;
-}
-#register-page input[type="submit"]:hover,
-#register-page input[type="button"]:hover,
-#login-page input[type="submit"]:hover,
-#login-page input[type="button"]:hover
-{
-    background: #2EBC99;
+    cursor: pointer;
 }
 
+input[type="submit"]:hover, input[type="button"]:hover {
+	background: #2EBC99;
+}
 
 .opening{
 	color: gray;
