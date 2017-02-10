@@ -181,3 +181,51 @@ footer {
 	text-align: inherit; 
 	front-family: courier; 
 }
+/*<!-- course page style-->
+
+#course-page{
+	
+	background-image: url("conU.jpg");
+}*/
+.btn {
+    background-color: #2EBC99;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	float:left;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover .btn {
+    background-color: gray;
+	color: #2EBC99; 
+}
