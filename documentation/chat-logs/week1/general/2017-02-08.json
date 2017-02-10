@@ -1,0 +1,273 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":+1:",
+        "ts": "1486555510.000240"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "we're gunna have to come up with quick way to test the site since .php files don't work without a server",
+        "ts": "1486555590.000241"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "I see 2 options for that: either each one of us copy pastes the php onto their concordia server space to test it, either eeach person downloads apache servers and add php to it and test it on their local host",
+        "ts": "1486563217.000242"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i think concordia server is better",
+        "ts": "1486563228.000243"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Instructions please?",
+        "ts": "1486563240.000244"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "on friday I can show everybody how it's done",
+        "ts": "1486563246.000245"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "good",
+        "ts": "1486563314.000246"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yea. And I can show you guys a single command you can run in git bash to sync ur Concordia folder with ur local computer",
+        "ts": "1486563383.000247"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "ohhh that's cool",
+        "ts": "1486563395.000248"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Meaning that you can run 1 command then refresh the page and it will be updated",
+        "ts": "1486563403.000249"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "So guys everyone bring your lap tops on Friday so you can be shown how it's done",
+        "ts": "1486563607.000250"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i think you should write that in important",
+        "ts": "1486563637.000251"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "yeah <@U3WS26PT3> is right",
+        "ts": "1486563659.000252"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "that way we can alwasy go back to it",
+        "ts": "1486563666.000253"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Gotcha",
+        "ts": "1486563872.000254"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Teacher said he doesnt have the resources for db or web hosting",
+        "ts": "1486566746.000255"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "That's a shame. We should just use one of our personal directories then. I realize it's not that bad to have only one person be able to deploy the \"official version\" as long as we can all test it in our own personal spaces while we're coding",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1486569460.000000"
+        },
+        "ts": "1486566851.000256"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "So <@U3WD98GTC> would have the official?",
+        "ts": "1486566993.000257"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Sure, y not",
+        "ts": "1486567012.000258"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "For now test on my server spacer",
+        "ts": "1486567064.000259"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": " Just put the usual users.encs.concordia\/~n_hortaa or whatever it is",
+        "ts": "1486567093.000260"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "My netname is n_hortaa",
+        "ts": "1486567117.000261"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "alright I added a script that can be used to transfer the files in 1 command and put it in a pull request",
+        "ts": "1486572870.000263"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "damn I just remembered I won't be there on Friday",
+        "ts": "1486572950.000264"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Loll",
+        "ts": "1486573186.000265"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Working on the about us page ",
+        "ts": "1486575818.000266"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Ill submit a pull request after",
+        "ts": "1486575832.000267"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Hey guys so the prof reminded us this morning of some very important tasks that need to be done ASAP. I included them in bold in the `tasklist.md` file",
+        "ts": "1486598817.000268"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Will take a look",
+        "ts": "1486598997.000273"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "what did the teacher say about the server space request?",
+        "ts": "1486603613.000276"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Negatory",
+        "ts": "1486603629.000277"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "why?",
+        "ts": "1486603649.000278"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "by the way I'm hosting the website looks good. Nick's looks like ass cause he didn't set the right permissions",
+        "ts": "1486603929.000279"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "<https:\/\/users.encs.concordia.ca\/~m_shifr\/>",
+        "ts": "1486603936.000280"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "it looks great and the account works",
+        "ts": "1486603950.000281"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Lol i changed the setting yesterday but i guess it reset since then",
+        "ts": "1486604751.000282"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "He said for 341 he wasnt given the resources",
+        "ts": "1486604764.000283"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "What happened to the appointment maker algortihm? Are we dropping that?",
+        "ts": "1486604846.000284"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I say yes",
+        "ts": "1486604856.000285",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WS26PT3"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I put my estimations for user stories' points go ahead and modify if you want; maybe explain rationale behind changement :p",
+        "ts": "1486605152.000289"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "We'll add it as a user story if we have no other work to do",
+        "ts": "1486607512.000290"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "No point making the project any more complicated than needed. The coordination overhead is epicly high since this is not our full time job",
+        "ts": "1486607562.000291"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I agree",
+        "ts": "1486607602.000292"
+    }
+]
