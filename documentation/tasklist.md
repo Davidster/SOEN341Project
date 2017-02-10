@@ -6,7 +6,7 @@
 - ~~Set up use of php on the site~~
 - ~~Make a dummy DB request and display or log the result to prove that the DB is functioning~~
 - ~~Update copyright info with something like: 'SOEN 341 project, Winter 2017'~~
-- Update about page with info about our team, maybe nice button to see github repo
+- **Update about page with info about our team, maybe nice button to see github repo
 - Create course page 
   - Course documents/materials
   - List of groups
