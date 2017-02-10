@@ -1,11 +1,16 @@
 goal: 
-centralized web application to facilitate teamwork, communication and workflow with TA's supervision. For a class' project, the TA can set up teams and monitor each team individually from beginning to end of the project and give unique feedback to each team.
+centralized web application to facilitate teamwork, communication and workflow with TA's supervision. 
+For a class' project, the TA can set up teams and monitor each team individually from beginning to end 
+of the project and give unique feedback to each team.
 
 features: 
 -TA (admin privileges) 
--TA can discuss with each team, give feedback, schedule online appointments for each team, TA can see each teammates contribution so this would prevent a student from slacking in a project, TA can solve team conflicts also this would also serve as an unofficial examination for the project.
+-TA can discuss with each team, give feedback, schedule online appointments for each team, TA can see 
+each teammates contribution so this would prevent a student from slacking in a project, TA can solve team 
+conflicts also this would also serve as an unofficial examination for the project.
 
 -algorithm to schedule team appointment based on each student's availabilities
 
 -upload/download documents
+
 -live chat system
