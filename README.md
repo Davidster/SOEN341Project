@@ -7,7 +7,6 @@ Team members:
  - Willian Kingbédé
  - Nicolas Horta-Adam
  - Erdem Kepenek
- - Mofehintoluwa Ogunrinde (Claudius)
  - Mikel Shifrin
 
 # Our Vision
