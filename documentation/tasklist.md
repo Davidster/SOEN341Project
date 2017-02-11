@@ -23,7 +23,7 @@
 - Set up some logic in website:
   - Can't get past the sign-in page without typing in a user+passwd then clicking sign-in button
   - Sign-in leads to aforementioned course page
-  - Cliking a group leads to group page
+  - Clicking a group leads to group page
 
 **Style anything and everything via CSS so it looks beautiful**
 
