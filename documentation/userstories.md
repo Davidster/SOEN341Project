@@ -36,6 +36,27 @@ might upload into my group.
 As a teaching assistant, I want to be able to view a page dedicated to a certain group, 
 allowing me to view relevant information and interact with the team.
 
+	
+
 **#1 user account - 5 pts**
 As a student or teacher's assistant, I want to be able to log into the website with my personal
 account.
+
+	* Create student and TA entities in database, each having different properties (1 week)
+	 * Nick: I created student and TA tables in phpmyadmin (GUI for MySQL)
+	 * Nick(to do): Refine database schema and entity attributes.
+	* Create a registration page that will automatically update/insert data in database (2 weeks)
+	 * Nick(to do): Will formulate MySQL queueries to populate db and blend with php functions.
+	 * Someone(to do): Make registration page look good using CSS,JS and other funky stuff :)
+	* Create different privileges for TA users. (2 weeks)
+	 * Nick(to do): Use php SESSIONS to cache user information and enable different functionnalities according to the user logged in.
+	 * Somewhat dependant on features to be implemented.
+
+**#34 Class division - 5 pts**
+As a teacher assistant, I want to be able to divide my class into groups myself so that students don't lose time to make the group themselves or no student is left alone.
+
+	* Create project relationship between TA and student entities (1 week)
+	 * Nick: I created the project relationship in phpmyadmin
+	* Make TA class division function
+	 * Nick(to do): Create php mixed with MySQL queueries to allow a TA to divide a class into groups (3 weeks) 
+	
