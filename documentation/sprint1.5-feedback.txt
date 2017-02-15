@@ -1,0 +1,13 @@
+10/02/17 tutorial #3
+
+TA feedback:
+
+-Our distinguishing feature is the fact that the TA can divide the class and make the groups himself.
+
+-Task breakdown for every story.
+- Be descriptive of who works on what and what does that person do. (see task balance)
+- burndown chart
+- more documentation
+- General website for many TAs to use (approved)
+- TA won't look at code but rather test out input and find leaks, flaws in our website.
+- **continuous integration** (see textbook)
