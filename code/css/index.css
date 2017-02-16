@@ -9,15 +9,14 @@ nav {
 	width: 100%;
 	padding: 0;
 	z-index: 1;
-	background-color: #333;
-	border-bottom: 2px solid  #2EBC99;
+	background-color: black;;
 }
 
 footer {
-	position: absolute;
-    background-color: #333;
+	position:absolute;
+    background-color: black;
     color: white;
-    font-family: Sans-serif;
+    font-family: Verdana, Sans-serif;
     text-align: center;
     bottom: 0px;
     left: 0px;
@@ -28,7 +27,7 @@ footer {
 
 
 .menu{
-	font: 95% Arial, Helvetica, sans-serif;
+	font: 95% Arial, Verdana, sans-serif;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
@@ -38,7 +37,7 @@ footer {
 	float: left;
 	width: 140px;
 	text-align: center;
-	background-color: #333;
+	background-color: black;
 	font-size: 18px;
 	display: block;
 	text-decoration: none;
@@ -50,26 +49,36 @@ footer {
 }
 
 .menu li:hover {
-	background-color: #111;
+	background-color: white;
+	color: black;
 }
 
-#page-content > div {
+#register-page, #login-page, #course-page {
 	display: none;
-	font: 95% Arial, Helvetica, sans-serif;
+	font: 95% Arial, Verdana, sans-serif;
     max-width: 400px;
-    margin: 10px auto;
+    margin:auto;
+    margin-top: 56px;
+    padding: 16px;
+    background: white;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+#home-page, #contact-page{
+	display: none;
+	font: 95% Arial, Verdana, sans-serif;
+    max-width: 400px;
+    margin:auto;
     margin-top: 46px;
     padding: 16px;
-    background: #F7F7F7;
 }
 
 h1 {
-    background: #43D1AF;
     padding: 10px 0;
     font-size: 140%;
     font-weight: 300;
     text-align: center;
-    color: #fff;
+    color: black;
 	margin: -16px -16px 16px -16px;
 }
 
@@ -130,7 +139,38 @@ input[type="submit"]:hover, input[type="button"]:hover {
 .about-page{		
 	color: black;
 	text-align: inherit; 
-	front-family: courier; 
+	font-family: Verdana, sans-serif; 
+}
+
+.ourVision{
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+	position:relative;
+	overflow: auto;
+	left:20%;
+	margin-top:86px;
+	margin-bottom:86px;
+	padding:3%;
+	font-family: Verdana, sans-serif;
+	width:253px;
+}
+
+.aboutUs{
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+	position:relative;
+	float:right;
+	right:20%;
+	top:-380px;
+	overflow:auto;
+	font-family: Verdana, sans-serif;
+	padding:3%;
+	width:253px;
+}
+
+.about{
+	font-family: Verdana, sans-serif;
+	position:absolute;
+	top: 538px;
+	left:390px;
 }
 /*<!-- course page style-->
 
