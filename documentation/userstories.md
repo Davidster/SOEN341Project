@@ -39,7 +39,7 @@ and build our project.
 
 	* Done: (nick) In MySQL, created a relationship between a student and his project team that will contain the message he wishs to send and a time stamp to effectively sort messages in the chat.
 
-	* To do: (Nick, someone; 4 weeks) PHP function to sort all project-messages tuples. Display content dynamically with javascript.
+	* To do: (Nick, Alex; 4 weeks) PHP function to sort all project-messages tuples. Display content dynamically with javascript.
 
 ## #20 student profile - 4 pts
 As a student, I want to have a profile page where I can select for which project of mine 
