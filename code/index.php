@@ -31,26 +31,74 @@ require_once 'sql_connect.php';
 			<div id="home-page" style="display: block">
 				Home page
 			</div>
-			<div id="register-page">
+			 <?php 
+			
+			 $form = "<div id='register-page'>
 				<h1>Register Page</h1>
-				<form id="createAccount" action="" method="post">
+				<form id='createAccount' action='' method='post'>
+					<p>Enter your Concordia ID:</p>
+					<input type='text' name='id' placeholder='Concordia ID' required/>
 					<p>Enter your full name:</p>
-					<input type="text" name="fullName" placeholder="Full Name"/>
+					<input type='text' name='fullName' placeholder='Full Name' required/>
 					<p>Enter your email:</p>
-					<input type="email" name="email" placeholder="Email Address"/>
+					<input type='email' name='email' placeholder='Email Address' required/>
 					<p>Create a Password:</p>
-					<input type="password" name="password" placeholder="New Password" />
-					<input type="radio" name="accountType" />
+					<input type='password' name='password' placeholder='Password' required/>
+					<p>Confirm Password:</p>
+					<input type='password' name='repassword' placeholder='Password' required/>
+					<input type='radio' name='accountType' />
 					Teacher's Assistant
 					</br>
-					<input type="radio" name="accountType" />
+					<input type='radio' name='accountType' />
 					Student
 					</br></br>	
-					<input type="submit" value = "Submit" />
+					<input type='submit' value = 'Submit' name='register'/>
 				</form>
-			</div>
+			</div>";
+			echo $form;
+
+  			
+			//gets user input
+			if(isset($_POST['register']))
+			{
+				$id = $_POST['id'];
+				$name = $_POST['fullName'];
+				$email = $_POST['email'];
+				$password = $_POST['password'];
+				$repassword = $_POST['repassword'];
+				/*
+				Eventually here we will have to add a method to restrict registration permissions
+				1- Only a valid Concordia student may register
+				2- That student's classes must be registerd in the system
+				3- Maybe ask for class id and tutorial group to segment automatically (if that makes any sense)
+				*/
+
+				//check if passwords are exact
+				if($password == $repassword)
+				{	
+					$register = "INSERT INTO Student (sid, name, password, email) VALUES ('$id','$name','$password', '$email')";
+
+				if(mysqli_query($dbc, $register))
+				{
+					$success = "<h2>Record created successfully!</h2>";
+				}
+				else{
+					echo "<h2> Sorry. This Concordia ID is already registered in the system</h2>";
+					}
+				}
+				else{
+					$passdontmatch = "<h2> The passwords you entered do not match. Try again.</h2>";
+				}
+
+			}
+			if (isset($success)) {echo $success;}
+  			if (isset($passdontmatch)) {echo $passdontmatch;}
+
+			;?>
+		
+
 			<?php
-			$form = "
+			$form2 = "
 			<div id='login-page'>
 				<h1>Login Page</h1>
 				<form id='login' action='' method='post'>
@@ -63,7 +111,7 @@ require_once 'sql_connect.php';
 				</form>	
 			</div>";
 
-			echo $form;
+			echo $form2;
 
 			//authentification
 			if(isset($_POST['logbtn']))
