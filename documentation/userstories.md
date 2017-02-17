@@ -55,7 +55,7 @@ might upload into my group.
 	
 	* Done: **_Dependency constraint_ see issue #7 **
 
-	* To do: (Alex, Someone; 4 weeks) 
+	* To do: (Alex, Someone; 4 weeks) Display the documents the TA uploaded on a specific page. Notification when a document is uploaded by the TA. 
 
 ## #12 view group page - 4 pts
 As a teaching assistant, I want to be able to view a page dedicated to a certain group, 
