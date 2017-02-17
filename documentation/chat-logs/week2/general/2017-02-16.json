@@ -1,0 +1,134 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "just noticed userstories.md",
+        "ts": "1487295423.000050"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "looks awesome :slightly_smiling_face:",
+        "ts": "1487295426.000051"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah hum just following your footsteps",
+        "ts": "1487300957.000052"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Everyone coming to tutorial tommorow? Were still missing plan requirements",
+        "ts": "1487301064.000053"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Ya I'll be there",
+        "ts": "1487301088.000054"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I'll see what I can get done before the tutorial",
+        "ts": "1487301133.000055"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Okok for continuous integration ill try to make a functionnal register page",
+        "ts": "1487301299.000056"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Oh yea I was gunna look into that",
+        "ts": "1487301315.000057"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "U think it gunna be tough to do?",
+        "ts": "1487301326.000058"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Not rly",
+        "ts": "1487301681.000059"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I can make one so that anyone can register",
+        "ts": "1487301735.000060"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Eventually we need to make it so that only valid concordia ids or emails can register",
+        "ts": "1487301772.000061"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "True",
+        "ts": "1487301893.000062"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "<@U3WD63E7N>  will you work on the project tonight or tomorrow morning?",
+        "ts": "1487304910.000063"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "tonight most likely",
+        "ts": "1487304928.000064"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "any coding or mostly adding stuff to userstories.md and to issues?",
+        "ts": "1487305023.000065"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "we gotta make sure the requirements for sprint 2 are fulfilled before anything, so i'll take a look at that",
+        "ts": "1487305061.000066"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i updated userstories.md",
+        "ts": "1487307585.000067"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "<@U3WD98GTC> I feel like you're taking too much of a load man",
+        "ts": "1487308504.000068"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "back-end is big",
+        "ts": "1487309527.000069"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yea but you can't take it all on your own man",
+        "ts": "1487310025.000070"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I know, i dont plan to :sweat_smile:",
+        "ts": "1487312076.000071"
+    }
+]

@@ -1,0 +1,566 @@
+[
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Hey guys! \n\nI talked to Claudius, he said that he is having some issues with 341 and is working on it. ",
+        "ts": "1486317854.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Hein??",
+        "ts": "1486317877.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Issues",
+        "ts": "1486317880.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "He has been absent",
+        "ts": "1486317888.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Lol",
+        "ts": "1486317893.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "hahaha I love it",
+        "ts": "1486317904.000007"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3XFMDQ2J|saishan> uploaded a file: <https:\/\/soen341project.slack.com\/files\/saishan\/F41998VAR\/screenshot_20170205-130543.png|Slack for Android Upload>",
+        "file": {
+            "id": "F41998VAR",
+            "created": 1486317916,
+            "timestamp": 1486317916,
+            "name": "Screenshot_20170205-130543.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U3XFMDQ2J",
+            "editable": false,
+            "size": 261982,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F41998VAR\/screenshot_20170205-130543.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F41998VAR\/download\/screenshot_20170205-130543.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41998VAR-3d6bb2986e\/screenshot_20170205-130543_64.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41998VAR-3d6bb2986e\/screenshot_20170205-130543_80.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41998VAR-3d6bb2986e\/screenshot_20170205-130543_360.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41998VAR-3d6bb2986e\/screenshot_20170205-130543_480.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41998VAR-3d6bb2986e\/screenshot_20170205-130543_160.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41998VAR-3d6bb2986e\/screenshot_20170205-130543_720.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41998VAR-3d6bb2986e\/screenshot_20170205-130543_960.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41998VAR-3d6bb2986e\/screenshot_20170205-130543_1024.png?t=xoxe-133061191207-143147327908-142999489411-a054c2c8a4",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/saishan\/F41998VAR\/screenshot_20170205-130543.png",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F41998VAR-8a723546e2",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3XFMDQ2J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3XFMDQ2J|saishan>",
+        "bot_id": null,
+        "ts": "1486317918.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Who's halina",
+        "ts": "1486318025.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I really don't know ",
+        "ts": "1486318055.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Well then",
+        "ts": "1486318068.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Hahahaha",
+        "ts": "1486318138.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I think he doesnt know what class we are talking about",
+        "ts": "1486318153.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Haha",
+        "ts": "1486318165.000014"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Halina!?",
+        "ts": "1486318166.000015"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<http:\/\/aits.encs.concordia.ca\/oldsite\/resources\/faculty-and-staff-directory\/details\/?id=Monkiewicz%2C%20H.&amp;d=05>",
+        "ts": "1486318237.000016"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "She is a program advisor ",
+        "ts": "1486318328.000017"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Yo guys I submitted a pull request about refining the user stories ",
+        "ts": "1486318797.000018"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Oh i still have to do this",
+        "ts": "1486319279.000019"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ill try to merge 7",
+        "ts": "1486319290.000020"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "U",
+        "ts": "1486319292.000021"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Merged you",
+        "ts": "1486319337.000022"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "But I don't know if I should add them as issues cause the TA said that there are enough issues so..",
+        "ts": "1486319407.000023"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "No that's not what he meant",
+        "ts": "1486319502.000024"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "He meant to say that were implementing enough features given our issues",
+        "ts": "1486319519.000025"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "So we can indeed have more issues, if they're replacing \/ complementing others",
+        "ts": "1486319553.000026"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Ahh right okok",
+        "ts": "1486319567.000027"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Tbh i just wanted to try to merge something. Im stil a github noob sorry people for misunderstanding",
+        "ts": "1486319766.000028"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Still",
+        "ts": "1486319772.000029"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<@U3VSA7GPK> feel free to ask questions here if u want to",
+        "ts": "1486322972.000030"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": ":+1::skin-tone-2:",
+        "ts": "1486322993.000031"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hum are we building this for 1 TA to use it or many TAs can register for many classes; each with different students",
+        "ts": "1486341767.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I was thinking that the site would have a space for each class",
+        "ts": "1486341926.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "with 1 TA associated to each class, along with a set of students",
+        "ts": "1486341943.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yeah good idea",
+        "ts": "1486341971.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "where we hardcode the data such that it knows the TA and set of students for each class already (this would theoretically be grabbed from the schools records)",
+        "ts": "1486341981.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so when you register, you simply input ur name and it knows whether ur a TA or student, and which course spaces you can access",
+        "ts": "1486342005.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Its def the best choice if were concerned about marketing the product",
+        "ts": "1486342009.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "guys I added basic style and forms to the page",
+        "ts": "1486342101.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I don't see your changes <@U3WS26PT3>",
+        "ts": "1486342299.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "wait i'll push it into my branch",
+        "ts": "1486342318.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "kk",
+        "ts": "1486342324.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "put it up",
+        "ts": "1486342916.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I don't see the correct changes in your pull request",
+        "ts": "1486343073.000014"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<https:\/\/github.com\/Davidster\/SOEN341Project\/pull\/18\/files>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "modified index.html, index.css, main.js by MikelShifrin \u00b7 Pull Request #18 \u00b7 Davidster\/SOEN341Project \u00b7 GitHub",
+                "title_link": "https:\/\/github.com\/Davidster\/SOEN341Project\/pull\/18\/files",
+                "text": "index.html: -basic structure to index.html (header, navigation bar, footer, section) -added a favicon and created a picture folder -added a simple form index.css: -created a css folder -added style...",
+                "fallback": "GitHub: modified index.html, index.css, main.js by MikelShifrin \u00b7 Pull Request #18 \u00b7 Davidster\/SOEN341Project",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/25388779?v=3&s=400",
+                "from_url": "https:\/\/github.com\/Davidster\/SOEN341Project\/pull\/18\/files",
+                "thumb_width": 420,
+                "thumb_height": 420,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1486343084.000015"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it says that your pull request involves changes to two text files only^^",
+        "ts": "1486343113.000017"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "my bad can you reject the request",
+        "ts": "1486343134.000018"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it seems you either didn't commit ur changes, or you didn't push ur commits up to the remote",
+        "ts": "1486343157.000019"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "its probably the second one",
+        "ts": "1486343163.000020"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "if you commit ur changes to ur branch, then do `git push origin mikelshifrin`, the pull request will get updated automatically",
+        "ts": "1486343313.000021"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so there's no need to close it",
+        "ts": "1486343329.000022"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "for some reason i can't update my mikelshifrin branch to the same version ass my local master branch",
+        "ts": "1486343482.000023"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "thanks <@U3WS26PT3> for the work!",
+        "ts": "1486344343.000024"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Guys how can I help?",
+        "ts": "1486344551.000025"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "`git checkout master` - make sure you're on the master branch\n`git pull` - update ur computer with recent changes from the remote repository, if any exist\nopen up index.html file and play around a bit\nthink of improvements\/additions, then do them\n`git add .\/` - stage your changes\n`git commit -m \"{insert meaningful message here}\"` - commit your changes\n`git push origin master` - update the remote repository with your work",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1486345060.000000"
+        },
+        "ts": "1486344730.000026"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "in order ^^",
+        "ts": "1486344737.000027"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "but if your changes are sigificant, then try to do them in a separate branch then pull request",
+        "ts": "1486344783.000028"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "not eeeeverything needs to be done with a pull request - time would be wasted that way",
+        "ts": "1486344822.000029"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "any feedback is appreciated",
+        "ts": "1486344882.000030"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "for example <@U3VSA7GPK>, it seems that when you click on the tabs the \"Hello world\" and other stuff gets pushed upwards on the page (on chrome at least)",
+        "ts": "1486344936.000031"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "one thing you could do is look into that issue (if it is an issue) and either fix it or maybe just remove the Hello world cuz we don't need it anymore",
+        "ts": "1486344961.000032"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "if someone wants to work they can keep refining the user stories or work directly on the front end of the website",
+        "ts": "1486344982.000033",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "are you guys all familiar with JQuery?",
+        "ts": "1486345869.000035"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I would like to use it for our front-end js code",
+        "ts": "1486345885.000036"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "nope but if it's neater than I'm willing to learn",
+        "ts": "1486345912.000037"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "*then",
+        "ts": "1486345919.000038"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "tis indeed",
+        "ts": "1486345922.000039"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "I'm cool with using JQuery then",
+        "ts": "1486345945.000040"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "theres a good tutorial on codecademy for jquery",
+        "ts": "1486345954.000041"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I highly reccomend :slightly_smiling_face:",
+        "ts": "1486345962.000042"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "a something i did badly on the code is my javascript is mixed into the html `onclick()` i think best solution is to create event listeners",
+        "ts": "1486346101.000043"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yea event listeners r good",
+        "ts": "1486346165.000044"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i did \"macaroni code\"",
+        "ts": "1486346187.000045"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "doens't matter tho, as long as it works and we're consistent",
+        "ts": "1486346188.000046"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so it's more important that you're comfortable with it",
+        "ts": "1486346221.000047"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the stylistic choices come secondary, in my view",
+        "ts": "1486346236.000048"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "no they will cause problems once you try to get it through the http request",
+        "ts": "1486346272.000049"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "trust me i've dealt with it",
+        "ts": "1486346281.000050"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "oh that's not good",
+        "ts": "1486346294.000051"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "it's called \"content security policy\"",
+        "ts": "1486346437.000052"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I will have to catch up with this convo",
+        "ts": "1486346481.000053"
+    }
+]

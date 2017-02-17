@@ -1,0 +1,1569 @@
+[
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "is the 1st sprint due on Friday for the tutorial?",
+        "ts": "1485887475.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "yes",
+        "ts": "1485887486.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "because on the teacher's notes the 1st sprint is on the 1st of February",
+        "ts": "1485887709.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "its for the tutorial on wednesday, our sprint is due feb 3rd",
+        "ts": "1485887753.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "hey, I uploaded an text file for the user stories (mainly because i wanted to practice with git) but we could add our stories in it, mine are just drafts btw feel free to delete, modify and add stuff. :slightly_smiling_face:",
+        "ts": "1485889877.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "(y)",
+        "ts": "1485890584.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": ":+1:",
+        "ts": "1485891047.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "if you guys are still not comfortable with Git and Github I found a good tuturials which are very clear  <https:\/\/www.youtube.com\/watch?v=riv6cIpFcC8>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Git and Github Part 1 (Setting up a local repo)",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=riv6cIpFcC8",
+                "author_name": "Sam Cogan",
+                "author_link": "https:\/\/www.youtube.com\/user\/cogee",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/riv6cIpFcC8\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Git and Github Part 1 (Setting up a local repo)",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/riv6cIpFcC8?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=riv6cIpFcC8",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485892417.000009",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "The first sprint begins on Friday and will last two weeks as far as I'm concerned",
+        "ts": "1485892489.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "what needs to be completed during those 2 weeks?",
+        "ts": "1485892532.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "sprint 1 is due on friday",
+        "ts": "1485892534.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "The TA had asked us to provide 6 user stories for Friday",
+        "ts": "1485892548.000014"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Because these user stories are to be completed during the 2 weeks of sprint #1",
+        "ts": "1485892565.000015"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Requirements for Sprint 1:\n\u2022 Make sure you are able to present how much each member has contributed. \u2022 We need to see at least 6 well de\ufb01ned user stories, we may build on that from that point. \u2022 Progress is necessary in the form of a working system.(end-to-end system) \u2022 Make sure your user stories are mapping to your project\u2019s vision and functionalities, as discussed in the last tutorial. \u2022 Please review the pull requests and a reminder: Only pull requests for contributions with at least 2 reviewers assigned. \u2022 It is advised that you submit your work by Thursday morning. So that the TAs can analyze your work better and do not rush through the feedback. \u2022 REMINDER: Please email(or message on moodle) your vision before the submission of your user stories. By Tuesday night preferably. 1 message\/team.",
+        "ts": "1485892568.000016"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Okay so the way I see it is we need to complete two things by Friday :",
+        "ts": "1485892662.000020"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "1. Write up the vision for our project into a text file and put it up on githuv",
+        "ts": "1485892683.000021"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Then we should lay out 6+ features that we agreed the website should have and each pick one to write about",
+        "ts": "1485892698.000022"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yep",
+        "ts": "1485892712.000023"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "These 6+ features need to be written as user stories in the format that the TA had asked for",
+        "ts": "1485892732.000024"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "the 3 features are already there, we need to make user stories that reflect them",
+        "ts": "1485892747.000025"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "He wants us to write them up as issues on github. 1 issue per user storie. Each of the issues will be associated with the Sprint #1 milestone",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1485892868.000000"
+        },
+        "ts": "1485892849.000026"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I already created the milestone",
+        "ts": "1485892896.000028"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "And yea <@U3XFMDQ2J> - we should take those three features and describe them in full in our \"vision document\"",
+        "ts": "1485892945.000029"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I'm going to write up a draft of the vision document and put in up on github, then you guys can all give feedback\/contributions.",
+        "ts": "1485893054.000030"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Hopefully we can have this all settled by the end of the day tomorrow (Wednesday)",
+        "ts": "1485893072.000031"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "So that we have all of Thursday to write our user stories",
+        "ts": "1485893091.000032"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Can you guys confirm that you're okay with this plan^ ? If you guys have any objections or concerns, please say it now",
+        "ts": "1485893152.000033"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "so you want to put all the features in one document and we add detail to it then finally pick one to write a user story about?",
+        "ts": "1485893241.000034"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "we hava to write user stories around our \"vision of the project\"",
+        "ts": "1485893498.000035"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "have**",
+        "ts": "1485893549.000036"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Sounds good",
+        "ts": "1485893557.000037"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yea the document will describe the project at a high level and perhaps list the features that is has",
+        "ts": "1485893762.000038"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Maybe a couple paragraphs and a list or two, something like that",
+        "ts": "1485893782.000039"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "It says it is advised to submit user stories by thursday morning",
+        "ts": "1485899570.000040"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Ouch",
+        "ts": "1485899604.000041"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I think its better if we can write all the 6+ features by tonight and write the \"vision\" user stories by tomorrow evening",
+        "ts": "1485899619.000042"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "It also says to send the email of the vision by tonight",
+        "ts": "1485899730.000043"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":\/",
+        "ts": "1485899735.000044"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "By tonight ? ",
+        "ts": "1485899768.000045"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "He posted it on moodle today ,??",
+        "ts": "1485899784.000046"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Anyways, I'm cool with whatever you guys think is best",
+        "ts": "1485899823.000048"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "by tuesdaynight preferably",
+        "ts": "1485899832.000049"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I'll be home in ~30 min and I'll write up a sample vision and maybe a user story or two",
+        "ts": "1485899850.000050"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "We need to be careful that we write the user stories correctly",
+        "ts": "1485899870.000051"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Can share the sample version so we can help you for the stories ",
+        "ts": "1485899895.000052"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Can you **",
+        "ts": "1485899922.000053"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yea for sure",
+        "ts": "1485899922.000054"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "You can edit ur old messages on slack... :)",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1485899952.000000"
+        },
+        "ts": "1485899935.000055"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Ahahha :o ",
+        "ts": "1485899963.000057"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Nice ",
+        "ts": "1485899966.000058"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I'll let you guys know as soon as I've pushed it to github. Hopefully some of you are free tonight to review it so we can make sure to finish all the user stories by tomorrow night",
+        "ts": "1485900038.000059"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "It would've been WONDERFUL if the TA told us about all this last Friday",
+        "ts": "1485900059.000060"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Can do",
+        "ts": "1485900141.000061"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Yeah, we could done with it on the weekend, I also added another user story.",
+        "ts": "1485900187.000062"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I will be in Dr. Hanna's class, won't be able to respond but tonight I will be able to work on user stories",
+        "ts": "1485901633.000063"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "cool, thanks guys",
+        "ts": "1485902787.000064"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "okay so I updated the README.md file in the repository with the \"vision document\" draft",
+        "ts": "1485905067.000065"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I did it fairly quickly so guys *please give feedback on anything you can (format of the document, content, general thoughts about the project itself)*",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1485905506.000000"
+        },
+        "ts": "1485905101.000066"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "we can discuss everything here",
+        "ts": "1485905121.000067"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "if you guys didn't know this already, github will automatically read the contents of the repository's README.md (`md` stands for markdown, you can read up about this file type online if you're interested) file and displays it in a visually pleasing way on the home page of the repository",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1485905456.000000"
+        },
+        "ts": "1485905234.000068"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think this is the perfect place to put the description of what our project is all about. The TA will be able to simply open our project on the browser to view our vision",
+        "ts": "1485905311.000069"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I'll send him an email telling him to take a look at it as soon as we've decided that it's complete",
+        "ts": "1485905350.000070"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Will the TA have acces to the group chat for the team members",
+        "ts": "1485906211.000073"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "probably, yea",
+        "ts": "1485906241.000074"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so they can see what the team is saying to each other",
+        "ts": "1485906249.000075"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "and contribute to the conversation",
+        "ts": "1485906254.000076"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "He said that he wanted to know who is actually participate to the project",
+        "ts": "1485906280.000077"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "yea",
+        "ts": "1485906285.000078"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so maybe the group's page will include a chat window for everyone to talk in",
+        "ts": "1485906333.000079"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "along with the assignment submission + marks &amp; feedback",
+        "ts": "1485906348.000080"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "how does that sound? maybe a little cluttered",
+        "ts": "1485906357.000081"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "yes, and the TA would have the acces (by default)",
+        "ts": "1485906521.000082"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yea sounds fine to me",
+        "ts": "1485906559.000083"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "btw, I like the way you presented it!",
+        "ts": "1485906677.000084",
+        "reactions": [
+            {
+                "name": "grinning",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah read the readme gj",
+        "ts": "1485906749.000085"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "just wondering (curiosity), when you put the cursor on the titles(our vison, features, etc) there is the \"link\" symbol",
+        "ts": "1485906762.000086"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "on each of the titles",
+        "ts": "1485906776.000087"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "what is the purpose of those",
+        "ts": "1485906805.000088"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "And yeah there should be a way to track a teams progress and each members contribution to the project",
+        "ts": "1485906816.000089"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Ya I like that",
+        "ts": "1485906843.000090"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "can you add it to the list?",
+        "ts": "1485906849.000091"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "(when u get the chance)",
+        "ts": "1485906860.000092"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<@U3XFMDQ2J> these links are useful because you can send someone a link like <https:\/\/github.com\/Davidster\/SOEN341Project#main-features> and it will jump to the heading \"main-features\"",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Davidster\/SOEN341Project",
+                "title_link": "https:\/\/github.com\/Davidster\/SOEN341Project#main-features",
+                "text": "SOEN341Project - Github repository for holding SOEN 341 group project",
+                "fallback": "GitHub: Davidster\/SOEN341Project",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/2389735?v=3&s=400",
+                "from_url": "https:\/\/github.com\/Davidster\/SOEN341Project#main-features",
+                "thumb_width": 420,
+                "thumb_height": 420,
+                "service_icon": "https:\/\/github.com\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485906903.000093"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "notice the #main-features at the end of the URL",
+        "ts": "1485906913.000095"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so if the readme is really long, u can jump to a spot",
+        "ts": "1485906926.000096"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I believe there are other benefits as well",
+        "ts": "1485906938.000097"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "okok!",
+        "ts": "1485906958.000098"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<@U3WD98GTC>  I added it as it is, if you want to modify or add something feel free",
+        "ts": "1485907022.000099"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "great",
+        "ts": "1485907120.000100"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the readme looks better without the big SOEN341 Project header -  im gunna remove it",
+        "ts": "1485907231.000101"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "to help us make the user stories, I took this from the lecture powerpoints:",
+        "ts": "1485907685.000102"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "\u2022 Independent: stories should be independent from each other\nNegotiable: stories are not fixed, can be changed by customer\n\u2022 Valuable to user or business: user\/business must get a value out\nof the story (compare with use cases)\n\u2022 Estimable: if it can\u2019t be estimated, it doesn\u2019t go into the backlog\n\u2022 Small: should not take more than one sprint to finish (usually\nless) \u2013 no \u2018epic\u2019 story\n\u2022 Testable: each story must be testable and the test(s) must be\ndefined as an acceptance criterion \u2013 if it can\u2019t be tested, it\u2019s not\na requirement!",
+        "ts": "1485907689.000103"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": ":+1::+1:",
+        "ts": "1485907693.000104"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "what do you think about the draft",
+        "ts": "1485907794.000105"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "??",
+        "ts": "1485907795.000106"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Okay so I added 3 user stories. The TA explained last Friday that each user story should be written as an issue on Github",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1485908563.000000"
+        },
+        "ts": "1485908467.000107"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so *to add your own user story, go to issues, then add a new issue, and don't forget to associate it with the `Sprint #1` milestone*",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1485908544.000000"
+        },
+        "ts": "1485908501.000108"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think the most important guideline for the user stories is: \"Small: should not take more than one sprint to finish (usually\nless) \u2013 no \u2018epic\u2019 story\"",
+        "ts": "1485908605.000111"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "should keeping track of the team progress and member's contribution be separated issues or one",
+        "ts": "1485908874.000112"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ok reading messages",
+        "ts": "1485909001.000113"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "So user stories are features our project will have right",
+        "ts": "1485909130.000114"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I will add one soon to readme",
+        "ts": "1485909136.000115"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "add the userstory in the userstories text file",
+        "ts": "1485909221.000116"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "userstories are made around the features",
+        "ts": "1485909240.000117"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Alright",
+        "ts": "1485909241.000118"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "ya",
+        "ts": "1485909574.000119"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "User stories are requirements",
+        "ts": "1485909617.000120"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Features fulfill requirements",
+        "ts": "1485909633.000121"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Almost the same thing",
+        "ts": "1485909638.000122"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":ok_hand:",
+        "ts": "1485909652.000123"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ahhhhhh very well",
+        "ts": "1485909657.000124"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I have a late class. Ill check it when im home",
+        "ts": "1485909675.000125"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "thanks alex",
+        "ts": "1485909702.000126"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "are everyone adding things directly on the master branch via a push?",
+        "ts": "1485910056.000127"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "cause I thought we had to create braches and do pull requests",
+        "ts": "1485910078.000128"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Hnmm for me, ill try to branch and pul",
+        "ts": "1485910121.000129"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Pull",
+        "ts": "1485910123.000130"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "for now you dont need to branch or create pull  requests",
+        "ts": "1485910424.000131"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "its too long of a process for the small changes",
+        "ts": "1485910431.000132"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "but when you take on a user story, you're going to want to open up your own branch",
+        "ts": "1485910448.000133"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "for now I am just directly editing",
+        "ts": "1485910454.000134"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "ok",
+        "ts": "1485910460.000135"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "and every commit message for that branch should include the number of the Github issue you're working on",
+        "ts": "1485910498.000136"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "for example:",
+        "ts": "1485910504.000137"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "`git commit -m \"added log in box to UI #1\"`",
+        "ts": "1485910535.000138"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "as you can see on the repository on Github, there is an issue #1 which pertains to user log in",
+        "ts": "1485910570.000139"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "hence the #1 at the end of the commit message",
+        "ts": "1485910583.000140"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "*it seemed that the TA thought it was very important for us to do this ^*",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1485910618.000000"
+        },
+        "ts": "1485910609.000141"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<@U3XFMDQ2J> you should interact with the repository via git commands (you don't have to right now, but you will need to later :slightly_smiling_face:)",
+        "ts": "1485910742.000143"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "for issue",
+        "ts": "1485910827.000144"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "for viewing materials. As a student, I would like to be able to view the course materials that the teacher's assistant might upload into my group?",
+        "ts": "1485910882.000145"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "<@U3WD63E7N>",
+        "ts": "1485910910.000146"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Im thinking there's a home page for the course",
+        "ts": "1485910913.000147"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "where the common materials needed by all students would be",
+        "ts": "1485910924.000148"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Im so lost haha :see_no_evil::see_no_evil: so many messages",
+        "ts": "1485910937.000149"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "you'll have some reading to do when you get home, haha",
+        "ts": "1485910986.000152"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yeah I see this",
+        "ts": "1485911003.000153"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Its hard to keep track",
+        "ts": "1485911009.000154"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I leave 2min and 20 messages",
+        "ts": "1485911015.000155"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "you are right I think somebody should summarize the conversation every 10min when we are actively chatting",
+        "ts": "1485911018.000156"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "nevermind a summary shall be written upon request",
+        "ts": "1485911052.000157"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "we should make different channels",
+        "ts": "1485911054.000158"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "like maybe I make a new channel called #important-info",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1485911088.000000"
+        },
+        "ts": "1485911071.000159"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "one called #ideas-discussion",
+        "ts": "1485911103.000161"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "we can keep the general one",
+        "ts": "1485911166.000162"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "the #important-info should simply say what tasks need to be focused on and what are the deadlines",
+        "ts": "1485911206.000163"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so maybe we call it #tasks-deadlines",
+        "ts": "1485911231.000164"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "?",
+        "ts": "1485911233.000165"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "One for general questions",
+        "ts": "1485911257.000166"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Then one for the upcoming spront",
+        "ts": "1485911263.000167"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Sprint",
+        "ts": "1485911266.000168"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "ok",
+        "ts": "1485911276.000169"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "the #tasks-deadlines should also say what has been completed",
+        "ts": "1485911320.000170"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "We are 8 people with 6 stories to write. One shall not write more than 1 user story",
+        "ts": "1485911350.000171"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Because it is not fair for the other ones",
+        "ts": "1485911370.000172"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it was 6+ no?",
+        "ts": "1485911372.000173"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I just remember 6",
+        "ts": "1485911385.000174"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yea me too",
+        "ts": "1485911389.000175"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Maybe at least 6",
+        "ts": "1485911393.000176"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "exactly <@U3VSA7GPK>",
+        "ts": "1485911402.000177"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Its at least 6 ",
+        "edited": {
+            "user": "U3XFMDQ2J",
+            "ts": "1485911424.000000"
+        },
+        "ts": "1485911403.000178"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I feel u - when I made mine I just wanted there to be more than one to see if you guys thought the format was OK",
+        "ts": "1485911425.000180"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "now that we have some I'll remove them",
+        "ts": "1485911437.000181"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "So put your name next to zmyour user story",
+        "ts": "1485911474.000182"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "wait why we all agreed to them just because you wrote them doesn't mean we didn't contribute",
+        "ts": "1485911480.000183"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "But just for the point of participation we all need to contribute",
+        "ts": "1485911509.000184"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I will write one tonight or tomorrow morning. ",
+        "ts": "1485911524.000185"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "If you wrote more than 1 user story, keep only 1",
+        "ts": "1485911545.000186"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Alex is right there is participation points ",
+        "ts": "1485911654.000187"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I wasn't able to remove my user stories",
+        "ts": "1485911726.000188"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ohhh",
+        "ts": "1485911736.000189"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I just marked 2\/3 of them as closed, so they can be replaced without redundancy",
+        "ts": "1485911737.000190"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "So what now",
+        "ts": "1485911750.000191"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it's basically the same as if i deleted them",
+        "ts": "1485911775.000192"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "now you pick one you want to write and write it",
+        "ts": "1485911786.000193",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N",
+                    "U3VSA7GPK"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "<@U3WD63E7N>  you cool with me writing this: As a student, I would like to be able to view the course materials that the teacher's assistant might upload into my group? (\"Viewing materials\") . it's almost copy paste",
+        "ts": "1485911964.000194"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Sounds fine to me :)",
+        "ts": "1485912143.000195"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I'm thinking of creating a document on the repository to outline the teams current task\/objective",
+        "ts": "1485912210.000196",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WS26PT3"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Sort of like the README but in a different place",
+        "ts": "1485912222.000197"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "it looks weird with the closed issues",
+        "ts": "1485912224.000198"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "If it looks weird, maybe we reopen the closed ones and put a comment on them saying who wrote the user story ?",
+        "ts": "1485912264.000199"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Or Mikel ur version is a little different, so ur contribution could be slightly editing it",
+        "ts": "1485912295.000200"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i guess",
+        "ts": "1485912311.000201"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Idk, but participation points will be much more of an issue when were commiting real code",
+        "ts": "1485912319.000202"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yours talks about general files for all students and mine talks about team files",
+        "ts": "1485912339.000203"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yea true",
+        "ts": "1485912407.000204"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Not sure what's the right thing to do in this situation",
+        "ts": "1485912430.000205"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i could change the title for mine",
+        "ts": "1485912533.000206"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Team viewing materials",
+        "ts": "1485912565.000207"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i close an issue",
+        "edited": {
+            "user": "U3XFMDQ2J",
+            "ts": "1485912613.000000"
+        },
+        "ts": "1485912597.000208"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "what do i do with the index.html?",
+        "ts": "1485912900.000210"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Might as well delete it",
+        "ts": "1485912915.000211"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "how do i do that?",
+        "ts": "1485912943.000212"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "delete it locally then push",
+        "ts": "1485912972.000213"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "?\\",
+        "ts": "1485912976.000214"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "git pull",
+        "ts": "1485913054.000215"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Delete file",
+        "ts": "1485913057.000216"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "git add .\/",
+        "ts": "1485913063.000217"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "git commit ",
+        "ts": "1485913069.000218"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "git push origin master",
+        "ts": "1485913075.000219"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "You can do git status between the add and the commit to confirm that git registered the file deletion",
+        "ts": "1485913108.000220"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "done",
+        "ts": "1485913198.000221"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "to create a branch i go",
+        "ts": "1485913435.000222"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "git branch mikelshifrin",
+        "ts": "1485913451.000223",
+        "reactions": [
+            {
+                "name": "muscle",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "at first when i did git branch it only showed me master",
+        "ts": "1485913832.000224"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "then i did git checkout saichan",
+        "ts": "1485913868.000225"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yea the no argument version of the command simply lists ur local branches",
+        "ts": "1485913870.000226"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "a so made saichan's branch my local branch?",
+        "ts": "1485913893.000227"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "?",
+        "ts": "1485914387.000228"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "nevermind",
+        "ts": "1485914875.000229"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "hello guys I am back",
+        "ts": "1485915986.000230"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Haha",
+        "ts": "1485916031.000231"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "You barely missed anything",
+        "ts": "1485916036.000232"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "haha",
+        "ts": "1485916122.000233"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I read the all convo on slack and I saw the our README.md",
+        "ts": "1485916143.000234"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "it seems good",
+        "ts": "1485916148.000235"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I added a user story to userstories.txt , do you want me to add it as issue to #sprint1",
+        "ts": "1485916192.000236"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "ok so for issue #4 communication, thats for TA-&gt;group comm. what about intragroup comm.",
+        "ts": "1485916207.000237"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "yes",
+        "ts": "1485916210.000238"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ill add my user story soon",
+        "ts": "1485916381.000239"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "can you please check my user story if its okay?",
+        "ts": "1485916413.000240"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I will give a minute haha i just got home",
+        "ts": "1485916523.000241"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I will, give me a minute, i just got home",
+        "ts": "1485916545.000242"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<@U3VNUBS1X> yeah its good, maybe rephrase i want upload download in order to collect, give so it doesnt sound repetitive",
+        "ts": "1485916699.000243"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<@U3XFMDQ2J> im gonna add this (As a teaching assistant, I want to be able to track the progress of the team's project and the \ncontribution of each team members in order to have a fair grading. ) as an issue",
+        "ts": "1485916765.000244"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "oh i see waht u guys meants issues bump from 1 to 4, we can leave it like that for now imo",
+        "ts": "1485916961.000245"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "DONE!",
+        "ts": "1485917085.000246"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "good, but hum maybe others can  chime on this but the way i saw it, uploading downloading would be used mainly between group members so student-to-student not TA-to-student wdyt",
+        "ts": "1485917413.000247"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "as a student or TA i want to ...",
+        "ts": "1485917525.000248"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<@U3WD98GTC>  yes sure np!",
+        "ts": "1485917721.000249"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ty",
+        "ts": "1485918292.000250"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Guys whats the github again",
+        "ts": "1485918668.000251"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Nvm",
+        "ts": "1485918743.000252"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ill add my story now",
+        "ts": "1485918748.000253"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ok please check mine when possible",
+        "ts": "1485919289.000254"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i dont see it",
+        "ts": "1485920940.000255"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<!channel> I'm going to send the TA and email tonight informing him that he can view our project vision by visiting the url of our github repo",
+        "ts": "1485921310.000256"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Y'all okay with this?",
+        "ts": "1485921323.000257"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Also Alex, I don't see your user story anywhere. How did you add it to the project exactly?",
+        "ts": "1485921644.000258"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "okk go for it",
+        "ts": "1485922081.000259"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Sounds good <@U3WD63E7N> ",
+        "ts": "1485926741.000260"
+    }
+]

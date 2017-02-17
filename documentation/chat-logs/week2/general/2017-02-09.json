@@ -1,0 +1,65 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "hey guys, im gunna grab the conversation logs from <#C3W8W4TEF|general> and <#C3WDG3ESZ|random> tonight and push them to the repo",
+        "ts": "1486687032.000293"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "if you have any incriminating messages, then go delete them  :joy:",
+        "ts": "1486687047.000294",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U3XFMDQ2J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "damn, the slack chat logs give a weird ID name to show the person who sent a given message",
+        "ts": "1486697861.000296"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so I also included the file that maps the ID name to the person's slack username",
+        "ts": "1486697885.000297"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "in any case, the logs are up on Github now",
+        "ts": "1486697900.000298"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Guys I'd like to meet up an hour before the tutorial like this I can show you all how to use the concordia server, we get to discuss  git and github to use them better, and finally <@U3WD98GTC> (if he agrees) will get us up to speed with the mySQL server and other technical backend stuff.",
+        "ts": "1486700442.000299"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Down where?",
+        "ts": "1486701827.000300"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<https:\/\/docs.google.com\/spreadsheets\/d\/1ysOms7WuOkHhe9R71aMVlW-LZl9kuwrT4Trg77s48FE\/edit#gid=0>",
+        "ts": "1486702129.000301"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "dont forget to to take a look at the google doc",
+        "ts": "1486702146.000303"
+    }
+]
