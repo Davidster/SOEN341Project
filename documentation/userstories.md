@@ -69,10 +69,11 @@ allowing me to view relevant information and interact with the team.
 As a student or teacher's assistant, I want to be able to log into the website with my personal
 account.
 
-	* Done: (Nick) Created student and TA entities in database, each having different properties
-
+	* Done: 
+		- (Nick) Created student and TA entities in database, each having different properties
+		- (Nick) Create a registration page that will automatically update/insert data in database
+		
 	* To do: 
-		- (Nick, 1 week) Create a registration page that will automatically update/insert data in database
 		- (someone, 2 weeks) Make registration page look good using CSS,JS and other funky stuff :)
 		- (Nick, 2 weeks) PHP condition check to give TAs more privileges
 
