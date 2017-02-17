@@ -24,6 +24,7 @@ require_once 'sql_connect.php';
 				<li pagetarget="register-page">Create Account</li>
 				<li pagetarget="login-page">Login</li>
 				<li pagetarget="contact-page">Contact</li>
+								<li pagetarget="course-page">Course Page</li>
 				<li pagetarget="about-page">About</li>
 			</ul>
 		</nav>
@@ -98,13 +99,53 @@ require_once 'sql_connect.php';
 			<div id="contact-page">
 				Contact page
 			</div>
+			
+			
+			<div id="course-page">
+			
+			
+			
+				<h2>Courses Page</h2>
+				<p>Select the class corresponding to your group project. You will be redirected to the course page.</p>
+
+				<div class="dropdown" >
+				  <button class="btn">Courses</button>
+				  <div class="content" style="left:0;">
+						<a href="#">SOEN 341</a>
+						<a href="#">SOEN 490</a>
+						<a href="#">SOEN 287</a>
+						<a href="#">COEN 390</a>
+				  </div>
+				</div>			
+			</div>
+			
 			<div id="about-page">
-				About page
+                <div class="ourVision">
+					<h1 class = "opening">Our Vision</h1>
+					<p>
+					Our mission is to provide a simple and useful web platform for group projects. This interface can be use for both, students and teacher's assistants, 
+					and supplies a good way to interact within the team and with the teacher assistant. 
+					</p>
+	           </div>
+                <div class="aboutUs">
+					<h1 class="opening">About Us</h1>
+					<p>
+					We are a team of students in Software engineering and Computer engineering. Inspired by the idea of having a site dedicated to group projects, 
+					we decided to built a webstite that would contains all the features needed to work on the given project. 
+					</p>
+					<br><br><br><br>
+				</div>
+                <div class="about">
+                To know more about our project, please visit our <a href = "https://github.com/Davidster/SOEN341Project.git"> GitHub repository </a>.
+                </div>
+                
 			</div>
 		</div>
 		<footer>
-			<div class="legal">Copyright 2016 Mikel Shifrin.</div>
-			<div class="contact">Contact us: 1800-123-4567 Proud company since 2016</div>
-		</footer>	
+			<div class="legal">SOEN 341 project, Winter 2017.</div>
+			<div class="legal">Copyright 2017 SOEN341 Project.</div>
+			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
+
+		</footer>		
 	</body>
 </html>
