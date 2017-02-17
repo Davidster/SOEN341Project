@@ -17,6 +17,7 @@ materials in order to provide tasks to students.
 	* Done: 
 
 	* To do: (Erdem, 3 weeks) Will add file upload button and drag and drop option, a remove option will also be implemented with HTML5 and js. 
+	* To do: (Mikel, 2 weeks) Will create file upload ability using php.    
 
 
 ~~3)(no issue associated)
@@ -40,6 +41,7 @@ and build our project.
 	* Done: (nick) In MySQL, created a relationship between a student and his project team that will contain the message he wishs to send and a time stamp to effectively sort messages in the chat.
 
 	* To do: (Nick, Alex; 4 weeks) PHP function to sort all project-messages tuples. Display content dynamically with javascript.
+	* To do: (Mikel, other; 3 weeks) add and modify accordingly open source chat system built with PHP and MySQL. 
 
 ## #20 student profile - 4 pts
 As a student, I want to have a profile page where I can select for which project of mine 
@@ -70,6 +72,7 @@ As a student or teacher's assistant, I want to be able to log into the website w
 account.
 
 	* Done: (Nick) Created student and TA entities in database, each having different properties
+	* Done: (Mikel) Added basic structure, content and style to website with HTML and CSS
 
 	* To do: 
 		- (Nick, 1 week) Create a registration page that will automatically update/insert data in database
