@@ -68,8 +68,6 @@ allowing me to view relevant information and interact with the team.
 
 	* To do: (Erdem, William; 3 weeks) Add a new page with content and styling which displays the data related to a group (Names, IDs, emails, accounts..)
 	* To do: (Erdem, William; 3 weeks) Add links for the TA to have access to each group page.
-							
->>>>>>> b437bdd438b88c71f6d0dacd48c3e362b7cb4e28
 
 ## #1 user account - 5 pts
 As a student or teacher's assistant, I want to be able to log into the website with my personal
