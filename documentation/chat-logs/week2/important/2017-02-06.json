@@ -1,0 +1,47 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "The database is accessible through <http:\/\/www.phpmyadmin.co|www.phpmyadmin.co>",
+        "ts": "1486408274.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "server: <http:\/\/sql9.freemysqlhosting.net|sql9.freemysqlhosting.net>",
+        "ts": "1486408320.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "username: sql9157076",
+        "ts": "1486408338.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "password: JpMuHUDgxv",
+        "ts": "1486408426.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "port: 3306",
+        "ts": "1486408437.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "its legit, but dont enter sensitive information obv.",
+        "ts": "1486408506.000007",
+        "reactions": [
+            {
+                "name": "grinning",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

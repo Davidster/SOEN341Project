@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U3WD63E7N",
+        "text": "<@U3WD63E7N|david.huculak> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485360574.905782"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Hey guys could you all write your Github usernames here? Mine is Davidster",
+        "ts": "1485360811.000002"
+    },
+    {
+        "user": "U3WAZ1CD9",
+        "text": "<@U3WAZ1CD9|loic.huss> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485367149.000003"
+    },
+    {
+        "user": "U3WD98GTC",
+        "text": "<@U3WD98GTC|nickhorta> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485368066.000004"
+    },
+    {
+        "user": "U3VNUBS1X",
+        "text": "<@U3VNUBS1X|erdemkepenek> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485368548.000005"
+    },
+    {
+        "user": "U3VSA7GPK",
+        "text": "<@U3VSA7GPK|alexrobert> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485380682.000006"
+    },
+    {
+        "user": "U3WKEASEN",
+        "text": "<@U3WKEASEN|williamkingbede> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485394328.000002"
+    }
+]
