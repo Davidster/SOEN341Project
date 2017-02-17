@@ -8,7 +8,7 @@ their work.
 
 	* Done: 
 
-	* To do:
+	* To do: (Mikel, David; 3 weeks) resuse chat system from other areas of project and add them into the group page
 
 ## #7 uploading files - 5 pts
 As a teacher assistant, I want to be able to upload or remove course related
@@ -32,7 +32,7 @@ As a teacher assistant, I want to be able to track the contribution of each team
 
  	* Done: **_Dependency constraint_ see issue #34 **
 
- 	* To do: 
+ 	* To do: (Nick, David; 6 weeks) Implement a user history feature which will track and display a sort of contribution history for each team member
 
 ## #13 group communication - 8 pts
 As a student, I want to be able to communicate with my team so that we can share ideas 
@@ -41,7 +41,7 @@ and build our project.
 	* Done: (nick) In MySQL, created a relationship between a student and his project team that will contain the message he wishs to send and a time stamp to effectively sort messages in the chat.
 
 	* To do: (Nick, Alex; 4 weeks) PHP function to sort all project-messages tuples. Display content dynamically with javascript.
-	* To do: (Mikel, other; 3 weeks) add and modify accordingly open source chat system built with PHP and MySQL. 
+	* To do: (Mikel, David; 3 weeks) add and modify accordingly open source chat system built with PHP and MySQL. 
 
 ## #20 student profile - 4 pts
 As a student, I want to have a profile page where I can select for which project of mine 
@@ -65,7 +65,7 @@ allowing me to view relevant information and interact with the team.
 
 	* Done: **_Dependency constraint_**
 
-	* To do:
+	* To do: (Erdem, William) Add a new page with content and styling which displays the data related to a group
 
 ## #1 user account - 5 pts
 As a student or teacher's assistant, I want to be able to log into the website with my personal
@@ -85,4 +85,6 @@ As a teacher assistant, I want to be able to divide my class into groups myself 
 	* Done: (Nick) Created a project entity related to one TA and many students in MySQL
 	
 	* To do: (Nick, 2 weeks) Create php mixed with MySQL queueries to allow a TA to divide a class into groups and populate the project 
+
+	* To do: (Someone, 2 weeks) Create UI element to be used to divide students into groups
 	
