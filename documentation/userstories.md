@@ -33,6 +33,7 @@ As a teacher assistant, I want to be able to track the contribution of each team
  	* Done: **_Dependency constraint_ see issue #34 **
 
  	* To do: (Nick, David; 6 weeks) Implement a user history feature which will track and display a sort of contribution history for each team member
+ 	* To do: (William; 2 weeks) Add specific authorization for the TA to view contribution data.
 
 ## #13 group communication - 8 pts
 As a student, I want to be able to communicate with my team so that we can share ideas 
@@ -57,7 +58,7 @@ might upload into my group.
 	
 	* Done: **_Dependency constraint_ see issue #7 **
 
-	* To do: (Alex, Someone; 4 weeks) Display the documents the TA uploaded on a specific page. Notification when a document is uploaded by the TA. 
+	* To do: (Alex, William; 4 weeks) Display the documents the TA uploaded on a specific page. Notification when a document is uploaded by the TA. 
 
 ## #12 view group page - 4 pts
 As a teaching assistant, I want to be able to view a page dedicated to a certain group, 
@@ -65,7 +66,10 @@ allowing me to view relevant information and interact with the team.
 
 	* Done: **_Dependency constraint_**
 
-	* To do: (Erdem, William) Add a new page with content and styling which displays the data related to a group
+	* To do: (Erdem, William; 3 weeks) Add a new page with content and styling which displays the data related to a group (Names, IDs, emails, accounts..)
+	* To do: (Erdem, William; 3 weeks) Add links for the TA to have access to each group page.
+							
+>>>>>>> b437bdd438b88c71f6d0dacd48c3e362b7cb4e28
 
 ## #1 user account - 5 pts
 As a student or teacher's assistant, I want to be able to log into the website with my personal
@@ -76,7 +80,7 @@ account.
 
 	* To do: 
 		- (Nick, 1 week) Create a registration page that will automatically update/insert data in database
-		- (someone, 2 weeks) Make registration page look good using CSS,JS and other funky stuff :)
+		- (William, 2 weeks) Make registration page look good using CSS,JS and other funky stuff :)
 		- (Nick, 2 weeks) PHP condition check to give TAs more privileges
 
 ## #34 Class division - 5 pts
