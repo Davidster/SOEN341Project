@@ -11,3 +11,7 @@ We took some of these user stories from our backlog and are planning to complete
   - #1 user account
   - #7 uploading files
   - #34 Class division
+
+
+
+  ## Scheduled 15 minutes meeting every week on Wednesdays
