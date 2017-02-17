@@ -66,8 +66,8 @@ allowing me to view relevant information and interact with the team.
 
 	* Done: **_Dependency constraint_**
 
-	* To do: (Erdem, William; 3 weeks) Add a new page with content and styling which displays the data related to a group (Names, IDs, emails, accounts..)
-	* To do: (Erdem, William; 3 weeks) Add links for the TA to have access to each group page.
+	* To do: (Erdem, William; (sai-shan); 3 weeks) Add a new page with content and styling which displays the data related to a group (Names, IDs, emails, accounts..)
+	* To do: (Erdem, William, (sai-shan); 3 weeks) Add links for the TA to have access to each group page.
 
 ## #1 user account - 5 pts
 As a student or teacher's assistant, I want to be able to log into the website with my personal
@@ -88,5 +88,5 @@ As a teacher assistant, I want to be able to divide my class into groups myself 
 	
 	* To do: (Nick, 2 weeks) Create php mixed with MySQL queueries to allow a TA to divide a class into groups and populate the project 
 
-	* To do: (Someone, 2 weeks) Create UI element to be used to divide students into groups
+	* To do: (Sai-Shan, 2 weeks) Create UI element to be used to divide students into groups
 	
