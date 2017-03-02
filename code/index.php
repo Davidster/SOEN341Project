@@ -120,7 +120,7 @@ require_once 'sql_connect.php';
 				$email = $_POST['email'];
 				$password = $_POST['password'];
 
-				$dbsearch = "SELECT * FROM Ta where email = '$email'";
+				$dbsearch = "SELECT * FROM Ta where temail = '$email'";
 				$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
 				$found = mysqli_num_rows($query); //returns number of found rows
 
@@ -128,14 +128,13 @@ require_once 'sql_connect.php';
 				if($found == 1)
 				{
 					$row = mysqli_fetch_assoc($query);
-					$dbfname = $row['fname'];
-					$dblname = $row['lname'];
-					$dbpassword = $row['password'];
-					$dbusername = $row['email'];
+					$dbname = $row['tname'];
+					$dbpassword = $row['tpassword'];
+					$dbusername = $row['temail'];
 					//password is correct
 					if($password == $dbpassword)
 					{
-						echo $welcome = "<h3>Login succesful, welcome  $dbfname!";
+						echo $welcome = "<h3>Login succesful, welcome  $dbname!";
 					}
 					else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
 				}
