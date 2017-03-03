@@ -1,0 +1,194 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "posted tas lastest feedback as sprint1.5-feedback",
+        "ts": "1487166447.000018"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "quiz grades are out avg. is 2.7\/5",
+        "ts": "1487166464.000019"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "website looks good btw good job everyone",
+        "ts": "1487166479.000020"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "1 thing we need done asap is finish task list with descriptions(who works on what etc.) and burndown chart",
+        "ts": "1487166995.000021"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I can help for task lists. ",
+        "ts": "1487167052.000022"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Well everyone has to help",
+        "ts": "1487167059.000023"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i can fill out my tasks for each story (blending php and db queuries) but i dont feel comfortable assigning you guys tasks",
+        "ts": "1487167064.000024"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "So the tasks are the issues or am i completely off?",
+        "ts": "1487167115.000025"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "And I understand. We all have a different set of skills",
+        "ts": "1487167133.000026"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yes tasks are stories broken down into what we must do to fulfill the user requirement",
+        "ts": "1487167343.000027"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "So how do we separate the tasks. Where do we write our names for example. ",
+        "ts": "1487169784.000028"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "For now. There is a document called userstories.txt where i put effort estimates; we need to add time estimates and under each story breakdown tasks with contributors name around 12 i will post mine as an example",
+        "ts": "1487170005.000029"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Okok great!",
+        "ts": "1487170093.000030"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "It's clearer for me now",
+        "ts": "1487170102.000031"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": ":+1: ",
+        "ts": "1487170131.000032"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "when we are splitting the tasks, lets split the tasks groups of 2, for example, lets give 2 user stories to 2 people, and they work on both together; so that TA will see the Team Work",
+        "ts": "1487178105.000033"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah at least 2 should put work on a user story",
+        "ts": "1487178590.000034"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Each",
+        "ts": "1487178593.000035"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I added a new user story(#34); i broke down #1 and #34 into tasks. Feel free to modify it",
+        "ts": "1487179295.000036"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": ":+1:",
+        "ts": "1487179310.000037"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I commented on user story #7 that I am going to work on with css javascript, php",
+        "ts": "1487179967.000038"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "was that the way Ta wanted <@U3WD98GTC> ?",
+        "ts": "1487179990.000039"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "yes thats how he wanted it, but it i thought of putting it all together on one file first (userstories.md)",
+        "ts": "1487180724.000040"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "also you have to be more precise for instance for your issue you can say",
+        "ts": "1487180730.000041"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I will create a button that opens up another window where you can simply drag and drop a file to be uploaded",
+        "ts": "1487180752.000042"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "then you make a subcomment, I will do this using dropzone.js library",
+        "ts": "1487180800.000043"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "and you put a time estimate say 2 weeks ( this will take you about 2 weeks from now to complete",
+        "ts": "1487180836.000044"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "this is an example, i have no idea how to do file upload",
+        "ts": "1487180850.000045"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": ":slightly_smiling_face:",
+        "ts": "1487180854.000046"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "sounds good  thanks for the example <@U3WD98GTC>  :slightly_smiling_face:",
+        "ts": "1487181037.000047"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Thanks <@U3WD98GTC> ",
+        "ts": "1487190380.000048"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Np guys",
+        "ts": "1487191579.000049"
+    }
+]

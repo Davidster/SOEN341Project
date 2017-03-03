@@ -1,0 +1,92 @@
+[
+    {
+        "user": "U3XFMDQ2J",
+        "text": "<@U3XFMDQ2J|saishan> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485911125.000002"
+    },
+    {
+        "user": "U3WD63E7N",
+        "text": "<@U3WD63E7N|david.huculak> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485911293.000003"
+    },
+    {
+        "user": "U3WKEASEN",
+        "inviter": "U3WD63E7N",
+        "text": "<@U3WKEASEN|williamkingbede> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485911301.000004"
+    },
+    {
+        "user": "U3WD98GTC",
+        "inviter": "U3WD63E7N",
+        "text": "<@U3WD98GTC|nickhorta> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485911301.000005"
+    },
+    {
+        "user": "U3VSA7GPK",
+        "inviter": "U3WD63E7N",
+        "text": "<@U3VSA7GPK|alexrobert> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485911301.000006"
+    },
+    {
+        "user": "U3VNUBS1X",
+        "inviter": "U3WD63E7N",
+        "text": "<@U3VNUBS1X|erdemkepenek> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485911301.000007"
+    },
+    {
+        "user": "U3WS26PT3",
+        "inviter": "U3WD63E7N",
+        "text": "<@U3WS26PT3|mikel.shifrin> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485911301.000008"
+    },
+    {
+        "user": "U3X8TA3QQ",
+        "inviter": "U3WD63E7N",
+        "text": "<@U3X8TA3QQ|claudius> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485911301.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I updated the README.md file in the repository with the \"vision document\" draft\nI think this is the perfect place to put the description of what our project is all about. The TA will be able to simply open our project on the browser to view our vision\n*please give feedback on anything you can (format of the document, content, general thoughts about the project itself)*\nI'll send him an email telling him to take a look at it as soon as we've decided that it's complete",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1485911553.000000"
+        },
+        "ts": "1485911533.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "to help us make the user stories, I took this from the lecture powerpoints:\n• Independent: stories should be independent from each other\nNegotiable: stories are not fixed, can be changed by customer\n• Valuable to user or business: user\/business must get a value out\nof the story (compare with use cases)\n• Estimable: if it can’t be estimated, it doesn’t go into the backlog\n• Small: should not take more than one sprint to finish (usually\nless) – no ‘epic’ story\n• Testable: each story must be testable and the test(s) must be\ndefined as an acceptance criterion – if it can’t be tested, it’s not\na requirement!",
+        "ts": "1485911579.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "*to add your own user story, go to issues, then add a new issue, and don't forget to associate it with the Sprint #1 milestone*",
+        "ts": "1485911601.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Alright. I like this channel",
+        "ts": "1485911673.000014"
+    }
+]

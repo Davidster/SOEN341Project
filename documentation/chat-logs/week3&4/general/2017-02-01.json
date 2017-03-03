@@ -1,0 +1,585 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "We should take a moment to discuss about each user story",
+        "ts": "1485968647.000261"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Can you guys see mine??",
+        "ts": "1485968706.000262"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Because i did last night",
+        "ts": "1485968726.000263"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<@U3VNUBS1X>  do you think you can implement a upload\/download feature in the next 2 weeks?",
+        "ts": "1485968729.000264"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Last i checkrd i couldnt see it",
+        "ts": "1485968748.000265"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Hmmm :\/",
+        "ts": "1485968793.000266"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VSA7GPK|alexrobert> uploaded a file: <https:\/\/soen341project.slack.com\/files\/alexrobert\/F3ZGGS7GS\/img_20170201_120717.jpg|alex user story>",
+        "file": {
+            "id": "F3ZGGS7GS",
+            "created": 1485968860,
+            "timestamp": 1485968860,
+            "name": "IMG_20170201_120717.jpg",
+            "title": "alex user story",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3VSA7GPK",
+            "editable": false,
+            "size": 4943854,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F3ZGGS7GS\/img_20170201_120717.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F3ZGGS7GS\/download\/img_20170201_120717.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3ZGGS7GS-648a39dfb2\/img_20170201_120717_64.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3ZGGS7GS-648a39dfb2\/img_20170201_120717_80.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3ZGGS7GS-648a39dfb2\/img_20170201_120717_360.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3ZGGS7GS-648a39dfb2\/img_20170201_120717_480.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3ZGGS7GS-648a39dfb2\/img_20170201_120717_160.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3ZGGS7GS-648a39dfb2\/img_20170201_120717_720.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3ZGGS7GS-648a39dfb2\/img_20170201_120717_960.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3ZGGS7GS-648a39dfb2\/img_20170201_120717_1024.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 4160,
+            "original_h": 2340,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/alexrobert\/F3ZGGS7GS\/img_20170201_120717.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F3ZGGS7GS-c235a06c99",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3VSA7GPK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3VSA7GPK|alexrobert>",
+        "bot_id": null,
+        "ts": "1485968865.000267"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "now you guys should be able to see",
+        "ts": "1485968932.000268"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "it",
+        "ts": "1485968933.000269"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "he changed it and made a pull request, I merged it into the master",
+        "ts": "1485968978.000270"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ahhh thanks",
+        "ts": "1485968987.000271"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Because then it tells me this",
+        "ts": "1485969000.000272"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VSA7GPK|alexrobert> uploaded a file: <https:\/\/soen341project.slack.com\/files\/alexrobert\/F3YRZAMPB\/img_20170201_121002.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F3YRZAMPB",
+            "created": 1485969033,
+            "timestamp": 1485969033,
+            "name": "IMG_20170201_121002.jpg",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3VSA7GPK",
+            "editable": false,
+            "size": 6130759,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F3YRZAMPB\/img_20170201_121002.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F3YRZAMPB\/download\/img_20170201_121002.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3YRZAMPB-3caf311790\/img_20170201_121002_64.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3YRZAMPB-3caf311790\/img_20170201_121002_80.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3YRZAMPB-3caf311790\/img_20170201_121002_360.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3YRZAMPB-3caf311790\/img_20170201_121002_480.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3YRZAMPB-3caf311790\/img_20170201_121002_160.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3YRZAMPB-3caf311790\/img_20170201_121002_720.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3YRZAMPB-3caf311790\/img_20170201_121002_960.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3YRZAMPB-3caf311790\/img_20170201_121002_1024.jpg?t=xoxe-133061191207-149188466004-148473200017-fc5214acf1",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 4160,
+            "original_h": 2340,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/alexrobert\/F3YRZAMPB\/img_20170201_121002.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F3YRZAMPB-e55e73b2e1",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3VSA7GPK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3VSA7GPK|alexrobert>",
+        "bot_id": null,
+        "ts": "1485969037.000273"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "you created a fork",
+        "ts": "1485969151.000274"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "thats why",
+        "ts": "1485969153.000275"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ahhhhhh",
+        "ts": "1485969158.000276"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "And what should i have done",
+        "ts": "1485969164.000277"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "euh ,,, actually I created one too without knowing",
+        "ts": "1485969193.000278"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Exactly",
+        "ts": "1485969209.000279"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "dit you use the git cmd",
+        "ts": "1485969215.000280"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Nope",
+        "ts": "1485969219.000281"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "or diretly edit it",
+        "ts": "1485969219.000282"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "??",
+        "ts": "1485969221.000283"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Just directly",
+        "ts": "1485969223.000284"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "did you go in your fork or on david's repository?",
+        "ts": "1485969281.000285"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "David's repository",
+        "ts": "1485969297.000286"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Im not a github expert",
+        "ts": "1485969315.000287"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "<@U3WD98GTC> if required will try my best",
+        "ts": "1485969343.000288"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "me neither, i don't know then :confused:",
+        "ts": "1485969428.000289"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Hey <@U3VSA7GPK>, in class last Friday we all input our github usernames to get invited to be a collaborator",
+        "ts": "1485973716.000290"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Go to this link: <https:\/\/github.com\/Davidster\/SOEN341Project\/invitations>",
+        "ts": "1485973732.000291"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yeah I was there",
+        "ts": "1485973734.000292"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "And sign in, then u can accept the invitation",
+        "ts": "1485973745.000293"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I think i did accept it",
+        "ts": "1485973756.000294"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ill recheck",
+        "ts": "1485973760.000295"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "It says that you didn't, which is why you got that error message with the access rights",
+        "ts": "1485973780.000296"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Once you accept it, you'll be allowed to make changes directly to the master branch of our repository (I recommend testing this out via git commands as soon as you can so as to get comfortable with them)",
+        "ts": "1485974382.000297"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think Mikel posted a tutorial for git above, and you can feel free to ask questions here for us to help u",
+        "ts": "1485974422.000298"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<@U3WD63E7N>  did yousend the TA our vision?",
+        "ts": "1485976064.000299"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yea I messaged him on moodle",
+        "ts": "1485976082.000300"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "telling him to take a look at our repo",
+        "ts": "1485976089.000301"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "ok thx",
+        "ts": "1485976121.000302"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "np",
+        "ts": "1485976129.000303"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I think we should come up with more user stories; friday will be for validating user stories anyway so if we only have 6-8 its bad if the TA doesnt like some",
+        "ts": "1485981970.000304"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I agree",
+        "ts": "1485982009.000305"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "also, as per the TA's request, we must have our minimum six completed and reviewed by tomorrow morning",
+        "ts": "1485982083.000306"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so that we can \"submit\" them",
+        "ts": "1485982097.000307"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "whatever that means...",
+        "ts": "1485982100.000308"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "So lets brainstorm and add few more",
+        "ts": "1485982258.000309"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Sorry im late. How do i accept the invitation?",
+        "ts": "1485985006.000310"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<https:\/\/github.com\/Davidster\/SOEN341Project\/invitations>",
+        "ts": "1485985060.000311"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Accepted",
+        "ts": "1485985143.000312"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Thanks",
+        "ts": "1485985146.000313"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "The TA responded",
+        "ts": "1485990433.000314"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "he said:",
+        "ts": "1485990436.000315"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Hi David,\n\ngood. keep on it.\n\nthanks.",
+        "ts": "1485990438.000316"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":+1:",
+        "ts": "1485990455.000317"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Excellent feedback",
+        "ts": "1485990660.000318"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Niiiice",
+        "ts": "1485990819.000319"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "We doing good",
+        "ts": "1485990826.000320"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Yo guys I just added 2 user stories with a pull request cause I'm not really sure about them",
+        "ts": "1485996339.000321",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Did you accept this invite?",
+        "ts": "1485996613.000322"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yea he did",
+        "ts": "1485996620.000323"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Or u made it on purpose",
+        "ts": "1485996621.000324"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ahhh okok",
+        "ts": "1485996624.000325"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "hey <@U3WKEASEN>, your pull request has been merged",
+        "ts": "1486006073.000326"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "you can go ahead and add an issue accordingly",
+        "ts": "1486006087.000327"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "as descsribed in the <#C3Z62NW9Y|important> channel",
+        "ts": "1486006115.000328"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "oops, I see you already did it",
+        "ts": "1486007667.000329"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "my b",
+        "ts": "1486007672.000330"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yea i'm not 100% sure if all these user stories will be doable in sprint #1",
+        "ts": "1486007733.000331"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "but I like what we have, so I think we should wait for friday and get feedback from the TA on the user stories",
+        "ts": "1486007776.000332"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "closed issue #8 group contribution, issue #12 team profile will replace it #12&gt;#8",
+        "ts": "1486008873.000333"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "added #13 group communication",
+        "ts": "1486008951.000334"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "looks good",
+        "ts": "1486008983.000335"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "thanks !",
+        "ts": "1486008992.000336"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": ":+1::skin-tone-2:",
+        "ts": "1486012941.000337"
+    }
+]

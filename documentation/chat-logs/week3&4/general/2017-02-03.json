@@ -1,0 +1,403 @@
+[
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "who is available to meet up before the lab",
+        "ts": "1486132183.000408"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I am",
+        "ts": "1486132199.000409"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "But i dont want to meet before and after",
+        "ts": "1486132212.000410"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "the whole team needs to meet though",
+        "ts": "1486132285.000411"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "so if you don't want to meet before and after I think after is beeter",
+        "ts": "1486132309.000412"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "since we'll have TA's feedback",
+        "ts": "1486132325.000413"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yeah. It's just i want to study and everything. After is better because we will all be there anyway",
+        "ts": "1486132534.000414"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "So we're only meeting after, right?",
+        "ts": "1486140551.000415"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yup",
+        "ts": "1486140788.000416"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ye",
+        "ts": "1486140800.000417"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "I'm on the couches 8th  ",
+        "ts": "1486143858.000418"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Anybody welcome to join",
+        "ts": "1486143869.000419"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Whatt time meet up for tutorial",
+        "ts": "1486143872.000420"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": " I wont be coming today, I talked  about it with TA. Please keep me updated. ",
+        "ts": "1486143949.000421"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Alright",
+        "ts": "1486143958.000422"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Np",
+        "ts": "1486144348.000423"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<@U3WS26PT3>  grabbing something to eat so like in 15mins ",
+        "ts": "1486144378.000424"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "sorry I left in a hurry",
+        "ts": "1486154066.000425"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "for the database, there are a lot of different dbs we can use, a constraint we have is we need to have relational database (more efficient for db writes, because were not just gonna read through our db but writing often (messages))",
+        "ts": "1486154199.000426"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "quickly found this.. <https:\/\/www.freemysqlhosting.net\/>",
+        "attachments": [
+            {
+                "title": "Free MySQL Hosting",
+                "title_link": "https:\/\/www.freemysqlhosting.net\/",
+                "text": "MySQL Hosting for free. Signup now for your free MySQL database hosting and be live in minutes.",
+                "fallback": "Free MySQL Hosting",
+                "from_url": "https:\/\/www.freemysqlhosting.net\/",
+                "service_name": "freemysqlhosting.net",
+                "id": 1
+            }
+        ],
+        "ts": "1486154246.000427"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ill take a look at it tonight",
+        "ts": "1486154289.000429"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ill left in a hurry as well...tutorial",
+        "ts": "1486154300.000430"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<https:\/\/db4free.net\/>",
+        "ts": "1486154571.000431"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "another one",
+        "ts": "1486154575.000432"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "That's dope",
+        "ts": "1486154578.000433"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Look into getting that set up ASAP",
+        "ts": "1486154624.000434"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i suggest using mysql because you can all get a preview of comp353",
+        "ts": "1486155103.000435"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "and i already know it :stuck_out_tongue:",
+        "ts": "1486155116.000436"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Good idwa",
+        "ts": "1486155132.000437"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yep",
+        "ts": "1486155135.000438"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "We should have a document describing the format of our database",
+        "ts": "1486155177.000439"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "At a high level",
+        "ts": "1486155187.000440"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "For example: A user account will have a username, password, permissionType (student or teacher)",
+        "ts": "1486155248.000441"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Maybe more things",
+        "ts": "1486155262.000442"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "ugh freemysqlhosting gives 5MB only. idk if its enough",
+        "ts": "1486155550.000443"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i will relational schemas, entity relationship graph and such",
+        "ts": "1486155589.000444"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i will make*",
+        "ts": "1486155603.000445"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "its gonna be done for next friday",
+        "ts": "1486155618.000446"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "after we might have to make some minor changes but thats expected",
+        "ts": "1486155630.000447"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i have my old project for reference",
+        "ts": "1486155649.000448"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "we have a db ill have to check later today if we can connect to it, if it works and if 5mb is enough",
+        "ts": "1486155937.000449"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i think 5mb is enough lol",
+        "ts": "1486156057.000450"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it should be enough",
+        "ts": "1486156100.000451"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "does the 5mb include some overhead? or just the data we're storing",
+        "ts": "1486156132.000452"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "if it doesn't include overhead, 5MB is wayyy more than enough for 1000+ accounts and 1000+ stored messages",
+        "ts": "1486156182.000453"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "at least it should be...",
+        "ts": "1486156212.000454"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<@U3VNUBS1X> so it seemed that our feedback was mostly positive from the TA today. I'm pretty sure we got full marks for today's evaluation. Some comments he gave were: Refine your user stories, Do more pull requests, put conversation logs from slack onto the repository. Not sure if anyone else remembers other things he said?",
+        "ts": "1486156510.000455"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "And have something to show",
+        "ts": "1486156575.000456",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N",
+                    "U3VNUBS1X"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "oh yea he also said that our commit messages should be slightly more descriptive",
+        "ts": "1486156667.000457"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I submitted a pull request with my suggested folder structure for right now. I added just some front end code but we can add some back end later on",
+        "ts": "1486158544.000458"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i approved it need 1 more person to approve and merge",
+        "ts": "1486163333.000459"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Apporved it!",
+        "ts": "1486163476.000460"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "did you merge?",
+        "ts": "1486163487.000461"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yea I see it good stuff",
+        "ts": "1486163531.000462"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Yes",
+        "ts": "1486163544.000463"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "I put up a pull request aswell",
+        "ts": "1486164297.000464"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "also this tutorial explains well how branching and pull requests work <https:\/\/www.youtube.com\/watch?v=uR-9NGrpU-c>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Git Tutorials || 3. Branching and Merging",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=uR-9NGrpU-c",
+                "author_name": "TwistedEquations",
+                "author_link": "https:\/\/www.youtube.com\/user\/TwistedEquations",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/uR-9NGrpU-c\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Git Tutorials || 3. Branching and Merging",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/uR-9NGrpU-c?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=uR-9NGrpU-c",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1486164683.000465"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i know am fairly familiar with git and github if anybody has problems getting used to it ask me and I'll gladly show you how to deal with it if I know how",
+        "ts": "1486164754.000467"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "*I now",
+        "ts": "1486164769.000468"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Haha I'll watch it ",
+        "ts": "1486165495.000469"
+    }
+]
