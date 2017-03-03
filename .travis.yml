@@ -9,3 +9,6 @@ php:
   - nightly
 
 script: ./code/build.sh
+
+notifications:
+  email: false
