@@ -1,5 +1,8 @@
 <?php
 require_once 'sql_connect.php';
+require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
+$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
+$chat = new phpFreeChat($params);
 ?>
 
 <!DOCTYPE html>
@@ -26,15 +29,16 @@ require_once 'sql_connect.php';
 				<li pagetarget="contact-page">Contact</li>
 								<li pagetarget="course-page">Course Page</li>
 				<li pagetarget="about-page">About</li>
+				<li pagetarget="livechat-page">Chat Test</li>
 			</ul>
 		</nav>
 		<div id="page-content">
-			<div id="home-page" style="display: block">
+			<div id="home-page" style="display: none">
 				Home page
 			</div>
 			 <?php 
 			
-			 $form = "<div id='register-page'>
+			 $form = "<div id='register-page' style='display: none'>
 				<h1>Register Page</h1>
 				<form id='createAccount' action='' method='post'>
 					<p>Enter your Concordia ID:</p>
@@ -100,7 +104,7 @@ require_once 'sql_connect.php';
 
 			<?php
 			$form2 = "
-			<div id='login-page'>
+			<div id='login-page' style='display: none'>
 				<h1>Login Page</h1>
 				<form id='login' action='' method='post'>
 					<p>Enter your email:</p>
@@ -143,12 +147,12 @@ require_once 'sql_connect.php';
 
 			;?>
 
-			<div id="contact-page">
+			<div id="contact-page" style="display: none">
 				Contact page
 			</div>
 			
 			
-			<div id="course-page">
+			<div id="course-page" style="display: none;">
 			
 			
 			
@@ -166,7 +170,7 @@ require_once 'sql_connect.php';
 				</div>			
 			</div>
 			
-			<div id="about-page">
+			<div id="about-page" style="display: none;">
                 <div class="ourVision">
 					<h1 class = "opening">Our Vision</h1>
 					<p>
@@ -186,6 +190,9 @@ require_once 'sql_connect.php';
                 To know more about our project, please visit our <a href = "https://github.com/Davidster/SOEN341Project.git"> GitHub repository </a>.
                 </div>
                 
+			</div>
+			<div id="livechat-page" style="display: block;">
+				<?php $chat->printChat(); ?>
 			</div>
 		</div>
 		<footer>

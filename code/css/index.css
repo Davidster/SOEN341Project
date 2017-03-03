@@ -25,6 +25,9 @@ footer {
     height: 30px;
 }
 
+#page-content {
+    margin-top: 60px;
+}
 
 .menu{
 	font: 95% Arial, Verdana, sans-serif;
