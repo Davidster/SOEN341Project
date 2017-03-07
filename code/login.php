@@ -1,34 +1,16 @@
-<?php
-require_once 'sql_connect.php';
-require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
-$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
-$chat = new phpFreeChat($params);
-?>
-
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>First Page</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-
-		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-
-		<script type="text/javascript" src="js/main.js"></script>
-		<link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon">
 	</head>
-
 	<body>
 		<nav>
 			<ul class="menu" id="menu">
 				<li pagetarget="home-page">Home</li>
-				<li pagetarget="register-page">Create Account</li>
-				<li pagetarget="login-page">Login</li>
+				<li pagetarget="login-page">Logout</li>
 				<li pagetarget="contact-page">Contact</li>
-								<li pagetarget="course-page">Course Page</li>
-				<li pagetarget="about-page">About</li>
+				<li pagetarget="course-page">Course Page</li>
 				<li pagetarget="livechat-page">Chat Test</li>
 			</ul>
 		</nav>
@@ -200,6 +182,6 @@ $chat = new phpFreeChat($params);
 			<div class="legal">Copyright 2017 SOEN341 Project.</div>
 			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
 
-		</footer>		
+		</footer>
 	</body>
 </html>
