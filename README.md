@@ -9,6 +9,8 @@ Team members:
  - Erdem Kepenek
  - Mikel Shifrin
 
+Link to additional Travis CI info: https://travis-ci.org/Davidster/SOEN341Project/
+
 # Our Vision
 
 We are going to build a web platform for students and teacher's assistants to remain in sync during the course of a given semester.
