@@ -106,7 +106,7 @@ $chat = new phpFreeChat($params);
 			$form2 = "
 			<div id='login-page' style='display: none'>
 				<h1>Login Page</h1>
-				<form id='login' action='login.php' method='post'>
+				<form id='login' action='' method='post'>
 					<p>Enter your email:</p>
 					<input type='email' name='email' placeholder='Email Address' required/>
 					</br>
