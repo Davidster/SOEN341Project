@@ -24,7 +24,7 @@ $chat = new phpFreeChat($params);
 					//password is correct
 					if($password == $dbpassword)
 					{
-						header('location: login.php');
+						header('location: php/index/login.php');
 					}
 					else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
 				}
@@ -62,36 +62,15 @@ $chat = new phpFreeChat($params);
 			</ul>
 		</nav>
 		<div id="page-content">
-			<?php 
-				include ('homepage.php');	
+			<?php
+				include ('/php/index/homepage.php');
+				include ('php/index/registerPage.php');
+				include ('php/index/loginForm.php');
+				include ('php/index/contactPage.php');
+				include ('php/index/coursePage.php');
+				include ('php/index/aboutPage.php');
 			?>
 			 <?php 
-			
-			 $form = "<div id='register-page' style='display: none'>
-				<h1>Register Page</h1>
-				<form id='createAccount' action='' method='post'>
-					<p>Enter your Concordia ID:</p>
-					<input type='text' name='id' placeholder='Concordia ID' required/>
-					<p>Enter your full name:</p>
-					<input type='text' name='fullName' placeholder='Full Name' required/>
-					<p>Enter your email:</p>
-					<input type='email' name='email' placeholder='Email Address' required/>
-					<p>Create a Password:</p>
-					<input type='password' name='password' placeholder='Password' required/>
-					<p>Confirm Password:</p>
-					<input type='password' name='repassword' placeholder='Password' required/>
-					<input type='radio' name='accountType' />
-					Teacher's Assistant
-					</br>
-					<input type='radio' name='accountType' />
-					Student
-					</br></br>	
-					<input type='submit' value = 'Submit' name='register'/>
-				</form>
-			</div>";
-			echo $form;
-
-  			
 			//gets user input
 			if(isset($_POST['register']))
 			{
@@ -128,20 +107,6 @@ $chat = new phpFreeChat($params);
 			if (isset($success)) {echo $success;}
   			if (isset($passdontmatch)) {echo $passdontmatch;}
 
-			?>
-		
-
-			<?php
-				include ('loginForm.php');
-			?>
-			<?php 
-				include ('contactPage.php');
-			?>
-			<?php
-				include ('coursePage.php');
-			?>
-			<?php
-				include ('aboutPage.php');
 			?>
 			
 		<footer>
