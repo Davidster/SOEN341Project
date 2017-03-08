@@ -24,7 +24,7 @@ $chat = new phpFreeChat($params);
 					//password is correct
 					if($password == $dbpassword)
 					{
-						header('location: php/index/login.php');
+						header('location: login.php');
 					}
 					else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
 				}
@@ -56,7 +56,7 @@ $chat = new phpFreeChat($params);
 				<li pagetarget="register-page">Create Account</li>
 				<li pagetarget="login-page">Login</li>
 				<li pagetarget="contact-page">Contact</li>
-								<li pagetarget="course-page">Course Page</li>
+				<li pagetarget="course-page">Course Page</li>
 				<li pagetarget="about-page">About</li>
 				<li pagetarget="livechat-page">Chat Test</li>
 			</ul>
@@ -108,6 +108,9 @@ $chat = new phpFreeChat($params);
   			if (isset($passdontmatch)) {echo $passdontmatch;}
 
 			?>
+			<div id="livechat-page" style="display: block;">
+				<?php $chat->printChat(); ?>
+			</div>
 			
 		<footer>
 			<div class="legal">SOEN 341 project, Winter 2017.</div>
