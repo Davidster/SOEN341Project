@@ -3,6 +3,35 @@ require_once 'sql_connect.php';
 require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
 $params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
 $chat = new phpFreeChat($params);
+//include ("loginForm.php");
+//authentification
+			if(isset($_POST['logbtn']))
+			{
+				$email = $_POST['email'];
+				$password = $_POST['password'];
+
+				$dbsearch = "SELECT * FROM Ta where temail = '$email'";
+				$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
+				$found = mysqli_num_rows($query); //returns number of found rows
+
+				//entry is found
+				if($found == 1)
+				{
+					$row = mysqli_fetch_assoc($query);
+					$dbname = $row['tname'];
+					$dbpassword = $row['tpassword'];
+					$dbusername = $row['temail'];
+					//password is correct
+					if($password == $dbpassword)
+					{
+						header('location: login.php');
+					}
+					else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
+				}
+				else echo $nouserfound = "<h3> No such user found, please try again or register!</h3>";
+			}
+
+		
 ?>
 
 <!DOCTYPE html>
@@ -33,9 +62,9 @@ $chat = new phpFreeChat($params);
 			</ul>
 		</nav>
 		<div id="page-content">
-			<div id="home-page" style="display: none">
-				Home page
-			</div>
+			<?php 
+				include ('homepage.php');	
+			?>
 			 <?php 
 			
 			 $form = "<div id='register-page' style='display: none'>
@@ -99,102 +128,22 @@ $chat = new phpFreeChat($params);
 			if (isset($success)) {echo $success;}
   			if (isset($passdontmatch)) {echo $passdontmatch;}
 
-			;?>
+			?>
 		
 
 			<?php
-			$form2 = "
-			<div id='login-page' style='display: none'>
-				<h1>Login Page</h1>
-				<form id='login' action='' method='post'>
-					<p>Enter your email:</p>
-					<input type='email' name='email' placeholder='Email Address' required/>
-					</br>
-					<p>Enter your password:</p>
-					<input type='password' name='password' placeholder='Password' required/>
-					<input type='submit' value='Enter' name='logbtn'/>
-				</form>	
-			</div>";
-
-			echo $form2;
-
-			//authentification
-			if(isset($_POST['logbtn']))
-			{
-				$email = $_POST['email'];
-				$password = $_POST['password'];
-
-				$dbsearch = "SELECT * FROM Ta where temail = '$email'";
-				$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
-				$found = mysqli_num_rows($query); //returns number of found rows
-
-				//entry is found
-				if($found == 1)
-				{
-					$row = mysqli_fetch_assoc($query);
-					$dbname = $row['tname'];
-					$dbpassword = $row['tpassword'];
-					$dbusername = $row['temail'];
-					//password is correct
-					if($password == $dbpassword)
-					{
-						echo $welcome = "<h3>Login succesful, welcome  $dbname!";
-					}
-					else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
-				}
-				else echo $nouserfound = "<h3> No such user found, please try again or register!</h3>";
-			}
-
-			;?>
-
-			<div id="contact-page" style="display: none">
-				Contact page
-			</div>
+				include ('loginForm.php');
+			?>
+			<?php 
+				include ('contactPage.php');
+			?>
+			<?php
+				include ('coursePage.php');
+			?>
+			<?php
+				include ('aboutPage.php');
+			?>
 			
-			
-			<div id="course-page" style="display: none;">
-			
-			
-			
-				<h2>Courses Page</h2>
-				<p>Select the class corresponding to your group project. You will be redirected to the course page.</p>
-
-				<div class="dropdown" >
-				  <button class="btn">Courses</button>
-				  <div class="content" style="left:0;">
-						<a href="#">SOEN 341</a>
-						<a href="#">SOEN 490</a>
-						<a href="#">SOEN 287</a>
-						<a href="#">COEN 390</a>
-				  </div>
-				</div>			
-			</div>
-			
-			<div id="about-page" style="display: none;">
-                <div class="ourVision">
-					<h1 class = "opening">Our Vision</h1>
-					<p>
-					Our mission is to provide a simple and useful web platform for group projects. This interface can be use for both, students and teacher's assistants, 
-					and supplies a good way to interact within the team and with the teacher assistant. 
-					</p>
-	           </div>
-                <div class="aboutUs">
-					<h1 class="opening">About Us</h1>
-					<p>
-					We are a team of students in Software engineering and Computer engineering. Inspired by the idea of having a site dedicated to group projects, 
-					we decided to built a webstite that would contains all the features needed to work on the given project. 
-					</p>
-					<br><br><br><br>
-				</div>
-                <div class="about">
-                To know more about our project, please visit our <a href = "https://github.com/Davidster/SOEN341Project.git"> GitHub repository </a>.
-                </div>
-                
-			</div>
-			<div id="livechat-page" style="display: block;">
-				<?php $chat->printChat(); ?>
-			</div>
-		</div>
 		<footer>
 			<div class="legal">SOEN 341 project, Winter 2017.</div>
 			<div class="legal">Copyright 2017 SOEN341 Project.</div>
