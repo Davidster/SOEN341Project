@@ -63,7 +63,7 @@ $chat = new phpFreeChat($params);
 		</nav>
 		<div id="page-content">
 			<?php
-				include ('/php/index/homepage.php');
+				include ('php/index/homepage.php');
 				include ('php/index/registerPage.php');
 				include ('php/index/loginForm.php');
 				include ('php/index/contactPage.php');
