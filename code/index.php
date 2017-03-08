@@ -1,35 +1,32 @@
 <?php
-require_once 'sql_connect.php';
-require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
-$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
-$chat = new phpFreeChat($params);
-//include ("loginForm.php");
-//authentification
-			if(isset($_POST['logbtn']))
-			{
-				$email = $_POST['email'];
-				$password = $_POST['password'];
+	require_once 'sql_connect.php';
+	require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
+	$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
+	$chat = new phpFreeChat($params);
+	//include ("loginForm.php");
+	//authentification
+	if(isset($_POST['logbtn'])){
+		$email = $_POST['email'];
+		$password = $_POST['password'];
 
-				$dbsearch = "SELECT * FROM Ta where temail = '$email'";
-				$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
-				$found = mysqli_num_rows($query); //returns number of found rows
+		$dbsearch = "SELECT * FROM Ta where temail = '$email'";
+		$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
+		$found = mysqli_num_rows($query); //returns number of found rows
 
-				//entry is found
-				if($found == 1)
-				{
-					$row = mysqli_fetch_assoc($query);
-					$dbname = $row['tname'];
-					$dbpassword = $row['tpassword'];
-					$dbusername = $row['temail'];
-					//password is correct
-					if($password == $dbpassword)
-					{
-						header('location: login.php');
-					}
-					else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
-				}
-				else echo $nouserfound = "<h3> No such user found, please try again or register!</h3>";
+		//entry is found
+		if($found == 1){
+			$row = mysqli_fetch_assoc($query);
+			$dbname = $row['tname'];
+			$dbpassword = $row['tpassword'];
+			$dbusername = $row['temail'];
+			//password is correct
+			if($password == $dbpassword){
+				header('location: login.php');
 			}
+			else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
+		}
+		else echo $nouserfound = "<h3> No such user found, please try again or register!</h3>";
+	}
 
 		
 ?>
@@ -71,47 +68,40 @@ $chat = new phpFreeChat($params);
 				include ('php/index/aboutPage.php');
 			?>
 			 <?php 
-			//gets user input
-			if(isset($_POST['register']))
-			{
-				$id = $_POST['id'];
-				$name = $_POST['fullName'];
-				$email = $_POST['email'];
-				$password = $_POST['password'];
-				$repassword = $_POST['repassword'];
-				/*
-				Eventually here we will have to add a method to restrict registration permissions
-				1- Only a valid Concordia student may register
-				2- That student's classes must be registerd in the system
-				3- Maybe ask for class id and tutorial group to segment automatically (if that makes any sense)
-				*/
+				//gets user input
+				if(isset($_POST['register'])){
+					$id = $_POST['id'];
+					$name = $_POST['fullName'];
+					$email = $_POST['email'];
+					$password = $_POST['password'];
+					$repassword = $_POST['repassword'];
+					/*
+					Eventually here we will have to add a method to restrict registration permissions
+					1- Only a valid Concordia student may register
+					2- That student's classes must be registerd in the system
+					3- Maybe ask for class id and tutorial group to segment automatically (if that makes any sense)
+					*/
 
-				//check if passwords are exact
-				if($password == $repassword)
-				{	
-					$register = "INSERT INTO Student (sid, name, password, email) VALUES ('$id','$name','$password', '$email')";
+					//check if passwords are exact
+					if($password == $repassword){	
+						$register = "INSERT INTO Student (sid, name, password, email) VALUES ('$id','$name','$password', '$email')";
 
-				if(mysqli_query($dbc, $register))
-				{
-					$success = "<h2>Record created successfully!</h2>";
-				}
-				else{
-					echo "<h2> Sorry. This Concordia ID is already registered in the system</h2>";
+						if(mysqli_query($dbc, $register)){
+							$success = "<h2>Record created successfully!</h2>";
+						}
+						else{
+							echo "<h2> Sorry. This Concordia ID is already registered in the system</h2>";
+						}
 					}
-				}
-				else{
-					$passdontmatch = "<h2> The passwords you entered do not match. Try again.</h2>";
-				}
+					else{
+						$passdontmatch = "<h2> The passwords you entered do not match. Try again.</h2>";
+					}
 
-			}
-			if (isset($success)) {echo $success;}
-  			if (isset($passdontmatch)) {echo $passdontmatch;}
-
+				}
+				if (isset($success)) {echo $success;}
+				if (isset($passdontmatch)) {echo $passdontmatch;}
 			?>
-			<div id="livechat-page" style="display: block;">
-				<?php $chat->printChat(); ?>
-			</div>
-			
+		</div>	
 		<footer>
 			<div class="legal">SOEN 341 project, Winter 2017.</div>
 			<div class="legal">Copyright 2017 SOEN341 Project.</div>

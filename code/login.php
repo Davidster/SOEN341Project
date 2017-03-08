@@ -8,8 +8,16 @@ $chat = new phpFreeChat($params);
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>personal page</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
 		<nav>
@@ -27,9 +35,6 @@ $chat = new phpFreeChat($params);
 				include ('php/index/contactPage.php');
 				include ('php/index/coursePage.php');
 			?>
-			<div id="livechat-page" style="display: block;">
-				<?php $chat->printChat(); ?>
-			</div>
 		</div>
 		<footer>
 			<div class="legal">SOEN 341 project, Winter 2017.</div>
