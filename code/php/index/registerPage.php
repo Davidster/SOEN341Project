@@ -18,5 +18,5 @@
 		Student
 		</br></br>	
 		<input type='submit' value = 'Submit' name='register'/>
-		</form>
+	</form>
 </div>
