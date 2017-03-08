@@ -13,7 +13,7 @@
 		$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
 		$found = mysqli_num_rows($query); //returns number of found rows
 
-		//entry is found
+		//checks if entry is found in TA TABLE
 		if($found == 1){
 			$row = mysqli_fetch_assoc($query);
 			$dbname = $row['tname'];
@@ -25,6 +25,27 @@
 			}
 			else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
 		}
+
+		//checks if entry is found in Student table
+		elseif($found == 0){
+			$dbsearch = "SELECT * FROM Student where email = '$email'";
+			$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
+			$found = mysqli_num_rows($query); //returns number of found rows
+			
+			if($found == 1){
+				$row = mysqli_fetch_assoc($query);
+				$dbname = $row['name'];
+				$dbpassword = $row['password'];
+				$dbusername = $row['email'];
+				//password is correct
+				if($password == $dbpassword){
+					header('location: login.php');
+				}
+				else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
+			}
+		}
+
+		//entry not found in Student and TA tables
 		else echo $nouserfound = "<h3> No such user found, please try again or register!</h3>";
 	}
 
