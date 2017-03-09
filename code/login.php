@@ -23,7 +23,7 @@ $chat = new phpFreeChat($params);
 		<nav>
 			<ul class="menu" id="menu">
 				<li pagetarget="home-page">Home</li>
-				<li pagetarget="login-page">Logout</li>
+				<li><a href = "php/index/logout.php">Logout</a></li>
 				<li pagetarget="contact-page">Contact</li>
 				<li pagetarget="course-page">Course Page</li>
 				<li pagetarget="livechat-page">Chat Test</li>
