@@ -19,10 +19,12 @@
 			$dbname = $row['tname'];
 			$dbpassword = $row['tpassword'];
 			$dbusername = $row['temail'];
+			$dbtid = $row['tid'];
 			//password is correct
 			if($password == $dbpassword){
 				$_SESSION['name'] = $dbname;
 				$_SESSION['username'] = $dbusername;
+				$_SESSION['tid'] = $dbtid;
 				header('location: login.php');
 			}
 			else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
@@ -39,10 +41,12 @@
 				$dbname = $row['name'];
 				$dbpassword = $row['password'];
 				$dbusername = $row['email'];
+				$dbsid = $row['sid'];
 				//password is correct
 				if($password == $dbpassword){
 					$_SESSION['name'] = $dbname;
 					$_SESSION['username'] = $dbusername;
+					$_SESSION['sid'] = $dbsid;
 					header('location: login.php');
 				}
 				else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
