@@ -1,9 +1,9 @@
 <?php
 	session_start();
 	require_once 'sql_connect.php';
-	require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
-	$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
-	$chat = new phpFreeChat($params);
+	//require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
+	//$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
+	//$chat = new phpFreeChat($params);
 	//authentification
 	if(isset($_POST['logbtn'])){
 		$email = $_POST['email'];
@@ -84,7 +84,7 @@
 				<li pagetarget="contact-page">Contact</li>
 				<li pagetarget="course-page">Course Page</li>
 				<li pagetarget="about-page">About</li>
-				<li pagetarget="livechat-page">Chat Test</li>
+				<!--<li pagetarget="livechat-page">Chat Test</li>-->
 			</ul>
 		</nav>
 		<div id="page-content">

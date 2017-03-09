@@ -3,6 +3,7 @@ session_start();
 require_once 'sql_connect.php';
 require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
 $params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
+$params["nick"] = $_SESSION['name'];
 $chat = new phpFreeChat($params);
 
 //check if TA user is logged in
@@ -53,12 +54,17 @@ if(isset($_SESSION['tid'])){
 				include ('php/index/coursePage.php');
 				include ('php/index/groups.php');
 			?>
+			    
+			<div id="livechat-page" style="display: block;">
+				<?php $chat->printChat(); ?>
+			</div>
+				
 		</div>
-		<footer>
+		<!--<footer>
 			<div class="legal">SOEN 341 project, Winter 2017.</div>
 			<div class="legal">Copyright 2017 SOEN341 Project.</div>
 			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
 
-		</footer>
+		</footer>-->
 	</body>
 </html>

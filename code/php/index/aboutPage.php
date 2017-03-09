@@ -19,7 +19,7 @@
                 </div>
                 
 			</div>
-			<div id="livechat-page" style="display: block;">
+			<!--<div id="livechat-page" style="display: block;">
 				<?php $chat->printChat(); ?>
-			</div>
+			</div>-->
 		</div>
