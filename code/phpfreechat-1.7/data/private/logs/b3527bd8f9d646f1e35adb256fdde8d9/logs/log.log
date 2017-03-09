@@ -1,2 +1,45 @@
 ch_My room	06/03/2017	20:57:51		mike joins My room
 ch_My room	07/03/2017	13:10:17		mike joins My room
+ch_My room	09/03/2017	12:48:29		mike joins My room
+ch_My room	09/03/2017	12:49:10		mike joins My room
+ch_My room	09/03/2017	12:53:35		mike joins My room
+ch_My room	09/03/2017	13:06:35		mike joins My room
+ch_My room	09/03/2017	13:08:40		Michael Myers joins My room
+ch_My room	09/03/2017	13:08:43	Michael Myers	mike quit (timeout)
+ch_My room	09/03/2017	13:09:37		Michael Myers joins My room
+ch_My room	09/03/2017	13:10:49		Michael Myers joins My room
+ch_My room	09/03/2017	13:26:36		nick joins My room
+	09/03/2017	13:27:59		s
+	09/03/2017	13:28:01		s
+	09/03/2017	13:28:01		s
+	09/03/2017	13:28:02		s
+	09/03/2017	13:28:02		s
+ch_My room	09/03/2017	13:28:25		Michael Myers joins My room
+ch_My room	09/03/2017	13:28:48		nick joins My room
+ch_My room	09/03/2017	13:28:55	nick	hello
+ch_My room	09/03/2017	13:29:07	Michael Myers	ji
+ch_My room	09/03/2017	13:29:57	nick	Michael Myers quit (timeout)
+ch_My room	09/03/2017	13:31:09		nick joins My room
+ch_My room	09/03/2017	13:45:19		nick joins My room
+ch_My room	09/03/2017	13:47:07		nick joins My room
+ch_My room	09/03/2017	13:47:57		Michael Myers joins My room
+ch_My room	09/03/2017	13:48:06	nick	hey 
+ch_My room	09/03/2017	13:48:13	Michael Myers	Yo It's me
+ch_My room	09/03/2017	13:48:26	nick	this is cool
+ch_My room	09/03/2017	13:48:30	Michael Myers	Cool it works
+ch_My room	09/03/2017	13:48:38	nick	so you have to be logged in to chat now
+ch_My room	09/03/2017	13:48:56	nick	tahts nice good job
+ch_My room	09/03/2017	13:49:10	Michael Myers	Well sort of I still need to do some stuff
+ch_My room	09/03/2017	13:49:34	nick	hope we dont have too much merge conflicts
+ch_My room	09/03/2017	13:49:48	Michael Myers	Like if you go on http://users.encs.concordia.ca/~m_shifr/login.php without login you will **** it up
+ch_My room	09/03/2017	13:50:23	nick	yeah i see. there must be an easy way to prevent that
+ch_My room	09/03/2017	13:51:28	Michael Myers	I think I can check if $_SESSION['user'] isset if not redirect to index.php
+ch_My room	09/03/2017	13:51:42	nick	check this out
+ch_My room	09/03/2017	13:51:43	nick	http://stackoverflow.com/questions/33999475/prevent-direct-url-access-to-php-file
+ch_My room	09/03/2017	13:52:56	nick	which should i work on first.. file upload or class division
+ch_My room	09/03/2017	13:53:11	nick	i think class division because all others depend on it
+ch_My room	09/03/2017	13:54:17	Michael Myers	Yea only now Saishan can start working on classes she'll need to upload info onto the database about the peraon's different classes
+ch_My room	09/03/2017	13:54:35	Michael Myers	*person's
+ch_My room	09/03/2017	13:55:19	nick	allright yeah working on that rn 
+ch_My room	09/03/2017	13:55:23	nick	c ya
+ch_My room	09/03/2017	13:55:38	Michael Myers	Peace
