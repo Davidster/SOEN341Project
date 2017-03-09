@@ -51,6 +51,7 @@ if(isset($_SESSION['tid'])){
 				include ('php/index/homepage.php');
 				include ('php/index/contactPage.php');
 				include ('php/index/coursePage.php');
+				include ('php/index/groups.php');
 			?>
 		</div>
 		<footer>

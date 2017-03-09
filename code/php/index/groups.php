@@ -2,7 +2,7 @@
 
 ?>
 
-<div id="about-page" style="display: none;">
+<div id="groups" style="display: none;">
 <?php
 
 echo "ta stuff";
