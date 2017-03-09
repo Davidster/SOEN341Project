@@ -33,7 +33,10 @@ if(isset($_SESSION['tid'])){
 				<li pagetarget="home-page">Home</li>
 				
 				<li pagetarget="contact-page">Contact</li>
-				<li pagetarget="course-page">Course Page</li>
+				<?php 
+				//only Students will have access
+				if(!$TA) echo "<li pagetarget='course-page'>Course Page</li>";
+				?>
 				<li pagetarget="livechat-page">Chat Test</li>
 				<?php
 				//only TAs will have access
