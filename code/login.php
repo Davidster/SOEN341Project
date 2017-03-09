@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'sql_connect.php';
 require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
 $params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
@@ -23,7 +24,7 @@ $chat = new phpFreeChat($params);
 		<nav>
 			<ul class="menu" id="menu">
 				<li pagetarget="home-page">Home</li>
-				<li pagetarget="login-page">Logout</li>
+				<li><a href = "logout.php">Logout</a></li>
 				<li pagetarget="contact-page">Contact</li>
 				<li pagetarget="course-page">Course Page</li>
 				<li pagetarget="livechat-page">Chat Test</li>
@@ -31,6 +32,8 @@ $chat = new phpFreeChat($params);
 		</nav>
 		<div id="page-content">
 			<?php 
+				echo $_SESSION['name']. "</br>";
+				echo $_SESSION['username'];
 				include ('php/index/homepage.php');
 				include ('php/index/contactPage.php');
 				include ('php/index/coursePage.php');

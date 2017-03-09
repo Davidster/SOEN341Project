@@ -1,9 +1,9 @@
 <?php
+	session_start();
 	require_once 'sql_connect.php';
 	require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
 	$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
 	$chat = new phpFreeChat($params);
-	//include ("loginForm.php");
 	//authentification
 	if(isset($_POST['logbtn'])){
 		$email = $_POST['email'];
@@ -21,6 +21,8 @@
 			$dbusername = $row['temail'];
 			//password is correct
 			if($password == $dbpassword){
+				$_SESSION['name'] = $dbname;
+				$_SESSION['username'] = $dbusername;
 				header('location: login.php');
 			}
 			else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
@@ -39,6 +41,8 @@
 				$dbusername = $row['email'];
 				//password is correct
 				if($password == $dbpassword){
+					$_SESSION['name'] = $dbname;
+					$_SESSION['username'] = $dbusername;
 					header('location: login.php');
 				}
 				else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
