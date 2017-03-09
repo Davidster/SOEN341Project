@@ -5,6 +5,12 @@ require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
 $params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
 $params["nick"] = $_SESSION['name'];
 $chat = new phpFreeChat($params);
+
+//check if TA user is logged in
+$TA= false;
+if(isset($_SESSION['tid'])){
+	$GLOBALS['TA'] = true;
+}
 ?>
 
 <!DOCTYPE html>
@@ -25,19 +31,31 @@ $chat = new phpFreeChat($params);
 		<nav>
 			<ul class="menu" id="menu">
 				<li pagetarget="home-page">Home</li>
-				<li><a href = "logout.php">Logout</a></li>
+				
 				<li pagetarget="contact-page">Contact</li>
-				<li pagetarget="course-page">Course Page</li>
+				<?php 
+				//only Students will have access
+				if(!$TA) echo "<li pagetarget='course-page'>Course Page</li>";
+				?>
 				<li pagetarget="livechat-page">Chat Test</li>
+				<?php
+				//only TAs will have access
+				if($TA) echo "<li pagetarget='groups'>My class</li>";
+				?>
+				<li><a href = "logout.php">Logout</a></li>
 			</ul>
 		</nav>
 		<div id="page-content">
 			<?php 
 				echo $_SESSION['name']. "</br>";
-				echo $_SESSION['username'];
+				echo $_SESSION['username']. "</br>";
+				if($TA) echo $_SESSION['tid'];
+				else echo $_SESSION['sid'];
+
 				include ('php/index/homepage.php');
 				include ('php/index/contactPage.php');
 				include ('php/index/coursePage.php');
+				include ('php/index/groups.php');
 			?>
 			    
 			<div id="livechat-page" style="display: block;">

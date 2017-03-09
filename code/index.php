@@ -19,10 +19,12 @@
 			$dbname = $row['tname'];
 			$dbpassword = $row['tpassword'];
 			$dbusername = $row['temail'];
+			$dbtid = $row['tid'];
 			//password is correct
 			if($password == $dbpassword){
 				$_SESSION['name'] = $dbname;
 				$_SESSION['username'] = $dbusername;
+				$_SESSION['tid'] = $dbtid;
 				header('location: login.php');
 			}
 			else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
@@ -39,10 +41,12 @@
 				$dbname = $row['name'];
 				$dbpassword = $row['password'];
 				$dbusername = $row['email'];
+				$dbsid = $row['sid'];
 				//password is correct
 				if($password == $dbpassword){
 					$_SESSION['name'] = $dbname;
 					$_SESSION['username'] = $dbusername;
+					$_SESSION['sid'] = $dbsid;
 					header('location: login.php');
 				}
 				else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
@@ -109,14 +113,23 @@
 
 					//check if passwords are exact
 					if($password == $repassword){	
+						//check if id is enrolled in class table
+						$checkclass = "SELECT * from SOEN341 where sid = '$id'";
+						$query = mysqli_query($dbc, $checkclass); //pass this query to our db
+						$enrolled = mysqli_num_rows($query); //returns number of found rows
+
+					//checks if entry is found in class TABLE
+						if($enrolled == 1){
 						$register = "INSERT INTO Student (sid, name, password, email) VALUES ('$id','$name','$password', '$email')";
 
-						if(mysqli_query($dbc, $register)){
-							$success = "<h2>Record created successfully!</h2>";
-						}
-						else{
+							if(mysqli_query($dbc, $register)){
+								$success = "<h2>Record created successfully!</h2>";
+							}
+							else{
 							echo "<h2> Sorry. This Concordia ID is already registered in the system</h2>";
+							}
 						}
+						else echo "<h2> Sorry, you are not enrolled for this class! </h2>";
 					}
 					else{
 						$passdontmatch = "<h2> The passwords you entered do not match. Try again.</h2>";
