@@ -82,7 +82,6 @@
 				<li pagetarget="register-page">Create Account</li>
 				<li pagetarget="login-page">Login</li>
 				<li pagetarget="contact-page">Contact</li>
-				<li pagetarget="course-page">Course Page</li>
 				<li pagetarget="about-page">About</li>
 				<!--<li pagetarget="livechat-page">Chat Test</li>-->
 			</ul>
@@ -93,7 +92,6 @@
 				include ('php/index/registerPage.php');
 				include ('php/index/loginForm.php');
 				include ('php/index/contactPage.php');
-				include ('php/index/coursePage.php');
 				include ('php/index/aboutPage.php');
 			?>
 			 <?php 

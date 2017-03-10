@@ -40,7 +40,7 @@ if(isset($_SESSION['tid'])){
 				<li pagetarget="livechat-page">Chat Test</li>
 				<?php
 				//only TAs will have access
-				if($TA) echo "<li pagetarget='groups'>My class</li>";
+				if($TA) echo "<li pagetarget='course-page'>My class</li>";
 				?>
 				<li><a href = "logout.php">Logout</a></li>
 			</ul>
@@ -56,6 +56,8 @@ if(isset($_SESSION['tid'])){
 				include ('php/index/contactPage.php');
 				include ('php/index/coursePage.php');
 				include ('php/index/groups.php');
+				include ('php/index/myprofile.php')
+				
 			?>
 			    
 			<div id="livechat-page" style="display: block;">
