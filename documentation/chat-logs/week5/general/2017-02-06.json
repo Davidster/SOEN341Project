@@ -1,0 +1,1021 @@
+[
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Hey sorry I havent been really active this weekend, I had a midterm and 2 assignement to finish,",
+        "ts": "1486394511.000054"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Im willing to learn it too!!",
+        "ts": "1486394519.000055"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Same here! Sorry i will catch up",
+        "ts": "1486394532.000056"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Looking at the front end code now\n",
+        "ts": "1486405045.000057"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ok guys let me do the css at least",
+        "ts": "1486405529.000058",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Of the index",
+        "ts": "1486405538.000059"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I put a new user story, student profile check it out",
+        "ts": "1486405563.000060"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hm also the 5mb db works",
+        "ts": "1486405603.000061"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "We can access through phpmyadmin which is just a gui for mysql",
+        "ts": "1486405640.000062"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Meaning? What should I do in particular",
+        "ts": "1486405677.000063"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "And which user story did u add",
+        "ts": "1486405683.000064"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ive created a bunch of tables and am now working on the high-level design",
+        "ts": "1486405686.000065",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Student profile",
+        "ts": "1486405727.000066"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "So a student can use the website for many projects say from different classes",
+        "ts": "1486405754.000067"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ohh i see",
+        "ts": "1486405823.000068"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "The high level design is the backend?",
+        "ts": "1486405838.000069"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "But do we actually want students using this for different projects?",
+        "ts": "1486405856.000070"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Why not? Out of 5 classes, students often have 1-2 project per semester",
+        "ts": "1486406026.000071"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "But only one TA...",
+        "ts": "1486406057.000072"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Marking scheme for sprint 2 is not out yet so its tough to say",
+        "ts": "1486406061.000073"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I thinm one website per course per TA",
+        "ts": "1486406076.000074"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Am confused",
+        "ts": "1486407288.000075"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "What can i do to help",
+        "ts": "1486409304.000076"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I still think user stories need refinement",
+        "ts": "1486409815.000077"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I cant tell what it is i feel were missing something",
+        "ts": "1486409845.000078"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I have a problem",
+        "ts": "1486410220.000079"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Using git i cant push",
+        "ts": "1486410221.000080"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VSA7GPK|alexrobert> uploaded a file: <https:\/\/soen341project.slack.com\/files\/alexrobert\/F41LJ7C02\/img_20170206_144749.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F41LJ7C02",
+            "created": 1486410496,
+            "timestamp": 1486410496,
+            "name": "IMG_20170206_144749.jpg",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3VSA7GPK",
+            "editable": false,
+            "size": 4633914,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F41LJ7C02\/img_20170206_144749.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F41LJ7C02\/download\/img_20170206_144749.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41LJ7C02-461839e8ed\/img_20170206_144749_64.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41LJ7C02-461839e8ed\/img_20170206_144749_80.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41LJ7C02-461839e8ed\/img_20170206_144749_360.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41LJ7C02-461839e8ed\/img_20170206_144749_480.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41LJ7C02-461839e8ed\/img_20170206_144749_160.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41LJ7C02-461839e8ed\/img_20170206_144749_720.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41LJ7C02-461839e8ed\/img_20170206_144749_960.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F41LJ7C02-461839e8ed\/img_20170206_144749_1024.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 4160,
+            "original_h": 2340,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/alexrobert\/F41LJ7C02\/img_20170206_144749.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F41LJ7C02-ae9067e3ed",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3VSA7GPK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3VSA7GPK|alexrobert>",
+        "bot_id": null,
+        "ts": "1486410500.000081"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I tried to do some test changes to the css file but it was a headache pushing it",
+        "ts": "1486410810.000082"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Eek",
+        "ts": "1486412742.000085"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Never seen that error message before, did you try typing 'yes' and hitting enter?",
+        "ts": "1486412765.000086"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "You should try to google search that error message",
+        "ts": "1486412806.000087"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Ah I see",
+        "ts": "1486412856.000088"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "The solution is that you need to tell git exactly what branch your pushing",
+        "ts": "1486412881.000089"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "`git push origin {branch name}`",
+        "ts": "1486412907.000090"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ill try this at home",
+        "ts": "1486413021.000091"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Thank you",
+        "ts": "1486413025.000092"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<@U3WD98GTC> this DB manager site is cool!",
+        "ts": "1486416584.000093"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Class, Project, Student, TA - looks good to me",
+        "ts": "1486416599.000094"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "will we be able to easily alter the schema once we've entered some data? just out of curiosity",
+        "ts": "1486416635.000095"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yes; for sure thats not  the final schema",
+        "ts": "1486419373.000096"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I still want to ask the teacher for a db host because the current db were using doesnt allow access through ssh which id rather work with",
+        "ts": "1486419618.000097"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yea ssh gives you full control right?",
+        "ts": "1486419641.000098"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "not just an interface",
+        "ts": "1486419648.000099"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "regarding the user stories, how about changing \"As a teacher assistant, I want to be able to see which team members are online\n\twhen I am communicating with a group through the private chat system, so that I can keep track of\n\tthe members that are participating. \" with \"As a teacher assistant, I want to be able to keep track of each team members' contribution. \"",
+        "ts": "1486420395.000100"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "since there is already a user story for the communication",
+        "ts": "1486420421.000101"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I like the second one",
+        "ts": "1486420439.000102"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Straight to the point",
+        "ts": "1486420446.000103"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "just read through the others first cuz i think there's already one very similar to that",
+        "ts": "1486420465.000104"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "we have a lot of similar user stories",
+        "ts": "1486420513.000105"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "trying to combine the ones that can be combine together",
+        "ts": "1486420526.000106"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think we should split different ideas apart rather than combine together",
+        "ts": "1486420547.000107"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "cuz then taking on a user story is less of a daunting task",
+        "ts": "1486420558.000108"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "but I like the change u suggested above",
+        "ts": "1486420565.000109"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "what im saying is that some of the user stories do not have any issue associated with",
+        "ts": "1486420583.000110"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "4)(no issue associated) As a teacher assistant, I want to be able to track the progress of a team's project and record the \ncontribution of each team member, in order to evaluate every participant fairly.",
+        "ts": "1486420660.000111"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "oh I see",
+        "ts": "1486420943.000112"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I didn't notice",
+        "ts": "1486420947.000113"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so we should add issue(s) to make sure that's satisfied",
+        "ts": "1486420976.000114"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "BTW I just submitted a pull request. If you want to see what my changes look like before merging, u can `git pull`, `git checkout david`, then open up `index.html`",
+        "ts": "1486421020.000115"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ok",
+        "ts": "1486421099.000116"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i modified the userstories txt file",
+        "ts": "1486421100.000117"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "just trying to upload it",
+        "ts": "1486421108.000118"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "through a pull request",
+        "ts": "1486421115.000119"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "I merged your pull request",
+        "ts": "1486421258.000120"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I submitted a pull request too for the user stories",
+        "ts": "1486421603.000121"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Reading",
+        "ts": "1486422351.000122"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I like that u put the labels in there",
+        "ts": "1486422360.000123"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i didn't make a lot of changes",
+        "ts": "1486422551.000124"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "6b is very similar to 4",
+        "ts": "1486422569.000125"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Do u agree?",
+        "ts": "1486422573.000126"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "I was just about to say it",
+        "ts": "1486422587.000127"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "thats the same basically",
+        "ts": "1486422596.000128"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think 6b can be removed completely",
+        "ts": "1486422602.000129"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "yes",
+        "ts": "1486422614.000130"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I left both of them there",
+        "ts": "1486422622.000131"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "but one has to be remove for sure",
+        "ts": "1486422638.000132"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I just didnt want to remove stuff",
+        "ts": "1486422653.000133"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "we could modify the issue associated with 6b and put 4 instead",
+        "ts": "1486422714.000134"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "thats my suggestion",
+        "ts": "1486422721.000135"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Okay so make the change on ur branch so the pull request gets updated",
+        "ts": "1486422784.000136"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "ok",
+        "ts": "1486422801.000137"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "do you guys wanna keep",
+        "ts": "1486422847.000138"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "the",
+        "ts": "1486422847.000139"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "The thing is that I think that 6b and 4 are different in terms of issues",
+        "ts": "1486422856.000140"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ok guys what do you think of tge last issue i posted because me and alex werent on the same page",
+        "ts": "1486422863.000141"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "to track the progress of a team's project",
+        "ts": "1486422863.000142"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "or features lets say",
+        "ts": "1486422865.000143"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "how about",
+        "ts": "1486422953.000144"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "this one \" As a teacher assistant, I want to be able to create groups without having to contact the students via Moodle or email address. \"",
+        "ts": "1486422963.000145"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I think it is not necessary because it's one website for our TA and that's it, there is one project only. what do you think?",
+        "ts": "1486422983.000146"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I think that the issu \"view group page\"",
+        "ts": "1486423028.000147"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "issue",
+        "ts": "1486423033.000148"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "is the same thing",
+        "ts": "1486423043.000149"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "we could remove it",
+        "ts": "1486423053.000150"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "yeah that's the one <@U3WD98GTC> and I had different opinions",
+        "ts": "1486423056.000151"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i mean",
+        "ts": "1486423064.000152"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "As a teacher assistant, I want to be able to track the \n\tcontribution of each team member, in order to evaluate every participant fairly.",
+        "ts": "1486423098.000153"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i would put this one as the 6th",
+        "edited": {
+            "user": "U3XFMDQ2J",
+            "ts": "1486423125.000000"
+        },
+        "ts": "1486423109.000154"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<@U3WD98GTC> I think the issue is fine",
+        "ts": "1486423133.000156"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<@U3WD98GTC> same",
+        "ts": "1486423170.000157"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "What was your concern, <@U3VSA7GPK> ?",
+        "ts": "1486423199.000158"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Oh nvm I see ur message",
+        "ts": "1486423241.000159"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think we should definitely generalize application so it can be used for any course",
+        "ts": "1486423304.000160"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "If we write the website so the functionality is specific to SOEN 341 only, then I agree that each student would only have 1 project",
+        "ts": "1486423345.000161"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "But the fundamental idea of our project as <@U3VNUBS1X> had originally suggested was to have it be a general tool for students of any class",
+        "ts": "1486423383.000162"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "*So we should decide, is our site just for SOEN 341 or general for all classes?*",
+        "ts": "1486423412.000163"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I like the fact that it could be use for all classes",
+        "ts": "1486423464.000164"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Aha so the question is basically do we make hard or easy",
+        "ts": "1486423473.000165"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "it*",
+        "ts": "1486423485.000166"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "But I agree that the project would more interesting if we make the website useful for all classes with projects <#C3W8W4TEF|general>",
+        "ts": "1486423549.000167"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I actually don't think it affects the difficulty very much",
+        "ts": "1486423614.000168"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "If not then we should make it for all classes",
+        "ts": "1486423652.000169"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Doesnt affect difficulty that kuch",
+        "ts": "1486424269.000170"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Much*",
+        "ts": "1486424273.000171"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Cuz if we do it for 341 we have to add more class specific functionality, like sprint evaluations",
+        "ts": "1486424310.000172"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Anyways I vote for general based on my software developer instincts :)",
+        "ts": "1486424346.000173"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Ah with ur most recent commit, u made it good",
+        "ts": "1486424916.000175"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Gunna merge",
+        "ts": "1486424919.000176"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "like its better to think simple, what I mean by simple; lets do things that we can do easily or relaxed, or things that we can learn easily like jquery and produce something and also something that might be useful for TA for other classes, for proffessor for Concordia and for our CV.",
+        "ts": "1486428715.000178"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "It just makes much more sense imo for the website to be a tool for TAs to use not just one guy",
+        "ts": "1486433111.000179"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "We can ask the teacher tommorow if our product has to be marketable, if so then def go for for many TAs case",
+        "ts": "1486433166.000180"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I mean I dont care if we do it for many TA, it just requires more work in my opinion",
+        "ts": "1486433194.000181"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Btw <@U3WD63E7N>  did the teacher reply to your email?",
+        "ts": "1486433201.000182"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "your idea is good <@U3WD98GTC> but idk if we have time to do all this",
+        "ts": "1486433212.000183"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I was gonna say, he still hasn't responded :\/",
+        "ts": "1486433356.000184"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "<@U3WD63E7N>  I like what you did with the side looks much neater",
+        "ts": "1486433405.000185"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "what code editor are you using?",
+        "ts": "1486433428.000186"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yep, now you don't need to add js code to add new pages",
+        "ts": "1486433447.000187"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I use sublime text but I'm going to switch to intelliJ once the project gets more complex",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1486433552.000000"
+        },
+        "ts": "1486433487.000188"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "(if you guys haven't activated ur free license for intelliJ Ultimate edition, ur making a big mistake)",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1486433527.000000"
+        },
+        "ts": "1486433517.000189"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "good idea",
+        "ts": "1486433533.000191"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "that's an IDE do you recommend using one? I'm hesitant to start using an IDE",
+        "ts": "1486433567.000193"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Sublime is more than good enough as of right now",
+        "ts": "1486433594.000194"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "But a full blown website with a Java backend and maven integration is much better with an IDE",
+        "ts": "1486433623.000195"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Mainly due to code refactoring and enhanced code completion features",
+        "ts": "1486433696.000196"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "This discussion should be done in <#C3WDG3ESZ|random> lol",
+        "ts": "1486433750.000197"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "true",
+        "ts": "1486433842.000198"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Btw <@U3VNUBS1X> I agree that everything should be kept as simple as possible - we really should not be ambitious with this project or we'll never finish",
+        "ts": "1486433844.000199"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yea the user stories seem crazy",
+        "ts": "1486433914.000200"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "I think we should tackle the user stories together to refine them",
+        "ts": "1486433979.000201"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "and once they are made split the work",
+        "ts": "1486433995.000202"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "the user stories should be dealt with one at a time in increasing order of issue number",
+        "ts": "1486434059.000203"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Something we really need to do ASAP is set up some sort of php code to work with",
+        "ts": "1486436005.000204"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "is there anybody who's particularly comfortable with php? I've never used it but if nobody else wants to I'll try to set it up",
+        "ts": "1486436047.000205"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "we need to set up our link to the DB via php as fast as possible so that we can complete the user account creation user story",
+        "ts": "1486436106.000206"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Me",
+        "ts": "1486436127.000207"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Kinda",
+        "ts": "1486436131.000208"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I will try tommorow",
+        "ts": "1486436139.000209"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "that would be awesome, thank you",
+        "ts": "1486436149.000210"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": ":+1: ",
+        "ts": "1486436159.000211"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "hey guys, I've added a todo list to the repository in order to break down the user stories",
+        "ts": "1486440689.000212"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<https:\/\/github.com\/Davidster\/SOEN341Project\/blob\/master\/documentation\/tasklist.md>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Davidster\/SOEN341Project",
+                "title_link": "https:\/\/github.com\/Davidster\/SOEN341Project\/blob\/master\/documentation\/tasklist.md",
+                "text": "SOEN341Project - Github repository for holding SOEN 341 group project",
+                "fallback": "GitHub: Davidster\/SOEN341Project",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/2389735?v=3&s=400",
+                "from_url": "https:\/\/github.com\/Davidster\/SOEN341Project\/blob\/master\/documentation\/tasklist.md",
+                "thumb_width": 420,
+                "thumb_height": 420,
+                "service_icon": "https:\/\/github.com\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1486440691.000213"
+    }
+]

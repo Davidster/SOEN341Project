@@ -1,0 +1,414 @@
+[
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "What's the plan for tomorrow?",
+        "ts": "1486066543.000338"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ace the quiz, meet at 1pm, see TA refine stories, breakdown into tasks, talk design and architecture, start v1",
+        "ts": "1486068054.000339"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "sounds good",
+        "ts": "1486068230.000340"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Good",
+        "ts": "1486068529.000341"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yea sounds good",
+        "ts": "1486074939.000342"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i feel like the work load will be insane with our user stories I'll meantion to the TA our current technical knowledge",
+        "ts": "1486074999.000343"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yea man this project is going to be hard lol",
+        "ts": "1486075022.000344"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "unless we find a SUPER easy to implement open source library for creating live chat apps....",
+        "ts": "1486075049.000345"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "that would take away like 80% of the workload ^^",
+        "ts": "1486075063.000346"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "the previous semester they had to do a schedual generator that seems like a joke compared to our requirements.",
+        "ts": "1486075190.000347"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Hmmm we should rank our user stories in order of difficulty, from easiest to gardest",
+        "ts": "1486075204.000348"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Hardest",
+        "ts": "1486075207.000349"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "in class the teacher said that each user story should doable in a 1-2 week sprint",
+        "ts": "1486075249.000350"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "if the task is too complexe it is called an EPIC and it should broken down into a few user stories that can done in 1-2 weeks",
+        "ts": "1486075301.000351"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "example of EPIC he used is backing up a whole hard drive",
+        "ts": "1486075336.000352"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think that there's a big difference between the coding effort required for this project in the eyes of the prof and the TA",
+        "ts": "1486075409.000353"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Me definitely need a talk after tutorial tomorrow",
+        "ts": "1486075414.000354"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "We",
+        "ts": "1486075422.000355"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yea for sure",
+        "ts": "1486075427.000356"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "i'll be free",
+        "ts": "1486075436.000357"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Same",
+        "ts": "1486075440.000358"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "we need to talk to the TA about it aswell",
+        "ts": "1486075444.000359"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I remember the prof saying in class something along the lines of: \"You won't be able to recreate moodle for this project - it's too hard\"",
+        "ts": "1486075595.000360"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "exactly",
+        "ts": "1486075613.000361"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Then the TA said something along the lines of: \"The project you guys will be working on will be like moodle\"",
+        "ts": "1486075614.000362"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "lmao",
+        "ts": "1486075618.000363"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "It is a fact that tutorials and lectures are not sync",
+        "ts": "1486075644.000364"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Well we can always modify the user stories right?",
+        "ts": "1486075663.000365"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "According to the client",
+        "ts": "1486075673.000366"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "ya I got the impression that he was sort of validating out user stories tomorrow",
+        "ts": "1486075691.000367"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so if anything we change them after the tutorial then were ready for the sprint.. hopefully",
+        "ts": "1486075706.000368"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Can we meet before like at 1pm sharp because i have another tutorial that starts at 2:15",
+        "ts": "1486078307.000369"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "fine by me, but were almost definitely going to need to discuss some things as a group after the tutorial",
+        "ts": "1486078407.000370"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "we would obviously fill you in if you miss anything",
+        "ts": "1486078426.000371"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ok cool",
+        "ts": "1486078486.000372"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "For communication our stories dont specify live chat",
+        "ts": "1486078542.000373"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "So just a static message inbox is pretty simple ive done it last semester",
+        "ts": "1486078574.000374"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Live chat would need ajax stuff which idk anything about",
+        "ts": "1486078618.000375"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yep that would be way better",
+        "ts": "1486078651.000376"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think either way were gunna have some ajax",
+        "ts": "1486078662.000377"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "And yeah i feel like 2 weeks is a ridiculously short window to get started",
+        "ts": "1486078667.000378"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "im comfortable with it",
+        "ts": "1486078669.000379"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah at some point youre right",
+        "ts": "1486078707.000380"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "one thing that definitely confused me, is that the first part of a project is not iterative cuz ur building the platform itself",
+        "ts": "1486078718.000381"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "like the skeleton",
+        "ts": "1486078729.000382"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Haha",
+        "ts": "1486078738.000383"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "you can't really write a user story like",
+        "ts": "1486078750.000384"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "As a user I want to be aware that theres an apache Server running on a remote VM so that the website can be served to users",
+        "ts": "1486078786.000385"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it doesn't make sense",
+        "ts": "1486078793.000386"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "anyways hopefully our TA will clear everything up for us",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1486599022.000000"
+        },
+        "ts": "1486078806.000387"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Haha yeah like last semester for comp353 we had a server and database set up for us and it took us a month just to connect all the ends together and deploy our website",
+        "ts": "1486079037.000390"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Now we have 2 weeks to do this and a couple of features",
+        "ts": "1486079126.000391"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "its pretty messed up",
+        "ts": "1486079309.000392"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "its a good thing u took databases cuz were gunna want to use one to store the messages",
+        "ts": "1486079317.000393"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "im hoping we can use a NoSQL databse. I've heard they're more intuitive and easy to pick up",
+        "ts": "1486079351.000394"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yah i can be the database engineer. I worked with MySQL, ive heard about noSQL, theyre kinda similar",
+        "ts": "1486079862.000395"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "dope",
+        "ts": "1486080311.000396"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "anybody studying for the quiz?",
+        "ts": "1486088984.000397"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Yeaah",
+        "ts": "1486089116.000398"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "how are you studying?",
+        "ts": "1486089128.000399"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "wait let's switch to random",
+        "ts": "1486089142.000400"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Going through slides. What is waterfall model what is spiral model, advantages, disadvantages",
+        "ts": "1486089168.000401"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Things like that",
+        "ts": "1486089176.000402"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "If anybody has any past exam or quiz from same prof, please sharee :)",
+        "ts": "1486089212.000403"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Exactly",
+        "ts": "1486089213.000404"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Also im studying the last part of requirements",
+        "ts": "1486089225.000405"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Good vs bad user stories etc",
+        "ts": "1486089233.000406"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I didnt come over there yet",
+        "ts": "1486089248.000407"
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Thanks for letting me know <@U3WD63E7N> ",
+        "ts": "1486195340.000470",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Hello all, just wanted to let you know that I'll be out of town for next weekend, so I'll be missing our tutorial on Friday",
+        "ts": "1486239441.000471"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Thank you for letting us know",
+        "ts": "1486239562.000472"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Do we have a meeting with the TA next friday?",
+        "ts": "1486239578.000473"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yes every week to my understanding",
+        "ts": "1486242752.000474"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3WD63E7N|david.huculak> uploaded a file: <https:\/\/soen341project.slack.com\/files\/david.huculak\/F413F29V0\/reneemail.txt|ReneEmail.txt> and commented: Just emailed this message to the prof. regarding our website hosting as well as the whole Claudius situation. Posting it in case anybody is interested.",
+        "file": {
+            "id": "F413F29V0",
+            "created": 1486246929,
+            "timestamp": 1486246929,
+            "name": "ReneEmail.txt",
+            "title": "ReneEmail.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U3WD63E7N",
+            "editable": true,
+            "size": 1797,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F413F29V0\/reneemail.txt?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F413F29V0\/download\/reneemail.txt?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "permalink": "https:\/\/soen341project.slack.com\/files\/david.huculak\/F413F29V0\/reneemail.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F413F29V0-be59aa74ab",
+            "edit_link": "https:\/\/soen341project.slack.com\/files\/david.huculak\/F413F29V0\/reneemail.txt\/edit",
+            "preview": "Hello Sir,\r\n\r\nMy name is David Huculak (id: 27516495), and I am currently taking SOEN 341 with you. \r\n\r\nFor our team project, we are building a website and are currently looking into hosting options so as to allow the TA to view a live build of our project at any time with the click of a single link.\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>Hello Sir,<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>My name is David Huculak (id: 27516495), and I am currently taking SOEN 341 with you. <\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>For our team project, we are building a website and are currently looking into hosting options so as to allow the TA to view a live build of our project at any time with the click of a single link.<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 23,
+            "lines_more": 18,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc411EAMEX",
+                "created": 1486246929,
+                "timestamp": 1486246929,
+                "user": "U3WD63E7N",
+                "is_intro": true,
+                "comment": "Just emailed this message to the prof. regarding our website hosting as well as the whole Claudius situation. Posting it in case anybody is interested.",
+                "channel": ""
+            }
+        },
+        "user": "U3WD63E7N",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3WD63E7N|david.huculak>",
+        "bot_id": null,
+        "ts": "1486246929.000475"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Good",
+        "ts": "1486246989.000476"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Formatting strong",
+        "ts": "1486247085.000477"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yeah i know right haha",
+        "ts": "1486247137.000478"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Hopefully he responds before friday lol - otherwise we'll just use our password protected directory to show the TA what we have so far",
+        "ts": "1486247163.000479"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the one I talked about in <#C3WDG3ESZ|random>",
+        "ts": "1486247176.000480"
+    }
+]

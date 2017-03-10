@@ -1,0 +1,240 @@
+[
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "System.out.println(\"Test\");",
+        "ts": "1485532778.000002"
+    },
+    {
+        "user": "U3WS26PT3",
+        "text": "<@U3WS26PT3|mikel.shifrin> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485540456.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Hey guys so to recap, we need to have our first sprint + 6 user stories documented on our github repository for next Friday",
+        "ts": "1485545519.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Sprint #1 starts next Friday",
+        "ts": "1485545531.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "It will last two weeks",
+        "ts": "1485545536.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "For reference, here is the link to our repository: <https:\/\/github.com\/Davidster\/SOEN341Project>. Make sure to add yourself a bookmark on your browser :)",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Davidster\/SOEN341Project",
+                "title_link": "https:\/\/github.com\/Davidster\/SOEN341Project",
+                "text": "SOEN341Project - Github repository for holding SOEN 341 group project",
+                "fallback": "GitHub: Davidster\/SOEN341Project",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/2389735?v=3&s=400",
+                "from_url": "https:\/\/github.com\/Davidster\/SOEN341Project",
+                "thumb_width": 420,
+                "thumb_height": 420,
+                "service_icon": "https:\/\/github.com\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485545596.000005"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3XFMDQ2J|saishan> uploaded a file: <https:\/\/soen341project.slack.com\/files\/saishan\/F3WTHP4NM\/20170127_135920.jpg|Features>",
+        "file": {
+            "id": "F3WTHP4NM",
+            "created": 1485545657,
+            "timestamp": 1485545657,
+            "name": "20170127_135920.jpg",
+            "title": "Features",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3XFMDQ2J",
+            "editable": false,
+            "size": 2391890,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F3WTHP4NM\/20170127_135920.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F3WTHP4NM\/download\/20170127_135920.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3WTHP4NM-f9637f48fa\/20170127_135920_64.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3WTHP4NM-f9637f48fa\/20170127_135920_80.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3WTHP4NM-f9637f48fa\/20170127_135920_360.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360_w": 270,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3WTHP4NM-f9637f48fa\/20170127_135920_480.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_480_w": 360,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3WTHP4NM-f9637f48fa\/20170127_135920_160.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3WTHP4NM-f9637f48fa\/20170127_135920_720.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720_w": 540,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3WTHP4NM-f9637f48fa\/20170127_135920_960.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_960_w": 720,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F3WTHP4NM-f9637f48fa\/20170127_135920_1024.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_1024_w": 768,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 4032,
+            "original_h": 3024,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/saishan\/F3WTHP4NM\/20170127_135920.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F3WTHP4NM-909ab4419d",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "ok_hand",
+                    "users": [
+                        "U3WD63E7N"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U3XFMDQ2J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3XFMDQ2J|saishan>",
+        "bot_id": null,
+        "ts": "1485545663.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I'm going to create us a second repository for only practicing purposes - you guys can use it to practice the github commands, collaborating on files, branching, pull requests, etc ",
+        "ts": "1485545663.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Thx sai shan",
+        "ts": "1485545677.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "No problem!",
+        "ts": "1485545693.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Like I said before please everybody check slack at least once per day! If you have any questions about git or anything else, don't be shy to message me or ask questions in this general chat",
+        "ts": "1485545788.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<@U3WD98GTC> Don't forget to write up the notes in a file and push them to the repository. I recommend using the git commands via git bash to do this as opposed to using the buttons on the website to upload the file",
+        "ts": "1485546039.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "hey <@U3XFMDQ2J>, there's no need to fork the repository for this project. You should delete the repository you forked and simply create a new branch on the original one",
+        "ts": "1485547362.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the commands would be something along the lines of:",
+        "ts": "1485547465.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "`git clone git@github.com:Davidster\/SOEN341Project.git`",
+        "ts": "1485547487.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "`git branch newBranch`",
+        "ts": "1485547498.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "`git checkout newBranch`",
+        "ts": "1485547510.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "then you start editing the project files",
+        "ts": "1485547530.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "as per this site: <http:\/\/whatis.techtarget.com\/definition\/fork> you can see that forking is for creating a new project based on a previously existing one. In this case, you want to contribute to the project, not start a new one",
+        "attachments": [
+            {
+                "service_name": "WhatIs.com",
+                "title": "What is forking (software fork)? - Definition from WhatIs.com",
+                "title_link": "http:\/\/whatis.techtarget.com\/definition\/fork",
+                "text": "Forking is to take the source code from an open source software program and develop an entirely new program.",
+                "fallback": "WhatIs.com: What is forking (software fork)? - Definition from WhatIs.com",
+                "image_url": "http:\/\/cdn.ttgtmedia.com\/ITKE\/images\/logos\/TTlogo-379x201.png",
+                "from_url": "http:\/\/whatis.techtarget.com\/definition\/fork",
+                "image_width": 379,
+                "image_height": 201,
+                "image_bytes": 18052,
+                "service_icon": "http:\/\/whatis.techtarget.com\/apple-touch-icon-144x144.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485547779.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Here is the link for the practice repository I mentioned earlier: <https:\/\/github.com\/Davidster\/SOEN341PracticeRepo>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Davidster\/SOEN341PracticeRepo",
+                "title_link": "https:\/\/github.com\/Davidster\/SOEN341PracticeRepo",
+                "text": "SOEN341PracticeRepo - Repo for practicing git to make sure we don't mess up the real one",
+                "fallback": "GitHub: Davidster\/SOEN341PracticeRepo",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/2389735?v=3&s=400",
+                "from_url": "https:\/\/github.com\/Davidster\/SOEN341PracticeRepo",
+                "thumb_width": 420,
+                "thumb_height": 420,
+                "service_icon": "https:\/\/github.com\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485547993.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "sounds good!",
+        "ts": "1485564321.000002"
+    }
+]

@@ -1,0 +1,379 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hey :smiley:  hows the file upload story doing?",
+        "ts": "1489002190.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Didn't do shit yet",
+        "ts": "1489002220.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "And sprint 3 requirements are posted",
+        "ts": "1489002381.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Its pretty similar to sprint 2s",
+        "ts": "1489002401.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Lets shoot for 5\/5 this time :trophy: ",
+        "ts": "1489002439.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "O yea ",
+        "ts": "1489002449.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "for file upload I don't know how to make it visible only to team members",
+        "ts": "1489002587.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "No need to make the file itself visible to certain people",
+        "ts": "1489002679.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Maybe put the team ID in the filename",
+        "ts": "1489002691.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Or perhaps a separate file with a map of team IDs to filenames ",
+        "ts": "1489002725.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Just brainstormin",
+        "ts": "1489002731.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I see on the DB diagram that Nick created that projects have a `pid` associated to them",
+        "ts": "1489003188.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "So that can be maybe used as the ID I was talking about",
+        "ts": "1489003217.000014"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "What u think <@U3WD98GTC>  ?",
+        "ts": "1489003226.000015"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hum",
+        "ts": "1489003552.000016"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yes we can check for PIDs with a if condition to restrict display of a logged user with his active projects",
+        "ts": "1489003646.000017"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Dope",
+        "ts": "1489003663.000018"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I dont know how to work with the ui for file up\/down tho",
+        "ts": "1489003718.000019"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "U mean the MySQL UI?",
+        "ts": "1489003746.000020"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "No hum like where are there files going to be stored, how to access\/modify them",
+        "ts": "1489003817.000021"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Ah yea kk",
+        "ts": "1489003831.000022"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think it's fine to just have the final file location on our www directory",
+        "ts": "1489003868.000023"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "No, they will be stored in MySQL otherwise they will be accessible by all",
+        "ts": "1489003892.000024"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "That's probably the best practice",
+        "ts": "1489003929.000025"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "What's our storage limit on out DB?",
+        "ts": "1489003956.000026"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "100mb",
+        "ts": "1489003962.000027"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Kk",
+        "ts": "1489003978.000028"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "That's not very much space, but then again we only have 1GB maximum on our www directory",
+        "ts": "1489004026.000029"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Probably each of us has less than 700MB of space left on it, so it's not too much more",
+        "ts": "1489004080.000030"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I don't mind storing the uploaded files in the DB if Nick is OK with it",
+        "ts": "1489004099.000031"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "We'll just enforce a size limit of like 3mb on the files",
+        "ts": "1489004142.000032"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ill try :smiley: ",
+        "ts": "1489004162.000033"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "There's the data type called blob that u can use, correct?",
+        "ts": "1489004180.000034"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I think hes gonna ask if we put a chat filter",
+        "ts": "1489004192.000035"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah i just googled it",
+        "ts": "1489004200.000036"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Kk. Each project will have a set of uploaded files, and the site itself should also have a set of uploaded files that are visible to everybody",
+        "ts": "1489004290.000037"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "The live chat library were using already has a basic chat filter - no point making it extra sofistacated",
+        "ts": "1489004368.000038"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Allright",
+        "ts": "1489004418.000039"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "What do you mean by the site will have uploaded files. Like people can upload files for everyone to see? In that case those files can be stored in www",
+        "ts": "1489004430.000040"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I was under the impression that the TA could upload files such that all students could see them",
+        "ts": "1489006127.000041"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "that's what I meant by \"the site itself has a set of uploaded files\"",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1489006166.000000"
+        },
+        "ts": "1489006155.000042"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah",
+        "ts": "1489006205.000044"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "merged ur pull request <@U3WD98GTC>",
+        "ts": "1489006700.000045"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": " For upload files",
+        "ts": "1489025895.000046"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Do you want me to use ajax as front end",
+        "ts": "1489025907.000047"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "And ı also did some design stuff on the website will send a pull request after I do all the front end work",
+        "ts": "1489025952.000048",
+        "reactions": [
+            {
+                "name": "smile",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "ok guyss i put up a pull request. I created a personal page upon correct login and a logout button",
+        "ts": "1489025985.000049"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "if you want to test it out <https:\/\/users.encs.concordia.ca\/~m_shifr\/index.php>",
+        "ts": "1489026008.000050"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Will check it soon when ı arrive home",
+        "ts": "1489026025.000051"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "TA account: <mailto:michael@gmail.com|michael@gmail.com> password: Mike",
+        "ts": "1489026038.000052"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "is that what you were talking about earlier",
+        "ts": "1489026040.000053"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "?",
+        "ts": "1489026043.000054"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yep",
+        "ts": "1489026044.000055"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "after the request is merged you can start doing courses",
+        "ts": "1489026074.000056"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "yep!",
+        "ts": "1489026082.000057"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "ill be working on it",
+        "ts": "1489026095.000058"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "when you enter are the contact, home, chat test and course pages part of the student profile?",
+        "edited": {
+            "user": "U3XFMDQ2J",
+            "ts": "1489026225.000000"
+        },
+        "ts": "1489026135.000059"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yea they can be modified or taken off",
+        "ts": "1489026254.000061"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "ill let nick of david merge the pull and ill start working on it after",
+        "ts": "1489026297.000062"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "or*",
+        "ts": "1489026307.000063"
+    }
+]

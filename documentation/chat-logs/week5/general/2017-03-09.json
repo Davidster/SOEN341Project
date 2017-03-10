@@ -1,0 +1,355 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I merged it",
+        "ts": "1489082823.000065"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "cool",
+        "ts": "1489082829.000066"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I have a file table in our db",
+        "ts": "1489082842.000067"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Will test soon",
+        "ts": "1489082849.000068"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "To upload files** max size 2mb",
+        "ts": "1489082865.000069"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "alright we'll need it soon",
+        "ts": "1489082876.000070"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah working on it rn",
+        "ts": "1489082906.000071"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i'd like to test something can you go on <https:\/\/users.encs.concordia.ca\/~m_shifr\/login.php>",
+        "ts": "1489083114.000072"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "login as <mailto:nick@gmail.com|nick@gmail.com>",
+        "ts": "1489083121.000073"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "pass: nick",
+        "ts": "1489083126.000074"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "<@U3WD98GTC>",
+        "ts": "1489083163.000075"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hum i saw an error msg before being redirected",
+        "ts": "1489083171.000076"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "what did it say?",
+        "ts": "1489083211.000077"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Idk comment out the redirect because its redirecting before i can even read something",
+        "ts": "1489083265.000078"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "done",
+        "ts": "1489083314.000079"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hum still redirects or refreshs page",
+        "ts": "1489083455.000080"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "refreshes it's not possible it redirects.",
+        "ts": "1489083498.000081"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "when you log in you get a blank page?",
+        "ts": "1489083526.000082"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Warning session start",
+        "ts": "1489083560.000083"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "wtf",
+        "ts": "1489083575.000084"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Permission denied on index.php line 2",
+        "ts": "1489083592.000085"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Headers already sent",
+        "ts": "1489083611.000086"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Something about calling session starts when its already started",
+        "ts": "1489083651.000087"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Session_start(); has to be the very first line in the file",
+        "ts": "1489083702.000088"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Absolute beginning",
+        "ts": "1489083716.000089"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "it's not?",
+        "ts": "1489083732.000090"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Hey guys the TA also asked for a MVC and I came up with a draft but I'm really not sure about it so anyway feedback is welcomed ;)",
+        "ts": "1489088678.000091"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3WKEASEN|williamkingbede> uploaded a file: <https:\/\/soen341project.slack.com\/files\/williamkingbede\/F4GT0F2BG\/img_20170309_144443.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F4GT0F2BG",
+            "created": 1489088707,
+            "timestamp": 1489088707,
+            "name": "IMG_20170309_144443.jpg",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3WKEASEN",
+            "editable": false,
+            "size": 2877590,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4GT0F2BG\/img_20170309_144443.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4GT0F2BG\/download\/img_20170309_144443.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GT0F2BG-3acad3d509\/img_20170309_144443_64.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GT0F2BG-3acad3d509\/img_20170309_144443_80.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GT0F2BG-3acad3d509\/img_20170309_144443_360.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GT0F2BG-3acad3d509\/img_20170309_144443_480.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GT0F2BG-3acad3d509\/img_20170309_144443_160.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GT0F2BG-3acad3d509\/img_20170309_144443_720.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GT0F2BG-3acad3d509\/img_20170309_144443_960.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GT0F2BG-3acad3d509\/img_20170309_144443_1024.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 4160,
+            "original_h": 2340,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/williamkingbede\/F4GT0F2BG\/img_20170309_144443.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4GT0F2BG-33733c0690",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3WKEASEN",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3WKEASEN|williamkingbede>",
+        "bot_id": null,
+        "ts": "1489088711.000092"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "This is the draft (excuse my handwriting :sweat_smile:)",
+        "ts": "1489088746.000093"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I like it",
+        "ts": "1489089322.000094"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "looks good",
+        "ts": "1489101668.000095"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Do u guys know a software I could use to implement this graph ? ",
+        "ts": "1489102487.000096"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "If I remember well from 249 we used <http:\/\/draw.io|draw.io> ",
+        "ts": "1489102861.000097"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U3XFMDQ2J",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[March 9th, 2017 3:34 PM] williamkingbede: Do u guys know a software I could use to implement this graph ? ",
+                "ts": "1489102487.000096",
+                "author_subname": "williamkingbede",
+                "channel_id": "C3W8W4TEF",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "text": "Do u guys know a software I could use to implement this graph ? ",
+                "author_name": "William Kingbede",
+                "author_link": "https:\/\/soen341project.slack.com\/team\/williamkingbede",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/5d78eedab55d516d4b71bd55c93ddc5c.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0000-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U3XFMDQ2J|saishan> pinned a message to this channel.",
+        "ts": "1489102925.000098"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Nvm I guess I'm just gonna use Word :sweat_smile: ",
+        "ts": "1489105545.000099"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Maybe try Dia",
+        "ts": "1489105655.000100"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VSA7GPK|alexrobert> uploaded a file: <https:\/\/soen341project.slack.com\/files\/alexrobert\/F4GDXRZDJ\/architecturediagram.png|architecturediagram.png>",
+        "file": {
+            "id": "F4GDXRZDJ",
+            "created": 1489117202,
+            "timestamp": 1489117202,
+            "name": "architecturediagram.png",
+            "title": "architecturediagram.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U3VSA7GPK",
+            "editable": false,
+            "size": 103257,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4GDXRZDJ\/architecturediagram.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4GDXRZDJ\/download\/architecturediagram.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GDXRZDJ-3f70af6a49\/architecturediagram_64.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GDXRZDJ-3f70af6a49\/architecturediagram_80.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GDXRZDJ-3f70af6a49\/architecturediagram_360.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360_w": 254,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GDXRZDJ-3f70af6a49\/architecturediagram_480.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_480_w": 339,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GDXRZDJ-3f70af6a49\/architecturediagram_160.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GDXRZDJ-3f70af6a49\/architecturediagram_720.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720_w": 509,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GDXRZDJ-3f70af6a49\/architecturediagram_960.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_960_w": 678,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4GDXRZDJ-3f70af6a49\/architecturediagram_1024.png?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_1024_w": 724,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 744,
+            "original_h": 1053,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/alexrobert\/F4GDXRZDJ\/architecturediagram.png",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4GDXRZDJ-275b513522",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3VSA7GPK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3VSA7GPK|alexrobert>",
+        "bot_id": null,
+        "ts": "1489117205.000101"
+    }
+]

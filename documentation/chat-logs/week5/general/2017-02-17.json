@@ -1,0 +1,448 @@
+[
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I put my name too to help (and learn)",
+        "ts": "1487335704.000072"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Thx",
+        "ts": "1487336720.000073"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Checkout my pull request; people can register as students for now",
+        "ts": "1487336799.000074"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Are we gonna meet before tutorial?",
+        "ts": "1487345466.000075"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "We should meet at 1pm",
+        "ts": "1487346436.000076"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "im confused as to why we still haven't removed index.html",
+        "ts": "1487348025.000077"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "im good to meet @ 1 btw",
+        "ts": "1487348044.000078"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "At 1pm at 8th floor?",
+        "ts": "1487348096.000079"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yup",
+        "ts": "1487348104.000080"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Idk lol i dont want to make the executive decision",
+        "ts": "1487348116.000081"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "its especially weird cuz the index.html was the most recently updated :joy:",
+        "ts": "1487348155.000082"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "some1 needs to sync the contents of the two files then remove index.html",
+        "ts": "1487348169.000083"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "epic pull request btw :smile:",
+        "ts": "1487348184.000084"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I can sync them ",
+        "ts": "1487348226.000085"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "And i feel like <@U3WD98GTC> is doing all the work right now ",
+        "ts": "1487348247.000086"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the man put on his carry pants, I love it",
+        "ts": "1487348269.000087"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": ":joy: :joy: ",
+        "ts": "1487348284.000088"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "doesn't bother me at all since these are things im less knowledgable in",
+        "ts": "1487348305.000089"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Yea, samething for all of us ",
+        "ts": "1487348344.000090"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "was trying to work on this last night but for some reason I was just staring at the screen blankly lol.. getting a bit done quickly right now",
+        "ts": "1487348620.000091"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "do i merge the pull",
+        "ts": "1487348843.000092"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "??",
+        "ts": "1487348843.000093"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "ill take care of it",
+        "ts": "1487348851.000094"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "once I review it",
+        "ts": "1487348859.000095"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "ok",
+        "ts": "1487348861.000096"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Haha",
+        "ts": "1487348982.000097"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "A lot of it is code reuse from my last project, dont worry guys",
+        "ts": "1487348982.000098"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Also i know learning php and stuff is not feasible over a week and you will eventually pick up",
+        "ts": "1487349039.000099"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "okay now each user story has at least 1 to do associated with it",
+        "ts": "1487349050.000100"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "guys don't be surprised if the TA notices that we didn't do very much this week lmao",
+        "ts": "1487349069.000101"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Just dont be scared to take initiative to do stuff :)",
+        "ts": "1487349073.000102"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Haha ikr",
+        "ts": "1487349089.000103"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "i had a cold all week, wasn't able to be productive :disappointed:",
+        "ts": "1487349111.000104"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "No biggie its 5%",
+        "ts": "1487349212.000105"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yup",
+        "ts": "1487349220.000106"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "im the last person to care about marks lol",
+        "ts": "1487349232.000107"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Updated the 2 files ",
+        "ts": "1487349420.000108"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "If we fulfilled the requirements for sprint 2, which we did, it will be okay :+1::skin-tone-2::muscle::skin-tone-3:",
+        "ts": "1487349620.000109"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "added the chat logs for week 2",
+        "ts": "1487349915.000110"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "cool",
+        "ts": "1487349927.000111"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "added a sprint 3 planning doc",
+        "ts": "1487350538.000112"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Guys, the <http:\/\/freemysqlhosting.net|freemysqlhosting.net> db was only a free-trial (I didnt pick up on that until now) and I had to pay to put it back up, since we want to show the ta something i decided to just pay for it. its only 28$ so i dont really care tbh, it gives me 100mb db to use for a whole year, if you want you can donate :joy:  and ill let you use it for projects and whatever",
+        "ts": "1487351085.000113"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3WD98GTC|nickhorta> uploaded a file: <https:\/\/soen341project.slack.com\/files\/nickhorta\/F470WGR6F\/freemysqlhostingreceipt.jpg|freemysqlhostingreceipt.jpg> and commented: maybe its tax deductible  jkjk",
+        "file": {
+            "id": "F470WGR6F",
+            "created": 1487351121,
+            "timestamp": 1487351121,
+            "name": "freemysqlhostingreceipt.jpg",
+            "title": "freemysqlhostingreceipt.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3WD98GTC",
+            "editable": false,
+            "size": 464369,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F470WGR6F\/freemysqlhostingreceipt.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F470WGR6F\/download\/freemysqlhostingreceipt.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F470WGR6F-7b27c84d14\/freemysqlhostingreceipt_64.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F470WGR6F-7b27c84d14\/freemysqlhostingreceipt_80.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F470WGR6F-7b27c84d14\/freemysqlhostingreceipt_360.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_360_w": 360,
+            "thumb_360_h": 252,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F470WGR6F-7b27c84d14\/freemysqlhostingreceipt_480.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_480_w": 480,
+            "thumb_480_h": 336,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F470WGR6F-7b27c84d14\/freemysqlhostingreceipt_160.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F470WGR6F-7b27c84d14\/freemysqlhostingreceipt_720.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_720_w": 720,
+            "thumb_720_h": 504,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F470WGR6F-7b27c84d14\/freemysqlhostingreceipt_960.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_960_w": 960,
+            "thumb_960_h": 672,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F470WGR6F-7b27c84d14\/freemysqlhostingreceipt_1024.jpg?t=xoxe-133061191207-153190729558-153190729590-050fc2ebdf",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 717,
+            "image_exif_rotation": 1,
+            "original_w": 1820,
+            "original_h": 1274,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/nickhorta\/F470WGR6F\/freemysqlhostingreceipt.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F470WGR6F-896bf2747a",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc47NXAL14",
+                "created": 1487351121,
+                "timestamp": 1487351121,
+                "user": "U3WD98GTC",
+                "is_intro": true,
+                "comment": "maybe its tax deductible  jkjk",
+                "channel": ""
+            }
+        },
+        "user": "U3WD98GTC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3WD98GTC|nickhorta>",
+        "bot_id": null,
+        "ts": "1487351125.000114"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I can contribute ",
+        "ts": "1487351286.000115"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "We can split in the team so its even for everyone ",
+        "ts": "1487351323.000116"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yes same here",
+        "ts": "1487351400.000117"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "<@U3WD98GTC>  i think you can take a little break. ",
+        "ts": "1487351584.000118",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U3XFMDQ2J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "loool",
+        "ts": "1487351593.000119"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "yeah like 5$ each tops",
+        "ts": "1487351614.000121"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Yes, ",
+        "ts": "1487351683.000122"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Breakin the bank out here",
+        "ts": "1487351691.000123"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Let me go take a new mortgage on my home ",
+        "ts": "1487351730.000124"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Btw send ur email so I can e transfer :P",
+        "ts": "1487351744.000125"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "haha",
+        "ts": "1487351760.000126"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<mailto:nicolas_horta_Adam3@hotmail.com|nicolas_horta_Adam3@hotmail.com>",
+        "ts": "1487351767.000127"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I will pay you when we meet :slightly_smiling_face:",
+        "ts": "1487353427.000128"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Same here ",
+        "ts": "1487353451.000129"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Where are you guys",
+        "ts": "1487355294.000130"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "As i enter the room:\nTA: \"so thats it for todays tutorial\" :joy::joy:",
+        "ts": "1487360296.000131"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "RIP",
+        "ts": "1487360318.000132"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": ":expressionless:",
+        "ts": "1487362149.000133"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Next week its better for you to mention that to Ta that he might be more accurate with the time :)",
+        "ts": "1487362204.000134"
+    }
+]

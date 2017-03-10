@@ -1,0 +1,26 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the professor responded to my email: \nHello,\n\nFor longer questions such as these, it is better if you come to my office\nhours.\n\nBriefly:\n1. There are no dedicated resources available for this course. I am not aware\nof non-course specific resources (apart from your ENCS) you could use as a\nstudent. I usually recommend to use some cloud computing resources, such as\nAmazon's EC2 free tier, for setting up a demo.\n\n2. I cannot find the student you mentioned (Mofehintoluwa Ogunrinde) in the\nclass list, so most likely he dropped the course. However, before you remove\nhim from your project, please notify the TA and also make sure you document\nthe past (non-)contributions from him.\n\nRegards,\n\nRené Witte",
+        "ts": "1486947127.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "The TA said that he wants us to remove his name from the github ",
+        "ts": "1486947317.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "kk",
+        "ts": "1486947335.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I already did",
+        "ts": "1486947425.000005"
+    }
+]
