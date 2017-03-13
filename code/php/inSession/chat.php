@@ -1,7 +1,8 @@
 <?php
 session_start();
-require_once 'sql_connect.php';
-require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
+require_once '../../sql_connect.php';
+require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
+//require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
 $params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
 $params["nick"] = $_SESSION['name'];
 $chat = new phpFreeChat($params);
@@ -18,31 +19,27 @@ if(isset($_SESSION['tid'])){
 	<head>
 		<title>personal page</title>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/index.css"/>
 
 		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 
 		<script type="text/javascript" src="js/main.js"></script>
-		<link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
 		<nav>
 			<ul class="menu" id="menu">
-				<li pagetarget="home-page">Home</li>
-				
-				<li pagetarget="contact-page">Contact</li>
-				<?php 
-				//only Students will have access
-				if(!$TA) echo "<li pagetarget='course-page'>Course Page</li>";
-				?>
-				<li pagetarget="livechat-page">Chat Test</li>
+				<li><a href="myProfile.php">My Profile</a></li>
 				<?php
-				//only TAs will have access
-				if($TA) echo "<li pagetarget='course-page'>My class</li>";
+					if($TA)
+						echo '<li><a href="ta/myClass.php">My Class</a></li>';
+					else
+						echo '<li><a href="student/myProjects.php">My Projects</a></li>';
 				?>
-				<li><a href = "logout.php">Logout</a></li>
+				<li><a href="chat.php">Chat</a><li>
+				<li><a href = "logOut.php">Log Out</a></li>
 			</ul>
 		</nav>
 		<div id="page-content">
@@ -52,18 +49,8 @@ if(isset($_SESSION['tid'])){
 				if($TA) echo $_SESSION['tid'];
 				else echo $_SESSION['sid'];
 
-				include ('php/index/homepage.php');
-				include ('php/index/contactPage.php');
-				include ('php/index/coursePage.php');
-				include ('php/index/groups.php');
-				include ('php/index/myprofile.php')
-				
-			?>
-			    
-			<div id="livechat-page" style="display: block;">
-				<?php $chat->printChat(); ?>
-			</div>
-				
+				$chat->printChat();
+			?>		
 		</div>
 		<!--<footer>
 			<div class="legal">SOEN 341 project, Winter 2017.</div>
