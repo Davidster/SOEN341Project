@@ -16,4 +16,6 @@
 	meeting after sprint #3 things were sorted out. *Front-end plan* to be posted soon.
 
 - **Ultimatum** agreement where back-end supporting many classes and sub-sections is to be finished by next friday
+
 	(17-03-17)
+
