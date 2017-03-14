@@ -1,4 +1,27 @@
-<div id="about-page" style="display: none;">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="../../css/index.css"/>
+
+		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body>
+		<nav>
+			<ul class="menu" id="menu">
+				<li><a href="home.php">Home</a></li>
+				<li><a href="createAccount.php">Create Account</a></li>
+				<li><a href="logIn.php">Log In</a></li>
+				<li><a href="about.php">About</a></li>
+			</ul>
+		</nav>
+		<div id="page-content">
+			<div id="about-page">
                 <div class="ourVision">
 					<h1 class = "opening">Our Vision</h1>
 					<p>
@@ -17,9 +40,14 @@
                 <div class="about">
                 To know more about our project, please visit our <a href = "https://github.com/Davidster/SOEN341Project.git"> GitHub repository </a>.
                 </div>
-                
 			</div>
-			<!--<div id="livechat-page" style="display: block;">
-				<?php $chat->printChat(); ?>
-			</div>-->
 		</div>
+		</div>	
+		<footer>
+			<div class="legal">SOEN 341 project, Winter 2017.</div>
+			<div class="legal">Copyright 2017 SOEN341 Project.</div>
+			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
+
+		</footer>		
+	</body>
+</html>

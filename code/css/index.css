@@ -42,22 +42,29 @@ footer {
 	text-align: center;
 	background-color: black;
 	font-size: 18px;
+	
+}
+
+.menu a {
 	display: block;
 	text-decoration: none;
 	font-weight: normal;
 	height: 22px;
 	padding: 13px 0 13px 0;
 	cursor: pointer;
-	color: white;
+	color: white;	
 }
 
 .menu li:hover {
 	background-color: white;
+}
+
+.menu a:hover{
 	color: black;
 }
 
 #register-page, #login-page, #course-page {
-	display: none;
+	/*display: none;*/
 	font: 95% Arial, Verdana, sans-serif;
     max-width: 400px;
     margin:auto;
@@ -68,7 +75,7 @@ footer {
 }
 
 #home-page, #contact-page{
-	display: none;
+	/*display: none;*/
 	font: 95% Arial, Verdana, sans-serif;
     max-width: 400px;
     margin:auto;
