@@ -60,8 +60,8 @@
                     </div>
                     <br>
                     <label class="checkbox-inline"><input type="checkbox" value="" name='accountType'>Teacher's Assistant</label>
-                    <label class="checkbox-inline"><input type="checkbox" value="" name='accountType'>Student</label>
-                    <button type="submit" value = 'Submit' name='register' class="btn btn-default">Submit</button><br>
+                    <label class="checkbox-inline"><input type="checkbox" value="" name='accountType'>Student</label><br>
+                    <button type="submit" value = 'Submit' name='register' class="btn btn-default">Submit</button>
 					</form>
         </div>
 			  <?php 
