@@ -7,27 +7,22 @@
 		$email = $_POST['email'];
 		$password = $_POST['password'];
 
-		$dbsearch = "SELECT * FROM Ta where email = '$email'";
+		$dbsearch = "SELECT * FROM Ta where temail = '$email'";
 		$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
 		$found = mysqli_num_rows($query); //returns number of found rows
 
 		//checks if entry is found in TA TABLE
 		if($found == 1){
 			$row = mysqli_fetch_assoc($query);
-			$dbname = $row['name'];
-			$dbpassword = $row['password'];
-			$dbemail = $row['email'];
-			$dbtid = $row['ta'];
-			$dbclass = $row['class'];
-			$dbsection = $row['section'];
+			$dbname = $row['tname'];
+			$dbpassword = $row['tpassword'];
+			$dbusername = $row['temail'];
+			$dbtid = $row['tid'];
 			//password is correct
 			if($password == $dbpassword){
 				$_SESSION['name'] = $dbname;
-				$_SESSION['email'] = $dbemail;
-				$_SESSION['ta'] = $dbtid;
-				$_SESSION['class'] = $dbclass;
-				$_SESSION['section'] = $dbsection;
-
+				$_SESSION['username'] = $dbusername;
+				$_SESSION['tid'] = $dbtid;
 				header('location: ../inSession/myProfile.php');
 			}
 			else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
@@ -43,12 +38,12 @@
 				$row = mysqli_fetch_assoc($query);
 				$dbname = $row['name'];
 				$dbpassword = $row['password'];
-				$dbemail = $row['email'];
+				$dbusername = $row['email'];
 				$dbsid = $row['sid'];
 				//password is correct
 				if($password == $dbpassword){
 					$_SESSION['name'] = $dbname;
-					$_SESSION['email'] = $dbemail;
+					$_SESSION['username'] = $dbusername;
 					$_SESSION['sid'] = $dbsid;
 					header('location: ../inSession/myProfile.php');
 				}
@@ -67,40 +62,60 @@
 	<head>
 		<title>Log in</title>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" type="text/css" href="../../css/index.css"/>
-
-		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
+        <link rel="stylesheet" type="text/css" href="../../css/login.css"/>
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
-
 	<body>
-		<nav>
-			<ul class="menu" id="menu">
-				<li><a href="home.php">Home</a></li>
-				<li><a href="createAccount.php">Create Account</a></li>
-				<li><a href="logIn.php">Log In</a></li>
-				<li><a href="about.php">About</a></li>
-			</ul>
-		</nav>
-		<div id="page-content">
-			<div id='login-page'>
-				<h1>Login Page</h1>
-				<form id='login' action='' method='post'>
-					<p>Enter your email:</p>
-					<input type='email' name='email' placeholder='Email Address' required/>
-					</br>
-					<p>Enter your password:</p>
-					<input type='password' name='password' placeholder='Password' required/>
-					<input type='submit' value='Enter' name='logbtn'/>
-				</form>	
+
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="#">Moodle 2.0</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="home.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+						<li><a href="createAccount.php"><span class="glyphicon glyphicon-user"></span> Create Account</a></li>
+						<li class = "active"><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
+						<li><a href="about.php"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>	
-		<footer>
-			<div class="legal">SOEN 341 project, Winter 2017.</div>
-			<div class="legal">Copyright 2017 SOEN341 Project.</div>
-			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
+		</nav>
+        <div class="container">
+            <h1>Login Page</h1><br>
+            <form>
+                <div class="form-group">
+				    <label><p>Enter your email:</p></label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input class="form-control" type='email' name='email' placeholder='Email Address' required>
+                        </div>
+                </div>
+                 <div class="form-group">
+				    <label><p>Enter your email:</p></label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input class="form-control" type='password' name='password' placeholder='Password' required>
+                        </div>
+                </div>
+            <br>
+            <input type='submit' class="btn btn-default" value='Enter' name='logbtn'/>
+        </form>
+        </div>
+		<footer class="container-fluid bg-4 text-center">
+            <p>SOEN 341 project, Winter 2017.</p>
+			<p>Copyright 2017 SOEN341 Project.</p>
+			<p>Contact us: 1800-123-4567 Proud company since 2017</p>
 
 		</footer>		
 	</body>
