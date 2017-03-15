@@ -3,7 +3,7 @@
 
 	//check if TA user is logged in
 	$TA= false;
-	if(isset($_SESSION['tid'])){
+	if(isset($_SESSION['ta'])){
 		$GLOBALS['TA'] = true;
 	}
 ?>
@@ -32,8 +32,8 @@
 		<div id="page-content">
 			<?php 
 				echo $_SESSION['name']. "</br>";
-				echo $_SESSION['username']. "</br>";
-				if($TA) echo $_SESSION['tid'];
+				echo $_SESSION['email']. "</br>";
+				if($TA) echo $_SESSION['ta'];
 				else echo $_SESSION['sid'];
 				
 				
@@ -53,8 +53,8 @@
 						$fileName = addslashes($fileName);
 					}
 					//fid is incremented automatically so ignore
-					$query = "INSERT INTO Files (pid, name, size, type, content) 
-					VALUES ('$pid','$fileName', '$fileSize', '$fileType', '$content')";
+					$query = "INSERT INTO Files (pid, fname, size, type, content) 
+					VALUES ('$pid', '$fileName', '$fileSize', '$fileType', '$content')";
 
 					mysql_query($query) or die('Error, query failed'); 
 

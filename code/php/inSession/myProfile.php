@@ -8,7 +8,7 @@ require_once '../../sql_connect.php';
 
 //check if TA user is logged in
 $TA= false;
-if(isset($_SESSION['tid'])){
+if(isset($_SESSION['ta'])){
 	$GLOBALS['TA'] = true;
 }
 ?>
@@ -42,8 +42,8 @@ if(isset($_SESSION['tid'])){
 		<div id="page-content">
 			<?php 
 				echo $_SESSION['name']. "</br>";
-				echo $_SESSION['username']. "</br>";
-				if($TA) echo $_SESSION['tid'];
+				echo $_SESSION['email']. "</br>";
+				if($TA) echo $_SESSION['ta'];
 				else echo $_SESSION['sid'];				
 			?>
 			<div id="home-page">

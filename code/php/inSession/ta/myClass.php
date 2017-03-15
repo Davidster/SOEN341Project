@@ -3,7 +3,7 @@
 
 	//check if TA user is logged in
 	$TA= false;
-	if(isset($_SESSION['tid'])){
+	if(isset($_SESSION['ta'])){
 		$GLOBALS['TA'] = true;
 	}
 ?>
@@ -32,8 +32,12 @@
 		<div id="page-content">
 			<?php 
 				echo $_SESSION['name']. "</br>";
-				echo $_SESSION['username']. "</br>";
-				if($TA) echo $_SESSION['tid'];
+				echo $_SESSION['email']. "</br>";
+				if($TA){
+					 echo $_SESSION['ta'];
+					 echo $_SESSION['class'];
+					 echo $_SESSION['section'];
+					}
 				else echo $_SESSION['sid'];
 			?>
 
