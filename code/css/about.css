@@ -1,0 +1,37 @@
+.container-fluid {
+      padding: 20px;
+  }
+
+nav .container-fluid{
+    padding:0px;
+}
+
+.bg-grey {
+      background-color: #f6f6f6;
+ }
+      
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+     }
+}
+
+.glyphicon{
+    padding: 2px;
+}
+
+p.github-link{
+    font-size:20px;
+}
+
+div .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
