@@ -17,18 +17,24 @@ nav .container-fluid{
      }
 }
 
-.glyphicon{
-    padding: 2px;
-}
-
 p.github-link{
     font-size:20px;
 }
 
-div .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #f4511e;
+.glyphicon{
+    font-size: 200px;
+}
+
+li .glyphicon{
+    font-size: 15px;
+}
+
+.glyphicon-chevron-up{
+    font-size: 40px;
+}
+
+div .col-sm-8 > p{
+    font-size:18px;
 }
 
 .bg-4 { 
