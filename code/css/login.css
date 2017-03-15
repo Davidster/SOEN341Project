@@ -1,0 +1,14 @@
+h1{
+	text-align:center;
+}
+
+footer{
+	padding:10px;
+    position:relative;
+	top:225px;
+}
+
+.bg-4 { 
+	background-color: #2f2f2f;
+    color: #ffffff;
+}
