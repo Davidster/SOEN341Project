@@ -59,7 +59,7 @@
 						<input type='password' name='repassword' class="form-control" placeholder='Password' required/>
                     </div>
                     <br>
-              
+
                     <button type="submit" value = 'Submit' name='register' class="btn btn-default">Submit</button>
 					</form>
         </div>
