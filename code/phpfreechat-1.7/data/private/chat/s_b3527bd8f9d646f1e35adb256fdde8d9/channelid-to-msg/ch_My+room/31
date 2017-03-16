@@ -1,2 +1,0 @@
-
-31	1489085488	Michael Myers	send	I think I can check if $_SESSION['user'] isset if not redirect to index.php
