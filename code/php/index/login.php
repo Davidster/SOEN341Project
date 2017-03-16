@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	$_SESSION['logon'] = false;
 	require_once '../../sql_connect.php';
 
 	//authentification
@@ -27,7 +28,7 @@
  				$_SESSION['ta'] = $dbtid;
  				$_SESSION['class'] = $dbclass;
  				$_SESSION['section'] = $dbsection;
-				$_SESSION['login'] = true;
+				$_SESSION['logon'] = true;
 
 				header('location: ../inSession/myProfile.php');
 			}
@@ -51,7 +52,7 @@
 					$_SESSION['name'] = $dbname;
 					$_SESSION['email'] = $dbemail;
 					$_SESSION['sid'] = $dbsid;
-					$_SESSION['login'] = true;
+					$_SESSION['logon'] = true;
 					header('location: ../inSession/myProfile.php');
 				}
 				else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
