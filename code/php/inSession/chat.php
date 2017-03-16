@@ -1,8 +1,13 @@
 <?php
 	session_start();
-	if(!$_SESSION['logon']){ 
+	if(isset($_SESSION['logon'])){
+		if(!$_SESSION['logon']){ 
+			header("Location: ../index/home.php");
+			die();
+		}
+	}
+	else{
 		header("Location: ../index/home.php");
-		die();
 	}
 	require_once '../../sql_connect.php';
 	require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
