@@ -7,22 +7,27 @@
 		$email = $_POST['email'];
 		$password = $_POST['password'];
 
-		$dbsearch = "SELECT * FROM Ta where temail = '$email'";
+		$dbsearch = "SELECT * FROM Ta where email = '$email'";
 		$query = mysqli_query($dbc, $dbsearch); //pass this query to our db
 		$found = mysqli_num_rows($query); //returns number of found rows
 
 		//checks if entry is found in TA TABLE
 		if($found == 1){
 			$row = mysqli_fetch_assoc($query);
-			$dbname = $row['tname'];
-			$dbpassword = $row['tpassword'];
-			$dbusername = $row['temail'];
-			$dbtid = $row['tid'];
+			$dbname = $row['name'];
+ 			$dbpassword = $row['password'];
+ 			$dbemail = $row['email'];
+ 			$dbtid = $row['ta'];
+ 			$dbclass = $row['class'];
+ 			$dbsection = $row['section'];
 			//password is correct
 			if($password == $dbpassword){
 				$_SESSION['name'] = $dbname;
-				$_SESSION['username'] = $dbusername;
-				$_SESSION['tid'] = $dbtid;
+				$_SESSION['email'] = $dbemail;
+ 				$_SESSION['ta'] = $dbtid;
+ 				$_SESSION['class'] = $dbclass;
+ 				$_SESSION['section'] = $dbsection;
+
 				header('location: ../inSession/myProfile.php');
 			}
 			else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
@@ -38,12 +43,12 @@
 				$row = mysqli_fetch_assoc($query);
 				$dbname = $row['name'];
 				$dbpassword = $row['password'];
-				$dbusername = $row['email'];
+				$dbemail = $row['email'];
 				$dbsid = $row['sid'];
 				//password is correct
 				if($password == $dbpassword){
 					$_SESSION['name'] = $dbname;
-					$_SESSION['username'] = $dbusername;
+					$_SESSION['email'] = $dbemail;
 					$_SESSION['sid'] = $dbsid;
 					header('location: ../inSession/myProfile.php');
 				}
@@ -93,7 +98,7 @@
 		</nav>
         <div class="container">
             <h1>Login Page</h1><br>
-            <form>
+            <form id = 'login' action= '' method = 'post'>
                 <div class="form-group">
 				    <label><p>Enter your email:</p></label>
                         <div class="input-group">
@@ -109,7 +114,7 @@
                         </div>
                 </div>
             <br>
-            <input type='submit' class="btn btn-default" value='Enter' name='logbtn'/>
+            <input type='submit' value='Enter' name='logbtn'/>
         </form>
         </div>
 		<footer class="container-fluid bg-4 text-center">

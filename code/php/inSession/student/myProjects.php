@@ -69,7 +69,7 @@
 						<td width="246">
 							<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
 							<input name="userfile" type="file" id="userfile" required> 
-							<input name="pid" type="number" id="pid" required> 
+							<input name="pid" type="text" id="pid" required> 
 						</td>
 						<td width="80">
 							<input name="upload" type="submit" class="box" id="upload" value=" Upload ">
