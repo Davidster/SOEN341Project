@@ -1,17 +1,26 @@
 <?php
-session_start();
-require_once '../../sql_connect.php';
-require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
-//require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
-$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
-$params["nick"] = $_SESSION['name'];
-$chat = new phpFreeChat($params);
+	session_start();
+	if(isset($_SESSION['logon'])){
+		if(!$_SESSION['logon']){ 
+			header("Location: ../index/home.php");
+			die();
+		}
+	}
+	else{
+		header("Location: ../index/home.php");
+	}
+	require_once '../../sql_connect.php';
+	require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
+	//require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
+	$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
+	$params["nick"] = $_SESSION['name'];
+	$chat = new phpFreeChat($params);
 
-//check if TA user is logged in
-$TA= false;
-if(isset($_SESSION['ta'])){
-	$GLOBALS['TA'] = true;
-}
+	//check if TA user is logged in
+	$TA= false;
+	if(isset($_SESSION['ta'])){
+		$GLOBALS['TA'] = true;
+	}
 ?>
 
 <!DOCTYPE html>
