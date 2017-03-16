@@ -59,14 +59,15 @@
 						<input type='password' name='repassword' class="form-control" placeholder='Password' required/>
                     </div>
                     <br>
-                    <label class="checkbox-inline"><input type="checkbox" value="" name='accountType'>Teacher's Assistant</label>
-                    <label class="checkbox-inline"><input type="checkbox" value="" name='accountType'>Student</label><br><br>
+
                     <button type="submit" value = 'Submit' name='register' class="btn btn-default">Submit</button>
 					</form>
         </div>
 			  <?php 
 				//gets user input
 				if(isset($_POST['register'])){
+					
+
 					$id = $_POST['id'];
 					$name = $_POST['fullName'];
 					$email = $_POST['email'];
@@ -80,15 +81,39 @@
 					*/
 
 					//check if passwords are exact
-					if($password == $repassword){	
-						//check if id is enrolled in class table
-						$checkclass = "SELECT * from SOEN341 where sid = '$id'";
-						$query = mysqli_query($dbc, $checkclass); //pass this query to our db
-						$enrolled = mysqli_num_rows($query); //returns number of found rows
+					if($password == $repassword){
+						//check if id is enrolled student list
+						$checkstudent = "SELECT * from StudentList where sid = '$id'";
+						$query1 = mysqli_query($dbc, $checkstudent); //pass this query to our db
+						$studentfound = mysqli_num_rows($query1); //returns number of found rows
 
-					//checks if entry is found in class TABLE
-						if($enrolled == 1){
-						$register = "INSERT INTO Student (sid, name, password, email) VALUES ('$id','$name','$password', '$email')";
+						//check if id is enrolled in class list
+						$checkta= "SELECT * from ClassList where ta = '$id'";
+						$query2 = mysqli_query($dbc, $checkta); //pass this query to our db
+						$tafound = mysqli_num_rows($query2); //returns number of found rows
+
+						//registers a student
+						if($studentfound == 1){
+
+							$register = "INSERT INTO Student (sid, name, email, password) VALUES ('$id','$name','$email', '$password')";
+
+							if(mysqli_query($dbc, $register)){
+								$success = "<h2>Record created successfully!</h2>";
+							}
+
+							else{
+							echo "<h2> Sorry. This Concordia ID is already registered in the system</h2>";
+							}
+						}
+						//registers a TA
+						else if($tafound == 1 ){
+
+							//find TAs class and section
+							$row = mysqli_fetch_assoc($query2);
+							$class = $row['class'];
+							$section = $row['section'];
+
+							$register = "INSERT INTO Ta (ta, class, section, name, email, password) VALUES ('$id','$class', '$section','$name','$email', '$password')";
 
 							if(mysqli_query($dbc, $register)){
 								$success = "<h2>Record created successfully!</h2>";
@@ -96,9 +121,11 @@
 							else{
 							echo "<h2> Sorry. This Concordia ID is already registered in the system</h2>";
 							}
+						
 						}
-						else echo "<h2> Sorry, you are not enrolled for this class! </h2>";
+						else echo "<h2> Sorry, you are not enrolled in our database! </h2>";
 					}
+
 					else{
 						$passdontmatch = "<h2> The passwords you entered do not match. Try again.</h2>";
 					}
