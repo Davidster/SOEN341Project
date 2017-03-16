@@ -1,5 +1,9 @@
 <?php
-session_start();
+if(!session_id()) session_start();
+if(!$_SESSION['logon']){ 
+    header("Location: /../index/home.php");
+    die();
+}
 require_once '../../sql_connect.php';
 require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
 //require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";

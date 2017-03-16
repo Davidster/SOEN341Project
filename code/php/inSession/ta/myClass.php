@@ -1,5 +1,9 @@
 <?php
-	session_start();
+	if(!session_id()) session_start();
+	if(!$_SESSION['logon']){ 
+		header("Location: /../../index/home.php");
+		die();
+	}
 
 	//check if TA user is logged in
 	$TA= false;
