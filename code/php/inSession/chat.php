@@ -35,6 +35,17 @@
 		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+		<script type="text/javascript">
+			var $j = jQuery.noConflict();
+
+			$j(document).ready(function(){
+			    $j("a[href='logOut.php']").click(function(e){
+			  		//call the internal disconnect function of phpfreechat
+					pfc.connect_disconnect();
+			    });
+			});
+		</script>
+
 
 		<script type="text/javascript" src="../../js/main.js"></script>
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
