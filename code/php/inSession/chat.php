@@ -11,9 +11,11 @@
 	}
 	require_once '../../sql_connect.php';
 	require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
-	//require_once dirname(__FILE__)."/phpfreechat-1.7/src/phpfreechat.class.php";
 	$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
 	$params["nick"] = $_SESSION['name'];
+	$params["data_public_url"]   = "../../phpfreechat-1.7/data/public";
+	$params["server_script_url"] = "./chat.php";
+	$params["theme_default_url"] = "../../phpfreechat-1.7/themes";
 	$chat = new phpFreeChat($params);
 
 	//check if TA user is logged in
@@ -59,6 +61,14 @@
 				else echo $_SESSION['sid'];
 
 				$chat->printChat();
+
+				// echo "<h2>Debug</h2>";
+				// echo "<pre>";
+				// $c =& pfcGlobalConfig::Instance();
+				// print_r($c);
+				// print_r($_SERVER);
+				// echo "</pre>";
+
 			?>		
 		</div>
 		<!--<footer>
