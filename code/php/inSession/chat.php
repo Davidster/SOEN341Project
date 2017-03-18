@@ -16,6 +16,8 @@
 	$params["data_public_url"]   = "../../phpfreechat-1.7/data/public";
 	$params["server_script_url"] = "./chat.php";
 	$params["theme_default_url"] = "../../phpfreechat-1.7/themes";
+	$params["channels"] = array("ENGR 341 - UD5", "ENGR 391 - UA1");
+	$params["frozen_channels"] = array("ENGR 341 - UD5", "ENGR 391 - UA1");
 	$chat = new phpFreeChat($params);
 
 	//check if TA user is logged in
