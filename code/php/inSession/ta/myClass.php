@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	require_once '../../../sql_connect.php';
 	if(isset($_SESSION['logon'])){
 		if(!$_SESSION['logon']){ 
 			header("Location: ../../index/home.php");
@@ -40,12 +41,15 @@
 		</nav>
 		<div id="page-content">
 			<?php 
-				echo $_SESSION['name']. "</br>";
-				echo $_SESSION['email']. "</br>";
 				if($TA){
-					 echo $_SESSION['ta'];
 					 echo $_SESSION['class'];
-					 echo $_SESSION['section'];
+					 echo $_SESSION['section']."</br>";
+					 $ta= $_SESSION['ta'];
+					 $result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
+
+					 while( $row = mysqli_fetch_assoc($result)){
+					 	echo $row['sid']."</br>";
+					 }
 					}
 				else echo $_SESSION['sid'];
 			?>

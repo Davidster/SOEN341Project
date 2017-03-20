@@ -53,6 +53,32 @@
 					$_SESSION['email'] = $dbemail;
 					$_SESSION['sid'] = $dbsid;
 					$_SESSION['logon'] = true;
+
+					$result = mysqli_query($dbc, " SELECT * FROM Project WHERE sid = '$dbsid'");
+					$totalclasses = mysqli_num_rows($result);	//returns number of projects
+					$_SESSION['total'] = $totalclasses;
+
+					//store each class, section and matching pid
+					for( $i = 1; $i<=$totalclasses; $i++){
+						$row = mysqli_fetch_assoc($result);
+
+						$p= "project$i";
+						$_SESSION[$p] = $row['pid'];	
+						$ta = $row['ta'];
+
+						$getclass = mysqli_query($dbc, "SELECT * FROM ClassList WHERE ta= '$ta'");
+						$row2= mysqli_fetch_assoc($getclass);
+						$c = "class$i";
+						$s = "section$i";
+
+						$_SESSION[$c] = $row2['class'];
+						$_SESSION[$s] = $row2['section'];
+					}
+
+
+
+
+
 					header('location: ../inSession/myProfile.php');
 				}
 				else echo $wrongpassword = " <h3> Wrong password, please try again! </h3>";
