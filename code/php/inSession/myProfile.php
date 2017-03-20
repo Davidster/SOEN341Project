@@ -50,10 +50,27 @@
 		</nav>
 		<div id="page-content">
 			<?php 
+
+
+
 				echo $_SESSION['name']. "</br>";
 				echo $_SESSION['email']. "</br>";
 				if($TA) echo $_SESSION['ta'];
-				else echo $_SESSION['sid'];				
+				else {
+					$sid = $_SESSION['sid'];
+					echo $sid;	
+					$result = mysqli_query($dbc, "SELECT * FROM Project WHERE sid = '$sid'");
+					while($row = mysqli_fetch_assoc($result)){
+						$myta = $row['ta'];
+						$myproj = $row['pid'];
+						echo "
+						</br>
+						TA: $myta
+						</br>
+						Project: $myproj";
+					}
+
+					}			
 			?>
 			<div id="home-page">
 				<h2>Welcome to your portal!</h2>

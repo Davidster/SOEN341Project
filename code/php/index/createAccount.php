@@ -50,6 +50,39 @@
 						<label><p>Enter your email:</p></label>
 						<input type='email' name='email' class="form-control" placeholder='Email Address' required/>
                     </div>
+                    
+                    <div class="form-group">
+						<label><p>Enter your class and section:</p></label>
+						<input type='text' name='c1' class="form-control" placeholder='Class' required/>
+						<input type='text' name='s1' class="form-control" placeholder='Section' required/>
+                    </div>
+                    
+                    <div class="form-group">
+						<label><p>Enter your class and section:</p></label>
+						<input type='text' name='c2' class="form-control" placeholder='Class' />
+                    	<input type='text' name='s2' class="form-control" placeholder='Section' />
+                    </div>
+                    
+                    <div class="form-group">
+						<label><p>Enter your class and section:</p></label>
+						<input type='text' name='c3' class="form-control" placeholder='Class' />
+                   		<input type='text' name='s3' class="form-control" placeholder='Section' />
+                    </div>
+
+                    <div class="form-group">
+						<label><p>Enter your class and section:</p></label>
+						<input type='text' name='c4' class="form-control" placeholder='Class' />
+                    	<input type='text' name='s4' class="form-control" placeholder='Section' />
+                    </div>
+                    
+                    <div class="form-group">
+						<label><p>Enter your class and section:</p></label>
+						<input type='text' name='c5' class="form-control" placeholder='Class' />
+                   		<input type='text' name='s5' class="form-control" placeholder='Section' />
+                    </div>
+
+            
+                    
                     <div class="form-group">
 						<label><p>Create a Password:</p></label>
 						<input type='password' name='password' class="form-control" placeholder='Password' required/>
@@ -73,12 +106,10 @@
 					$email = $_POST['email'];
 					$password = $_POST['password'];
 					$repassword = $_POST['repassword'];
-					/*
-					Eventually here we will have to add a method to restrict registration permissions
-					1- Only a valid Concordia student may register
-					2- That student's classes must be registerd in the system
-					3- Maybe ask for class id and tutorial group to segment automatically (if that makes any sense)
-					*/
+
+					$classes = array();
+					$sections = array();
+
 
 					//check if passwords are exact
 					if($password == $repassword){
@@ -88,16 +119,37 @@
 						$studentfound = mysqli_num_rows($query1); //returns number of found rows
 
 						//check if id is enrolled in class list
-						$checkta= "SELECT * from ClassList where ta = '$id'";
+						$checkta = "SELECT * from ClassList where ta = '$id'";
 						$query2 = mysqli_query($dbc, $checkta); //pass this query to our db
 						$tafound = mysqli_num_rows($query2); //returns number of found rows
 
-						//registers a student
+
+						//student input
 						if($studentfound == 1){
 
 							$register = "INSERT INTO Student (sid, name, email, password) VALUES ('$id','$name','$email', '$password')";
 
+							
+							//create student record
 							if(mysqli_query($dbc, $register)){
+								//look through all his classes input
+								for($i = 1; $i <= 5; $i++){
+								$s = "s$i";
+								$c = "c$i";
+								if(isset($_POST[$c]) && isset($_POST[$s])){
+									$class = $_POST[$c];
+									$section = $_POST[$s];
+									//find ta for that class and section
+									$returnta = mysqli_query($dbc, "SELECT * FROM ClassList WHERE class='$class' && section='$section'");
+									
+									$row = mysqli_fetch_assoc($returnta);
+									$t = $row['ta'];
+									$p= 0;
+									//place the student in the TAs class
+									$createproj = "INSERT INTO Project(sid, ta, pid) VALUES ('$id','$t','$p')";
+									mysqli_query($dbc, $createproj);
+								}
+							}
 								$success = "<h2>Record created successfully!</h2>";
 							}
 
@@ -129,7 +181,6 @@
 					else{
 						$passdontmatch = "<h2> The passwords you entered do not match. Try again.</h2>";
 					}
-
 				}
 				if (isset($success)) {echo $success;}
 				if (isset($passdontmatch)) {echo $passdontmatch;}
