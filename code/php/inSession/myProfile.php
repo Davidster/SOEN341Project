@@ -34,20 +34,37 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav>
-			<ul class="menu" id="menu">
-				<li><a href="myProfile.php">My Profile</a></li>
-				<?php
-					if($TA)
-						echo '<li><a href="ta/myClass.php">My Class</a></li>';
-					else
-						echo '<li><a href="student/myProjects.php">My Projects</a></li>';
-				?>
-				<li><a href="chat.php">Chat</a></li>
-				<li><a href = "logOut.php">Log Out</a></li>
-			</ul>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="myProfile.php">Moodle 2.0</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class = "active"><a href="myProfile.php"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
+						<?php
+							if($TA)
+								echo '<li><a href="ta/myClass.php"><span class="glyphicon glyphicon-education"></span> My Class</a></li>';
+							else
+								echo '<li><a href="student/myProjects.php"><span class="glyphicon glyphicon-folder-open"></span> My Projects</a></li>';
+						?>	
+						<li><a href="chat.php"><span class="glyphicon glyphicon-comment"></span> Chat</a></li>
+						<li><a href="logOut.php"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 		<div id="page-content">
 			<?php 
@@ -60,7 +77,7 @@
 					echo $_SESSION['ta'];
 					echo "</br>".$_SESSION['class']."</t>".$_SESSION['section'];
 				}
-				else {
+				else{
 					$sid = $_SESSION['sid'];
 					echo $sid;	
 					
@@ -70,7 +87,7 @@
 						echo "</br>$_SESSION[$c]";
 						echo "</br>$_SESSION[$s]";
 					}
-					}			
+				}			
 			?>
 			<div id="home-page">
 				<h2>Welcome to your portal!</h2>
