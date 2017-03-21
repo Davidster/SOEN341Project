@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	require_once '../../sql_connect.php';
 	if(isset($_SESSION['logon'])){
 		if(!$_SESSION['logon']){ 
 			header("Location: ../index/home.php");
@@ -50,10 +51,26 @@
 		</nav>
 		<div id="page-content">
 			<?php 
+
+
+
 				echo $_SESSION['name']. "</br>";
 				echo $_SESSION['email']. "</br>";
-				if($TA) echo $_SESSION['ta'];
-				else echo $_SESSION['sid'];				
+				if($TA){
+					echo $_SESSION['ta'];
+					echo "</br>".$_SESSION['class']."</t>".$_SESSION['section'];
+				}
+				else {
+					$sid = $_SESSION['sid'];
+					echo $sid;	
+					
+					for($i=1;$i<=$_SESSION['total'];$i++){
+						$c = "class$i";
+						$s = "section$i";
+						echo "</br>$_SESSION[$c]";
+						echo "</br>$_SESSION[$s]";
+					}
+					}			
 			?>
 			<div id="home-page">
 				<h2>Welcome to your portal!</h2>

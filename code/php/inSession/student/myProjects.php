@@ -1,4 +1,5 @@
 <?php
+require_once '../../../sql_connect.php';
 	session_start();
 	if(isset($_SESSION['logon'])){
 		if(!$_SESSION['logon']){ 
