@@ -40,6 +40,7 @@
 			</ul>
 		</nav>
 		<div id="page-content">
+		
 			<?php 
 				if($TA){
 					 echo $_SESSION['class'];
@@ -47,19 +48,33 @@
 					 $ta= $_SESSION['ta'];
 					 $result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
 
-					 while( $row = mysqli_fetch_assoc($result)){
-					 	echo $row['sid']."</br>";
-					 }
+						 while( $row = mysqli_fetch_assoc($result)){
+							echo $row['sid']."</br>";
+							
+						 }
 					}
 				else echo $_SESSION['sid'];
+				
+				
 			?>
-
+			<input value=<?php $row['sid'] ?> type="hidden" name="search">
+			
+			<h1> SOEN341AA </h1>
+			
+			<input type="button" value="200"class="button" />
+			<input type="button" value="201"class="button" />
+			<input type="button" value="202"class="button" />
+			<input type="button" value="203"class="button" />
+			<input type="button" value="204"class="button" />
+			<input type="button" value="205"class="button" />
+			
+			
 		</div>	
-		<footer>
+		<div>
 			<div class="legal">SOEN 341 project, Winter 2017.</div>
 			<div class="legal">Copyright 2017 SOEN341 Project.</div>
 			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
+		</div>	
 
-		</footer>		
 	</body>
 </html>
