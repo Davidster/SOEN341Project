@@ -14,6 +14,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="../../js/jquery.min.js"></script>
 		<script src="../../js/skel.min.js"></script>
+		<script src="../../js/skel-layers.min.js"></script>
 		
 	</head>
 	<body>
