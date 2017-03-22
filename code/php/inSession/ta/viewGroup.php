@@ -74,28 +74,12 @@
 				
 				
 			?>
-			<input value=<?php $row['sid'] ?> type="hidden" name="search">
 			
-			<h1> SOEN341AA </h1>
+			<h1> Uploaded by TA </h1>
 			
-			<a href="viewGroup.php">
-			   <input type="button" value="200"class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="201" class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="202"class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="203"class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="204"class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="205"class="button" />
-			</a>
+			<h1> Upload a file </h1>
+			
+			<h1> Names and emails </h1>
 			
 		</div>	
 		<div>
