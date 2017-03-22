@@ -56,12 +56,16 @@ require_once '../../../sql_connect.php';
 				</div>
 			</div>
 		</nav>
-		<div id="page-content">
+		<div class="container">
 			<?php 
 				echo $_SESSION['name']. "</br>";
 				echo $_SESSION['email']. "</br>";
 				if($TA) echo $_SESSION['ta'];
 				else echo $_SESSION['sid'];
+			?>
+		</div>
+		<div class="container">
+		<?php
 				
 				
 				if(isset($_POST['upload']) && $_FILES['userfile']['size'] > 0){

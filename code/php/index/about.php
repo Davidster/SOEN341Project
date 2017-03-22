@@ -7,11 +7,13 @@
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
      	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../js/animsition/animsition.min.css">
+		<link rel="stylesheet"  href="../../css/about.css" type="text/css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-
+	<div class="animsition">
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -59,18 +61,23 @@
             </div>
         </div>
         
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center" style="margin-bottom:195px;">
             <a href="#myPage" title="To Top">
                 <span class="glyphicon glyphicon-chevron-up"></span>
             </a>
             <p class="github-link">To know more about our project, please visit our <a href="https://github.com/Davidster/SOEN341Project.git">GitHub repository</a></p> 
         </div>
         
-		<footer class="container-fluid bg-4 text-center">
+		<footer class="container-fluid bg-4 text-center" style="padding: 5px 0 0 0;">
             <p>SOEN 341 project, Winter 2017.</p>
 			<p>Copyright 2017 SOEN341 Project.</p>
 			<p>Contact us: 1800-123-4567 Proud company since 2017</p>
 
-		</footer>		
+		</footer>
+	</div>
+	<script src="../../js/jquery-1.11.2.min.js"></script>
+	<script src="../../js/animsition/animsition.min.js"></script>
+	<script src="../../js/sticky/jquery.sticky.js"></script>
+	<script src="../../js/main.js"></script>
 	</body>
 </html>
