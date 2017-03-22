@@ -527,6 +527,7 @@
 	#banner {
 		background-color: #666666;
 		background-image: url("../pictures/images/banner.jpg");
+		height: 680px;
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -549,6 +550,7 @@
 		#banner .inner {
 			position: relative;
 			z-index: 1;
+			vertical-align: middle;
 		}
 
 			#banner .inner :last-child {

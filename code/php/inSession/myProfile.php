@@ -29,6 +29,7 @@
 		<title>personal page</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="../../css/index.css"/>
+		<link rel="stylesheet" href="../../css/style.css" />
 
 		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -66,7 +67,9 @@
 				</div>
 			</div>
 		</nav>
-		<div id="page-content">
+		
+		<div class="profile">
+	
 			<?php 
 
 
@@ -86,26 +89,46 @@
 						$s = "section$i";
 						echo "</br>$_SESSION[$c]";
 						echo "</br>$_SESSION[$s]";
+						
 					}
 				}			
 			?>
-			<div id="home-page">
-				<h2>Welcome to your portal!</h2>
-				<button class="btn">Change passeword</button>
-				</br></br>
-				<button class="btn">Personal information</buttom>
-			</div>
-			    
+			
+			
+				<div align = center>
+			
+				<?php 
+					echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;">Welcome to your portal ' .$_SESSION['name']. '!</span></br>';
+					echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email:'.$_SESSION['email']. '</span></br>';		
+					echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">Student ID:'.$_SESSION['sid']. '</span></br>';	
+				?>
+				</div>	
+
+				</br>
+				</br>				
+				<input type="button" value="<?php echo $_SESSION['sid'] ?> "class="button big alt" />
+				<input type="button" value="<?php echo $_SESSION['name'] ?>" class="button big alt" />
+				<input type="button" value="SOEN 343" class="button big alt" />
+				<input type="button" value="SOEN 344" class="button big alt" />
+
+			
+			
+
+		
 			<!--<div id="livechat-page" style="display: block;">
-				<?php $chat->printChat(); ?>
+				/*
+				
+				php $chat->printChat(); ?>
+				
+				*/
 			</div>-->
 				
-		</div>
-		<!--<footer>
-			<div class="legal">SOEN 341 project, Winter 2017.</div>
-			<div class="legal">Copyright 2017 SOEN341 Project.</div>
-			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
+		
+		<footer class="end">
+			
+			<div>Running into issues? Please contact us: 1800-123-4567.</div>
 
-		</footer>-->
+		</footer>
+		   </div> 
 	</body>
 </html>
