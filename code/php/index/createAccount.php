@@ -6,16 +6,17 @@
 	<head>
 		<title>Create Account</title>
 		<meta charset="UTF-8" />
-        <link rel="stylesheet" type="text/css" href="../../css/createAccount.css"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../js/animsition/animsition.min.css">
+		<link rel="stylesheet"  href="../../css/createAccount.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-
-		<nav class="navbar navbar-inverse">
+	<div class="animsition1">
+		<nav class="navbar navbar-inverse ">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -185,11 +186,16 @@
 				if (isset($success)) {echo $success;}
 				if (isset($passdontmatch)) {echo $passdontmatch;}
 			?>	
-		<footer class="container-fluid bg-4 text-center">
+		<footer class="container-fluid bg-4 text-center" style="padding: 5px 0 0 0;">
             <p>SOEN 341 project, Winter 2017.</p>
 			<p>Copyright 2017 SOEN341 Project.</p>
 			<p>Contact us: 1800-123-4567 Proud company since 2017</p>
 
 		</footer>
+	</div>
+		<script src="../../js/jquery-1.11.2.min.js"></script>
+		<script src="../../js/animsition/animsition.min.js"></script>
+		<script src="../../js/sticky/jquery.sticky.js"></script>
+		<script src="../../js/main.js"></script>
 	</body>
 </html>
