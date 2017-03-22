@@ -1,0 +1,42 @@
+#page-content #pfc_container {
+	margin: 20px;
+}
+
+#pfc_title {
+	height: 1.5em;
+}
+
+#pfc_container #pfc_cmd_container {
+	margin: 8px 0 0;
+}
+
+#pfc_cmd_container > a {
+	display: none;
+}
+
+#pfc_input_container div.pfc_btn {
+	display: none;
+}
+
+.pfc_td1 #pfc_handle {
+	height: 2em;
+}
+
+#pfc_input_container #pfc_send {
+	font-size: 1em;
+	height: 2em;
+	padding: 3px;
+}
+
+#pfc_input_container #pfc_words {
+	height: 2em;
+}
+
+#pfc_ping {
+	position: relative;
+	top: 6px;
+}
+
+.pfc_td1 #pfc_handle {
+	font-size: 1em;
+}
