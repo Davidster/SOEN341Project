@@ -19,7 +19,7 @@
 }
 
 .pfc_td1 #pfc_handle {
-    height: 2em;
+	height: 2em;
 }
 
 #pfc_input_container #pfc_send {
@@ -34,7 +34,7 @@
 
 #pfc_ping {
 	position: relative;
-    top: 6px;
+	top: 6px;
 }
 
 .pfc_td1 #pfc_handle {
