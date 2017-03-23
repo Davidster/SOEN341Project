@@ -60,21 +60,80 @@
 		
 			<?php 
 				if($TA){
-					 echo $_SESSION['class'];
-					 echo $_SESSION['section']."</br>";
-					 $ta= $_SESSION['ta'];
-					 $result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
+					echo $_SESSION['class'];
+					echo $_SESSION['section']."</br>";
+					$ta= $_SESSION['ta'];
+					$query1 = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
+					echo $classSize = mysqli_num_rows($query1);
+					echo "</br>";
 
-						 while( $row = mysqli_fetch_assoc($result)){
+					$query2 = mysqli_query($dbc,"SELECT 1 FROM Project WHERE ta= '$ta' AND pid='0'");
+					if(mysqli_num_rows($query2)==0){
+						while( $row = mysqli_fetch_assoc($query1)){
 							echo $row['sid']."</br>";
 							
-						 }
+						}
 					}
+					else{
+						$query3= mysqli_query($dbc,"SELECT * FROM Project WHERE ta= '$ta' ORDER BY pid ASC");
+						while( $row = mysqli_fetch_assoc($query1)){
+							echo "Student: ". $row['sid']. " Team #: ". $row['pid']. "</br>";
+							
+						}
+					}
+				}
 				else echo $_SESSION['sid'];
 				
 				
 			?>
-			<input value=<?php $row['sid'] ?> type="hidden" name="search">
+
+			<div>
+				<form id='make' action= '' method='post'>
+				<input type='text' name='teamsOf' placeholder= 'team size' required>
+				<input type='submit' value='Create Teams' name='make'>
+				</form>
+			</div>
+
+			<div>
+				<form id='undo' action='' method ='post'>
+				<input type='submit' value='Undo Teams' name='undo'>
+
+			<?php
+
+				$ta = $_SESSION['ta'];
+				//find all students in TAs class
+ 				$query = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
+
+				if(isset($_POST['make'])){
+					$teamSize = $_POST['teamsOf'];
+					$numOfTeams = ceil($classSize / $teamSize);
+					//$extraStudents = ($classSize % $teamSize);
+					//creates groups by joining the next number of students on the same team
+					$count=0;
+					$i=0;
+					while($row = mysqli_fetch_assoc($query)){
+						if(($count++ % $teamSize)==0){
+							$i++;
+						}
+						$student = $row['sid'];
+						mysqli_query($dbc, "UPDATE Project SET pid ='$i' WHERE sid = '$student' AND ta= '$ta'");
+					
+					}
+					if($i== $numOfTeams){
+						echo "<h2> Succesfully created $i teams";
+					}
+				}
+
+				if(isset($_POST['undo'])){
+					while($row = mysqli_fetch_assoc($query)){
+						mysqli_query($dbc, "UPDATE Project SET pid ='0' WHERE ta= '$ta'");
+					}
+					echo "<h2>Deleted groups</h2>";
+				}
+			?>
+
+
+			<!--<input value=<?php $row ?> type="hidden" name="search">
 			
 			<h1> SOEN341AA </h1>
 			
@@ -96,7 +155,7 @@
 			<a href="viewGroup.php">
 			   <input type="button" value="205"class="button" />
 			</a>
-			
+			-->
 		</div>	
 		<div>
 			<div class="legal">SOEN 341 project, Winter 2017.</div>
