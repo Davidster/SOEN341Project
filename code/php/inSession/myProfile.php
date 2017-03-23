@@ -33,7 +33,16 @@
 
 		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			var $j = jQuery.noConflict();
 
+			$j(document).ready(function(){
+			    $j("a[href='logOut.php']").click(function(e){
+			  		//call the internal disconnect function of phpfreechat
+					pfc.connect_disconnect();
+			    });
+			});
+		</script>
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -103,9 +112,9 @@
 				<input type='submit' value='Undo Teams' name='undo'>
 			</div>	";
 				}
-				else echo $_SESSION['sid'];
-				
-				
+				else{
+					echo $_SESSION['sid'];
+				}
 
 
 				if($TA){
@@ -139,6 +148,10 @@
 					echo "<h2>Deleted groups</h2>";
 				}
 			}
+			//upload apge
+			echo "<a href='viewGroup.php'>
+			   <input type='button' value='upload'class='button' />
+			</a>";
 			?>
 
 			
