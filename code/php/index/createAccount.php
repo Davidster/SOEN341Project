@@ -95,7 +95,7 @@
                     <br>
 
                     <button type="submit" value = 'Submit' name='register' class="btn btn-default">Submit</button>
-					</form>
+					</form><br><br>
         </div>
 			  <?php 
 				//gets user input
