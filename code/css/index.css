@@ -197,7 +197,7 @@ input[type="submit"]:hover, input[type="button"]:hover {
 
 .profile{
 	
-	background-image:url("sp.jpg");
+	background-image:url("../pictures/sp.jpg");
 	background-repeat: no-repeat;
 	margin:0px;
 	min-width: 100%;
