@@ -145,7 +145,7 @@
                         </div>
                 </div>
             <br>
-            <input type='submit' value='Enter' name='logbtn'/>
+            <input type='submit' value='Enter' name='logbtn' class="btn btn-default"/>
         </form>
         </div>
 		<footer class="container-fluid bg-4 text-center" style="padding: 5px 0 0 0 ;">
