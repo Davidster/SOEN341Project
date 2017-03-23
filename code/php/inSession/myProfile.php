@@ -29,6 +29,7 @@
 		<title>personal page</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="../../css/index.css"/>
+		<link rel="stylesheet" href="../../css/style.css" />
 
 		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -54,58 +55,102 @@
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
 						<li class = "active"><a href="myProfile.php"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
-						<?php
-							if($TA)
-								echo '<li><a href="ta/myClass.php"><span class="glyphicon glyphicon-education"></span> My Class</a></li>';
-							else
-								echo '<li><a href="student/myProjects.php"><span class="glyphicon glyphicon-folder-open"></span> My Projects</a></li>';
-						?>	
 						<li><a href="chat.php"><span class="glyphicon glyphicon-comment"></span> Chat</a></li>
 						<li><a href="logOut.php"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-		<div id="page-content">
+		
+		<div class="profile" align= "center">
+	
 			<?php 
-
-
-
-				echo $_SESSION['name']. "</br>";
-				echo $_SESSION['email']. "</br>";
+					echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;">Welcome to your portal ' .$_SESSION['name']. '!</span></br>';
+					echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
 				if($TA){
-					echo $_SESSION['ta'];
-					echo "</br>".$_SESSION['class']."</t>".$_SESSION['section'];
-				}
+					
+					 echo $_SESSION['class'];
+					 echo $_SESSION['section']."</br>";
+					 $ta= $_SESSION['ta'];
+					 $result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
+
+					 echo 'Student list:';
+						 while( $row = mysqli_fetch_assoc($result)){
+							echo $row['sid']."</br>";
+							
+						 }
+					}
+					
+				
 				else{
 					$sid = $_SESSION['sid'];
-					echo $sid;	
+					echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">Student ID: '.$_SESSION['sid']. '</span></br></br></br>';	
+					
+					echo'My Projects ';
+				
+					
 					
 					for($i=1;$i<=$_SESSION['total'];$i++){
 						$c = "class$i";
 						$s = "section$i";
-						echo "</br>$_SESSION[$c]";
-						echo "</br>$_SESSION[$s]";
+
+						echo "</br> <button class=\"button big alt\"> $_SESSION[$c]. $_SESSION[$s] </button>";
+						
 					}
 				}			
 			?>
-			<div id="home-page">
-				<h2>Welcome to your portal!</h2>
-				<button class="btn">Change passeword</button>
-				</br></br>
-				<button class="btn">Personal information</buttom>
-			</div>
-			    
+		
+</div>		
+
+<!--
+
+			<input value=?php $row['sid'] ?> type="hidden" name="search">
+			
+			<h1> SOEN341AA </h1>
+			
+			<a href="viewGroup.php">
+			   <input type="button" value="200"class="button" />
+			</a>
+			<a href="viewGroup.php">
+			   <input type="button" value="201" class="button" />
+			</a>
+			<a href="viewGroup.php">
+			   <input type="button" value="202"class="button" />
+			</a>
+			<a href="viewGroup.php">
+			   <input type="button" value="203"class="button" />
+			</a>
+			<a href="viewGroup.php">
+			   <input type="button" value="204"class="button" />
+			</a>
+			<a href="viewGroup.php">
+			   <input type="button" value="205"class="button" />
+			</a>
+
+
+
+
+
+
+
+
+-->
+
+		
 			<!--<div id="livechat-page" style="display: block;">
-				<?php $chat->printChat(); ?>
+				/*
+				
+				php $chat->printChat(); ?>
+				
+				*/
 			</div>-->
 				
-		</div>
-		<!--<footer>
-			<div class="legal">SOEN 341 project, Winter 2017.</div>
-			<div class="legal">Copyright 2017 SOEN341 Project.</div>
-			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
+		
+		<footer class="end">
+			
+			<div>Running into issues? Please contact us: 1800-123-4567.</div>
 
-		</footer>-->
+		</footer>
+		   
 	</body>
 </html>
