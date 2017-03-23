@@ -72,7 +72,8 @@
 					echo $_SESSION['section']."</br>";
 					$ta= $_SESSION['ta'];
 					$query1 = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
-					echo $classSize = mysqli_num_rows($query1);
+					$classSize = mysqli_num_rows($query1);
+					echo "Number of Students: ". $classSize;
 					echo "</br>";
 					//if teams are made
 					$query2 = mysqli_query($dbc,"SELECT 1 FROM Project WHERE ta= '$ta' AND pid='0'");
@@ -89,13 +90,8 @@
 							
 						}
 					}
-				}
-				else echo $_SESSION['sid'];
-				
-				
-			?>
 
-			<div>
+					echo "<div>
 				<form id='make' action= '' method='post'>
 				<input type='text' name='teamsOf' placeholder= 'team size' required>
 				<input type='submit' value='Create Teams' name='make'>
@@ -105,32 +101,36 @@
 			<div>
 				<form id='undo' action='' method ='post'>
 				<input type='submit' value='Undo Teams' name='undo'>
+			</div>	";
+				}
+				else echo $_SESSION['sid'];
+				
+				
 
-			<?php
 
-				$ta = $_SESSION['ta'];
-				//find all students in TAs class
- 				$query = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
+				if($TA){
+					//find all students in TAs class
+ 					$query = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
 
-				if(isset($_POST['make'])){
-					$teamSize = $_POST['teamsOf'];
-					$numOfTeams = ceil($classSize / $teamSize);
-					//$extraStudents = ($classSize % $teamSize);
-					//creates groups by joining the next number of students on the same team
-					$count=0;
-					$i=0;
-					while($row = mysqli_fetch_assoc($query)){
-						if(($count++ % $teamSize)==0){
-							$i++;
-						}
+					if(isset($_POST['make'])){
+						$teamSize = $_POST['teamsOf'];
+						$numOfTeams = ceil($classSize / $teamSize);
+						//$extraStudents = ($classSize % $teamSize);
+						//creates groups by joining the next number of students on the same team
+						$count=0;
+						$i=0;
+						while($row = mysqli_fetch_assoc($query)){
+							if(($count++ % $teamSize)==0){
+								$i++;
+							}
 						$student = $row['sid'];
 						mysqli_query($dbc, "UPDATE Project SET pid ='$i' WHERE sid = '$student' AND ta= '$ta'");
 					
+						}
+						if($i== $numOfTeams){
+							echo "<h2> Succesfully created $i teams";
+						}
 					}
-					if($i== $numOfTeams){
-						echo "<h2> Succesfully created $i teams";
-					}
-				}
 
 				if(isset($_POST['undo'])){
 					while($row = mysqli_fetch_assoc($query)){
@@ -138,10 +138,10 @@
 					}
 					echo "<h2>Deleted groups</h2>";
 				}
+			}
 			?>
 
-		
-</div>		
+			
 
 <!--
 
