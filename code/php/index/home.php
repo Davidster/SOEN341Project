@@ -53,13 +53,13 @@
 			</section>
 			<!-- Banner -->
 		  <ul class="list-inline text-center">
-			<li style="margin: 30px 20px 12px 0;"> <img src="../../pictures/images/project.png" alt="" style="width:304px;height:228px;border-radius:10px;" />
+			<li style="margin: 30px 20px 12px 0;"> <img src="../../pictures/project.png" alt="" style="width:304px;height:228px;border-radius:10px;" />
               <p style="margin-top:10px;color:#777777;">Start Creating Your Project <br> By Signing Up</p>
 			</li>
-			<li style="margin: 30px 20px 12px 20px;"> <img src="../../pictures/images/buildingupproject.jpg" alt="" style="width:304px;height:228px;border-radius:10px;" />
+			<li style="margin: 30px 20px 12px 20px;"> <img src="../../pictures/buildingupproject.jpg" alt="" style="width:304px;height:228px;border-radius:10px;" />
               <p style="margin-top:10px;color:#777777;">Build Up Your Team & Share Your Ideas <br> With Your Team Mates</p>
 			</li>
-			<li style="margin: 30px 0 12px 20px;">  <img src="../../pictures/images/target.jpg" alt="" style="width:304px;height:228px;border-radius:10px;" />
+			<li style="margin: 30px 0 12px 20px;">  <img src="../../pictures/target.jpg" alt="" style="width:304px;height:228px;border-radius:10px;" />
               <p style="margin-top:10px;color:#777777;">Get One Step Closer to Your Goal <br> With Moodle 2.0 </p>
 			</li>
 		 </ul>

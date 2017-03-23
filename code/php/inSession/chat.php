@@ -83,12 +83,6 @@
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
 						<li><a href="myProfile.php"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
-						<?php
-							if($TA)
-								echo '<li><a href="ta/myClass.php"><span class="glyphicon glyphicon-education"></span> My Class</a></li>';
-							else
-								echo '<li><a href="student/myProjects.php"><span class="glyphicon glyphicon-folder-open"></span> My Projects</a></li>';
-						?>	
 						<li class="active"><a href="chat.php"><span class="glyphicon glyphicon-comment"></span> Chat</a></li>
 						<li><a href="logOut.php"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
 					</ul>
