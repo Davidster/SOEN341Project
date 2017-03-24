@@ -16,24 +16,32 @@
 	}
 	$classes = array();
 	if($TA){
-		
+		//if(){
+			
+		//}
+		//else{
+			$classes[] = $_SESSION['class'] . " " . $_SESSION['section'] . "-" . 0;
+		//}
 	}
 	else{
 		for($i = 1; $i <= $_SESSION['total']; $i++){
 			$c = "class$i";
 			$s = "section$i";
-			$classes[] = $_SESSION[$c] . " "  . $_SESSION[$s];
+			$p = "project$i";
+			$classes[] = $_SESSION[$c] . " "  . $_SESSION[$s] . "-" . $_SESSION[$p];
 		}
 	}	
 	require_once '../../sql_connect.php';
 	require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
 	$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
-	$params["nick"] = $_SESSION['name'];
-	$params["data_public_url"]   = "../../phpfreechat-1.7/data/public";
+	$params["title"] = $_SESSION['name'] . "'s" . " chat";
+	$params["nick"] = $_SESSION['name']; // user's nickname for chat
+	$param["frozen_nick"] = $_SESSION['name']; // doesn't allow nickname to be changed
+	$params["data_public_url"]   = "../../phpfreechat-1.7/data/public"; 
 	$params["server_script_url"] = "./chat.php";
 	$params["theme_default_url"] = "../../phpfreechat-1.7/themes";
-	$params["channels"] = $classes;
-	$params["frozen_channels"] = $classes;
+	$params["channels"] = $classes; // chat channels open to user
+	$params["frozen_channels"] = $classes; // chat channels user can have access to
 	$chat = new phpFreeChat($params);
 
 ?>
