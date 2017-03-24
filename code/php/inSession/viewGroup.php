@@ -40,11 +40,13 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../js/animsition/animsition.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
+	<div class="animsitionMyProfile">
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -161,24 +163,35 @@
 			
 			?>
 			</br></br>
-			<form method="post" enctype="multipart/form-data">
-				<table width="350" border="0" cellpadding="1" cellspacing="1" class="box">
-					<tr> 
-						<td width="246">
-							<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-							<input name="file" type="file" id="file" required> 
-							<input type='text' name='pid' placeholder='Project ID' <?php if(!TA)echo "required";?>>
-							<input type='text' name='class' placeholder='Class' <?php if(!TA)echo "required";?>>
-							<input type='text' name='section' placeholder='Section' <?php if(!TA)echo "required";?>>
+			<div class="container-fluid">
+			<form method="post" enctype="multipart/form-data" class="uploadForm">
+					<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
+						<tr> 
+							<td width="246">
+								<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+								<input name="file" type="file" id="file" class="fileInput" required> 
+								<input type='text' name='pid' placeholder='Project ID' <?php if(!TA)echo "required";?>>
+								<input type='text' name='class' placeholder='Class' <?php if(!TA)echo "required";?>>
+								<input type='text' name='section' placeholder='Section' <?php if(!TA)echo "required";?>>
+									
 								
-							
-						</td>
-						<td width="80">
-							<input name="upload" type="submit" class="box" id="upload" value=" Upload ">
-						</td>
+							</td>
+							<td width="80">
+								<input name="upload" type="submit" class="uploadButton" id="upload" value=" Upload ">
+							</td>
+						</tr>
+					</table>
+				</form>
+				<table width="500px" border="0" cellpadding="1" cellspacing="1" class="fileTable" >
+					<tr>
+					<td width ="246" class="fileUploads">
+					
+					</td>
+					<td width="50" class="removeButton">
+					<td>
 					</tr>
-				</table>
-			</form>
+					</table>
+			</div>
 		</div>	
 			
 			
@@ -200,6 +213,6 @@
 			<div class="legal">Copyright 2017 SOEN341 Project.</div>
 			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
 		</div>	
-
+	</div>
 	</body>
 </html>
