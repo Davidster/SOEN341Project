@@ -1,14 +1,14 @@
 <?php
 	session_start();
-	require_once '../../../sql_connect.php';
+	require_once '../../sql_connect.php';
 	if(isset($_SESSION['logon'])){
 		if(!$_SESSION['logon']){ 
-			header("Location: ../../index/home.php");
+			header("Location: ../index/home.php");
 			die();
 		}
 	}
 	else{
-		header("Location: ../../index/home.php");
+		header("Location: ../index/home.php");
 	}
 
 	//check if TA user is logged in
@@ -26,7 +26,16 @@
 
 		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			var $j = jQuery.noConflict();
 
+			$j(document).ready(function(){
+			    $j("a[href='logOut.php']").click(function(e){
+			  		//call the internal disconnect function of phpfreechat
+					pfc.connect_disconnect();
+			    });
+			});
+		</script>
 		<link rel="shortcut icon" href="../../../pictures/favicon.ico" type="image/x-icon">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,9 +57,9 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li><a href="../myProfile.php"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
-						<li><a href="../chat.php"><span class="glyphicon glyphicon-comment"></span> Chat</a></li>
-						<li><a href="../logOut.php"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+						<li><a href="myProfile.php"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
+						<li><a href="chat.php"><span class="glyphicon glyphicon-comment"></span> Chat</a></li>
+						<li><a href="logOut.php"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
 					</ul>
 				</div>
 			</div>
@@ -79,32 +88,79 @@
 			
 			<div class="container">
 		<?php
-				
-				
-				if(isset($_POST['upload']) && $_FILES['userfile']['size'] > 0){
-					$fileName = $_FILES['userfile']['name'];
-					$tmpName  = $_FILES['userfile']['tmp_name'];
-					$fileSize = $_FILES['userfile']['size'];
-					$fileType = $_FILES['userfile']['type'];
-					$pid = $_POST['pid'];
+				//for students to upload
+				if(!$TA){
 
-					$fp = fopen($tmpName, 'r');
-					$content = fread($fp, filesize($tmpName));
-					$content = addslashes($content);
-					fclose($fp);
+					$sid = $_SESSION['sid'];
+					
 
-					if(!get_magic_quotes_gpc()){
-						$fileName = addslashes($fileName);
-					}
-					//fid is incremented automatically so ignore
-					$query = "INSERT INTO Files (pid, fname, size, type, content) 
-					VALUES ('$pid', '$fileName', '$fileSize', '$fileType', '$content')";
+					if(isset($_POST['upload']) && $_FILES['file']['size'] > 0){
+						$fileName = $_FILES['file']['name'];
+						$tmpName  = $_FILES['file']['tmp_name'];
+						$fileSize = $_FILES['file']['size'];
+						$fileType = $_FILES['file']['type'];
 
-					mysql_query($query) or die('Error, query failed'); 
+						$pid = $_POST['pid'];
+						$class = $_POST['class'];
+						$section = $_POST['section'];
 
-					echo "<br>File $fileName uploaded<br>";
+						$findTA= mysqli_query($dbc, "SELECT * FROM ClassList where class = '$class' AND section = '$section'");
+						$row = mysqli_fetch_assoc($findTA);
 
-				} 
+						$fp = fopen($tmpName, 'r');
+						$content = fread($fp, filesize($tmpName));
+						$content = addslashes($content);
+						fclose($fp);
+
+						if(!get_magic_quotes_gpc()){
+							$fileName = addslashes($fileName);
+						}
+						
+						//fid is incremented automatically so ignore
+						$query = "INSERT INTO Files ( ta, fname, size, type, content, pid) 
+						VALUES ('$ta', '$fileName', '$fileSize', '$fileType', '$content', '$pid')";
+
+						if(mysqli_query($dbc,$query)) {
+							echo "<br>File $fileName uploaded<br>";
+							
+						}
+						else echo mysqli_error($dbc);
+
+					} 
+				}
+				else{
+					//TA upload
+					if(isset($_POST['upload']) && $_FILES['file']['size'] > 0){
+						$fileName = $_FILES['file']['name'];
+						$tmpName  = $_FILES['file']['tmp_name'];
+						$fileSize = $_FILES['file']['size'];
+						$fileType = $_FILES['file']['type'];
+
+						$ta= $_SESSION['ta'];
+
+						$fp = fopen($tmpName, 'r');
+						$content = fread($fp, filesize($tmpName));
+						$content = addslashes($content);
+						fclose($fp);
+
+						if(!get_magic_quotes_gpc()){
+							$fileName = addslashes($fileName);
+						}
+						//fid is incremented automatically so ignore
+						//ta uploads with no pid so whole class can access documents
+						$query = "INSERT INTO Files ( ta, fname, size, type, content) 
+						VALUES ('$ta', '$fileName', '$fileSize', '$fileType', '$content')";
+
+						if(mysqli_query($dbc,$query)) {
+							echo "<br>File $fileName uploaded<br>";
+							
+						}
+						else echo mysqli_error($dbc);
+
+					} 
+				}
+			
+			
 			?>
 			</br></br>
 			<form method="post" enctype="multipart/form-data">
@@ -112,8 +168,12 @@
 					<tr> 
 						<td width="246">
 							<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-							<input name="userfile" type="file" id="userfile" required> 
-							<input name="pid" type="text" id="pid" required> 
+							<input name="file" type="file" id="file" required> 
+							<input type='text' name='pid' placeholder='Project ID' <?php if(!TA)echo "required";?>>
+							<input type='text' name='class' placeholder='Class' <?php if(!TA)echo "required";?>>
+							<input type='text' name='section' placeholder='Section' <?php if(!TA)echo "required";?>>
+								
+							
 						</td>
 						<td width="80">
 							<input name="upload" type="submit" class="box" id="upload" value=" Upload ">
