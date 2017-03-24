@@ -10,7 +10,7 @@
 		header("Location: ../index/home.php");
 	}
 	//check if TA user is logged in
-	$TA= false;
+	$TA = false;
 	if(isset($_SESSION['ta'])){
 		$GLOBALS['TA'] = true;
 	}
@@ -19,10 +19,10 @@
 		
 	}
 	else{
-		for($i=1;$i<=$_SESSION['total'];$i++){
-						$c = "class$i";
-						$s = "section$i";
-						$classes[] = $_SESSION[$c] . " "  . $_SESSION[$s];
+		for($i = 1; $i <= $_SESSION['total']; $i++){
+			$c = "class$i";
+			$s = "section$i";
+			$classes[] = $_SESSION[$c] . " "  . $_SESSION[$s];
 		}
 	}	
 	require_once '../../sql_connect.php';
@@ -41,14 +41,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>personal page</title>
+		<title>Personal page</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="../../css/index.css"/>
 		<link rel="stylesheet" type="text/css" href="../../css/chat.css"/>
 
-		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
 		<script type="text/javascript">
 			var $j = jQuery.noConflict();
 
@@ -59,7 +57,6 @@
 			    });
 			});
 		</script>
-
 
 		<script type="text/javascript" src="../../js/main.js"></script>
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
