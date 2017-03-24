@@ -14,34 +14,23 @@ $(document).ready(function(){
         // make the page were targeting display-block
         // here we are building a css selector
         $j("#" + pageTarget).css("display", "block");
-		
-	
-	
-
-
+	});
 });
 
-
-
+$(".animsition").animsition({
+	inClass: 'fade-in-right-sm',
+	outClass: 'fade-out-right-sm',
+	linkElement: '.animsition-link',
+	inDuration: 1000,
+	outDuration: 5000
 });
-	$(".animsition").animsition({
-		inClass: 'fade-in-right-sm',
-		outClass: 'fade-out-right-sm',
-		linkElement: '.animsition-link',
-		inDuration: 1000,
-		outDuration: 5000
-		
-		
-	});
 	
-		$(".animsition1").animsition({
-		inClass: 'fade-in-right-lg',
-		outClass: 'fade-out-right-lg',
-		linkElement: '.animsition-link',
-		inDuration: 1500,
-		outDuration: 500
-		
-		
-	});
+$(".animsition1").animsition({
+	inClass: 'fade-in-right-lg',
+	outClass: 'fade-out-right-lg',
+	linkElement: '.animsition-link',
+	inDuration: 1500,
+	outDuration: 500
+});
 	
-	$(".navbar").sticky();
+$(".navbar").sticky();

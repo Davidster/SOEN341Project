@@ -11,13 +11,9 @@
 		header("Location: ../index/home.php");
 	}
 	require_once '../../sql_connect.php';
-	//require_once dirname(__FILE__)."../../phpfreechat-1.7/src/phpfreechat.class.php";
-	//$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
-	//$params["nick"] = $_SESSION['name'];
-	//$chat = new phpFreeChat($params);
 
 	//check if TA user is logged in
-	$TA= false;
+	$TA = false;
 	if(isset($_SESSION['ta'])){
 		$GLOBALS['TA'] = true;
 	}
@@ -26,12 +22,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>personal page</title>
+		<title>Personal page</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="../../css/index.css"/>
 		<link rel="stylesheet" href="../../css/style.css" />
 
-		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript">
 			var $j = jQuery.noConflict();
@@ -71,46 +66,48 @@
 			</div>
 		</nav>
 		
-		<div class="profile" align= "center">
+		<div class="profile" align="center">
 	
 			<?php 
-					echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;">Welcome to your portal ' .$_SESSION['name']. '!</span></br>';
-					echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
+
+				echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;">Welcome to your portal ' .$_SESSION['name']. '!</span></br>';
+				echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
+
 				if($TA){
 					echo $_SESSION['class'];
 					echo $_SESSION['section']."</br>";
-					$ta= $_SESSION['ta'];
-					$query1 = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
-					$classSize = mysqli_num_rows($query1);
+					$ta = $_SESSION['ta'];
+					$projQueryRes = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
+					$classSize = mysqli_num_rows($projQueryRes);
 					echo "Number of Students: ". $classSize;
 					echo "</br>";
 					//if teams are made
-					$query2 = mysqli_query($dbc,"SELECT 1 FROM Project WHERE ta= '$ta' AND pid='0'");
-					if(mysqli_num_rows($query2)==0){
-						while( $row = mysqli_fetch_assoc($query1)){
+					$projQueryRes2 = mysqli_query($dbc,"SELECT 1 FROM Project WHERE ta= '$ta' AND pid='0'");
+					if(mysqli_num_rows($projQueryRes2) == 0){
+						while( $row = mysqli_fetch_assoc($projQueryRes)){
 							echo "Student: ". $row['sid']. " Team #: ". $row['pid']. "</br>";
 						}
 					}
 					//teams are not made yet
 					else{
-						$query3= mysqli_query($dbc,"SELECT * FROM Project WHERE ta= '$ta' ORDER BY pid ASC");
-						while( $row = mysqli_fetch_assoc($query1)){
+						$projQueryRes3 = mysqli_query($dbc,"SELECT * FROM Project WHERE ta= '$ta' ORDER BY pid ASC");
+						while( $row = mysqli_fetch_assoc($projQueryRes)){
 							echo "Student: " . $row['sid']."</br>";
 							
 						}
 					}
 
-					echo "<div>
-				<form id='make' action= '' method='post'>
-				<input type='text' name='teamsOf' placeholder= 'team size' required>
-				<input type='submit' value='Create Teams' name='make'>
-				</form>
-			</div>
+					echo 	"<div>
+								<form id='make' action= '' method='post'>
+									<input type='text' name='teamsOf' placeholder= 'team size' required>
+									<input type='submit' value='Create Teams' name='make'>
+								</form>
+							</div>
 
-			<div>
-				<form id='undo' action='' method ='post'>
-				<input type='submit' value='Undo Teams' name='undo'>
-			</div>	";
+							<div>
+								<form id='undo' action='' method ='post'>
+								<input type='submit' value='Undo Teams' name='undo'>
+							</div>	";
 				}
 				else{
 					echo $_SESSION['sid'];
@@ -119,39 +116,39 @@
 
 				if($TA){
 					//find all students in TAs class
- 					$query = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
+ 					$projQueryRes = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
 
 					if(isset($_POST['make'])){
 						$teamSize = $_POST['teamsOf'];
 						$numOfTeams = ceil($classSize / $teamSize);
 						//$extraStudents = ($classSize % $teamSize);
 						//creates groups by joining the next number of students on the same team
-						$count=0;
-						$i=0;
-						while($row = mysqli_fetch_assoc($query)){
-							if(($count++ % $teamSize)==0){
+						$count = 0;
+						$i = 0;
+						while($row = mysqli_fetch_assoc($projQueryRes)){
+							if(($count++ % $teamSize) == 0){
 								$i++;
 							}
 						$student = $row['sid'];
 						mysqli_query($dbc, "UPDATE Project SET pid ='$i' WHERE sid = '$student' AND ta= '$ta'");
 					
 						}
-						if($i== $numOfTeams){
+						if($i == $numOfTeams){
 							echo "<h2> Succesfully created $i teams";
 						}
 					}
 
-				if(isset($_POST['undo'])){
-					while($row = mysqli_fetch_assoc($query)){
-						mysqli_query($dbc, "UPDATE Project SET pid ='0' WHERE ta= '$ta'");
+					if(isset($_POST['undo'])){
+						while($row = mysqli_fetch_assoc($projQueryRes)){
+							mysqli_query($dbc, "UPDATE Project SET pid ='0' WHERE ta= '$ta'");
+						}
+						echo "<h2>Deleted groups</h2>";
 					}
-					echo "<h2>Deleted groups</h2>";
-				}
 			}
 			//upload apge
-			echo "<a href='viewGroup.php'>
-			   <input type='button' value='upload'class='button' />
-			</a>";
+			echo 	"<a href='viewGroup.php'>
+			   			<input type='button' value='upload'class='button' />
+					</a>";
 
 			?>
 			
@@ -159,43 +156,43 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 
 			<?php
-				for($i=1;$i<=$_SESSION['total'];$i++){
-					$c= "class$i";
-					$s= "section$i";
-					$p= "project$i";
-					$c= $_SESSION[$c];
-					$s= $_SESSION[$s];
-					$p= $_SESSION[$p];
-					$sid= $_SESSION['sid'];
-					$query = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
-					$result = mysqli_query($dbc,$query);
-					$row= mysqli_fetch_assoc($result);
-					$ta= $row['ta'];
+				for($i = 1; $i <= $_SESSION['total']; $i++){
+					$c = "class$i";
+					$s = "section$i";
+					$p = "project$i";
+					$c = $_SESSION[$c];
+					$s = $_SESSION[$s];
+					$p = $_SESSION[$p];
+					$sid = $_SESSION['sid'];
+					$classQuery = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
+					$classQueryRes = mysqli_query($dbc, $classQuery);
+					$row = mysqli_fetch_assoc($classQueryRes);
+					$ta = $row['ta'];
 					echo "</br> Class: $c $s ";
 
 					echo "Files:";
 
-					$files= mysqli_query($dbc, "SELECT * FROM Files WHERE (ta= '$ta' AND pid= '$p') OR (ta= '$ta' AND pid = null)");
+					$files = mysqli_query($dbc, "SELECT * FROM Files WHERE (ta= '$ta' AND pid= '$p') OR (ta= '$ta' AND pid = null)");
 
 					while($rows = mysqli_fetch_assoc($files)){
-						$fid= $rows['fid'];
+						$fid = $rows['fid'];
 						echo $fid;
-						$fname=$rows['fname'];
+						$fname = $rows['fname'];
 						echo $fname;
-						$fid= urlencode($fid);
-						$fname= urlencode($fname);
+						$fid = urlencode($fid);
+						$fname = urlencode($fname);
 						echo "<a href='myProfile.php?fid=$fid'> $fname</a> </br>";
  
 					}
 				}
 
 				if(isset($_GET['fid'])){
-				// if id is set then get the file with the id from database
 
+					// if id is set then get the file with the id from database
 					$fid = $_GET['fid'];
-					$query = "SELECT fname, type, size, content FROM Files WHERE fid = '$fid'";
-					$result = mysqli_query($query) or die('Error, query failed');
-					$row =  mysqli_fetch_assoc($result);
+					$fileQuery = "SELECT fname, type, size, content FROM Files WHERE fid = '$fid'";
+					$fileQueryRes = mysqli_query($fileQuery) or die('Error, file query failed');
+					$row = mysqli_fetch_assoc($fileQueryRes);
 
 					header("Content-length: {$row['size']}");
 					header("Content-type: {$row['type']}");
@@ -244,14 +241,6 @@
 
 -->
 
-		
-			<!--<div id="livechat-page" style="display: block;">
-				/*
-				
-				php $chat->printChat(); ?>
-				
-				*/
-			</div>-->
 				
 		
 		<footer class="end">
