@@ -244,15 +244,19 @@
 -->
 
 				
-		
 		<footer class="end">
 			
 			<div>Running into issues? Please contact us: 1800-123-4567.</div>
 
 		</footer>
 	</div>
+
 	</div>
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>	   
+
+	<script src="../../js/jquery-1.11.2.min.js"></script>
+	<script src="../../js/animsition/animsition.min.js"></script>
+
 	</body>
 </html>
