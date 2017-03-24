@@ -12,19 +12,19 @@
 	}
 
 	//check if TA user is logged in
-	$TA= false;
+	$TA = false;
 	if(isset($_SESSION['ta'])){
 		$GLOBALS['TA'] = true;
 	}
 ?>
-	<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Log in</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="../../../css/index.css"/>
 
-		<!-- Import JQuery library (REMOVE THIS COMMENT AT SOME POINT) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript">
 			var $j = jQuery.noConflict();
@@ -67,27 +67,28 @@
 		<div id="page-content">
 		
 			<?php 
-				if($TA){
-					 echo $_SESSION['class'];
-					 echo $_SESSION['section']."</br>";
-					 $ta= $_SESSION['ta'];
-					 $result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
 
-						 while( $row = mysqli_fetch_assoc($result)){
-							echo $row['sid']."</br>";
-							
-						 }
+				if($TA){
+
+					echo $_SESSION['class'];
+					echo $_SESSION['section']."</br>";
+					$ta = $_SESSION['ta'];
+					$result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
+
+					while( $row = mysqli_fetch_assoc($result)){
+						echo $row['sid']."</br>";
 					}
+
+				}
 				else echo $_SESSION['sid'];
-				
-				
+					
 			?>
 			
 			
 			
 			
 			<div class="container">
-		<?php
+			<?php
 				//for students to upload
 				if(!$TA){
 
@@ -104,8 +105,8 @@
 						$class = $_POST['class'];
 						$section = $_POST['section'];
 
-						$findTA= mysqli_query($dbc, "SELECT * FROM ClassList where class = '$class' AND section = '$section'");
-						$row = mysqli_fetch_assoc($findTA);
+						$findTAQueryRes = mysqli_query($dbc, "SELECT * FROM ClassList where class = '$class' AND section = '$section'");
+						$row = mysqli_fetch_assoc($findTAQueryRes);
 
 						$fp = fopen($tmpName, 'r');
 						$content = fread($fp, filesize($tmpName));
@@ -117,15 +118,13 @@
 						}
 						
 						//fid is incremented automatically so ignore
-						$query = "INSERT INTO Files ( ta, fname, size, type, content, pid) 
+						$fileUploadQuery = "INSERT INTO Files ( ta, fname, size, type, content, pid) 
 						VALUES ('$ta', '$fileName', '$fileSize', '$fileType', '$content', '$pid')";
 
-						if(mysqli_query($dbc,$query)) {
-							echo "<br>File $fileName uploaded<br>";
-							
+						if(mysqli_query($dbc, $fileUploadQuery)) {
+							echo "<br>File $fileName uploaded<br>";					
 						}
 						else echo mysqli_error($dbc);
-
 					} 
 				}
 				else{
@@ -136,7 +135,7 @@
 						$fileSize = $_FILES['file']['size'];
 						$fileType = $_FILES['file']['type'];
 
-						$ta= $_SESSION['ta'];
+						$ta = $_SESSION['ta'];
 
 						$fp = fopen($tmpName, 'r');
 						$content = fread($fp, filesize($tmpName));
@@ -148,15 +147,14 @@
 						}
 						//fid is incremented automatically so ignore
 						//ta uploads with no pid so whole class can access documents
-						$query = "INSERT INTO Files ( ta, fname, size, type, content) 
+						$fileUploadQuery = "INSERT INTO Files ( ta, fname, size, type, content) 
 						VALUES ('$ta', '$fileName', '$fileSize', '$fileType', '$content')";
 
-						if(mysqli_query($dbc,$query)) {
+						if(mysqli_query($dbc,$fileUploadQuery)) {
 							echo "<br>File $fileName uploaded<br>";
 							
 						}
 						else echo mysqli_error($dbc);
-
 					} 
 				}
 			
