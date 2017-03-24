@@ -155,60 +155,57 @@
 
 			?>
 			
-<title>Download Files</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Download Files</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 
-<?php
-for($i=1;$i<=$_SESSION['total'];$i++){
-	$c= "class$i";
-	$s= "section$i";
-	$p= "project$i";
-	$c= $_SESSION[$c];
-	$s= $_SESSION[$s];
-	$p= $_SESSION[$p];
-	$sid= $_SESSION['sid'];
-$query = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
-$result = mysqli_query($dbc,$query);
-$row= mysqli_fetch_assoc($result);
-$ta= $row['ta'];
-echo "</br> Class: $c $s ";
+			<?php
+				for($i=1;$i<=$_SESSION['total'];$i++){
+					$c= "class$i";
+					$s= "section$i";
+					$p= "project$i";
+					$c= $_SESSION[$c];
+					$s= $_SESSION[$s];
+					$p= $_SESSION[$p];
+					$sid= $_SESSION['sid'];
+					$query = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
+					$result = mysqli_query($dbc,$query);
+					$row= mysqli_fetch_assoc($result);
+					$ta= $row['ta'];
+					echo "</br> Class: $c $s ";
 
-echo "Files:";
+					echo "Files:";
 
-$files= mysqli_query($dbc, "SELECT * FROM Files WHERE (ta= '$ta' AND pid= '$p') OR (ta= '$ta' AND pid = null)");
+					$files= mysqli_query($dbc, "SELECT * FROM Files WHERE (ta= '$ta' AND pid= '$p') OR (ta= '$ta' AND pid = null)");
 
-while($rows = mysqli_fetch_assoc($files)){
-$fid= $rows['fid'];
-echo $fid;
-$fname=$rows['fname'];
-echo $fname;
-$fid= urlencode($fid);
-$fname= urlencode($fname);
-echo "<a href='myProfile.php?fid=$fid'> $fname</a> </br>";
+					while($rows = mysqli_fetch_assoc($files)){
+						$fid= $rows['fid'];
+						echo $fid;
+						$fname=$rows['fname'];
+						echo $fname;
+						$fid= urlencode($fid);
+						$fname= urlencode($fname);
+						echo "<a href='myProfile.php?fid=$fid'> $fname</a> </br>";
  
-}
-}
+					}
+				}
 
-if(isset($_GET['fid'])) 
-{
-// if id is set then get the file with the id from database
+				if(isset($_GET['fid'])){
+				// if id is set then get the file with the id from database
 
-$fid    = $_GET['fid'];
-$query = "SELECT fname, type, size, content " .
-         "FROM Files WHERE fid = '$fid'";
+					$fid = $_GET['fid'];
+					$query = "SELECT fname, type, size, content FROM Files WHERE fid = '$fid'";
+					$result = mysqli_query($query) or die('Error, query failed');
+					$row =  mysqli_fetch_assoc($result);
 
-$result = mysqli_query($query) or die('Error, query failed');
-$row =  mysqli_fetch_assoc($result);
-
-header("Content-length: {$row['size']}");
-header("Content-type: {$row['type']}");
-header("Content-Disposition: attachment; filename={$row['fname']}");
-echo $row['content'];
-exit;
-}
+					header("Content-length: {$row['size']}");
+					header("Content-type: {$row['type']}");
+					header("Content-Disposition: attachment; filename={$row['fname']}");
+					echo $row['content'];
+					exit;
+				}
 
 
-?>
+			?>
 
 
 			
