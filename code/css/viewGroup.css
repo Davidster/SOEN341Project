@@ -1,0 +1,33 @@
+.uploadForm {
+	border-style: groove;
+	background-color: #f7f7f7;
+	border-radius: 15px 50px;
+	margin: 0;
+	float:left;
+	width: 500px;
+	
+}
+
+.uploadTable{
+	margin: 20px;
+	
+	
+}
+
+.uploadButton{
+	margin: 0 0 0 50px;
+	border-radius: 5px;
+	
+}
+.fileInput{
+	background-color: #30C29E;
+	border-radius: 5px;
+	margin: 0 0 5px 0;
+	
+}
+.fileUploads{
+	max-height: 600px;
+	
+	
+	
+}
