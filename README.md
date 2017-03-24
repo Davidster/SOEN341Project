@@ -28,3 +28,4 @@ and for teacher's assistants to provide feedback for the students' work through 
 - There will be a way to track a team's progress and each member's contribution to the project.
 
 ### (see user stories for greater detail)
+
