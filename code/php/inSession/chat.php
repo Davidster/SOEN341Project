@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	require_once '../../sql_connect.php';
 	if(isset($_SESSION['logon'])){
 		if(!$_SESSION['logon']){ 
 			header("Location: ../index/home.php");
@@ -16,12 +17,18 @@
 	}
 	$classes = array();
 	if($TA){
-		//if(){
-			
-		//}
-		//else{
+		$ta = $_SESSION['ta'];
+		$queryGroup = mysqli_query($dbc, "SELECT DISTINCT pid FROM Project WHERE ta = '$ta'");
+		$row= mysqli_fetch_assoc($queryGroup);
+		$numberOfGroups = mysqli_num_rows($queryGroup);
+		if($row['pid'] != 0){
+			for($i = 1; $i <= $numberOfGroups;$i++){
+				$classes[] = $_SESSION['class'] . " " . $_SESSION['section'] . "-" . $i;
+			}
+		}
+		else{
 			$classes[] = $_SESSION['class'] . " " . $_SESSION['section'] . "-" . 0;
-		//}
+		}
 	}
 	else{
 		for($i = 1; $i <= $_SESSION['total']; $i++){
@@ -31,7 +38,7 @@
 			$classes[] = $_SESSION[$c] . " "  . $_SESSION[$s] . "-" . $_SESSION[$p];
 		}
 	}	
-	require_once '../../sql_connect.php';
+	
 	require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
 	$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
 	$params["title"] = $_SESSION['name'] . "'s" . " chat";
