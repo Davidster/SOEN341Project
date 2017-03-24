@@ -33,10 +33,10 @@ final class Test extends \PHPUnit_Framework_TestCase
 		echo $response->getBody();
 		// >>> {"type":"User", ...
 
-		echo $response->getHeader('Content-Length');
+		echo $response->getStatusCode();
 		// >>> 792
 
 		// >>> User
-		$this->assertEquals(true, true);
+		$this->assertEquals('200', $response->getStatusCode());
 	}
 }
