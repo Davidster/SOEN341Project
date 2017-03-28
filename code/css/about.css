@@ -41,3 +41,12 @@ div .col-sm-8 > p{
     background-color: #2f2f2f;
     color: #ffffff;
 }
+
+a{
+    color:black;
+}
+
+a:hover{
+    color:black;
+    text-decoration: none;
+}
