@@ -22,7 +22,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					</button>
-					<a class="navbar-brand" href="#">Moodle 2.0</a>
+					<a class="navbar-brand" href="home.php">Moodle 2.0</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -41,7 +41,7 @@
                     <h2>About Page</h2>
                     <h4>About Us</h4> 
                     <p>We are a team of students in Software engineering and Computer engineering. Inspired by the idea of having a site dedicated to group projects, we decided to built a webstite that would contains all the features needed to work on the given project.</p>
-            <button class="btn btn-default btn-lg">Get in Touch</button>
+            <button class="btn btn-default btn-lg"> <a href="contact.php">Get in Touch</a></button>
                 </div>
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-signal logo"></span>
