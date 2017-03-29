@@ -21,7 +21,7 @@ p.github-link{
     font-size:20px;
 }
 
-.glyphicon{
+.glyphicon.glyphicon-globe.logo, .glyphicon.glyphicon-signal.logo{
     font-size: 200px;
 }
 
