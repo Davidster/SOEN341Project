@@ -17,60 +17,20 @@ $(document).ready(function(){
 	});
 });
 
-//Ajax viewGroup Files
-
-
-
-  
-$('.uploadButton').on('click', function(){
-  
-let input = $('.fileInput');
-input.textContent = $('.uploadButton').value;  
-$('.fileUploads').appendChild(input);
-let removebutton =document.createElement('Button');
-$('.removeButton').appendChild(removeButton);
- removebutton.document
-
-$('.uploadButton').value = ''; });
-
-$('.uploadForm').on('click', function(event){
-	if(event.target.tagname == 'Button'){
-		$('.removeButton')=event.target.parentNode;
-		$('.removeButton').previousSibling($('.fileUploads');
-		$(".fileUploads").removeChild();
-		
-	}
-});
-  
-
-
-//animsition
-
 $(".animsition").animsition({
-	inClass: 'fade-in',
-	outClass: 'fade-out',
+	inClass: 'fade-in-right-sm',
+	outClass: 'fade-out-right-sm',
+	linkElement: '.animsition-link',
+	inDuration: 1000,
+	outDuration: 5000
+});
+	
+$(".animsition1").animsition({
+	inClass: 'fade-in-right-lg',
+	outClass: 'fade-out-right-lg',
 	linkElement: '.animsition-link',
 	inDuration: 1500,
 	outDuration: 500
 });
 	
-$(".animsitionLogin").animsition({
-	inClass: 'fade-in',
-    outClass: 'zoom-out-sm',
-	linkElement: '.animsition-link',
-	inDuration: 1500,
-	outDuration: 5000
-});
-
-$(".animsitionMyProfile").animsition({
-	inClass: 'zoom-in-sm',
-    outClass: 'fade-out',
-	linkElement: '.animsition-link',
-	inDuration: 1500,
-	outDuration: 500
-});
-
-//sticky
-
 $(".navbar").sticky();
-
