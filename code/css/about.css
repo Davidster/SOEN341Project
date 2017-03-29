@@ -21,7 +21,7 @@ p.github-link{
     font-size:20px;
 }
 
-.glyphicon{
+.glyphicon.glyphicon-globe.logo, .glyphicon.glyphicon-signal.logo{
     font-size: 200px;
 }
 
@@ -40,13 +40,4 @@ div .col-sm-8 > p{
 .bg-4 { 
     background-color: #2f2f2f;
     color: #ffffff;
-}
-
-a{
-    color:black;
-}
-
-a:hover{
-    color:black;
-    text-decoration: none;
 }
