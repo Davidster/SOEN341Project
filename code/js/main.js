@@ -36,7 +36,7 @@ $('.uploadButton').value = ''; });
 $('.uploadForm').on('click', function(event){
 	if(event.target.tagname == 'Button'){
 		$('.removeButton')=event.target.parentNode;
-		$('.removeButton').previousSibling($('.fileUploads');
+		$('.removeButton').previousSibling($('.fileUploads'));
 		$(".fileUploads").removeChild();
 		
 	}
