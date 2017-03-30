@@ -78,10 +78,12 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../js/animsition/animsition.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+	<div class="animsition">
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -125,5 +127,8 @@
 			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
 
 		</footer>-->
+	</div>
+	<script src="../../js/jquery-1.11.2.min.js"></script>
+	<script src="../../js/animsition/animsition.min.js"></script>
 	</body>
 </html>
