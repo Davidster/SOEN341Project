@@ -41,7 +41,7 @@
 	
 	require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
 	$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
-	$params["title"] = $_SESSION['name'] . "'s" . " chat";
+	$params["title"] = "My Chat";
 	$params["nick"] = $_SESSION['name']; // user's nickname for chat
 	$param["frozen_nick"] = $_SESSION['name']; // doesn't allow nickname to be changed
 	$params["data_public_url"]   = "../../phpfreechat-1.7/data/public"; 
