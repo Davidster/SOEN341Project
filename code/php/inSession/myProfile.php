@@ -214,7 +214,7 @@
 					}
 				}
 			//upload page
-			echo 	"<a href='viewGroup.php'>
+			echo 	"<a href='uploadDemo.php'>
 			   			<input type='button' value='upload'class='button' />
 					</a>";
 
@@ -238,21 +238,6 @@
 						$row = mysqli_fetch_assoc($classQueryRes);
 						$ta = $row['ta'];
 						echo "</br> Class: $c $s ";
-
-						echo "Files:";
-
-						$files = mysqli_query($dbc, "SELECT * FROM Files WHERE (ta= '$ta' AND pid= '$p') OR (ta= '$ta' AND pid = null)");
-
-						while($rows = mysqli_fetch_assoc($files)){
-							$fid = $rows['fid'];
-							echo $fid;
-							$fname = $rows['fname'];
-							echo $fname;
-							$fid = urlencode($fid);
-							$fname = urlencode($fname);
-							echo "<a href='myProfile.php?fid=$fid'> $fname</a> </br>";
- 
-						}
 					}
 
 					if(isset($_GET['fid'])){
