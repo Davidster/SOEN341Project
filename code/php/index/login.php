@@ -123,34 +123,40 @@
 				</div>
 			</div>
 		</nav>
-        <div class="container" style="margin-bottom: 275px;">
-            <h1>Login Page</h1><br>
-            <form id = 'login' action= '' method = 'post'>
-                <div class="form-group">
-				    <label><p>Enter your email:</p></label>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input class="form-control" type='email' name='email' placeholder='Email Address' required>
-                        </div>
-                </div>
-                 <div class="form-group">
-				    <label><p>Enter your password:</p></label>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                            <input class="form-control" type='password' name='password' placeholder='Password' required>
-                        </div>
-                </div>
-            <br>
-            <input type='submit' value='Enter' name='logbtn' class="btn btn-default"/>
-        </form>
+        <div class="container"> <!--style="margin-bottom: 275px;">-->
+            <div class='col-lg-8 col-lg-offset-2'>
+				<div class='form-group'>
+					<h1>Login Page</h1>
+				</div>
+				<form id = 'login' action= '' method = 'post'>
+					<div class="form-group">
+						<label><p>Enter your email:</p></label>
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<input class="form-control" type='email' name='email' placeholder='Email Address' required>
+							</div>
+					</div>
+					<div class="form-group">
+						<label><p>Enter your password:</p></label>
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<input class="form-control" type='password' name='password' placeholder='Password' required>
+							</div>
+					</div>
+					<br/>
+					<input type='submit' value='Enter' name='logbtn' class="btn btn-default"/>
+				</form>
+			</div>
         </div>
-		<footer class="container-fluid bg-4 text-center" style="padding: 5px 0 0 0 ;">
-            <p>SOEN 341 project, Winter 2017.</p>
-			<p>Copyright 2017 SOEN341 Project.</p>
-			<p>Contact us: 1800-123-4567 Proud company since 2017</p>
-
-		</footer>
 	</div>
+	<footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;postion:absolute;bottom:0;">
+		<div class="container">
+			<p style="font-size: 12px; margin: 0;">
+				&copy; Winter 2017 SOEN341 Project. All Rights Reserved.<br/>
+				Contact Us: 1-800-123-4567
+			</p>
+		</div>
+	</footer>	
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
 	<script src="../../js/sticky/jquery.sticky.js"></script>

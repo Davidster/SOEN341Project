@@ -63,15 +63,15 @@
               <p style="margin-top:10px;color:#777777;">Get One Step Closer to Your Goal <br> With Moodle 2.0 </p>
 			</li>
 		 </ul>
-			
-			
-			
-		<footer class="container-fluid bg-4 text-center" style="padding: 5px 0 0 0;">
-            <p>SOEN 341 Project, Winter 2017.</p>
-			<p>Copyright 2017 SOEN341 Project.</p>
-			<p>Contact us: 1800-123-4567 Proud Company Since 2017</p>
-		</footer>
 	</div>
+	<footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
+		<div class="container">
+			<p style="font-size: 12px; margin: 0;">
+				&copy; Winter 2017 SOEN341 Project. All Rights Reserved.<br/>
+				Contact Us: 1-800-123-4567
+			</p>
+		</div>
+	</footer>
 		<script src="../../js/jquery-1.11.2.min.js"></script>
 		<script src="../../js/animsition/animsition.min.js"></script>
 		<script src="../../js/sticky/jquery.sticky.js"></script>

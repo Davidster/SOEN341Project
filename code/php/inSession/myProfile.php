@@ -71,7 +71,6 @@
 		<div class="profile" align="center">
 	
 			<?php 
-
 				echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;">Welcome to your portal ' .$_SESSION['name']. '!</span></br>';
 				echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
 
@@ -220,66 +219,59 @@
 			
 	
 		
-<?php
+			<?php
 
-// accessing the group pages
+				// accessing the group pages
 
-if($TA){
-		$ta = $_SESSION['ta'];
-		$queryStudents = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
-		$rowAllStudents = mysqli_fetch_assoc($queryStudents);
-		$numberOfStudents = mysqli_num_rows($queryStudents);
+				if($TA){
+					$ta = $_SESSION['ta'];
+					$queryStudents = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
+					$rowAllStudents = mysqli_fetch_assoc($queryStudents);
+					$numberOfStudents = mysqli_num_rows($queryStudents);
 		
-		$queryNumGroups = mysqli_query($dbc, "SELECT DISTINCT pid FROM Project WHERE ta = '$ta'");
-		$rowGroups= mysqli_fetch_assoc($queryNumGroups);
-		$numOfGroups = mysqli_num_rows($queryNumGroups);
+					$queryNumGroups = mysqli_query($dbc, "SELECT DISTINCT pid FROM Project WHERE ta = '$ta'");
+					$rowGroups= mysqli_fetch_assoc($queryNumGroups);
+					$numOfGroups = mysqli_num_rows($queryNumGroups);
 
 		
-		if($numOfGroups > 1){
-	//for each group display students of that group
-	for($i = 1; $i<=$numOfGroups; $i++){
-		$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
-		echo "</br> Team $i: </br>";
-		while($rowGroupedStudents = mysqli_fetch_assoc($queryOneGroup)){
-		echo $rowGroupedStudents['sid'] . "</br>";
-		}
-		echo 	"<a href='viewGroup.php'class=\"button big alt\"> Team $i group page 
-				</a>";
-		
-	}
-}
-
-			//upload apge
-			echo 	"<a href='viewGroup.php'>
-			   			<input type='button' value='upload'class='button' />
-						</a>";
-	
-}
-else {
-					for($i=1;$i<=$_SESSION['total'];$i++){
- 					$c = "class$i";
- 					$s = "section$i";
-					echo 	"</br></br><a href='viewGroup.php'>
-							<button class=\"button big alt\"> $_SESSION[$c]. $_SESSION[$s] </button>
-							</a>";
+					if($numOfGroups > 1){
+						//for each group display students of that group
+						for($i = 1; $i<=$numOfGroups; $i++){
+							$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
+							echo "</br> Team $i: </br>";
+							while($rowGroupedStudents = mysqli_fetch_assoc($queryOneGroup)){
+								echo $rowGroupedStudents['sid'] . "</br>";
+							}
+								echo 	"<a href='viewGroup.php'class=\"button big alt\"> Team $i group page </a>";
+						}
 					}
-}
+
+					//upload apge
+					echo 	"<a href='viewGroup.php'>
+								<input type='button' value='upload'class='button' />
+							</a>";
+				}
+				else {
+					for($i=1;$i<=$_SESSION['total'];$i++){
+						$c = "class$i";
+						$s = "section$i";
+						echo 	"</br></br><a href='viewGroup.php'>
+								<button class=\"button big alt\"> $_SESSION[$c]. $_SESSION[$s] </button>
+								</a>";
+					}
+				}
 
 
 
 
-?>
+			?>
 
-			
-
-	</div>
-
-	</div>  
-	<script src="../../js/jquery-1.11.2.min.js"></script>
-	<script src="../../js/animsition/animsition.min.js"></script>
-	<script src="../../js/sticky/jquery.sticky.js"></script>
-	<script type="text/javascript" src="../../js/main.js"></script>
+		</div>
+	</div> 	
+		<script src="../../js/jquery-1.11.2.min.js"></script>
+		<script src="../../js/animsition/animsition.min.js"></script>
+		<script src="../../js/sticky/jquery.sticky.js"></script>
+		<script type="text/javascript" src="../../js/main.js"></script>
 
 	</body>
-
 </html>
