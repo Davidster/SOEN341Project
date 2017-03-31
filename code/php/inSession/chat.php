@@ -73,7 +73,6 @@
 			});
 		</script>
 
-		<script type="text/javascript" src="../../js/main.js"></script>
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -128,7 +127,11 @@
 
 		</footer>-->
 	</div>
+
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
+	<script src="../../js/sticky/jquery.sticky.js"></script>
+	<script type="text/javascript" src="../../js/main.js"></script>
+	
 	</body>
 </html>

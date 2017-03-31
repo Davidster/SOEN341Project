@@ -254,10 +254,11 @@
 			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
 		</div>	
 	</div>
-
+	
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
-	<script src="../../js/main.js"></script>
+	<script src="../../js/sticky/jquery.sticky.js"></script>
+	<script type="text/javascript" src="../../js/main.js"></script>
 
 	</body>
 </html>
