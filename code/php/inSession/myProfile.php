@@ -90,11 +90,11 @@
 							echo "Student: ". $row['sid']. " Team #: ". $row['pid']. "</br>";
 						}
 					}
-					//teams are not made yet
+					//teams are not all made yet
 					else{
 						$projQueryRes3 = mysqli_query($dbc,"SELECT * FROM Project WHERE ta= '$ta' ORDER BY pid ASC");
 						while( $row = mysqli_fetch_assoc($projQueryRes)){
-							echo "Student: " . $row['sid']."</br>";
+							echo "Student: " . $row['sid']. " Team #: ".$row['pid'] ."</br>";
 							
 						}
 					}
@@ -110,6 +110,23 @@
 								<form id='undo' action='' method ='post'>
 								<input type='submit' value='Undo Teams' name='undo'>
 							</div>	";
+
+					echo 	"<div>
+								<form id='add' action= '' method='post'>
+									<input type='text' name='sidToAdd' placeholder= 'Insert Student ID' required>
+									<input type='text' name='pidA' placeholder= 'Insert Project ID' required>
+									<input type='submit' value='Add to Team' name='add'>
+								</form>
+							</div>
+
+							<div>
+								<form id='remove' action= '' method='post'>
+									<input type='text' name='sidToRemove' placeholder= 'Insert Student ID' required>
+									<input type='submit' value='Remove from Team' name='remove'>
+								</form>
+							</div>
+
+							";
 				}
 				else{
 					echo $_SESSION['sid'];
@@ -141,13 +158,62 @@
 					}
 
 					if(isset($_POST['undo'])){
+						//resets all teams to 0
 						while($row = mysqli_fetch_assoc($projQueryRes)){
 							mysqli_query($dbc, "UPDATE Project SET pid ='0' WHERE ta= '$ta'");
 						}
 						echo "<h2>Deleted groups</h2>";
 					}
-			}
-			//upload apge
+
+					if(isset($_POST['add'])){
+						$sidToAdd = $_POST['sidToAdd'];
+						$pidA = $_POST['pidA'];
+
+						//check if sid exists for this class
+						$studentExists = mysqli_query($dbc, "SELECT EXISTS(SELECT 1 FROM Project WHERE ta ='$ta' AND sid = '$sidToAdd')");
+						if(mysqli_num_rows($studentExists) == 0){
+							echo "Please enter a valid Student ID";
+							break;
+						}
+						else{
+							//change sid to team input
+							if(mysqli_query($dbc, "UPDATE Project SET pid ='$pidA' WHERE ta = '$ta' AND sid = '$sidToAdd'")){
+								echo "'$sidToAdd' added to '$pidA'";
+							}
+
+						}
+
+
+
+
+
+					}
+
+
+					if(isset($_POST['remove'])){
+						$sidToRemove = $_POST['sidToRemove'];
+
+						//check if sid exists for this class
+						$studentExists = mysqli_query($dbc, "SELECT EXISTS(SELECT 1 FROM Project WHERE ta ='$ta' AND sid = '$sidToRemove')");
+						if(mysqli_num_rows($studentExists) == 0){
+							echo "Please enter a valid Student ID";
+							break;
+						}
+						else{
+							//remove sid from team hes in
+							if(mysqli_query($dbc, "UPDATE Project SET pid ='0' WHERE ta = '$ta' AND sid = '$sidToRemove'")){
+								echo "'$sidToRemove' removed from original team";
+							}
+
+						}
+
+
+
+
+
+					}
+				}
+			//upload page
 			echo 	"<a href='viewGroup.php'>
 			   			<input type='button' value='upload'class='button' />
 					</a>";
@@ -158,51 +224,52 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 
 			<?php
-				for($i = 1; $i <= $_SESSION['total']; $i++){
-					$c = "class$i";
-					$s = "section$i";
-					$p = "project$i";
-					$c = $_SESSION[$c];
-					$s = $_SESSION[$s];
-					$p = $_SESSION[$p];
-					$sid = $_SESSION['sid'];
-					$classQuery = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
-					$classQueryRes = mysqli_query($dbc, $classQuery);
-					$row = mysqli_fetch_assoc($classQueryRes);
-					$ta = $row['ta'];
-					echo "</br> Class: $c $s ";
+				if(!$TA){
+					for($i = 1; $i <= $_SESSION['total']; $i++){
+						$c = "class$i";
+						$s = "section$i";
+						$p = "project$i";
+						$c = $_SESSION[$c];
+						$s = $_SESSION[$s];
+						$p = $_SESSION[$p];
+						$sid = $_SESSION['sid'];
+						$classQuery = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
+						$classQueryRes = mysqli_query($dbc, $classQuery);
+						$row = mysqli_fetch_assoc($classQueryRes);
+						$ta = $row['ta'];
+						echo "</br> Class: $c $s ";
 
-					echo "Files:";
+						echo "Files:";
 
-					$files = mysqli_query($dbc, "SELECT * FROM Files WHERE (ta= '$ta' AND pid= '$p') OR (ta= '$ta' AND pid = null)");
+						$files = mysqli_query($dbc, "SELECT * FROM Files WHERE (ta= '$ta' AND pid= '$p') OR (ta= '$ta' AND pid = null)");
 
-					while($rows = mysqli_fetch_assoc($files)){
-						$fid = $rows['fid'];
-						echo $fid;
-						$fname = $rows['fname'];
-						echo $fname;
-						$fid = urlencode($fid);
-						$fname = urlencode($fname);
-						echo "<a href='myProfile.php?fid=$fid'> $fname</a> </br>";
+						while($rows = mysqli_fetch_assoc($files)){
+							$fid = $rows['fid'];
+							echo $fid;
+							$fname = $rows['fname'];
+							echo $fname;
+							$fid = urlencode($fid);
+							$fname = urlencode($fname);
+							echo "<a href='myProfile.php?fid=$fid'> $fname</a> </br>";
  
+						}
 					}
-				}
 
-				if(isset($_GET['fid'])){
+					if(isset($_GET['fid'])){
 
 					// if id is set then get the file with the id from database
-					$fid = $_GET['fid'];
-					$fileQuery = "SELECT fname, type, size, content FROM Files WHERE fid = '$fid'";
-					$fileQueryRes = mysqli_query($fileQuery) or die('Error, file query failed');
-					$row = mysqli_fetch_assoc($fileQueryRes);
+						$fid = $_GET['fid'];
+						$fileQuery = "SELECT fname, type, size, content FROM Files WHERE fid = '$fid'";
+						$fileQueryRes = mysqli_query($fileQuery) or die('Error, file query failed');
+						$row = mysqli_fetch_assoc($fileQueryRes);
 
-					header("Content-length: {$row['size']}");
-					header("Content-type: {$row['type']}");
-					header("Content-Disposition: attachment; filename={$row['fname']}");
-					echo $row['content'];
-					exit;
+						header("Content-length: {$row['size']}");
+						header("Content-type: {$row['type']}");
+						header("Content-Disposition: attachment; filename={$row['fname']}");
+						echo $row['content'];
+						exit;
+					}
 				}
-
 
 			?>
 
