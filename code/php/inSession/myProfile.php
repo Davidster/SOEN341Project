@@ -274,12 +274,11 @@ else {
 
 	</div>
 
-	</div>
-	<script src="../../js/jquery-1.11.2.min.js"></script>
-	<script src="../../js/animsition/animsition.min.js"></script>	   
-
+	</div>  
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
+	<script src="../../js/sticky/jquery.sticky.js"></script>
+	<script type="text/javascript" src="../../js/main.js"></script>
 
 	</body>
 
