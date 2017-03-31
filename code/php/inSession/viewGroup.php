@@ -166,6 +166,60 @@
 			
 			
 			?>
+			
+					<title>Download Files</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+			<?php
+				for($i = 1; $i <= $_SESSION['total']; $i++){
+					$c = "class$i";
+					$s = "section$i";
+					$p = "project$i";
+					$c = $_SESSION[$c];
+					$s = $_SESSION[$s];
+					$p = $_SESSION[$p];
+					$sid = $_SESSION['sid'];
+					$classQuery = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
+					$classQueryRes = mysqli_query($dbc, $classQuery);
+					$row = mysqli_fetch_assoc($classQueryRes);
+					$ta = $row['ta'];
+					echo "</br> Class: $c $s ";
+
+					echo "Files:";
+
+					$files = mysqli_query($dbc, "SELECT * FROM Files WHERE (ta= '$ta' AND pid= '$p') OR (ta= '$ta' AND pid = null)");
+
+					while($rows = mysqli_fetch_assoc($files)){
+						$fid = $rows['fid'];
+						echo $fid;
+						$fname = $rows['fname'];
+						echo $fname;
+						$fid = urlencode($fid);
+						$fname = urlencode($fname);
+						echo "<a href='myProfile.php?fid=$fid'> $fname</a> </br>";
+ 
+					}
+				}
+
+				if(isset($_GET['fid'])){
+
+					// if id is set then get the file with the id from database
+					$fid = $_GET['fid'];
+					$fileQuery = "SELECT fname, type, size, content FROM Files WHERE fid = '$fid'";
+					$fileQueryRes = mysqli_query($fileQuery) or die('Error, file query failed');
+					$row = mysqli_fetch_assoc($fileQueryRes);
+
+					header("Content-length: {$row['size']}");
+					header("Content-type: {$row['type']}");
+					header("Content-Disposition: attachment; filename={$row['fname']}");
+					echo $row['content'];
+					exit;
+				}
+
+
+			?>
 			</br></br>
 
 			<div class="container-fluid">
@@ -199,53 +253,14 @@
 			</div>
 		</div>	
 
-				
-			<div class="container-fluid">		
-					<form method="post" enctype="multipart/form-data" class="uploadForm" >
-						<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
-							<tr> 
-								<td width="246">
-									<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-									<input name="file" type="file" id="file" required class="fileInput"> 
-									<input type='text' name='pid' placeholder='Project ID' <?php if(!TA)echo "required";?>>
-									<input type='text' name='class' placeholder='Class' <?php if(!TA)echo "required";?>>
-									<input type='text' name='section' placeholder='Section' <?php if(!TA)echo "required";?>>
-										
-									
-								</td>
-								<td width="80">
-									<input name="upload" type="submit" class="uploadButton" id="upload" value=" Upload ">
-								</td>
-							</tr>
-						</table>
-					</form>
-				
-			
-				<table width="500px" border="0" cellpadding="1" cellspacing="1" class="fileTable" >
-				<tr>
-				<td width ="246" class="fileUploads">
-				
-				</td>
-				<td width="50" class="removeButton">
-				<td>
-				</tr>
-				<tr>
-				</tr>
-				</table>
-			
-			
-			</div>
+
 			
 			
 			
 			
 			
 			
-			<h1> Uploaded by TA </h1>
-			
-			<h1> Upload a file </h1>
-			
-			<h1> Names and emails </h1>
+	
 			
 		</div>	
 		<div>

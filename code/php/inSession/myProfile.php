@@ -87,7 +87,7 @@
 					$projQueryRes2 = mysqli_query($dbc,"SELECT 1 FROM Project WHERE ta= '$ta' AND pid='0'");
 					if(mysqli_num_rows($projQueryRes2) == 0){
 						while( $row = mysqli_fetch_assoc($projQueryRes)){
-							echo "Student: ". $row['sid']. " Team #: ". $row['pid']. "</br>";
+							//echo "Student: ". $row['sid']. " Team #: ". $row['pid']. "</br>";
 						}
 					}
 					//teams are not all made yet
@@ -165,6 +165,7 @@
 						echo "<h2>Deleted groups</h2>";
 					}
 
+
 					if(isset($_POST['add'])){
 						$sidToAdd = $_POST['sidToAdd'];
 						$pidA = $_POST['pidA'];
@@ -213,109 +214,64 @@
 
 					}
 				}
-			//upload page
+
+
+			?>
+			
+	
+		
+<?php
+
+// accessing the group pages
+
+if($TA){
+		$ta = $_SESSION['ta'];
+		$queryStudents = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
+		$rowAllStudents = mysqli_fetch_assoc($queryStudents);
+		$numberOfStudents = mysqli_num_rows($queryStudents);
+		
+		$queryNumGroups = mysqli_query($dbc, "SELECT DISTINCT pid FROM Project WHERE ta = '$ta'");
+		$rowGroups= mysqli_fetch_assoc($queryNumGroups);
+		$numOfGroups = mysqli_num_rows($queryNumGroups);
+
+		
+		if($numOfGroups > 1){
+	//for each group display students of that group
+	for($i = 1; $i<=$numOfGroups; $i++){
+		$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
+		echo "</br> Team $i: </br>";
+		while($rowGroupedStudents = mysqli_fetch_assoc($queryOneGroup)){
+		echo $rowGroupedStudents['sid'] . "</br>";
+		}
+		echo 	"<a href='viewGroup.php'class=\"button big alt\"> Team $i group page 
+				</a>";
+		
+	}
+}
+
+			//upload apge
 			echo 	"<a href='viewGroup.php'>
 			   			<input type='button' value='upload'class='button' />
-					</a>";
-
-			?>
-			
-		<title>Download Files</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-			<?php
-				if(!$TA){
-					for($i = 1; $i <= $_SESSION['total']; $i++){
-						$c = "class$i";
-						$s = "section$i";
-						$p = "project$i";
-						$c = $_SESSION[$c];
-						$s = $_SESSION[$s];
-						$p = $_SESSION[$p];
-						$sid = $_SESSION['sid'];
-						$classQuery = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
-						$classQueryRes = mysqli_query($dbc, $classQuery);
-						$row = mysqli_fetch_assoc($classQueryRes);
-						$ta = $row['ta'];
-						echo "</br> Class: $c $s ";
-
-						echo "Files:";
-
-						$files = mysqli_query($dbc, "SELECT * FROM Files WHERE (ta= '$ta' AND pid= '$p') OR (ta= '$ta' AND pid = null)");
-
-						while($rows = mysqli_fetch_assoc($files)){
-							$fid = $rows['fid'];
-							echo $fid;
-							$fname = $rows['fname'];
-							echo $fname;
-							$fid = urlencode($fid);
-							$fname = urlencode($fname);
-							echo "<a href='myProfile.php?fid=$fid'> $fname</a> </br>";
- 
-						}
+						</a>";
+	
+}
+else {
+					for($i=1;$i<=$_SESSION['total'];$i++){
+ 					$c = "class$i";
+ 					$s = "section$i";
+					echo 	"</br></br><a href='viewGroup.php'>
+							<button class=\"button big alt\"> $_SESSION[$c]. $_SESSION[$s] </button>
+							</a>";
 					}
+}
 
-					if(isset($_GET['fid'])){
 
-					// if id is set then get the file with the id from database
-						$fid = $_GET['fid'];
-						$fileQuery = "SELECT fname, type, size, content FROM Files WHERE fid = '$fid'";
-						$fileQueryRes = mysqli_query($fileQuery) or die('Error, file query failed');
-						$row = mysqli_fetch_assoc($fileQueryRes);
 
-						header("Content-length: {$row['size']}");
-						header("Content-type: {$row['type']}");
-						header("Content-Disposition: attachment; filename={$row['fname']}");
-						echo $row['content'];
-						exit;
-					}
-				}
 
-			?>
-
+?>
 
 			
 
-<!--
-
-			<input value=?php $row['sid'] ?> type="hidden" name="search">
-			
-			<h1> SOEN341AA </h1>
-			
-			<a href="viewGroup.php">
-			   <input type="button" value="200"class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="201" class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="202"class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="203"class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="204"class="button" />
-			</a>
-			<a href="viewGroup.php">
-			   <input type="button" value="205"class="button" />
-			</a>
-
-
-
-
-
-
-
-
--->
-
-				
-		<footer class="end">
-			
-			<div>Running into issues? Please contact us: 1800-123-4567.</div>
-
-		</footer>
 	</div>
 
 	</div>  
@@ -325,4 +281,5 @@
 	<script type="text/javascript" src="../../js/main.js"></script>
 
 	</body>
+
 </html>
