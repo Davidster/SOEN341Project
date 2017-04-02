@@ -59,10 +59,10 @@
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-globe logo"></span> 
                 </div>
-            <div class="col-sm-8">
-                <h2>Our Values</h2>
-                <h4><strong>MISSION:</strong> Our mission is to provide a simple and useful web platform for group projects. This interface can be use for both, students and teacher's assistants, and supplies a good way to interact within the team and with the teacher assistant.</h4> 
-            </div>
+				<div class="col-sm-8">
+					<h2>Our Values</h2>
+					<h4><strong>MISSION:</strong> Our mission is to provide a simple and useful web platform for group projects. This interface can be use for both, students and teacher's assistants, and supplies a good way to interact within the team and with the teacher assistant.</h4> 
+				</div>
             </div>
         </div>
         <div id="container"></div>
@@ -72,14 +72,15 @@
             </a>
             <p class="github-link">To know more about our project, please visit our <a href="https://github.com/Davidster/SOEN341Project.git">GitHub repository</a></p> 
         </div>
-        
-		<footer class="container-fluid bg-4 text-center" style="padding: 5px 0 0 0;">
-            <p>SOEN 341 project, Winter 2017.</p>
-			<p>Copyright 2017 SOEN341 Project.</p>
-			<p>Contact us: 1800-123-4567 Proud company since 2017</p>
-
-		</footer>
 	</div>
+	<footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
+		<div class="container">
+			<p style="font-size: 12px; margin: 0;">
+				&copy; Winter 2017 SOEN341 Project. All Rights Reserved.<br/>
+				Contact Us: 1-800-123-4567
+			</p>
+		</div>
+	</footer>
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
 	<script src="../../js/sticky/jquery.sticky.js"></script>
