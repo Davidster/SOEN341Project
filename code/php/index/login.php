@@ -101,7 +101,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-	<div class="animsitionLogin" >
+	<!--<div class="animsitionLogin" >-->
 
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
@@ -123,7 +123,7 @@
 				</div>
 			</div>
 		</nav>
-        <div class="container"> <!--style="margin-bottom: 275px;">-->
+        <div class="container">
             <div class='col-lg-8 col-lg-offset-2'>
 				<div class='form-group'>
 					<h1>Login Page</h1>
@@ -131,17 +131,17 @@
 				<form id = 'login' action= '' method = 'post'>
 					<div class="form-group">
 						<label><p>Enter your email:</p></label>
-							<div class="input-group">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-								<input class="form-control" type='email' name='email' placeholder='Email Address' required>
-							</div>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							<input class="form-control" type='email' name='email' placeholder='Email Address' required>
+						</div>
 					</div>
 					<div class="form-group">
 						<label><p>Enter your password:</p></label>
-							<div class="input-group">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-								<input class="form-control" type='password' name='password' placeholder='Password' required>
-							</div>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+							<input class="form-control" type='password' name='password' placeholder='Password' required>
+						</div>
 					</div>
 					<br/>
 					<input type='submit' value='Enter' name='logbtn' class="btn btn-default"/>
@@ -155,7 +155,7 @@
 				&copy; Winter 2017 SOEN341 Project. All Rights Reserved.<br/>
 				Contact Us: 1-800-123-4567
 			</p>
-		</div>
+		<!--</div>-->
 	</footer>	
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
@@ -163,6 +163,5 @@
 	<script src="../../js/main.js"></script>
 	</body>
 </html>
-
 
 

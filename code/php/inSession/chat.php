@@ -120,6 +120,12 @@
 
 			?>		
 		</div>
+		<!--<footer>
+			<div class="legal">SOEN 341 project, Winter 2017.</div>
+			<div class="legal">Copyright 2017 SOEN341 Project.</div>
+			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
+
+		</footer>-->
 	</div>
 
 	<script src="../../js/jquery-1.11.2.min.js"></script>

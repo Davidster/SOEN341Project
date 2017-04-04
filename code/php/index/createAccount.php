@@ -15,7 +15,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-	<div class="animsition">
+	<!--<div class="animsition">-->
 		<nav class="navbar navbar-inverse ">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -81,9 +81,9 @@
 					</div>
 				</form><br/><br/>
 			</div> 
-		</div>	
+		</div>
 		<script>
-			document.onload(hello());
+			document.onload = hello;
 			function hello(){
 				var number = document.getElementById("sel1").value;
             
@@ -245,7 +245,7 @@
 				if (isset($success)) {echo $success;}
 				if (isset($passwordMismatch)) {echo $passwordMismatch;}
 			?>	
-	</div>
+	<!--</div>-->
 	<footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
 		<div class="container">
 			<p style="font-size: 12px; margin: 0;">
