@@ -5,10 +5,13 @@ h1{
 footer{
 	padding:10px;
     position:relative;
-	top:225px;
+	top:230px;
 }
-
 .bg-4 { 
 	background-color: #2f2f2f;
     color: #ffffff;
+}
+
+nav{
+	z-index: 10;
 }

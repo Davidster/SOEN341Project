@@ -7,5 +7,8 @@ h1{
     color: #ffffff;
 }
 
+nav{
+	z-index: 1;
+}
 
 
