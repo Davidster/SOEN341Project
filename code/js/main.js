@@ -15,6 +15,7 @@ $j(document).ready(function(){
         // make the page were targeting display-block
         // here we are building a css selector
         $j("#" + pageTarget).css("display", "block");
+
 	});
 
 
