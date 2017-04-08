@@ -1,3 +1,21 @@
+.uploads {
+	background-color: #BABAF8;
+	color: white;
+	padding: 0;
+}
+
+.uploads  h1{
+	color: black;
+}
+
+.names_emails h1{
+	color: black;
+}
+
+.uploaded_by h1{
+	color: black;
+}
+
 .uploadForm {
 	border-style: groove;
 	background-color: #f7f7f7;
@@ -17,7 +35,7 @@
 .uploadButton{
 	margin: 0 0 0 50px;
 	border-radius: 5px;
-	
+	background-color:#808080;
 }
 .fileInput{
 	background-color: #30C29E;
@@ -30,4 +48,22 @@
 	
 	
 	
+}
+
+.end{	
+	background-color:black;
+	color:white; 
+	text-align: center;
+}
+
+.names_emails {
+	background-color: #BABAF8;
+	color: white;
+	text-align: center;
+	padding:0;
+}
+
+.uploaded_by {
+	background-color: #99999E;
+	padding: 0;
 }

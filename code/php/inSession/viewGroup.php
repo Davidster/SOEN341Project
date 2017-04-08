@@ -23,7 +23,8 @@
 	<head>
 		<title>Log in</title>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" type="text/css" href="../../../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/viewGroup.css"/>
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript">
 			var $j = jQuery.noConflict();
@@ -40,10 +41,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../../js/animsition/animsition.min.css">
-		<link rel="stylesheet" type="text/css" href="../../../css/viewGroup.css">
-
-
-		<link rel="stylesheet" type="text/css" href="../../../css/viewGroup.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -93,7 +90,8 @@
 			
 			
 			
-			<div class="container">
+			<div class="uploads">
+			<h1> Upload a file </h1>
 			<?php
 				//for students to upload
 				if(!$TA){
@@ -163,12 +161,13 @@
 						else echo mysqli_error($dbc);
 					} 
 				}
-			
-			
+
 			?>
+			
 			</br></br>
 
 			<div class="container-fluid">
+			<h2> Student Upload </h2>
 			<form method="post" enctype="multipart/form-data" class="uploadForm">
 					<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
 						<tr> 
@@ -186,7 +185,7 @@
 							</td>
 						</tr>
 					</table>
-				</form>
+			</form>
 				<table width="500px" border="0" cellpadding="1" cellspacing="1" class="fileTable" >
 					<tr>
 					<td width ="246" class="fileUploads">
@@ -197,10 +196,13 @@
 					</tr>
 					</table>
 			</div>
-		</div>	
+		
 
+		<br>
+		<br>
 				
-			<div class="container-fluid">		
+			<div class="container-fluid">
+				<h2> TA Upload </h2>			
 					<form method="post" enctype="multipart/form-data" class="uploadForm" >
 						<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
 							<tr> 
@@ -236,23 +238,59 @@
 			
 			</div>
 			
+	</div>	
 			
 			
 			
-			
-			
+			<div class="uploaded_by">
 			<h1> Uploaded by TA </h1>
+			<p> This will show the list of all uploaded documents by the TA available for the students </p>
+			</div>
 			
-			<h1> Upload a file </h1>
 			
+			
+			<div class="names_emails">
 			<h1> Names and emails </h1>
+			<?php
 			
+			if(!$TA){
+			//displays all students from each group of each class
+					for( $i = 1; $i <= $_SESSION['total']; $i++){		//reiterates over my classes
+						//find my TA first
+						$c = "class$i";
+						$s = "section$i";
+						$c = $_SESSION[$c];
+						$s = $_SESSION[$s];
+						$p = "project$i";
+						$p = $_SESSION[$p];
+						$queryFindTA = mysqli_query($dbc, "SELECT * FROM ClassList WHERE class = '$c' AND section = '$s'");
+						$rowTA = mysqli_fetch_assoc($queryFindTA);
+						$myTA = $rowTA['ta'];
+						// second find my teamates
+						$queryFindTeamates = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$myTA' AND pid ='$p'");
+						echo "TEAM for $c $s $p :" . "</br>";
+						while( $rowTeam = mysqli_fetch_assoc($queryFindTeamates)){
+
+							$sid = $rowTeam['sid'];
+							//find that students name and email
+							$queryStudentInfo = mysqli_query($dbc, "SELECT * FROM Student WHERE sid = '$sid'");
+							$rowStudent = mysqli_fetch_assoc($queryStudentInfo);
+							$name = $rowStudent['name'];
+							$email = $rowStudent['email'];
+							echo $sid . " ". $name . " " . $email . "</br>";
+						}
+
+					}
+			}
+			
+			?>
+			</div>
 		</div>	
-		<div>
+		<footer class="end">
 			<div class="legal">SOEN 341 project, Winter 2017.</div>
 			<div class="legal">Copyright 2017 SOEN341 Project.</div>
 			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
-		</div>	
+		</footer>	
 	</div>
 	
 	<script src="../../js/jquery-1.11.2.min.js"></script>

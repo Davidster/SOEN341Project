@@ -6,6 +6,10 @@ nav .container-fluid{
     padding:0px;
 }
 
+nav {
+	z-index: 1;
+}
+
 .bg-grey {
       background-color: #f6f6f6;
  }
