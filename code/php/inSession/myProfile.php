@@ -213,10 +213,6 @@
 
 					}
 				}
-			//upload page
-			echo 	"<a href='uploadDemo.php'>
-			   			<input type='button' value='upload'class='button' />
-					</a>";
 
 			?>
 			
@@ -274,10 +270,7 @@ if($TA){
 	}
 }
 
-			//upload apge
-			echo 	"<a href='viewGroup.php'>
-			   			<input type='button' value='upload'class='button' />
-						</a>";
+
 	
 }
 else {
