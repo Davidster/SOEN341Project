@@ -24,8 +24,7 @@
 	<head>
 		<title>Personal page</title>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" type="text/css" href="../../css/index.css"/>
-		<link rel="stylesheet" href="../../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/myProfile.css"/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript">
@@ -56,7 +55,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					</button>
-					<a class="navbar-brand" href="myProfile.php">Moodle 2.0</a>
+					<a class="navbar-brand">Moodle 2.0</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -72,10 +71,11 @@
 	
 			<?php 
 
-				echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;">Welcome to your portal ' .$_SESSION['name']. '!</span></br>';
-				echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
 
 				if($TA){
+					
+				echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;"><h2>Welcome to your portal ' .$_SESSION['name']. '!</h2></span></br>';
+				echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
 					echo $_SESSION['class'];
 					echo $_SESSION['section']."</br>";
 					$ta = $_SESSION['ta'];
@@ -127,13 +127,7 @@
 							</div>
 
 							";
-				}
-				else{
-					echo $_SESSION['sid'];
-				}
 
-
-				if($TA){
 					//find all students in TAs class
  					$projQueryRes = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
 
@@ -213,44 +207,10 @@
 
 
 					}
-				}
-			//upload page
-			echo 	"<a href='uploadDemo.php'>
-			   			<input type='button' value='upload'class='button' />
-					</a>";
-
-			?>
-			
-		<title>Download Files</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-			<?php
-				if(!$TA){
-					for($i = 1; $i <= $_SESSION['total']; $i++){
-						$c = "class$i";
-						$s = "section$i";
-						$p = "project$i";
-						$c = $_SESSION[$c];
-						$s = $_SESSION[$s];
-						$p = $_SESSION[$p];
-						$sid = $_SESSION['sid'];
-						$classQuery = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
-						$classQueryRes = mysqli_query($dbc, $classQuery);
-						$row = mysqli_fetch_assoc($classQueryRes);
-						$ta = $row['ta'];
-						echo "</br> Class: $c $s ";
-					}
-				}
-
-			?>
-			
-	
-		
-<?php
 
 // accessing the group pages
 
-if($TA){
+
 		$ta = $_SESSION['ta'];
 		$queryStudents = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
 		$rowAllStudents = mysqli_fetch_assoc($queryStudents);
@@ -261,35 +221,55 @@ if($TA){
 		$numOfGroups = mysqli_num_rows($queryNumGroups);
 
 		
-		if($numOfGroups > 1){
-	//for each group display students of that group
-	for($i = 1; $i<=$numOfGroups; $i++){
-		$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
-		echo "</br> Team $i: </br>";
-		while($rowGroupedStudents = mysqli_fetch_assoc($queryOneGroup)){
-		echo $rowGroupedStudents['sid'] . "</br>";
-		}
-		echo 	"<a href='viewGroup.php'class=\"button big alt\"> Team $i group page 
-				</a>";
-		
-	}
-}
-
-			//upload apge
-			echo 	"<a href='viewGroup.php'>
-			   			<input type='button' value='upload'class='button' />
+				if($numOfGroups > 1){
+			//for each group display students of that group
+			for($i = 1; $i<=$numOfGroups; $i++){
+				$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
+				echo "</br> Team $i: </br>";
+				while($rowGroupedStudents = mysqli_fetch_assoc($queryOneGroup)){
+				echo $rowGroupedStudents['sid'] . "</br>";
+				}
+				echo 	"<a href='viewGroup.php'class=\"button big alt\"> Team $i group page 
 						</a>";
-	
+				
+			}
+		}	
 }
-else {
-					for($i=1;$i<=$_SESSION['total'];$i++){
- 					$c = "class$i";
- 					$s = "section$i";
-					echo 	"</br></br><a href='viewGroup.php'>
-							<button class=\"button big alt\"> $_SESSION[$c]. $_SESSION[$s] </button>
-							</a>";
-					}
-}
+?>
+
+
+<?php
+
+
+				
+	if(!$TA){
+		echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;"><h2>Welcome to your portal ' .$_SESSION['name']. '!</h2></span></br>';
+		echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
+		echo $_SESSION['sid'];
+
+						for($i = 1; $i <= $_SESSION['total']; $i++){
+							$c = "class$i";
+							$s = "section$i";
+							$p = "project$i";
+							$c = $_SESSION[$c];
+							$s = $_SESSION[$s];
+							$p = $_SESSION[$p];
+							$sid = $_SESSION['sid'];
+							$classQuery = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
+							$classQueryRes = mysqli_query($dbc, $classQuery);
+							$row = mysqli_fetch_assoc($classQueryRes);
+							$ta = $row['ta'];
+							echo "</br> Class: $c $s ";
+						}
+
+						for($i=1;$i<=$_SESSION['total'];$i++){
+						$c = "class$i";
+						$s = "section$i";
+						echo 	"</br></br><a href='viewGroup.php'>
+								<button class=\"button big alt\"> $_SESSION[$c]. $_SESSION[$s] </button>
+								</a>";
+						}
+	}
 
 
 

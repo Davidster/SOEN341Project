@@ -74,7 +74,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						</button>
-						<a class="navbar-brand" href="myProfile.php">Moodle 2.0</a>
+						<a class="navbar-brand" >Moodle 2.0</a>
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav">
@@ -184,5 +184,13 @@
 				</div>	
 			</div>
 		</div>
+                
+    <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
+			<div class="container">
+				<p style="font-size: 12px; margin: 0;">&copy; Winter 2017 SOEN341 Project. All Rights Reserved.
+				<br/>Contact Us: 1-800-123-4567
+				</p>
+			</div>
+    </footer>
 	</body>
 </html>
