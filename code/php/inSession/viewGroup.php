@@ -56,7 +56,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					</button>
-					<a class="navbar-brand" href="myProfile.php">Moodle 2.0</a>
+					<a class="navbar-brand">Moodle 2.0</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -68,27 +68,8 @@
 			</div>
 		</nav>
 		<div id="page-content">
-		
-			<?php 
 
-				if($TA){
-
-					echo $_SESSION['class'];
-					echo $_SESSION['section']."</br>";
-					$ta = $_SESSION['ta'];
-					$result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
-
-					while( $row = mysqli_fetch_assoc($result)){
-						echo $row['sid']."</br>";
-					}
-
-				}
-				else echo $_SESSION['sid'];
 					
-			?>
-			
-			
-			
 			
 			<div class="uploads">
 			<h1> Upload a file </h1>
@@ -166,8 +147,10 @@
 			
 			</br></br>
 
+			
 			<div class="container-fluid">
-			<h2> Student Upload </h2>
+			
+			<?php if(!$TA){echo "<h2>Student Upload</h2>";} else echo "<h2>Teacher assistant upload</h2>"; ?>
 			<form method="post" enctype="multipart/form-data" class="uploadForm">
 					<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
 						<tr> 
@@ -201,42 +184,7 @@
 		<br>
 		<br>
 				
-			<div class="container-fluid">
-				<h2> TA Upload </h2>			
-					<form method="post" enctype="multipart/form-data" class="uploadForm" >
-						<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
-							<tr> 
-								<td width="246">
-									<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-									<input name="file" type="file" id="file" required class="fileInput"> 
-									<input type='text' name='pid' placeholder='Project ID' <?php if(!TA)echo "required";?>>
-									<input type='text' name='class' placeholder='Class' <?php if(!TA)echo "required";?>>
-									<input type='text' name='section' placeholder='Section' <?php if(!TA)echo "required";?>>
-										
-									
-								</td>
-								<td width="80">
-									<input name="upload" type="submit" class="uploadButton" id="upload" value=" Upload ">
-								</td>
-							</tr>
-						</table>
-					</form>
-				
-			
-				<table width="500px" border="0" cellpadding="1" cellspacing="1" class="fileTable" >
-				<tr>
-				<td width ="246" class="fileUploads">
-				
-				</td>
-				<td width="50" class="removeButton">
-				<td>
-				</tr>
-				<tr>
-				</tr>
-				</table>
-			
-			
-			</div>
+
 			
 	</div>	
 			

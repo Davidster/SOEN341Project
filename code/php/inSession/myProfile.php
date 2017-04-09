@@ -56,7 +56,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					</button>
-					<a class="navbar-brand" href="myProfile.php">Moodle 2.0</a>
+					<a class="navbar-brand">Moodle 2.0</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -72,7 +72,7 @@
 	
 			<?php 
 
-				echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;">Welcome to your portal ' .$_SESSION['name']. '!</span></br>';
+				echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;"><h2>Welcome to your portal ' .$_SESSION['name']. '!</h2></span></br>';
 				echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
 
 				if($TA){
