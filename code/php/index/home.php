@@ -47,8 +47,8 @@
 					<hr/>	
 					<p>Your responsive e-learning website</p>
 					<ul class="list-inline text-center">
-						<li><button type="button" class="btn btn-info btn-lg" href="#about">Create Account</button></a></li>
-						<li><button type="button" class="btn btn-outline-primary btn-lg" href="#about">Learn More</button></li>
+						<li><button type="button" class="btn btn-info btn-lg"> <a href="createAccount.php">Create Account</a></button></li>
+						<li><button type="button" class="btn btn-outline-primary btn-lg"><a href="about.php">Learn More</a></button></li>
 					</ul>
 				</div>
 			</div>

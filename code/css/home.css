@@ -28,7 +28,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 header {
@@ -123,4 +124,20 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+.btn.btn-outline-primary.btn-lg{
+	background-color: #66665e;
+}
+
+a {
+	text-decoration:none;
+	color: white;
+}
+.btn.btn-outline-primary.btn-lg.btn-info{
+	background-color: #ffffff;
+}
+
+.btn.btn-outline-primary.btn-lg:hover{
+	background-color: #000000;
 }
