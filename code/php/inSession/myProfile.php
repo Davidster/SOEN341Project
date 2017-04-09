@@ -214,7 +214,33 @@
 
 					}
 				}
+			//upload page
+			echo 	"<a href='uploadDemo.php'>
+			   			<input type='button' value='upload'class='button' />
+					</a>";
 
+			?>
+			
+		<title>Download Files</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+			<?php
+				if(!$TA){
+					for($i = 1; $i <= $_SESSION['total']; $i++){
+						$c = "class$i";
+						$s = "section$i";
+						$p = "project$i";
+						$c = $_SESSION[$c];
+						$s = $_SESSION[$s];
+						$p = $_SESSION[$p];
+						$sid = $_SESSION['sid'];
+						$classQuery = "SELECT * FROM ClassList WHERE class='$c' AND section='$s'";
+						$classQueryRes = mysqli_query($dbc, $classQuery);
+						$row = mysqli_fetch_assoc($classQueryRes);
+						$ta = $row['ta'];
+						echo "</br> Class: $c $s ";
+					}
+				}
 
 			?>
 			

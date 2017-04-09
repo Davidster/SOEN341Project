@@ -1,0 +1,56 @@
+.uploadForm {
+	border-style: groove;
+	background-color: #f7f7f7;
+	border-radius: 15px 50px;
+	margin: 0;
+	float:left;
+	width: 500px;
+	
+}
+
+.uploadTable{
+	margin: 20px;
+	
+	
+}
+
+.uploadButton{
+	margin: 0 0 0 50px;
+	border-radius: 5px;
+	
+}
+
+.fileInput{
+	background-color: #30C29E;
+	border-radius: 5px;
+	margin: 0 0 5px 0;
+	
+}
+
+.fileUploads{
+	max-height: 600px;
+}
+
+#uploadResults {
+	padding-left: 50px;
+    padding-bottom: 12px;
+}
+
+#fileDownload {
+	padding-left: 20px;
+}
+
+#fileDownload > div {
+	vertical-align: top;
+	display: inline-block;
+}
+
+#fileDownload > div > a {
+	margin-left: 16px;
+	margin-bottom: 6px;
+	display: block;
+}
+
+#publicFiles {
+	width: 350px;
+}
