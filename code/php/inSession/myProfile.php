@@ -67,7 +67,7 @@
 			</div>
 		</nav>
 		
-		<div class="profile" align="center">
+		<div class="row" align="center">
 	
 			<?php 
 
@@ -243,10 +243,10 @@
 
 				
 	if(!$TA){
-		echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;"><h2>Welcome to your portal ' .$_SESSION['name']. '!</h2></span></br>';
-		echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
-		echo $_SESSION['sid'];
-
+		echo '<div class="col-sm-12"><span style="front-size: 75px;front-family: Helvetica;color: black;"><h2>Welcome to your portal ' .$_SESSION['name']. ' !</h2></span></div></br>';
+        echo '<div class="col-sm-6" style="box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Information</h2><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Email: '.$_SESSION['email']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Name: '.$_SESSION['name']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student ID: '.$_SESSION['sid']. '</p></div><div class="col-sm-6" style="box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Slide Show</h2></div>';
+        
+        echo '<div class="col-sm-6" style="box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Classes</h2>';
 						for($i = 1; $i <= $_SESSION['total']; $i++){
 							$c = "class$i";
 							$s = "section$i";
@@ -259,16 +259,18 @@
 							$classQueryRes = mysqli_query($dbc, $classQuery);
 							$row = mysqli_fetch_assoc($classQueryRes);
 							$ta = $row['ta'];
-							echo "</br> Class: $c $s ";
+							echo '</br><p style="front-size: 25px;front-family: Helvetica;color: black;">-> Class: $c $s/Project: $p</p>';
 						}
+        echo'</div><div class="col-sm-6" style="box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">View Group</h2>';
 
 						for($i=1;$i<=$_SESSION['total'];$i++){
 						$c = "class$i";
 						$s = "section$i";
-						echo 	"</br></br><a href='viewGroup.php'>
-								<button class=\"button big alt\"> $_SESSION[$c]. $_SESSION[$s] </button>
-								</a>";
+						echo 	'</br></br><a href="viewGroup.php">
+								<button class="btn btn-default btn-lg"> '.$_SESSION[$c]. $_SESSION[$s].' </button>
+								</a>';
 						}
+        echo'</div>';
 	}
 
 
@@ -279,8 +281,15 @@
 			
 
 	</div>
-
-	</div>  
+	</div>
+    <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
+		<div class="container">
+			<p style="font-size: 12px; margin: 0;">
+				&copy; Winter 2017 SOEN341 Project. All Rights Reserved.<br/>
+				Contact Us: 1-800-123-4567
+			</p>
+		</div>
+	</footer>
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
 	<script src="../../js/sticky/jquery.sticky.js"></script>
