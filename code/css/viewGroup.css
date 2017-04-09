@@ -4,25 +4,14 @@
 	padding: 0;
 }
 
-.uploads  h1{
-	color: black;
-}
 
-.names_emails h1{
-	color: black;
-}
-
-.uploaded_by h1{
-	color: black;
-}
 
 .uploadForm {
 	border-style: groove;
 	background-color: #f7f7f7;
-	border-radius: 15px 50px;
-	margin: 0;
-	float:left;
-	width: 500px;
+	border-radius: 5px 40px;
+	margin: auto;
+	width: 50%;
 	
 }
 
@@ -50,20 +39,7 @@
 	
 }
 
-.end{	
-	background-color:black;
-	color:white; 
-	text-align: center;
+.container-fluid {
+	margin: auto;
 }
 
-.names_emails {
-	background-color: #BABAF8;
-	color: white;
-	text-align: center;
-	padding:0;
-}
-
-.uploaded_by {
-	background-color: #99999E;
-	padding: 0;
-}
