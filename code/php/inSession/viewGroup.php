@@ -56,7 +56,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>                        
 					</button>
-					<a class="navbar-brand" href="myProfile.php">Moodle 2.0</a>
+					<a class="navbar-brand">Moodle 2.0</a>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
@@ -68,27 +68,8 @@
 			</div>
 		</nav>
 		<div id="page-content">
-		
-			<?php 
 
-				if($TA){
-
-					echo $_SESSION['class'];
-					echo $_SESSION['section']."</br>";
-					$ta = $_SESSION['ta'];
-					$result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
-
-					while( $row = mysqli_fetch_assoc($result)){
-						echo $row['sid']."</br>";
-					}
-
-				}
-				else echo $_SESSION['sid'];
 					
-			?>
-			
-			
-			
 			
 			<div class="uploads">
 			<h1> Upload a file </h1>
@@ -166,8 +147,10 @@
 			
 			</br></br>
 
+			
 			<div class="container-fluid">
-			<h2> Student Upload </h2>
+			
+			<?php if(!$TA){echo "<h2>Student Upload</h2>";} else echo "<h2>Teacher assistant upload</h2>"; ?>
 			<form method="post" enctype="multipart/form-data" class="uploadForm">
 					<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
 						<tr> 
@@ -201,42 +184,7 @@
 		<br>
 		<br>
 				
-			<div class="container-fluid">
-				<h2> TA Upload </h2>			
-					<form method="post" enctype="multipart/form-data" class="uploadForm" >
-						<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
-							<tr> 
-								<td width="246">
-									<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-									<input name="file" type="file" id="file" required class="fileInput"> 
-									<input type='text' name='pid' placeholder='Project ID' <?php if(!TA)echo "required";?>>
-									<input type='text' name='class' placeholder='Class' <?php if(!TA)echo "required";?>>
-									<input type='text' name='section' placeholder='Section' <?php if(!TA)echo "required";?>>
-										
-									
-								</td>
-								<td width="80">
-									<input name="upload" type="submit" class="uploadButton" id="upload" value=" Upload ">
-								</td>
-							</tr>
-						</table>
-					</form>
-				
-			
-				<table width="500px" border="0" cellpadding="1" cellspacing="1" class="fileTable" >
-				<tr>
-				<td width ="246" class="fileUploads">
-				
-				</td>
-				<td width="50" class="removeButton">
-				<td>
-				</tr>
-				<tr>
-				</tr>
-				</table>
-			
-			
-			</div>
+
 			
 	</div>	
 			
@@ -285,13 +233,14 @@
 			
 			?>
 			</div>
-		</div>	
-		<footer class="end">
-			<div class="legal">SOEN 341 project, Winter 2017.</div>
-			<div class="legal">Copyright 2017 SOEN341 Project.</div>
-			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
-		</footer>	
-	</div>
+            
+    <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
+			<div class="container">
+				<p style="font-size: 12px; margin: 0;">&copy; Winter 2017 SOEN341 Project. All Rights Reserved.
+				<br/>Contact Us: 1-800-123-4567
+				</p>
+			</div>
+    </footer>
 	
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
