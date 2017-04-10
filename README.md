@@ -1,20 +1,20 @@
-Repository for holding SOEN 341 group project. 
+Repository for holding SOEN 341 group project.
 
 Team members:
- - Alexandre Robert
- - David Huculak
- - Sai-Shan Gagnon
- - Willian Kingbédé
- - Nicolas Horta-Adam
- - Erdem Kepenek
- - Mikel Shifrin
+ - [Alexandre Robert](https://github.com/TheAlexRobert)
+ - [David Huculak](https://github.com/Davidster)
+ - [Sai-Shan Gagnon](https://github.com/SaiShan)
+ - [Willian Kingbédé](https://github.com/williamkingbede)
+ - [Nicolas Horta-Adam](https://github.com/Megatron4537)
+ - [Erdem Kepenek](https://github.com/erdemkepenek)
+ - [Mikel Shifrin](https://github.com/MikelShifrin)
 
 Link to additional Travis CI info: https://travis-ci.org/Davidster/SOEN341Project/
 
 # Our Vision
 
 We are going to build a web platform for students and teacher's assistants to remain in sync during the course of a given semester.
-More specifically, this website will function as a way for students to group up with others for team projects, 
+More specifically, this website will function as a way for students to group up with others for team projects,
 and for teacher's assistants to provide feedback for the students' work through a communication-oriented platform.
 
 ## Main Features
@@ -28,4 +28,3 @@ and for teacher's assistants to provide feedback for the students' work through 
 - There will be a way to track a team's progress and each member's contribution to the project.
 
 ### (see user stories for greater detail)
-
