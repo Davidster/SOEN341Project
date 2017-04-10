@@ -1,16 +1,16 @@
 <?php
 	session_start();
 	require_once '../../sql_connect.php';
-	if(isset($_SESSION['logon'])){
-		if(!$_SESSION['logon']){ 
-			header("Location: ../index/home.php");
-			die();
-		}
-	}
-	else{
+	if(!isset($_SESSION['logon'])){
+		//destroy the session
+		$_SESSION = array();
+		session_destroy();
+
+		//Ensure that the cookie is destructed by setting a date in the past
+		setcookie(session_name(), false, time() - 3600);
+
 		header("Location: ../index/home.php");
-	}
-	require_once '../../sql_connect.php';
+		}
 
 	//check if TA user is logged in
 	$TA = false;
@@ -38,7 +38,7 @@
 			});
 		</script>
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
-		
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../../js/animsition/animsition.min.css">
@@ -53,7 +53,7 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>                        
+						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand">Moodle 2.0</a>
 				</div>
@@ -66,14 +66,14 @@
 				</div>
 			</div>
 		</nav>
-		
+
 		<div class="row" align="center">
-	
-			<?php 
+
+			<?php
 
 
 				if($TA){
-					
+
 				echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;"><h2>Welcome to your portal ' .$_SESSION['name']. '!</h2></span></br>';
 				echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
 					echo $_SESSION['class'];
@@ -95,7 +95,7 @@
 						$projQueryRes3 = mysqli_query($dbc,"SELECT * FROM Project WHERE ta= '$ta' ORDER BY pid ASC");
 						while( $row = mysqli_fetch_assoc($projQueryRes)){
 							echo "Student: " . $row['sid']. " Team #: ".$row['pid'] ."</br>";
-							
+
 						}
 					}
 
@@ -144,7 +144,7 @@
 							}
 						$student = $row['sid'];
 						mysqli_query($dbc, "UPDATE Project SET pid ='$i' WHERE sid = '$student' AND ta= '$ta'");
-					
+
 						}
 						if($i == $numOfTeams){
 							echo "<h2> Succesfully created $i teams";
@@ -215,12 +215,12 @@
 		$queryStudents = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
 		$rowAllStudents = mysqli_fetch_assoc($queryStudents);
 		$numberOfStudents = mysqli_num_rows($queryStudents);
-		
+
 		$queryNumGroups = mysqli_query($dbc, "SELECT DISTINCT pid FROM Project WHERE ta = '$ta'");
 		$rowGroups= mysqli_fetch_assoc($queryNumGroups);
 		$numOfGroups = mysqli_num_rows($queryNumGroups);
 
-		
+
 				if($numOfGroups > 1){
 			//for each group display students of that group
 			for($i = 1; $i<=$numOfGroups; $i++){
@@ -229,11 +229,11 @@
 				while($rowGroupedStudents = mysqli_fetch_assoc($queryOneGroup)){
 				echo $rowGroupedStudents['sid'] . "</br>";
 				}
-				echo 	"<a href='viewGroup.php'class=\"button big alt\"> Team $i group page 
+				echo 	"<a href='viewGroup.php'class=\"button big alt\"> Team $i group page
 						</a>";
-				
+
 			}
-		}	
+		}
 }
 ?>
 
@@ -241,11 +241,11 @@
 <?php
 
 
-				
+
 	if(!$TA){
 		echo '<div class="col-sm-12"><span style="front-size: 75px;front-family: Helvetica;color: black;"><h2>Welcome to your portal ' .$_SESSION['name']. ' !</h2></span></div></br>';
         echo '<div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Information</h2><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Email: '.$_SESSION['email']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Name: '.$_SESSION['name']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student ID: '.$_SESSION['sid']. '</p></div><div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Slide Show</h2></div>';
-        
+
         echo '<div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Classes</h2>';
 						for($i = 1; $i <= $_SESSION['total']; $i++){
 							$c = "class$i";
@@ -277,7 +277,7 @@
 
 ?>
 
-			
+
 
 	</div>
 	</div>

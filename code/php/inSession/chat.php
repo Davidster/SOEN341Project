@@ -1,15 +1,17 @@
 <?php
 	session_start();
 	require_once '../../sql_connect.php';
-	if(isset($_SESSION['logon'])){
-		if(!$_SESSION['logon']){ 
-			header("Location: ../index/home.php");
-			die();
-		}
-	}
-	else{
+	if(!isset($_SESSION['logon'])){
+		//destroy the session
+		$_SESSION = array();
+		session_destroy();
+
+		//Ensure that the cookie is destructed by setting a date in the past
+		setcookie(session_name(), false, time() - 3600);
+
 		header("Location: ../index/home.php");
-	}
+		}
+
 	//check if TA user is logged in
 	$TA = false;
 	if(isset($_SESSION['ta'])){
@@ -37,14 +39,14 @@
 			$p = "project$i";
 			$classes[] = $_SESSION[$c] . " "  . $_SESSION[$s] . "-" . $_SESSION[$p];
 		}
-	}	
-	
+	}
+
 	require_once '../../phpfreechat-1.7/src/phpfreechat.class.php';
 	$params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
 	$params["title"] = "My Chat";
 	$params["nick"] = $_SESSION['name']; // user's nickname for chat
 	$param["frozen_nick"] = $_SESSION['name']; // doesn't allow nickname to be changed
-	$params["data_public_url"]   = "../../phpfreechat-1.7/data/public"; 
+	$params["data_public_url"]   = "../../phpfreechat-1.7/data/public";
 	$params["server_script_url"] = "./chat.php";
 	$params["theme_default_url"] = "../../phpfreechat-1.7/themes";
 	$params["channels"] = $classes; // chat channels open to user
@@ -74,7 +76,7 @@
 		</script>
 
 		<link rel="shortcut icon" href="../../pictures/favicon.ico" type="image/x-icon">
-		
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../../js/animsition/animsition.min.css">
@@ -89,7 +91,7 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>                        
+						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand">Moodle 2.0</a>
 				</div>
@@ -101,37 +103,18 @@
 					</ul>
 				</div>
 			</div>
-		</nav>	
+		</nav>
 		<div id="page-content">
-			<?php 
-				echo $_SESSION['name']. "</br>";
-				echo $_SESSION['email']. "</br>";
-				if($TA) echo $_SESSION['ta'];
-				else echo $_SESSION['sid'];
-
+			<?php
 				$chat->printChat();
-
-				// echo "<h2>Debug</h2>";
-				// echo "<pre>";
-				// $c =& pfcGlobalConfig::Instance();
-				// print_r($c);
-				// print_r($_SERVER);
-				// echo "</pre>";
-
-			?>		
+			?>
 		</div>
-		<!--<footer>
-			<div class="legal">SOEN 341 project, Winter 2017.</div>
-			<div class="legal">Copyright 2017 SOEN341 Project.</div>
-			<div class="contact">Contact us: 1800-123-4567 Proud company since 2017</div>
-
-		</footer>-->
-	</div>
+</div>
 
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
 	<script src="../../js/sticky/jquery.sticky.js"></script>
 	<script type="text/javascript" src="../../js/main.js"></script>
-	
+
 	</body>
 </html>

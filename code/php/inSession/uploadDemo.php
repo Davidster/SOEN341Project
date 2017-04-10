@@ -1,15 +1,16 @@
 <?php
 	session_start();
 	require_once '../../sql_connect.php';
-	if(isset($_SESSION['logon'])){
-		if(!$_SESSION['logon']){ 
-			header("Location: ../index/home.php");
-			die();
-		}
-	}
-	else{
+	if(!isset($_SESSION['logon'])){
+		//destroy the session
+		$_SESSION = array();
+		session_destroy();
+
+		//Ensure that the cookie is destructed by setting a date in the past
+		setcookie(session_name(), false, time() - 3600);
+
 		header("Location: ../index/home.php");
-	}
+		}
 
 	//check if TA user is logged in
 	$TA = false;
@@ -72,7 +73,7 @@
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>                        
+							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" >Moodle 2.0</a>
 					</div>
@@ -90,14 +91,14 @@
 					<div class="container-fluid">
 						<form method="post" enctype="multipart/form-data" class="uploadForm">
 							<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
-								<tr> 
+								<tr>
 									<td width="246">
 										<input type="hidden" name="MAX_FILE_SIZE" value="50000">
-										<input name="file" type="file" id="file" class="fileInput" required> 
+										<input name="file" type="file" id="file" class="fileInput" required>
 										<?php if(!$TA)echo "<input type='text' name='pid' placeholder='Project ID' value='205' required>";?>
 										<?php if(!$TA)echo "<input type='text' name='class' placeholder='Class' value='SOEN341' required>";?>
 										<?php if(!$TA)echo "<input type='text' name='section' placeholder='Section' value='AA' required>";?>
-													
+
 									</td>
 									<td width="80">
 										<input name="upload" type="submit" class="uploadButton" id="upload" value=" Upload ">
@@ -137,11 +138,11 @@
 										    } else {
 										        echo "Sorry, there was an error uploading your file.";
 										    }
-										} 
+										}
 										else {
 											echo "File above the 50kb limit. Did not upload";
 										}
-									}								
+									}
 								?>
 							</div>
 						</form>
@@ -151,7 +152,7 @@
 								<td width="50" class="removeButton"><td>
 							</tr>
 						</table>
-					</div>	
+					</div>
 					<div id="fileDownload">
 						<?php
 							function addFileLink($filePath, $fileName){
@@ -180,11 +181,11 @@
 								listFilesInDir($pathToUploads);
 							?>
 						</div>
-					</div>			
-				</div>	
+					</div>
+				</div>
 			</div>
 		</div>
-                
+
     <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
 			<div class="container">
 				<p style="font-size: 12px; margin: 0;">&copy; Winter 2017 SOEN341 Project. All Rights Reserved.

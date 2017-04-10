@@ -1,15 +1,16 @@
 <?php
 	session_start();
 	require_once '../../sql_connect.php';
-	if(isset($_SESSION['logon'])){
-		if(!$_SESSION['logon']){ 
-			header("Location: ../index/home.php");
-			die();
-		}
-	}
-	else{
+	if(!isset($_SESSION['logon'])){
+		//destroy the session
+		$_SESSION = array();
+		session_destroy();
+
+		//Ensure that the cookie is destructed by setting a date in the past
+		setcookie(session_name(), false, time() - 3600);
+
 		header("Location: ../index/home.php");
-	}
+		}
 
 	//check if TA user is logged in
 	$TA = false;
@@ -24,7 +25,7 @@
 		<title>Log in</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="../../css/viewGroup.css"/>
-		
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript">
 			var $j = jQuery.noConflict();
@@ -37,7 +38,7 @@
 			});
 		</script>
 		<link rel="shortcut icon" href="../../../pictures/favicon.ico" type="image/x-icon">
-		
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../../js/animsition/animsition.min.css">
@@ -54,7 +55,7 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>                        
+						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand">Moodle 2.0</a>
 				</div>
@@ -69,22 +70,22 @@
 		</nav>
 		<div id="page-content">
 
-					
-			
+
+
 		<div class="row" style="text-align:center">
 	</div>	<!-- COL 1 -->
-			
+
 			<div class="col-sm-6" style="text-align:center">
 			<h1> Uploaded by TA </h1>
 			<p> This will show the list of all uploaded documents by the TA available for the students </p>
 			</div> <!-- COL 2 -->
-			
-			
-			
+
+
+
 			<div class="col-sm-6" style="text-align:center">
 			<h1> Names and emails </h1>
 			<?php
-			
+
 			if(!$TA){
 			//displays all students from each group of each class
 					for( $i = 1; $i <= $_SESSION['total']; $i++){		//reiterates over my classes
@@ -121,16 +122,16 @@
  					echo $_SESSION['section']."</br>";
  					$ta = $_SESSION['ta'];
  					$result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
-  
+
  					while( $row = mysqli_fetch_assoc($result)){
  						echo $row['sid']."</br>";
  					}
 				}
 			}
-			
+
 			?>
 			</div> <!-- COL 3 -->
-       </div>    <!-- ROW --> 
+       </div>    <!-- ROW -->
 	   <div class="row" style="text-align:center">
 			<div class="col-sm-12" style="text-align:center">
 					<h1> Upload a file </h1>
@@ -139,7 +140,7 @@
 				if(!$TA){
 
 					$sid = $_SESSION['sid'];
-					
+
 
 					if(isset($_POST['upload']) && $_FILES['file']['size'] > 0){
 						$fileName = $_FILES['file']['name'];
@@ -162,16 +163,16 @@
 						if(!get_magic_quotes_gpc()){
 							$fileName = addslashes($fileName);
 						}
-						
+
 						//fid is incremented automatically so ignore
-						$fileUploadQuery = "INSERT INTO Files ( ta, fname, size, type, content, pid) 
+						$fileUploadQuery = "INSERT INTO Files ( ta, fname, size, type, content, pid)
 						VALUES ('$ta', '$fileName', '$fileSize', '$fileType', '$content', '$pid')";
 
 						if(mysqli_query($dbc, $fileUploadQuery)) {
-							echo "<br>File $fileName uploaded<br>";					
+							echo "<br>File $fileName uploaded<br>";
 						}
 						else echo mysqli_error($dbc);
-					} 
+					}
 				}
 				else{
 					//TA upload
@@ -193,31 +194,31 @@
 						}
 						//fid is incremented automatically so ignore
 						//ta uploads with no pid so whole class can access documents
-						$fileUploadQuery = "INSERT INTO Files ( ta, fname, size, type, content) 
+						$fileUploadQuery = "INSERT INTO Files ( ta, fname, size, type, content)
 						VALUES ('$ta', '$fileName', '$fileSize', '$fileType', '$content')";
 
 						if(mysqli_query($dbc,$fileUploadQuery)) {
 							echo "<br>File $fileName uploaded<br>";
-							
+
 						}
 						else echo mysqli_error($dbc);
-					} 
+					}
 				}
 
 			?>
-			
+
 			<div class="container-fluid">
 			<form method="post" enctype="multipart/form-data" class="uploadForm">
 					<table width="250px" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
-						<tr> 
+						<tr>
 							<td width="246px">
 								<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-								<input name="file" type="file" id="file" class="fileInput" required> 
+								<input name="file" type="file" id="file" class="fileInput" required>
 								<input type='text' name='pid' placeholder='Project ID' <?php if(!TA)echo "required";?>>
 								<input type='text' name='class' placeholder='Class' <?php if(!TA)echo "required";?>>
 								<input type='text' name='section' placeholder='Section' <?php if(!TA)echo "required";?>>
-									
-								
+
+
 							</td>
 							<td width="80">
 								<input name="upload" type="submit" class="uploadButton" id="upload" value=" Upload ">
@@ -226,11 +227,11 @@
 					</table>
 			</form>
 			</div>
-		
+
 
 		<br>
 		<br>
-			
+
 			</div> <!-- COL 12 -->
 	   </div> <!-- ROW -->
     <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
@@ -240,7 +241,7 @@
 				</p>
 			</div>
     </footer>
-	
+
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
 	<script src="../../js/sticky/jquery.sticky.js"></script>

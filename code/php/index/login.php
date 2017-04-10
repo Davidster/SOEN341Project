@@ -1,6 +1,4 @@
 <?php
-	session_start();
-	$_SESSION['logon'] = false;
 	require_once '../../sql_connect.php';
 
 	//authentification
@@ -23,6 +21,7 @@
  			$dbSection = $row['section'];
 			//password is correct
 			if($password == $dbPassword){
+				session_start();
 				$_SESSION['name'] = $dbName;
 				$_SESSION['email'] = $dbEmail;
  				$_SESSION['ta'] = $dbTID;
@@ -40,7 +39,7 @@
 			$emailSearchQuery = "SELECT * FROM Student where email = '$email'";
 			$emailQueryRes = mysqli_query($dbc, $emailSearchQuery); //pass this query to our db
 			$emailMatchCount = mysqli_num_rows($emailQueryRes); //returns number of found rows
-			
+
 			if($emailMatchCount == 1){
 				$row = mysqli_fetch_assoc($emailQueryRes);
 				$dbName = $row['name'];
@@ -49,6 +48,7 @@
 				$dbsid = $row['sid'];
 				//password is correct
 				if($password == $dbPassword){
+					session_start();
 					$_SESSION['name'] = $dbName;
 					$_SESSION['email'] = $dbEmail;
 					$_SESSION['sid'] = $dbsid;
@@ -63,7 +63,7 @@
 						$row = mysqli_fetch_assoc($projQueryRes);
 
 						$p = "project$i";
-						$_SESSION[$p] = $row['pid'];	
+						$_SESSION[$p] = $row['pid'];
 						$ta = $row['ta'];
 
 						$classQueryRes = mysqli_query($dbc, "SELECT * FROM ClassList WHERE ta= '$ta'");
@@ -85,7 +85,7 @@
 		else echo $userNotFound = "<h3> No such user found, please try again or register!</h3>";
 	}
 
-		
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -109,7 +109,7 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>                        
+						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" >Moodle 2.0</a>
 				</div>
@@ -156,12 +156,10 @@
 				Contact Us: 1-800-123-4567
 			</p>
 		<!--</div>-->
-	</footer>	
+	</footer>
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
 	<script src="../../js/sticky/jquery.sticky.js"></script>
 	<script src="../../js/main.js"></script>
 	</body>
 </html>
-
-
