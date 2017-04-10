@@ -244,9 +244,9 @@
 				
 	if(!$TA){
 		echo '<div class="col-sm-12"><span style="front-size: 75px;front-family: Helvetica;color: black;"><h2>Welcome to your portal ' .$_SESSION['name']. ' !</h2></span></div></br>';
-        echo '<div class="col-sm-6" style="box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Information</h2><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Email: '.$_SESSION['email']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Name: '.$_SESSION['name']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student ID: '.$_SESSION['sid']. '</p></div><div class="col-sm-6" style="box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Slide Show</h2></div>';
+        echo '<div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Information</h2><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Email: '.$_SESSION['email']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Name: '.$_SESSION['name']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student ID: '.$_SESSION['sid']. '</p></div><div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Slide Show</h2></div>';
         
-        echo '<div class="col-sm-6" style="box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Classes</h2>';
+        echo '<div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Classes</h2>';
 						for($i = 1; $i <= $_SESSION['total']; $i++){
 							$c = "class$i";
 							$s = "section$i";
@@ -259,16 +259,15 @@
 							$classQueryRes = mysqli_query($dbc, $classQuery);
 							$row = mysqli_fetch_assoc($classQueryRes);
 							$ta = $row['ta'];
-							echo '</br><p style="front-size: 25px;front-family: Helvetica;color: black;">-> Class: $c $s/Project: $p</p>';
+							echo '</br><p style="front-size: 25px;front-family: Helvetica;color: black;">Class: '.$c.'</br>Section: '.$s.'</br>Project ID: '.$p.'</p>';
 						}
-        echo'</div><div class="col-sm-6" style="box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">View Group</h2>';
+        echo'</div><div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">View Group</h2>';
 
 						for($i=1;$i<=$_SESSION['total'];$i++){
 						$c = "class$i";
 						$s = "section$i";
-						echo 	'</br></br><a href="viewGroup.php">
-								<button class="btn btn-default btn-lg"> '.$_SESSION[$c]. $_SESSION[$s].' </button>
-								</a>';
+						echo '</br></br><a href="viewGroup.php">
+				        <button class="btn btn-default btn-lg"> '.$_SESSION[$c].''.$_SESSION[$s].' </button></a>';
 						}
         echo'</div>';
 	}
