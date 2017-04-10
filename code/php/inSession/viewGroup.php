@@ -71,8 +71,69 @@
 
 					
 			
-			<div class="uploads">
-			<h1> Upload a file </h1>
+		<div class="row" style="text-align:center">
+	</div>	<!-- COL 1 -->
+			
+			<div class="col-sm-6" style="text-align:center">
+			<h1> Uploaded by TA </h1>
+			<p> This will show the list of all uploaded documents by the TA available for the students </p>
+			</div> <!-- COL 2 -->
+			
+			
+			
+			<div class="col-sm-6" style="text-align:center">
+			<h1> Names and emails </h1>
+			<?php
+			
+			if(!$TA){
+			//displays all students from each group of each class
+					for( $i = 1; $i <= $_SESSION['total']; $i++){		//reiterates over my classes
+						//find my TA first
+						$c = "class$i";
+						$s = "section$i";
+						$c = $_SESSION[$c];
+						$s = $_SESSION[$s];
+						$p = "project$i";
+						$p = $_SESSION[$p];
+						$queryFindTA = mysqli_query($dbc, "SELECT * FROM ClassList WHERE class = '$c' AND section = '$s'");
+						$rowTA = mysqli_fetch_assoc($queryFindTA);
+						$myTA = $rowTA['ta'];
+						// second find my teamates
+						$queryFindTeamates = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$myTA' AND pid ='$p'");
+						echo "TEAM for $c $s $p :" . "</br>";
+						while( $rowTeam = mysqli_fetch_assoc($queryFindTeamates)){
+
+							$sid = $rowTeam['sid'];
+							//find that students name and email
+							$queryStudentInfo = mysqli_query($dbc, "SELECT * FROM Student WHERE sid = '$sid'");
+							$rowStudent = mysqli_fetch_assoc($queryStudentInfo);
+							$name = $rowStudent['name'];
+							$email = $rowStudent['email'];
+							echo $sid . " ". $name . " " . $email . "</br>";
+						}
+
+					}
+			}
+			else {
+				if($TA){
+
+ 					echo $_SESSION['class'];
+ 					echo $_SESSION['section']."</br>";
+ 					$ta = $_SESSION['ta'];
+ 					$result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
+  
+ 					while( $row = mysqli_fetch_assoc($result)){
+ 						echo $row['sid']."</br>";
+ 					}
+				}
+			}
+			
+			?>
+			</div> <!-- COL 3 -->
+       </div>    <!-- ROW --> 
+	   <div class="row" style="text-align:center">
+			<div class="col-sm-12" style="text-align:center">
+					<h1> Upload a file </h1>
 			<?php
 				//for students to upload
 				if(!$TA){
@@ -145,16 +206,11 @@
 
 			?>
 			
-			</br></br>
-
-			
 			<div class="container-fluid">
-			
-			<?php if(!$TA){echo "<h2>Student Upload</h2>";} else echo "<h2>Teacher assistant upload</h2>"; ?>
 			<form method="post" enctype="multipart/form-data" class="uploadForm">
-					<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
+					<table width="250px" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
 						<tr> 
-							<td width="246">
+							<td width="246px">
 								<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
 								<input name="file" type="file" id="file" class="fileInput" required> 
 								<input type='text' name='pid' placeholder='Project ID' <?php if(!TA)echo "required";?>>
@@ -169,71 +225,14 @@
 						</tr>
 					</table>
 			</form>
-				<table width="500px" border="0" cellpadding="1" cellspacing="1" class="fileTable" >
-					<tr>
-					<td width ="246" class="fileUploads">
-					
-					</td>
-					<td width="50" class="removeButton">
-					<td>
-					</tr>
-					</table>
 			</div>
 		
 
 		<br>
 		<br>
-				
-
 			
-	</div>	
-			
-			
-			
-			<div class="uploaded_by">
-			<h1> Uploaded by TA </h1>
-			<p> This will show the list of all uploaded documents by the TA available for the students </p>
-			</div>
-			
-			
-			
-			<div class="names_emails">
-			<h1> Names and emails </h1>
-			<?php
-			
-			if(!$TA){
-			//displays all students from each group of each class
-					for( $i = 1; $i <= $_SESSION['total']; $i++){		//reiterates over my classes
-						//find my TA first
-						$c = "class$i";
-						$s = "section$i";
-						$c = $_SESSION[$c];
-						$s = $_SESSION[$s];
-						$p = "project$i";
-						$p = $_SESSION[$p];
-						$queryFindTA = mysqli_query($dbc, "SELECT * FROM ClassList WHERE class = '$c' AND section = '$s'");
-						$rowTA = mysqli_fetch_assoc($queryFindTA);
-						$myTA = $rowTA['ta'];
-						// second find my teamates
-						$queryFindTeamates = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$myTA' AND pid ='$p'");
-						echo "TEAM for $c $s $p :" . "</br>";
-						while( $rowTeam = mysqli_fetch_assoc($queryFindTeamates)){
-
-							$sid = $rowTeam['sid'];
-							//find that students name and email
-							$queryStudentInfo = mysqli_query($dbc, "SELECT * FROM Student WHERE sid = '$sid'");
-							$rowStudent = mysqli_fetch_assoc($queryStudentInfo);
-							$name = $rowStudent['name'];
-							$email = $rowStudent['email'];
-							echo $sid . " ". $name . " " . $email . "</br>";
-						}
-
-					}
-			}
-			
-			?>
-			</div>
-            
+			</div> <!-- COL 12 -->
+	   </div> <!-- ROW -->
     <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
 			<div class="container">
 				<p style="font-size: 12px; margin: 0;">&copy; Winter 2017 SOEN341 Project. All Rights Reserved.
