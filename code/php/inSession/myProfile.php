@@ -100,30 +100,35 @@
 					}
 
 					echo 	"<div>
-								<form id='make' action= '' method='post'>
+								</br>
+								<form id='make' action= '' method='post' class='form-inline'>
 									<input type='text' name='teamsOf' placeholder= 'team size' required>
-									<input type='submit' value='Create Teams' name='make'>
+									<input type='submit' value='Create Teams' name='make' class='btn btn-primary'>
 								</form>
+								</br>
 							</div>
 
 							<div>
 								<form id='undo' action='' method ='post'>
-								<input type='submit' value='Undo Teams' name='undo'>
-							</div>	";
+								<input type='submit' value='Undo Teams' name='undo' class='btn btn-primary'>
+							</div></br>	";
 
 					echo 	"<div>
-								<form id='add' action= '' method='post'>
+								<form id='add' action= '' method='post' class='form-inline'>
 									<input type='text' name='sidToAdd' placeholder= 'Insert Student ID' required>
 									<input type='text' name='pidA' placeholder= 'Insert Project ID' required>
-									<input type='submit' value='Add to Team' name='add'>
+									<input type='submit' value='Add to Team' name='add' class='btn btn-primary'>
+									</br>
 								</form>
+								</br>
 							</div>
 
 							<div>
-								<form id='remove' action= '' method='post'>
+								<form id='remove' action= '' method='post' class='form-inline'>
 									<input type='text' name='sidToRemove' placeholder= 'Insert Student ID' required>
-									<input type='submit' value='Remove from Team' name='remove'>
+									<input type='submit' value='Remove from Team' name='remove' class='btn btn-primary'>
 								</form>
+								</br>
 							</div>
 
 							";
