@@ -243,10 +243,20 @@
 
 
 	if(!$TA){
-		echo '<div class="col-sm-12"><span style="front-size: 75px;front-family: Helvetica;color: black;"><h2>Welcome to your portal ' .$_SESSION['name']. ' !</h2></span></div></br>';
-        echo '<div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Information</h2><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Email: '.$_SESSION['email']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student Name: '.$_SESSION['name']. '</p><br><p style="front-size: 25px;front-family: Helvetica;color: black;">Student ID: '.$_SESSION['sid']. '</p></div><div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Slide Show</h2></div>';
+		echo '<div class="col-sm-12"><div class="crossfade"><figure></figure><figure></figure><figure></figure><figure></figure><figure></figure><span style="front-size: 125px;front-family: Helvetica;color: black;"><h2>YOUR PORTAL</h2></span></div></div></br>';
+        
+        echo'<div class="col-sm-2"><h2 style="front-size: 50px;front-family: Helvetica;color: white;">My Groups</h2>';
+						for($i=1;$i<=$_SESSION['total'];$i++){
+						$c = "class$i";
+						$s = "section$i";
+						echo '<ul class="nav nav-pills nav-stacked" align="left"><li><a href="viewGroup.php">
+				        '.$_SESSION[$c].''.$_SESSION[$s].'</a></li>';
+						}
+        echo'</ul></div>';
+        
+        echo '<div class="col-sm-5"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Information</h2><br><p style="front-size: 35px;front-family: Helvetica;color: black;">Student Email: '.$_SESSION['email']. '</p><br><p style="front-size:35px;front-family: Helvetica;color: black;">Student Name: '.$_SESSION['name']. '</p><br><p style="front-size: 35px;front-family: Helvetica;color: black;">Student ID: '.$_SESSION['sid']. '</p></div>';
 
-        echo '<div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Classes</h2>';
+        echo '<div class="col-sm-5"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">My Courses</h2>';
 						for($i = 1; $i <= $_SESSION['total']; $i++){
 							$c = "class$i";
 							$s = "section$i";
@@ -259,15 +269,7 @@
 							$classQueryRes = mysqli_query($dbc, $classQuery);
 							$row = mysqli_fetch_assoc($classQueryRes);
 							$ta = $row['ta'];
-							echo '</br><p style="front-size: 25px;front-family: Helvetica;color: black;">Class: '.$c.'</br>Section: '.$s.'</br>Project ID: '.$p.'</p>';
-						}
-        echo'</div><div class="col-sm-6"><h2 style="front-size: 50px;front-family: Helvetica;color: black;"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">View Group</h2>';
-
-						for($i=1;$i<=$_SESSION['total'];$i++){
-						$c = "class$i";
-						$s = "section$i";
-						echo '</br></br><a href="viewGroup.php">
-				        <button class="btn btn-default btn-lg"> '.$_SESSION[$c].''.$_SESSION[$s].' </button></a>';
+							echo '</br><p style="front-size: 35px;front-family: Helvetica;color: black;">Class: '.$c.'</br>Section: '.$s.'</br>Project ID: '.$p.'</p>';
 						}
         echo'</div>';
 	}
