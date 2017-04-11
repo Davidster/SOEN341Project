@@ -111,6 +111,7 @@
 							<div>
 								<form id='undo' action='' method ='post'>
 								<input type='submit' value='Undo Teams' name='undo' class='btn btn-primary'>
+								</form>
 							</div></br>	";
 
 					echo 	"<div>
@@ -235,6 +236,7 @@
 				echo $rowGroupedStudents['sid'] . "</br>";
 				}
 				echo 	"<a href='viewGroup.php'class=\"button big alt\"> Team $i group page
+				</br>
 						</a>";
 
 			}
