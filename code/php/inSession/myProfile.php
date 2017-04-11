@@ -110,7 +110,7 @@
 
 							<div>
 								<form id='undo' action='' method ='post'>
-								<input type='submit' value='Undo Teams' name='undo' class='btn btn-primary'>
+								<input type='submit' value='Undo All Teams' name='undo' class='btn btn-primary'>
 								</form>
 							</div></br>	";
 
@@ -231,7 +231,7 @@
 			//for each group display students of that group
 			for($i = 1; $i<=$numOfGroups; $i++){
 				$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
-				echo "</br> Team $i: </br>";
+				echo "</br><b> Team $i: </b></br>";
 				while($rowGroupedStudents = mysqli_fetch_assoc($queryOneGroup)){
 				echo $rowGroupedStudents['sid'] . "</br>";
 				}
