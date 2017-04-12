@@ -250,20 +250,21 @@
 
 
 	if(!$TA){
-		echo '<div class="col-sm-12"><div class="crossfade"><figure></figure><figure></figure><figure></figure><figure></figure><figure></figure><span style="front-size: 125px;front-family: Helvetica;color: black;"><h2>YOUR PORTAL</h2></span></div></div></br>';
+		echo '<div class="col-sm-12"><div class="crossfade"><figure></figure><figure></figure><figure></figure><figure></figure><figure></figure></div></div></br><div class="col-sm-12"><h2>Your Portal</h2><span class="glyphicon glyphicon-briefcase"></span><h4>Welcome to your portal '.$_SESSION['name'].'.</h4><h4> Here you are able to see your personal information and your courses.</h4><h4>Click on one of the buttons and you will be redirected to your Group Page.</h4></div><br>';
         
-        echo'<div class="col-sm-2"><h2 style="front-size: 50px;front-family: Helvetica;color: white;">My Groups</h2>';
+        echo '<div class="col-sm-4"><span class="glyphicon glyphicon-info-sign"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Information</h1>
+        </div><div class="panel-body"><br><span class="glyphicon glyphicon-envelope"></span><p><strong>Student Email:</strong> '.$_SESSION['email']. '</p><br><span class="glyphicon glyphicon-user"></span><p><strong>Student Name:</strong> '.$_SESSION['name']. '</p><br><span class="glyphicon glyphicon-th-list"></span><p><strong>Student ID:</strong> '.$_SESSION['sid']. '</p><br></div></div></div>';
+        
+         echo'<div class="col-sm-4"><span class="glyphicon glyphicon-cog"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Groups</h1></div><div class="panel-body">';
 						for($i=1;$i<=$_SESSION['total'];$i++){
 						$c = "class$i";
 						$s = "section$i";
-						echo '<ul class="nav nav-pills nav-stacked" align="left"><li><a href="viewGroup.php">
-				        '.$_SESSION[$c].''.$_SESSION[$s].'</a></li>';
+						echo '<br><button class="btn btn-lg"><a href="viewGroup.php">
+				        '.$_SESSION[$c].''.$_SESSION[$s].'</a></button><br>';
 						}
-        echo'</ul></div>';
-        
-        echo '<div class="col-sm-5"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">Information</h2><br><p style="front-size: 35px;front-family: Helvetica;color: black;">Student Email: '.$_SESSION['email']. '</p><br><p style="front-size:35px;front-family: Helvetica;color: black;">Student Name: '.$_SESSION['name']. '</p><br><p style="front-size: 35px;front-family: Helvetica;color: black;">Student ID: '.$_SESSION['sid']. '</p></div>';
+        echo'</div></div></div>';
 
-        echo '<div class="col-sm-5"><h2 style="front-size: 50px;front-family: Helvetica;color: black;">My Courses</h2>';
+        echo '<div class="col-sm-4"><span class="glyphicon glyphicon-education"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Courses</h1></div><div class="panel-body">';
 						for($i = 1; $i <= $_SESSION['total']; $i++){
 							$c = "class$i";
 							$s = "section$i";
@@ -276,9 +277,10 @@
 							$classQueryRes = mysqli_query($dbc, $classQuery);
 							$row = mysqli_fetch_assoc($classQueryRes);
 							$ta = $row['ta'];
-							echo '</br><p style="front-size: 35px;front-family: Helvetica;color: black;">Class: '.$c.'</br>Section: '.$s.'</br>Project ID: '.$p.'</p>';
+							echo '</br><p><strong>Class:</strong> '.$c.'</br><strong>Section:</strong> '.$s.'</br><strong>Project ID:</strong> '.$p.'</p>';
 						}
-        echo'</div>';
+        echo'</div></div></div>';
+        
 	}
 
 

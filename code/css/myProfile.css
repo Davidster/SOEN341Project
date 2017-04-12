@@ -1,38 +1,13 @@
 .col-sm-12{
-    padding:100px;
+    padding:150px;
 }
 
-
-.col-sm-12 h2{
-    color:white;
-}
-
-.col-sm-2{
-  background-color:#111;
+.row > div:nth-child(3){
+    padding:50px;
 }
 
 nav{
   z-index:1;
-}
-
-.col-sm-2 > ul {
-    padding-bottom:200px;
-    margin-right:-14px
-}
-
-.col-sm-2 li a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding:15px;
-}
-
-.col-sm-2 li{
-  padding:8px;
-}
-
-.col-sm-2 li a:hover {
-    background-color: #999;
 }
 
 .crossfade > figure {
@@ -135,4 +110,64 @@ imageAnimation {  0% {
 
 }
 
+}
+
+button a{
+  color:white;
+}
+
+button a:hover{
+  text-decoration:none;
+  color:#000;
+}
+
+.panel {
+    border: 1px solid #f4511e; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: black;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel .btn {
+    margin: 10px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
+
+.col-sm-12 .glyphicon{
+  font-size:100px;
+}
+
+.col-sm-4 .glyphicon{
+  font-size:100px;
+  color: #f4511e;
+}
+
+.panel-body .glyphicon{
+    font-size:20px;
+
+}
+
+.row{
+  color:#f4511e;
 }
