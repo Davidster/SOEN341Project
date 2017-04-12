@@ -73,7 +73,7 @@
 
 
 				if($TA){
-				echo '<div class="col-sm-12"><div class="jumbotron text-center"><div class="panel-body">';
+				echo '<div class="col-sm-12"><div class="crossfade"><figure></figure><figure></figure><figure></figure><figure></figure><figure></figure></div></div><div class="col-sm-12"><div class="jumbotron text-center"><div class="panel-body">';
 				echo '<h1>Your Portal</h1>';
 				echo '<span class="glyphicon glyphicon-briefcase"></span>';
 				echo '<p>This application enables creating teams of students with only a few clicks<br>
@@ -100,7 +100,7 @@
 
 						}
 					}
-					echo "</div></div></div>";
+					echo '</div></div></div>';
 
 					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-plus'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Create Groups</h2></div><div class='panel-body'>'
 							
@@ -112,7 +112,7 @@
 								<form id='undo' action='' method ='post'>
 								<input type='submit' value='Undo All Teams' name='undo' class='btn btn-primary'>
 								</form>
-							</div></div></div></br>	";
+							    </div></div></div></br>	";
 
 					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-retweet'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Switch Teams</h2></div><div class='panel-body'>'
 								</br>
@@ -133,7 +133,7 @@
 									<input type='submit' value='Remove from Team' name='remove' class='btn btn-primary'>
 								</form>
 								<br><br><br>
-								</div></div></div></div>";
+								</div></div></div>";
 
 echo "<div class='col-sm-3'></div>";							
 echo "<div class='col-sm-6'><div class='panel panel-default text-center'><div class='panel-heading'><h2>Teams</h2></div><div class='panel-body'>";
@@ -229,13 +229,12 @@ echo "<div class='col-sm-6'><div class='panel panel-default text-center'><div cl
 				$nameSearch = mysqli_query($dbc, $nameSearchQuery); //pass this query to our db
 				$rowStudentName = mysqli_fetch_assoc($nameSearch);
 
-				echo "<b>Student: </b>" . $rowStudentName['name'] . "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>ID: </b>" . $sid . "</br>";
+				echo "<b>Student: </b>" . $rowStudentName['name'] . "  <b>ID: </b>" . $sid . "</br>";
 				}
 				echo 	"<a href='viewGroup.php'class=\"button big alt\"><button class='btn btn-primary'>Team $i Group Page</br></button></a>";
 
 			}
 echo "</div></div></div>";
-echo "<div class='col-sm-3'></div>";
 		}
 	
 
@@ -250,7 +249,7 @@ echo "<div class='col-sm-3'></div>";
 
 
 	if(!$TA){
-		echo '<div class="col-sm-12"><div class="crossfade"><figure></figure><figure></figure><figure></figure><figure></figure><figure></figure></div></div></br><div class="col-sm-12"><h2>Your Portal</h2><span class="glyphicon glyphicon-briefcase"></span><h4>Welcome to your portal '.$_SESSION['name'].'.</h4><h4> Here you are able to see your personal information and your courses.</h4><h4>Click on one of the buttons and you will be redirected to your Group Page.</h4></div><br>';
+		echo '<div class="col-sm-12"><div class="crossfade"><figure></figure><figure></figure><figure></figure><figure></figure><figure></figure></div></div><div class="col-sm-12"><div class="jumbotron text-center"><div class="panel-body"><h2>Your Portal</h2><span class="glyphicon glyphicon-briefcase"></span><h4>Welcome to your portal '.$_SESSION['name'].'.</h4><h4> Here you are able to see your personal information and your courses.</h4><h4>Click on one of the buttons and you will be redirected to your Group Page.</h4></div></div></div>';
         
         echo '<div class="col-sm-4"><span class="glyphicon glyphicon-info-sign"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Information</h1>
         </div><div class="panel-body"><br><span class="glyphicon glyphicon-envelope"></span><p><strong>Student Email:</strong> '.$_SESSION['email']. '</p><br><span class="glyphicon glyphicon-user"></span><p><strong>Student Name:</strong> '.$_SESSION['name']. '</p><br><span class="glyphicon glyphicon-th-list"></span><p><strong>Student ID:</strong> '.$_SESSION['sid']. '</p><br></div></div></div>';
@@ -259,8 +258,8 @@ echo "<div class='col-sm-3'></div>";
 						for($i=1;$i<=$_SESSION['total'];$i++){
 						$c = "class$i";
 						$s = "section$i";
-						echo '<br><button class="btn btn-lg"><a href="viewGroup.php">
-				        '.$_SESSION[$c].''.$_SESSION[$s].'</a></button><br>';
+						echo '<br><a href="viewGroup.php"><button class="btn btn-lg">
+				        '.$_SESSION[$c].''.$_SESSION[$s].'</button></a><br>';
 						}
         echo'</div></div></div>';
 
@@ -293,14 +292,14 @@ echo "<div class='col-sm-3'></div>";
 
 	</div>
 	</div>
- <!--   <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
+    <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
 		<div class="container">
 			<p style="font-size: 12px; margin: 0;">
 				&copy; Winter 2017 SOEN341 Project. All Rights Reserved.<br/>
 				Contact Us: 1-800-123-4567
 			</p>
 		</div>
-	</footer> -->
+	</footer>
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
 	<script src="../../js/sticky/jquery.sticky.js"></script>

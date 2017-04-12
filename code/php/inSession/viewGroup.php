@@ -320,13 +320,13 @@
 
 
 		   </div> <!-- ROW -->
-<!--    <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
+        <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
 			<div class="container">
 				<p style="font-size: 12px; margin: 0;">&copy; Winter 2017 SOEN341 Project. All Rights Reserved.
 				<br/>Contact Us: 1-800-123-4567
 				</p>
 			</div>
-    </footer>-->
+        </footer>
 
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
