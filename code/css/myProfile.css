@@ -170,19 +170,28 @@ button a:hover{
 }
 
 .glyphicon.glyphicon-plus {
-  font-size:80px;
+  font-size:70px;
 }
 
 .glyphicon.glyphicon-retweet {
-  font-size:80px;
+  font-size:70px;
 }
 
 .glyphicon.glyphicon-remove {
-  font-size:80px;
+  font-size:70px;
+}
+
+.glyphicon.glyphicon-briefcase{
+	font-size:70px;
 }
 
 .row{
   color:#f4511e;
 }
 
-
+.col-sm-12> .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 20px 25px;
+      font-family: Montserrat, sans-serif;
+  }
