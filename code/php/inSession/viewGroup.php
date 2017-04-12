@@ -92,6 +92,52 @@
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
 						<li><a href="myProfile.php"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
+						
+						    <li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Groups
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+								
+								<?php 
+								if($TA){
+										$ta = $_SESSION['ta'];
+										$queryStudents = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
+										$rowAllStudents = mysqli_fetch_assoc($queryStudents);
+										$numberOfStudents = mysqli_num_rows($queryStudents);
+
+										$queryNumGroups = mysqli_query($dbc, "SELECT DISTINCT pid FROM Project WHERE ta = '$ta'");
+										$rowGroups= mysqli_fetch_assoc($queryNumGroups);
+										$numOfGroups = mysqli_num_rows($queryNumGroups);
+
+
+										if($numOfGroups > 1){
+											//for each group display students of that group
+											for($i = 1; $i<=$numOfGroups; $i++){
+												$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
+												echo "<li><a href='viewGroup.php'> Team $i: </a></li>";
+
+												}	
+												
+											}
+								}
+								else {
+									
+									
+										for($i=1;$i<=$_SESSION['total'];$i++){
+										$c = "class$i";
+										$s = "section$i";
+										echo "<li><a href='viewGroup.php'>.$_SESSION[$c]..$_SESSION[$s].</a></li>";
+										}
+								}
+								
+								?>
+									
+
+									</ul>
+							</li>
+						
+						
+						
 						<li><a href="chat.php"><span class="glyphicon glyphicon-comment"></span> Chat</a></li>
 						<li><a href="logOut.php"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
 					</ul>
