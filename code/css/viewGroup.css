@@ -46,7 +46,7 @@
 
 
 .col-sm-6 .glyphicon{
-	padding-top: 100px;
+padding-top: 50px;
   font-size:100px;
   color:  #30C29E;
 }
@@ -70,4 +70,22 @@
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+}
+
+
+h2{
+	
+	  font-family:georgia, serif;
+	  color:#381704;
+	  font-size:10px;
+	  letter-spacing:0.1em;
+	  line-height:200%;
+}
+
+.title{
+	text-align: center;
+	padding-top: 50px; 
+}
+nav{
+  z-index:1;
 }

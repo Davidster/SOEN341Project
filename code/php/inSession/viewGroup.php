@@ -94,7 +94,7 @@
 						<li><a href="myProfile.php"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
 						
 						    <li class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Groups
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-globe"></span> Groups
 								<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 								
@@ -126,7 +126,7 @@
 										for($i=1;$i<=$_SESSION['total'];$i++){
 										$c = "class$i";
 										$s = "section$i";
-										echo "<li><a href='viewGroup.php'>.$_SESSION[$c]..$_SESSION[$s].</a></li>";
+										echo "<li><a href='viewGroup.php'>$_SESSION[$c]$_SESSION[$s]</a></li>";
 										}
 								}
 								
@@ -147,19 +147,26 @@
 		<div id="page-content">
 
 
+		<div class="title"> <h1>GROUP PAGE </h1><br>
+		<h2>Here is where you will be able to upload and download the files for your project.</h2></div>
+		
+
+							
+				
+		
 
 		<div class="row" align="center">
 		<!-- COL 1 -->
 
 			<div class="col-sm-6"> <span class ="glyphicon glyphicon-file"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Uploaded Files</h1></div><div class="panel-body">
 		
-			<p> This will show the list of all uploaded documents by the TA available for the students </p>
+			<p> UPLOADED BY TA </p>
 			
 							<?php
 								listFilesInDir($pathToPublic);
 							?>
 							
-			<p>This will show the list of all uploaded documents by the students</p>
+			<p>UPLOADED BY STUDENT</p>
 									
 						
 							<?php
