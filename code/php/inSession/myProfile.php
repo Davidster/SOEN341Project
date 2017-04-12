@@ -235,7 +235,7 @@
 				while($rowGroupedStudents = mysqli_fetch_assoc($queryOneGroup)){
 				echo $rowGroupedStudents['sid'] . "</br>";
 				}
-				echo 	"<a href='viewGroup.php'class=\"button big alt\"> Team $i group page
+				echo 	"<a href='viewGroup.php'class=\"button big alt\"><b> Team $i group page </b>
 				</br>
 						</a>";
 
