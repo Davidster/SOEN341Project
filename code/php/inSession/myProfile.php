@@ -73,16 +73,16 @@
 
 
 				if($TA){
-
+				echo '<div class="col-sm-12 "><div class="panel panel-default text-center"><div class="panel-body">';
 				echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;"><h2>Welcome to your portal ' .$_SESSION['name']. '!</h2></span></br>';
-				echo '<span style="front-size: 25px;front-family: Helvetica;color: #7B7A7A;">email: '.$_SESSION['email']. '</span></br>';
-					echo $_SESSION['class'];
-					echo $_SESSION['section']."</br>";
+			
+					echo '<h3>' .$_SESSION['class']. '</h3>';
+					echo '<h3>' .$_SESSION['section']. '</h3>';
 					$ta = $_SESSION['ta'];
 					$projQueryRes = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
 					$classSize = mysqli_num_rows($projQueryRes);
-					echo "Number of Students: ". $classSize;
-					echo "</br>";
+					echo "<h3>Number of Students: ". $classSize. "</h3>";
+					
 					//if teams are made
 					$projQueryRes2 = mysqli_query($dbc,"SELECT 1 FROM Project WHERE ta= '$ta' AND pid='0'");
 					if(mysqli_num_rows($projQueryRes2) == 0){
@@ -98,42 +98,42 @@
 
 						}
 					}
+					echo "</div></div></div>";
 
-					echo 	"<div>
+					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-plus'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Create Groups</h2></div><div class='panel-body'>'
+							
 								</br>
 								<form id='make' action= '' method='post' class='form-inline'>
-									<input type='text' name='teamsOf' placeholder= 'team size' required>
+									<input type='text' name='teamsOf' placeholder= 'Team Size' required>
 									<input type='submit' value='Create Teams' name='make' class='btn btn-primary'>
 								</form>
+			
 								</br>
-							</div>
-
-							<div>
+		
 								<form id='undo' action='' method ='post'>
 								<input type='submit' value='Undo All Teams' name='undo' class='btn btn-primary'>
 								</form>
-							</div></br>	";
+							</div></div></div></br>	";
 
-					echo 	"<div>
+					echo "<div class='col-sm-4 '><span class='glyphicon glyphicon-retweet'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Switch Teams</h2></div><div class='panel-body'>'
 								<form id='add' action= '' method='post' class='form-inline'>
 									<input type='text' name='sidToAdd' placeholder= 'Insert Student ID' required>
 									<input type='text' name='pidA' placeholder= 'Insert Project ID' required>
 									<input type='submit' value='Add to Team' name='add' class='btn btn-primary'>
-									</br>
+		
 								</form>
-								</br>
-							</div>
+							</div></div></div></br>";
 
-							<div>
+					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-remove'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Remove Student</h2></div><div class='panel-body'>'
+								
 								<form id='remove' action= '' method='post' class='form-inline'>
 									<input type='text' name='sidToRemove' placeholder= 'Insert Student ID' required>
 									<input type='submit' value='Remove from Team' name='remove' class='btn btn-primary'>
 								</form>
-								</br>
-							</div>
-
-							";
-
+								</div>
+							</div></div></div>";
+							
+echo "<div class='col-sm-12'><div class='panel panel-default text-center'><div class='panel-heading'><h2>Teams</h2></div><div class='panel-body'>";
 					//find all students in TAs class
  					$projQueryRes = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
 
@@ -162,7 +162,7 @@
 						while($row = mysqli_fetch_assoc($projQueryRes)){
 							mysqli_query($dbc, "UPDATE Project SET pid ='0' WHERE ta= '$ta'");
 						}
-						echo "<h2>Deleted groups</h2>";
+						echo "<h2>Deleted All Teams</h2>";
 					}
 
 
@@ -181,15 +181,8 @@
 							if(mysqli_query($dbc, "UPDATE Project SET pid ='$pidA' WHERE ta = '$ta' AND sid = '$sidToAdd'")){
 								echo "'$sidToAdd' added to '$pidA'";
 							}
-
 						}
-
-
-
-
-
 					}
-
 
 					if(isset($_POST['remove'])){
 						$sidToRemove = $_POST['sidToRemove'];
@@ -205,12 +198,7 @@
 							if(mysqli_query($dbc, "UPDATE Project SET pid ='0' WHERE ta = '$ta' AND sid = '$sidToRemove'")){
 								echo "'$sidToRemove' removed from original team";
 							}
-
 						}
-
-
-
-
 
 					}
 
@@ -227,21 +215,31 @@
 		$numOfGroups = mysqli_num_rows($queryNumGroups);
 
 
-				if($numOfGroups > 1){
+		if($numOfGroups > 1){
 			//for each group display students of that group
 			for($i = 1; $i<=$numOfGroups; $i++){
 				$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
 				echo "</br><b> Team $i: </b></br>";
 				while($rowGroupedStudents = mysqli_fetch_assoc($queryOneGroup)){
-				echo $rowGroupedStudents['sid'] . "</br>";
+				$sid = $rowGroupedStudents['sid'];
+				$nameSearchQuery = "SELECT * FROM Student where sid = '$sid'";
+				$nameSearch = mysqli_query($dbc, $nameSearchQuery); //pass this query to our db
+				$rowStudentName = mysqli_fetch_assoc($nameSearch);
+
+				echo $rowStudentName['name'] . " " . $sid . "</br>";
 				}
 				echo 	"<a href='viewGroup.php'class=\"button big alt\"><b> Team $i group page </b>
 				</br>
 						</a>";
 
 			}
+echo "</div></div></div>";
 		}
-}
+	
+
+} //end of TA
+
+
 ?>
 
 
@@ -279,6 +277,7 @@
 							$ta = $row['ta'];
 							echo '</br><p><strong>Class:</strong> '.$c.'</br><strong>Section:</strong> '.$s.'</br><strong>Project ID:</strong> '.$p.'</p>';
 						}
+						
         echo'</div></div></div>';
         
 	}
@@ -292,14 +291,14 @@
 
 	</div>
 	</div>
-    <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
+ <!--   <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
 		<div class="container">
 			<p style="font-size: 12px; margin: 0;">
 				&copy; Winter 2017 SOEN341 Project. All Rights Reserved.<br/>
 				Contact Us: 1-800-123-4567
 			</p>
 		</div>
-	</footer>
+	</footer> -->
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
 	<script src="../../js/sticky/jquery.sticky.js"></script>
