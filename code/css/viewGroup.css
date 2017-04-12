@@ -43,3 +43,30 @@
 	margin: auto;
 }
 
+
+
+.col-sm-6 .glyphicon{
+  font-size:100px;
+  color:  #30C29E;
+}
+
+.panel {
+    border: 1px solid #f4511e; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color:  #30C29E !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}

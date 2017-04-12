@@ -17,6 +17,36 @@
 	if(isset($_SESSION['ta'])){
 		$GLOBALS['TA'] = true;
 	}
+	
+	
+	
+	// setup upload variables
+	$pathToUploads = "../../uploads/";
+	$pathToPublic = $pathToUploads."public/";
+
+	// add uploads directory if we don't already have it
+	if (!file_exists($pathToUploads)) {
+	    mkdir($pathToUploads, 0755, true);
+	}
+
+	// add public directory if we don't already have it
+	if (!file_exists($pathToPublic)) {
+	    mkdir($pathToPublic, 0755, true);
+	}
+	
+								function addFileLink($filePath, $fileName){
+								echo "<a href='".$filePath.$fileName."' target='_blank' download>".$fileName."</a>";
+							}
+							function listFilesInDir($dir){
+								if ($handle = opendir($dir)) {
+								    while (false !== ($entry = readdir($handle))) {
+								        if ($entry != "." && $entry != ".." && $entry != "public") {
+								        	addFileLink($dir, $entry);
+								        }
+								    }
+								    closedir($handle);
+								}
+							}
 ?>
 
 <!DOCTYPE html>
@@ -72,18 +102,35 @@
 
 
 
-		<div class="row" style="text-align:center">
-	</div>	<!-- COL 1 -->
+		<div class="row" align="center">
+		<!-- COL 1 -->
 
-			<div class="col-sm-6" style="text-align:center">
-			<h1> Uploaded by TA </h1>
+			<div class="col-sm-6"> <span class ="glyphicon glyphicon-file"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Uploaded Files</h1></div><div class="panel-body">
+		
 			<p> This will show the list of all uploaded documents by the TA available for the students </p>
-			</div> <!-- COL 2 -->
+			
+							<?php
+								listFilesInDir($pathToPublic);
+							?>
+							
+			<p>This will show the list of all uploaded documents by the students</p>
+									
+						
+							<?php
+								listFilesInDir($pathToUploads);
+							?>
+					
+			
+			</div></div></div>
+			
+			
+			
+			<!-- COL 2 -->
 
 
 
-			<div class="col-sm-6" style="text-align:center">
-			<h1> Names and emails </h1>
+				<div class="col-sm-6"> <span class ="glyphicon glyphicon-list-alt"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Names and emails</h1></div><div class="panel-body">
+			
 			<?php
 
 			if(!$TA){
@@ -130,117 +177,103 @@
 			}
 
 			?>
-			</div> <!-- COL 3 -->
-       </div>    <!-- ROW -->
-	   <div class="row" style="text-align:center">
-			<div class="col-sm-12" style="text-align:center">
-					<h1> Upload a file </h1>
-			<?php
-				//for students to upload
-				if(!$TA){
+			
+			
+			
+			</div></div></div> 
+			<!-- COL 3 -->
 
-					$sid = $_SESSION['sid'];
-
-
-					if(isset($_POST['upload']) && $_FILES['file']['size'] > 0){
-						$fileName = $_FILES['file']['name'];
-						$tmpName  = $_FILES['file']['tmp_name'];
-						$fileSize = $_FILES['file']['size'];
-						$fileType = $_FILES['file']['type'];
-
-						$pid = $_POST['pid'];
-						$class = $_POST['class'];
-						$section = $_POST['section'];
-
-						$findTAQueryRes = mysqli_query($dbc, "SELECT * FROM ClassList where class = '$class' AND section = '$section'");
-						$row = mysqli_fetch_assoc($findTAQueryRes);
-
-						$fp = fopen($tmpName, 'r');
-						$content = fread($fp, filesize($tmpName));
-						$content = addslashes($content);
-						fclose($fp);
-
-						if(!get_magic_quotes_gpc()){
-							$fileName = addslashes($fileName);
-						}
-
-						//fid is incremented automatically so ignore
-						$fileUploadQuery = "INSERT INTO Files ( ta, fname, size, type, content, pid)
-						VALUES ('$ta', '$fileName', '$fileSize', '$fileType', '$content', '$pid')";
-
-						if(mysqli_query($dbc, $fileUploadQuery)) {
-							echo "<br>File $fileName uploaded<br>";
-						}
-						else echo mysqli_error($dbc);
-					}
-				}
-				else{
-					//TA upload
-					if(isset($_POST['upload']) && $_FILES['file']['size'] > 0){
-						$fileName = $_FILES['file']['name'];
-						$tmpName  = $_FILES['file']['tmp_name'];
-						$fileSize = $_FILES['file']['size'];
-						$fileType = $_FILES['file']['type'];
-
-						$ta = $_SESSION['ta'];
-
-						$fp = fopen($tmpName, 'r');
-						$content = fread($fp, filesize($tmpName));
-						$content = addslashes($content);
-						fclose($fp);
-
-						if(!get_magic_quotes_gpc()){
-							$fileName = addslashes($fileName);
-						}
-						//fid is incremented automatically so ignore
-						//ta uploads with no pid so whole class can access documents
-						$fileUploadQuery = "INSERT INTO Files ( ta, fname, size, type, content)
-						VALUES ('$ta', '$fileName', '$fileSize', '$fileType', '$content')";
-
-						if(mysqli_query($dbc,$fileUploadQuery)) {
-							echo "<br>File $fileName uploaded<br>";
-
-						}
-						else echo mysqli_error($dbc);
-					}
-				}
-
-			?>
-
-			<div class="container-fluid">
-			<form method="post" enctype="multipart/form-data" class="uploadForm">
-					<table width="250px" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
-						<tr>
-							<td width="246px">
-								<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-								<input name="file" type="file" id="file" class="fileInput" required>
-								<input type='text' name='pid' placeholder='Project ID' <?php if(!TA)echo "required";?>>
-								<input type='text' name='class' placeholder='Class' <?php if(!TA)echo "required";?>>
-								<input type='text' name='section' placeholder='Section' <?php if(!TA)echo "required";?>>
-
-
-							</td>
-							<td width="80">
-								<input name="upload" type="submit" class="uploadButton" id="upload" value=" Upload ">
-							</td>
-						</tr>
-					</table>
-			</form>
+			
 			</div>
+			<!--second row-->
+			<div class="row" align="center">
+			
+			<div class="col-sm-3"></div>
+	   
+			<div class="col-sm-6"> <span class ="glyphicon glyphicon-cloud-upload"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Upload a file</h1></div><div class="panel-body">
+					
+			
+						<form method="post" enctype="multipart/form-data" class="uploadForm">
+							<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
+								<tr>
+									<td width="246">
+										<input type="hidden" name="MAX_FILE_SIZE" value="50000">
+										<input name="file" type="file" id="file" class="fileInput" required>
+										<?php if(!$TA)echo "<input type='text' name='pid' placeholder='Project ID' value='205' required>";?>
+										<?php if(!$TA)echo "<input type='text' name='class' placeholder='Class' value='SOEN341' required>";?>
+										<?php if(!$TA)echo "<input type='text' name='section' placeholder='Section' value='AA' required>";?>
+
+									</td>
+									<td width="80">
+										<input name="upload" type="submit" class="uploadButton" id="upload" value=" Upload ">
+									</td>
+								</tr>
+							</table>
+							<div id="uploadResults">
+								<?php
+									if(isset($_POST['upload'])){
+
+										$maxUploadSize = 50000;
+
+										$preFileName = $_FILES['file']['name'];
+										$tmpName  = $_FILES['file']['tmp_name'];
+										$fileSize = $_FILES['file']['size'];
+
+										if($fileSize >= 0 && $fileSize <= $maxUploadSize){
+
+											$finalUploadPath = "";
+
+											if($TA){
+												// set TA upload path
+												$finalUploadPath = $pathToPublic.$preFileName;
+											} else {
+												// set Student upload path
+												$pid = $_POST['pid'];
+												$class = $_POST['class'];
+												$section = $_POST['section'];
+												$filePrefix = $pid."-".$class."-".$section."-";
+
+												$finalUploadPath = $pathToUploads.$filePrefix.$preFileName;
+											}
+
+											// upload the file
+											if (move_uploaded_file($tmpName, $finalUploadPath)) {
+										        echo "The file ". basename($preFileName). " has been uploaded.";
+										    } else {
+										        echo "Sorry, there was an error uploading your file.";
+										    }
+										}
+										else {
+											echo "File above the 50kb limit. Did not upload";
+										}
+									}
+								?>
+							</div>
+						</form>
+						<table width="500px" border="0" cellpadding="1" cellspacing="1" class="fileTable" >
+							<tr>
+								<td width ="246" class="fileUploads"></td>
+								<td width="50" class="removeButton"><td>
+							</tr>
+						</table>
+	
+					<div id="fileDownload">
 
 
-		<br>
-		<br>
 
-			</div> <!-- COL 12 -->
-	   </div> <!-- ROW -->
-    <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
+					</div>
+
+		</div></div></div>
+
+
+		   </div> <!-- ROW -->
+<!--    <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
 			<div class="container">
 				<p style="font-size: 12px; margin: 0;">&copy; Winter 2017 SOEN341 Project. All Rights Reserved.
 				<br/>Contact Us: 1-800-123-4567
 				</p>
 			</div>
-    </footer>
+    </footer>-->
 
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
