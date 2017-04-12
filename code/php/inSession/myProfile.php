@@ -73,15 +73,17 @@
 
 
 				if($TA){
-				echo '<div class="col-sm-12 "><div class="panel panel-default text-center"><div class="panel-body">';
-				echo '<span style="front-size: 45px;front-family: Helvetica;color: #7B7A7A;"><h2>Welcome to your portal ' .$_SESSION['name']. '!</h2></span></br>';
+				echo '<div class="col-sm-12"><div class="jumbotron text-center"><div class="panel-body">';
+				echo '<h1>Your Portal</h1>';
+				echo '<span class="glyphicon glyphicon-briefcase"></span>';
+				echo '<p>This application enables creating teams of students with only a few clicks<br>
+				Once teams are formed, you can remove students from a specific team or switch them to another one</p>';
 			
-					echo '<h3>' .$_SESSION['class']. '</h3>';
-					echo '<h3>' .$_SESSION['section']. '</h3>';
+					echo '<h4>' .$_SESSION['class']. '&nbsp' .$_SESSION['section']. '</h4>';
 					$ta = $_SESSION['ta'];
 					$projQueryRes = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
 					$classSize = mysqli_num_rows($projQueryRes);
-					echo "<h3>Number of Students: ". $classSize. "</h3>";
+					echo "<h4>Number of Students: ". $classSize. "</h4>";
 					
 					//if teams are made
 					$projQueryRes2 = mysqli_query($dbc,"SELECT 1 FROM Project WHERE ta= '$ta' AND pid='0'");
@@ -107,21 +109,21 @@
 									<input type='text' name='teamsOf' placeholder= 'Team Size' required>
 									<input type='submit' value='Create Teams' name='make' class='btn btn-primary'>
 								</form>
-			
-								</br>
-		
 								<form id='undo' action='' method ='post'>
 								<input type='submit' value='Undo All Teams' name='undo' class='btn btn-primary'>
 								</form>
 							</div></div></div></br>	";
 
-					echo "<div class='col-sm-4 '><span class='glyphicon glyphicon-retweet'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Switch Teams</h2></div><div class='panel-body'>'
+					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-retweet'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Switch Teams</h2></div><div class='panel-body'>'
+								</br>
+								
 								<form id='add' action= '' method='post' class='form-inline'>
 									<input type='text' name='sidToAdd' placeholder= 'Insert Student ID' required>
 									<input type='text' name='pidA' placeholder= 'Insert Project ID' required>
 									<input type='submit' value='Add to Team' name='add' class='btn btn-primary'>
 		
 								</form>
+								<br>
 							</div></div></div></br>";
 
 					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-remove'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Remove Student</h2></div><div class='panel-body'>'
@@ -130,10 +132,11 @@
 									<input type='text' name='sidToRemove' placeholder= 'Insert Student ID' required>
 									<input type='submit' value='Remove from Team' name='remove' class='btn btn-primary'>
 								</form>
-								</div>
-							</div></div></div>";
-							
-echo "<div class='col-sm-12'><div class='panel panel-default text-center'><div class='panel-heading'><h2>Teams</h2></div><div class='panel-body'>";
+								<br><br><br>
+								</div></div></div></div>";
+
+echo "<div class='col-sm-3'></div>";							
+echo "<div class='col-sm-6'><div class='panel panel-default text-center'><div class='panel-heading'><h2>Teams</h2></div><div class='panel-body'>";
 					//find all students in TAs class
  					$projQueryRes = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
 
@@ -226,14 +229,13 @@ echo "<div class='col-sm-12'><div class='panel panel-default text-center'><div c
 				$nameSearch = mysqli_query($dbc, $nameSearchQuery); //pass this query to our db
 				$rowStudentName = mysqli_fetch_assoc($nameSearch);
 
-				echo $rowStudentName['name'] . " " . $sid . "</br>";
+				echo "<b>Student: </b>" . $rowStudentName['name'] . "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>ID: </b>" . $sid . "</br>";
 				}
-				echo 	"<a href='viewGroup.php'class=\"button big alt\"><b> Team $i group page </b>
-				</br>
-						</a>";
+				echo 	"<a href='viewGroup.php'class=\"button big alt\"><button class='btn btn-primary'>Team $i Group Page</br></button></a>";
 
 			}
 echo "</div></div></div>";
+echo "<div class='col-sm-3'></div>";
 		}
 	
 
