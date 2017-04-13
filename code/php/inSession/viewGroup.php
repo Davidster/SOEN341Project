@@ -114,7 +114,7 @@
 											//for each group display students of that group
 											for($i = 1; $i<=$numOfGroups; $i++){
 												$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
-												echo "<li><a href='viewGroup.php'> Team $i: </a></li>";
+												echo "<li><a href='viewGroup.php'> Team $i </a></li>";
 
 												}	
 												
