@@ -1,4 +1,4 @@
-<?php 
+<?php
 	require_once '../../sql_connect.php';
 ?>
 <!DOCTYPE html>
@@ -22,7 +22,7 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>                        
+						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand">Moodle 2.0</a>
 				</div>
@@ -80,13 +80,37 @@
 						<p><button type="submit" value = 'Submit' name='register' class="btn btn-default">Submit</button></p>
 					</div>
 				</form><br/><br/>
-			</div> 
+			</div>
 		</div>
-		<script>
-			document.onload = hello;
+
+		<?php
+			$queryFindClasses = "SELECT * FROM ClassList";
+			$passQuery = mysqli_query($dbc , $queryFindClasses);
+			$classes_sections = array();
+			$inc = 0;
+			$together = "";
+
+			while( $rowAllClasses = mysqli_fetch_assoc( $passQuery)){
+				++$inc;
+				$classes_sections[] =
+
+				"var classText". $inc . " = document.createTextNode(\"" .  $rowAllClasses['class'] . " " . $rowAllClasses['section'] . "\");
+				var optionClass". $inc ." = document.createElement(\"option\");
+				optionClass". $inc .".appendChild(classText". $inc .");
+				selectClass.appendChild(optionClass". $inc .");";
+
+			}
+
+			for ($key = 0, $size = count($classes_sections); $key < $size; $key++) {
+				$together .= $classes_sections[$key] . " ";
+			}
+
+			echo
+		'<script>
+			document.onload = hello();
 			function hello(){
 				var number = document.getElementById("sel1").value;
-            
+
 				// Container <div> where dynamic content will be placed
 				var container = document.getElementById("container");
 				//var stuff = document.createElement("input");
@@ -98,70 +122,30 @@
 					// Create an <input> element, set its type and name attributes
 					var div = document.createElement("div");
 					div.className = "form-group";
-					var label = document.createElement('label');
-					var p = document.createElement('p');
+					var label = document.createElement("label");
+					var p = document.createElement("p");
 					var text = document.createTextNode("Enter your class and section:");
 					p.appendChild(text);
 					label.appendChild(p);
 					div.appendChild(label);
-               
+
 					//creating Class dropdown selection
-					var number1 = i + 1; 
-					var selectClass = document.createElement('select');
+					var number1 = i + 1;
+					var selectClass = document.createElement("select");
 					selectClass.className = "form-control";
 					selectClass.placeholder = "Class";
-					selectClass.name = 'c' + number1;
-				
-					var classText1 = document.createTextNode("SOEN341");
-					var classText2 = document.createTextNode("ENGR201");
-				
-					var optionClass1 = document.createElement("option");
-					var optionClass2 = document.createElement("option");
-					
-					//optionClass1.disabled = true;
-					optionClass1.appendChild(classText1);
-					optionClass2.appendChild(classText2);
-					
-					selectClass.appendChild(optionClass1);
-					selectClass.appendChild(optionClass2);
+					selectClass.name = "c" + number1;
 
-					//creating section dropdown selection	
-					var selectSection = document.createElement('select');
-					selectSection.className = "form-control";
-					selectSection.placeholder = "Section";
-					selectSection.name = 's' + number1;
+					' . $together . '
 
-					var sectionText1 = document.createTextNode("AA");
-					var sectionText2 = document.createTextNode("BB");
-					var sectionText3 = document.createTextNode("XX");
-					var sectionText4 = document.createTextNode("YY");
-				
-					var optionSection1 = document.createElement("option");
-					var optionSection2 = document.createElement("option");
-					var optionSection3 = document.createElement("option");
-					var optionSection4 = document.createElement("option");
-				
-					//option1.disabled = true;
-					optionSection1.appendChild(sectionText1);
-					optionSection2.appendChild(sectionText2);
-					optionSection3.appendChild(sectionText3);
-					optionSection4.appendChild(sectionText4);
-				
-					selectSection.appendChild(optionSection1);
-					selectSection.appendChild(optionSection2);
-					selectSection.appendChild(optionSection3);
-					selectSection.appendChild(optionSection4);                
-				
 					div.appendChild(selectClass);
-					div.appendChild(selectSection);
 					container.appendChild(div);
                 }
 			}
-		</script>
-			  <?php 
+		</script>';
 				//gets user input
 				if(isset($_POST['register'])){
-					
+
 
 					$id = $_POST['id'];
 					$name = $_POST['fullName'];
@@ -191,19 +175,22 @@
 
 							$registerQuery = "INSERT INTO Student (sid, name, email, password) VALUES ('$id','$name','$email', '$password')";
 
-							
+
 							//create student record
 							if(mysqli_query($dbc, $registerQuery)){
 								//look through all his classes input
 								for($i = 1; $i <= $_POST["sel1"]; $i++){
-									$s = "s$i";
+									//$s = "s$i";
 									$c = "c$i";
-									if(isset($_POST[$c]) && isset($_POST[$s])){
-										$class = $_POST[$c];
-										$section = $_POST[$s];
+									if(isset($_POST[$c])){ //&& isset($_POST[$s])){
+										$seperate = (explode(" ",$_POST[$c]));
+										$class = $seperate[0];
+										$section = $seperate[1];
+										//$class = $_POST[$c];
+										//$section = $_POST[$s];
 										//find ta for that class and section
 										$returnedTA = mysqli_query($dbc, "SELECT * FROM ClassList WHERE class='$class' && section='$section'");
-										
+
 										$row = mysqli_fetch_assoc($returnedTA);
 										$t = $row['ta'];
 										$p = 0;
@@ -234,7 +221,7 @@
 							else{
 								echo "<h2> Sorry. This Concordia ID is already registered in the system</h2>";
 							}
-						
+
 						}
 						else echo "<h2> Sorry, you are not enrolled in our database! </h2>";
 					}
@@ -244,7 +231,7 @@
 				}
 				if (isset($success)) {echo $success;}
 				if (isset($passwordMismatch)) {echo $passwordMismatch;}
-			?>	
+			?>
 	<!--</div>-->
 	<footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
 		<div class="container">
