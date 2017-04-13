@@ -1,6 +1,9 @@
 <?php
-	session_start();
+	if(session_id() == '' || session_status() == PHP_SESSION_NONE) {
+    	session_start();
+	}
 	require_once '../../sql_connect.php';
+	require_once '../functions.php';
 	if(!isset($_SESSION['logon'])){
 		//destroy the session
 		$_SESSION = array();
@@ -19,7 +22,6 @@
 	}
 	
 	
-	
 	// setup upload variables
 	$pathToUploads = "../../uploads/";
 	$pathToPublic = $pathToUploads."public/";
@@ -34,19 +36,20 @@
 	    mkdir($pathToPublic, 0755, true);
 	}
 	
-								function addFileLink($filePath, $fileName){
-								echo "<a href='".$filePath.$fileName."' target='_blank' download>".$fileName."</a>";
-							}
-							function listFilesInDir($dir){
-								if ($handle = opendir($dir)) {
-								    while (false !== ($entry = readdir($handle))) {
-								        if ($entry != "." && $entry != ".." && $entry != "public") {
-								        	addFileLink($dir, $entry);
-								        }
-								    }
-								    closedir($handle);
-								}
-							}
+	function addFileLink($filePath, $fileName){
+		echo "<a href='".$filePath.$fileName."' target='_blank' download>".$fileName."</a><br/>";
+	}
+
+	function listFilesInDir($dir){
+		if ($handle = opendir($dir)) {
+		    while (false !== ($entry = readdir($handle))) {
+		        if ($entry != "." && $entry != ".." && $entry != "public") {
+		        	addFileLink($dir, $entry);
+		        }
+		    }
+		    closedir($handle);
+		}
+	}
 ?>
 
 <!DOCTYPE html>
@@ -277,39 +280,14 @@
 								<?php
 									if(isset($_POST['upload'])){
 
-										$maxUploadSize = 50000;
-
 										$preFileName = $_FILES['file']['name'];
 										$tmpName  = $_FILES['file']['tmp_name'];
 										$fileSize = $_FILES['file']['size'];
+										$pid = $_POST['pid'];
+										$class = $_POST['class'];
+										$section = $_POST['section'];
 
-										if($fileSize >= 0 && $fileSize <= $maxUploadSize){
-
-											$finalUploadPath = "";
-
-											if($TA){
-												// set TA upload path
-												$finalUploadPath = $pathToPublic.$preFileName;
-											} else {
-												// set Student upload path
-												$pid = $_POST['pid'];
-												$class = $_POST['class'];
-												$section = $_POST['section'];
-												$filePrefix = $pid."-".$class."-".$section."-";
-
-												$finalUploadPath = $pathToUploads.$filePrefix.$preFileName;
-											}
-
-											// upload the file
-											if (move_uploaded_file($tmpName, $finalUploadPath)) {
-										        echo "The file ". basename($preFileName). " has been uploaded.";
-										    } else {
-										        echo "Sorry, there was an error uploading your file.";
-										    }
-										}
-										else {
-											echo "File above the 50kb limit. Did not upload";
-										}
+										uploadFile($preFileName, $tmpName, $fileSize, $pid, $class, $section, $TA, $pathToUploads, $pathToPublic);
 									}
 								?>
 							</div>

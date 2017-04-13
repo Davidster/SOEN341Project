@@ -3,6 +3,8 @@
 require './vendor/autoload.php';
 use Guzzle\Http\Client;
 	
+require_once './code/php/functions.php';
+
 /**
  * This file contains the unit tests for our project
  * 
@@ -33,14 +35,27 @@ final class Test extends \PHPUnit_Framework_TestCase
 
 	// The site should ensure that it has a place to store uploaded files
 	public function testUploadFoldersExist(){
-		require_once './code/php/viewGroup.php';
+		$client = new Client('http://localhost:80');
+		$client->get('/code/php/inSession/viewGroup.php')->send();
 
-		$pathToUploads = "uploads/";
+		$pathToUploads = "./code/uploads/";
 		$pathToPublic = $pathToUploads."public/";
 
 		$this->assertTrue(file_exists($pathToUploads));
 		$this->assertTrue(file_exists($pathToPublic));
 	}
 
-	// 
+	public function testLogin(){
+		
+		//connect to database
+		$dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
+
+		$email = "dave@gmail.com";
+		$password = "dave";
+
+		loginUser($email, $password, $dbc, true);
+
+		$this->assertTrue($_SESSION['logon']);
+		$this->assertEquals($_SESSION['name'], 'dave');
+	}
 }
