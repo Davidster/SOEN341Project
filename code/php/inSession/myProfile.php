@@ -1,5 +1,7 @@
 <?php
-	session_start();
+	if(session_id() == '' || session_status() == PHP_SESSION_NONE) {
+    	session_start();
+	}
 	require_once '../../sql_connect.php';
 	if(!isset($_SESSION['logon'])){
 		//destroy the session
