@@ -147,7 +147,7 @@
 		<div id="page-content">
 
 
-		
+		<div class="col-sm-12"><div class="crossfade"><figure></figure><figure></figure><figure></figure><figure></figure><figure></figure></div></div>
 		<div class="col-sm-12"><div class="jumbotron text-center"><div class="panel-body">
 		
 		
@@ -159,7 +159,7 @@
 		 
 		<p>Here is where you will be able to upload and download the files for your project.</p>
 		
-		</div></div>
+            </div></div></div>
 		
 
 							
@@ -168,7 +168,7 @@
 
 		<div class="row" align="center">
 		<!-- COL 1 -->
-
+            <div class="col-sm-3"></div>
 			<div class="col-sm-6"> <span class ="glyphicon glyphicon-file"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Uploaded Files</h1></div><div class="panel-body">
 		
 			<p> UPLOADED BY TA </p>
@@ -186,13 +186,15 @@
 					
 			
 			</div></div></div>
-			
+            <div class="col-sm-3"></div>
+            </div>
 			
 			
 			<!-- COL 2 -->
 
-
-
+            
+            <div class="row" align="center">
+                <div class="col-sm-3"></div>
 				<div class="col-sm-6"> <span class ="glyphicon glyphicon-list-alt"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Names and emails</h1></div><div class="panel-body">
 			
 			<?php
@@ -242,9 +244,9 @@
 
 			?>
 			
+			<div class="col-sm-3"></div>
 			
-			
-			</div></div></div> 
+			</div></div></div></div>
 			<!-- COL 3 -->
 
 			
@@ -327,10 +329,10 @@
 
 					</div>
 
-		</div></div></div>
+		</div></div></div></div></div>
 
 
-		   </div> <!-- ROW -->
+		   <br/><br/><br/><br/> <!-- ROW -->
         <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
 			<div class="container">
 				<p style="font-size: 12px; margin: 0;">&copy; Winter 2017 SOEN341 Project. All Rights Reserved.
