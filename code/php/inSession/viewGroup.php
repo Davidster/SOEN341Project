@@ -114,7 +114,7 @@
 											//for each group display students of that group
 											for($i = 1; $i<=$numOfGroups; $i++){
 												$queryOneGroup = mysqli_query( $dbc,"SELECT * FROM Project WHERE ta = '$ta' AND pid = '$i'");
-												echo "<li><a href='viewGroup.php'> Team $i: </a></li>";
+												echo "<li><a href='viewGroup.php'> Team $i </a></li>";
 
 												}	
 												
@@ -147,7 +147,7 @@
 		<div id="page-content">
 
 
-		
+		<div class="col-sm-12"><div class="crossfade"><figure></figure><figure></figure><figure></figure><figure></figure><figure></figure></div></div>
 		<div class="col-sm-12"><div class="jumbotron text-center"><div class="panel-body">
 		
 		
@@ -159,7 +159,7 @@
 		 
 		<p>Here is where you will be able to upload and download the files for your project.</p>
 		
-		</div></div>
+            </div></div></div>
 		
 
 							
@@ -168,16 +168,16 @@
 
 		<div class="row" align="center">
 		<!-- COL 1 -->
-
+            <div class="col-sm-3"></div>
 			<div class="col-sm-6"> <span class ="glyphicon glyphicon-file"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Uploaded Files</h1></div><div class="panel-body">
 		
-			<p> UPLOADED BY TA </p>
+                <p> <b>UPLOADED BY TA </b></p>
 			
 							<?php
 								listFilesInDir($pathToPublic);
 							?>
 							
-			<p>UPLOADED BY STUDENT</p>
+                <p><b>UPLOADED BY STUDENT</b></p>
 									
 						
 							<?php
@@ -186,13 +186,15 @@
 					
 			
 			</div></div></div>
-			
+            <div class="col-sm-3"></div>
+            </div>
 			
 			
 			<!-- COL 2 -->
 
-
-
+            
+            <div class="row" align="center">
+                <div class="col-sm-3"></div>
 				<div class="col-sm-6"> <span class ="glyphicon glyphicon-list-alt"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Names and emails</h1></div><div class="panel-body">
 			
 			<?php
@@ -212,7 +214,7 @@
 						$myTA = $rowTA['ta'];
 						// second find my teamates
 						$queryFindTeamates = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$myTA' AND pid ='$p'");
-						echo "TEAM for $c $s $p :" . "</br>";
+						echo "<br/><h5><b>TEAM for ".$c."".$s. " ".$p." :</h5></b>";
 						while( $rowTeam = mysqli_fetch_assoc($queryFindTeamates)){
 
 							$sid = $rowTeam['sid'];
@@ -221,7 +223,7 @@
 							$rowStudent = mysqli_fetch_assoc($queryStudentInfo);
 							$name = $rowStudent['name'];
 							$email = $rowStudent['email'];
-							echo $sid . " ". $name . " " . $email . "</br>";
+							echo "<p><b>Student Name:</b> " .$name . " </br><b>Student ID:</b> ". $sid . " </br><b>Student Contact:</b> " . $email . "</p></br>";
 						}
 
 					}
@@ -229,22 +231,21 @@
 			else {
 				if($TA){
 
- 					echo $_SESSION['class'];
- 					echo $_SESSION['section']."</br>";
+ 					echo "<b>".$_SESSION['class']." ".$_SESSION['section']."</b></br>";
  					$ta = $_SESSION['ta'];
  					$result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
 
  					while( $row = mysqli_fetch_assoc($result)){
- 						echo $row['sid']."</br>";
+ 						echo "<b>Student ID:</b> ". $row['sid']. "</br>";
  					}
 				}
 			}
 
 			?>
 			
+			<div class="col-sm-3"></div>
 			
-			
-			</div></div></div> 
+			</div></div></div></div>
 			<!-- COL 3 -->
 
 			
@@ -327,10 +328,10 @@
 
 					</div>
 
-		</div></div></div>
+		</div></div></div></div></div>
 
 
-		   </div> <!-- ROW -->
+		   <br/><br/><br/><br/> <!-- ROW -->
         <footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;position:relative;top:-20px;">
 			<div class="container">
 				<p style="font-size: 12px; margin: 0;">&copy; Winter 2017 SOEN341 Project. All Rights Reserved.

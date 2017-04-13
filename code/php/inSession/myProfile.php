@@ -79,7 +79,7 @@
 				echo '<p>This application enables creating teams of students with only a few clicks<br>
 				Once teams are formed, you can remove students from a specific team or switch them to another one</p>';
 			
-					echo '<h4>' .$_SESSION['class']. '&nbsp' .$_SESSION['section']. '</h4>';
+					echo '<h4><b>' .$_SESSION['class']. '&nbsp' .$_SESSION['section']. '</b></h4>';
 					$ta = $_SESSION['ta'];
 					$projQueryRes = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
 					$classSize = mysqli_num_rows($projQueryRes);
@@ -102,7 +102,7 @@
 					}
 					echo '</div></div></div>';
 
-					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-plus'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Create Groups</h2></div><div class='panel-body'>'
+					echo "<div class='row' align='center'><div class='col-sm-2'></div><div class='col-sm-4'><span class='glyphicon glyphicon-plus'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Create Groups</h2></div><div class='panel-body'>'
 							
 								</br>
 								<form id='make' action= '' method='post' class='form-inline'>
@@ -114,7 +114,16 @@
 								</form>
 							    </div></div></div></br>	";
 
-					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-retweet'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Switch Teams</h2></div><div class='panel-body'>'
+					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-remove'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Remove Student</h2></div><div class='panel-body'>'
+								
+								<form id='remove' action= '' method='post' class='form-inline'>
+									<input type='text' name='sidToRemove' placeholder= 'Insert Student ID' required>
+									<input type='submit' value='Remove from Team' name='remove' class='btn btn-primary'>
+								</form>
+								<br><br><br>
+								</div></div></div><div class='col-sm-2'></div></div>";
+                    
+                    echo "<div class='row' align='center'><div class='col-sm-4'></div><div class='col-sm-4'><span class='glyphicon glyphicon-retweet'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Switch Teams</h2></div><div class='panel-body'>'
 								</br>
 								
 								<form id='add' action= '' method='post' class='form-inline'>
@@ -124,18 +133,9 @@
 		
 								</form>
 								<br>
-							</div></div></div></br>";
+							</div></div></div><div class='col-sm-4'></div></div></br>";
 
-					echo "<div class='col-sm-4'><span class='glyphicon glyphicon-remove'></span><div class='panel panel-default text-center'><div class='panel-heading'><h2>Remove Student</h2></div><div class='panel-body'>'
-								
-								<form id='remove' action= '' method='post' class='form-inline'>
-									<input type='text' name='sidToRemove' placeholder= 'Insert Student ID' required>
-									<input type='submit' value='Remove from Team' name='remove' class='btn btn-primary'>
-								</form>
-								<br><br><br>
-								</div></div></div>";
-
-echo "<div class='col-sm-3'></div>";							
+echo "<div class='row' align='center'><div class='col-sm-3'></div>";							
 echo "<div class='col-sm-6'><div class='panel panel-default text-center'><div class='panel-heading'><h2>Teams</h2></div><div class='panel-body'>";
 					//find all students in TAs class
  					$projQueryRes = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$ta'");
@@ -234,7 +234,7 @@ echo "<div class='col-sm-6'><div class='panel panel-default text-center'><div cl
 				echo 	"<a href='viewGroup.php'class=\"button big alt\"><button class='btn btn-primary'>Team $i Group Page</br></button></a>";
 
 			}
-echo "</div></div></div>";
+echo "</div></div></div></div>";
 		}
 	
 
@@ -251,19 +251,19 @@ echo "</div></div></div>";
 	if(!$TA){
 		echo '<div class="col-sm-12"><div class="crossfade"><figure></figure><figure></figure><figure></figure><figure></figure><figure></figure></div></div><div class="col-sm-12"><div class="jumbotron text-center"><div class="panel-body"><h2>Your Portal</h2><span class="glyphicon glyphicon-briefcase"></span><h4>Welcome to your portal '.$_SESSION['name'].'.</h4><h4> Here you are able to see your personal information and your courses.</h4><h4>Click on one of the buttons and you will be redirected to your Group Page.</h4></div></div></div>';
         
-        echo '<div class="col-sm-4"><span class="glyphicon glyphicon-info-sign"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Information</h1>
-        </div><div class="panel-body"><br><span class="glyphicon glyphicon-envelope"></span><p><strong>Student Email:</strong> '.$_SESSION['email']. '</p><br><span class="glyphicon glyphicon-user"></span><p><strong>Student Name:</strong> '.$_SESSION['name']. '</p><br><span class="glyphicon glyphicon-th-list"></span><p><strong>Student ID:</strong> '.$_SESSION['sid']. '</p><br></div></div></div>';
+        echo '<div class="row" align="center"><div class="col-sm-3"></div><div class="col-sm-6"><span class="glyphicon glyphicon-info-sign"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Information</h1>
+        </div><div class="panel-body"><br><span class="glyphicon glyphicon-envelope"></span><p><strong>Student Email:</strong> '.$_SESSION['email']. '</p><br><span class="glyphicon glyphicon-user"></span><p><strong>Student Name:</strong> '.$_SESSION['name']. '</p><br><span class="glyphicon glyphicon-th-list"></span><p><strong>Student ID:</strong> '.$_SESSION['sid']. '</p><br></div></div></div><div class="col-sm-3"></div></div>';
         
-         echo'<div class="col-sm-4"><span class="glyphicon glyphicon-cog"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Groups</h1></div><div class="panel-body">';
+         echo'<div class="row" align="center"><div class="col-sm-3"></div><div class="col-sm-6"><span class="glyphicon glyphicon-cog"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Groups</h1></div><div class="panel-body">';
 						for($i=1;$i<=$_SESSION['total'];$i++){
 						$c = "class$i";
 						$s = "section$i";
 						echo '<br><a href="viewGroup.php"><button class="btn btn-lg">
 				        '.$_SESSION[$c].''.$_SESSION[$s].'</button></a><br>';
 						}
-        echo'</div></div></div>';
+        echo'</div></div></div><div class="col-sm-3"></div></div>';
 
-        echo '<div class="col-sm-4"><span class="glyphicon glyphicon-education"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Courses</h1></div><div class="panel-body">';
+        echo '<div class="row" align="center"><div class="col-sm-3"></div><div class="col-sm-6"><span class="glyphicon glyphicon-education"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>My Courses</h1></div><div class="panel-body">';
 						for($i = 1; $i <= $_SESSION['total']; $i++){
 							$c = "class$i";
 							$s = "section$i";
@@ -279,7 +279,7 @@ echo "</div></div></div>";
 							echo '</br><p><strong>Class:</strong> '.$c.'</br><strong>Section:</strong> '.$s.'</br><strong>Project ID:</strong> '.$p.'</p>';
 						}
 						
-        echo'</div></div></div>';
+        echo'</div></div></div><div class="col-sm-3"></div></div>';
         
 	}
 

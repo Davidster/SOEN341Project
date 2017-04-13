@@ -1,5 +1,5 @@
-.row > div:nth-child(1){
-    padding:150px;
+.crossfade{
+    padding:200px;
 }
 
 nav{
@@ -155,7 +155,7 @@ button a:hover{
   font-size:100px;
 }
 
-.col-sm-4 .glyphicon{
+.col-sm-6 .glyphicon{
   font-size:100px;
   color: #f4511e;
 }
