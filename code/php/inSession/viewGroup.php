@@ -283,11 +283,14 @@
 										$preFileName = $_FILES['file']['name'];
 										$tmpName  = $_FILES['file']['tmp_name'];
 										$fileSize = $_FILES['file']['size'];
-										$pid = $_POST['pid'];
-										$class = $_POST['class'];
-										$section = $_POST['section'];
-
-										uploadFile($preFileName, $tmpName, $fileSize, $pid, $class, $section, $TA, $pathToUploads, $pathToPublic);
+										if(!$TA){
+											$pid = $_POST['pid'];
+											$class = $_POST['class'];
+											$section = $_POST['section'];
+											uploadFile($preFileName, $tmpName, $fileSize, $pid, $class, $section, $TA, $pathToUploads, $pathToPublic);
+										} else {
+											uploadFile($preFileName, $tmpName, $fileSize, '', '', '', $TA, $pathToUploads, $pathToPublic);
+										}
 									}
 								?>
 							</div>
