@@ -11,32 +11,36 @@ use Guzzle\Http\Client;
 final class Test extends \PHPUnit_Framework_TestCase
 {
 
+	// When we load the site, we must have a connection to our DB
 	public function testDBCExists(){
 		require_once './code/sql_connect.php';
 		$this->assertEquals(isset($dbc), true);
 	}
 
+	// The php pages should be served succesfully
 	public function testGET(){
-
-		//require './vendor/autoload.php'
-
 		// Create a client and provide a base URL
 		$client = new Client('http://localhost:80');
 
 		$request = $client->get('/code/php/index/home.php');
 		echo $request->getUrl();
-		// >>> https://api.github.com/user
 
 		// You must send a request in order for the transfer to occur
 		$response = $request->send();
 
-		echo $response->getBody();
-		// >>> {"type":"User", ...
-
-		echo $response->getStatusCode();
-		// >>> 792
-
-		// >>> User
 		$this->assertEquals('200', $response->getStatusCode());
 	}
+
+	// The site should ensure that it has a place to store uploaded files
+	public function testUploadFoldersExist(){
+		require_once './code/php/viewGroup.php';
+
+		$pathToUploads = "uploads/";
+		$pathToPublic = $pathToUploads."public/";
+
+		$this->assertTrue(file_exists($pathToUploads));
+		$this->assertTrue(file_exists($pathToPublic));
+	}
+
+	// 
 }
