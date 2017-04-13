@@ -146,7 +146,7 @@
 		</script>';
 		}
 
-		classDropdown();
+		function accountValidation(){
 				//gets user input
 				if(isset($_POST['register'])){
 
@@ -162,7 +162,7 @@
 
 
 					//check if passwords are exact
-					if($password == $repassword){
+					if($password === $repassword){
 						//check if id is enrolled student list
 						$studentSearchQuery = "SELECT * from StudentList where sid = '$id'";
 						$studentQueryRes = mysqli_query($dbc, $studentSearchQuery); //pass this query to our db
@@ -235,6 +235,10 @@
 				}
 				if (isset($success)) {echo $success;}
 				if (isset($passwordMismatch)) {echo $passwordMismatch;}
+			}
+
+			classDropdown();
+			accountValidation();
 			?>
 	<!--</div>-->
 	<footer style="background-color: #222222;padding: 25px 0;color: rgba(255, 255, 255, 0.3);text-align: center;">
