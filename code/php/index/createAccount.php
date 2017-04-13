@@ -56,7 +56,7 @@
 					</div>
 					<div class='form-group'>
 						<label for="sel1"><p>Select number of classes you're taking:</p></label>
-						<select class="form-control" id="sel1" name="sel1"  onchange="hello()" required>
+						<select class="form-control" id="sel1" name="sel1"  onchange="dropdown()" required>
 							<option>1</option>
 							<option>2</option>
 							<option>3</option>
@@ -147,7 +147,6 @@
 		}
 
 		function accountValidation(){
-
 				global $dbc;
 				//gets user input
 				if(isset($_POST['register'])){
