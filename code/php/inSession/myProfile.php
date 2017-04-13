@@ -79,7 +79,7 @@
 				echo '<p>This application enables creating teams of students with only a few clicks<br>
 				Once teams are formed, you can remove students from a specific team or switch them to another one</p>';
 			
-					echo '<h4>' .$_SESSION['class']. '&nbsp' .$_SESSION['section']. '</h4>';
+					echo '<h4><b>' .$_SESSION['class']. '&nbsp' .$_SESSION['section']. '</b></h4>';
 					$ta = $_SESSION['ta'];
 					$projQueryRes = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
 					$classSize = mysqli_num_rows($projQueryRes);

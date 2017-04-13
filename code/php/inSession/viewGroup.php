@@ -171,13 +171,13 @@
             <div class="col-sm-3"></div>
 			<div class="col-sm-6"> <span class ="glyphicon glyphicon-file"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Uploaded Files</h1></div><div class="panel-body">
 		
-			<p> UPLOADED BY TA </p>
+                <p> <b>UPLOADED BY TA </b></p>
 			
 							<?php
 								listFilesInDir($pathToPublic);
 							?>
 							
-			<p>UPLOADED BY STUDENT</p>
+                <p><b>UPLOADED BY STUDENT</b></p>
 									
 						
 							<?php
@@ -214,7 +214,7 @@
 						$myTA = $rowTA['ta'];
 						// second find my teamates
 						$queryFindTeamates = mysqli_query($dbc, "SELECT * FROM Project WHERE ta = '$myTA' AND pid ='$p'");
-						echo "TEAM for $c $s $p :" . "</br>";
+						echo "<br/><h5><b>TEAM for ".$c."".$s. " ".$p." :</h5></b>";
 						while( $rowTeam = mysqli_fetch_assoc($queryFindTeamates)){
 
 							$sid = $rowTeam['sid'];
@@ -223,7 +223,7 @@
 							$rowStudent = mysqli_fetch_assoc($queryStudentInfo);
 							$name = $rowStudent['name'];
 							$email = $rowStudent['email'];
-							echo $sid . " ". $name . " " . $email . "</br>";
+							echo "<p><b>Student Name:</b> " .$name . " </br><b>Student ID:</b> ". $sid . " </br><b>Student Contact:</b> " . $email . "</p></br>";
 						}
 
 					}
@@ -231,13 +231,12 @@
 			else {
 				if($TA){
 
- 					echo $_SESSION['class'];
- 					echo $_SESSION['section']."</br>";
+ 					echo "<b>".$_SESSION['class']." ".$_SESSION['section']."</b></br>";
  					$ta = $_SESSION['ta'];
  					$result = mysqli_query($dbc,"SELECT * FROM Project WHERE ta='$ta'");
 
  					while( $row = mysqli_fetch_assoc($result)){
- 						echo $row['sid']."</br>";
+ 						echo "<b>Student ID:</b> ". $row['sid']. "</br>";
  					}
 				}
 			}
