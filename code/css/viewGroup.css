@@ -24,10 +24,10 @@
 .uploadButton{
 	margin: 0 0 0 50px;
 	border-radius: 5px;
-	background-color:#808080;
+	background-color:white;
 }
 .fileInput{
-	background-color: #30C29E;
+	background-color: white;
 	border-radius: 5px;
 	margin: 0 0 5px 0;
 	
@@ -47,8 +47,8 @@
 
 .col-sm-6 .glyphicon{
 padding-top: 50px;
-  font-size:100px;
-  color:  #30C29E;
+  font-size:75px;
+  color:  gi-4x;
 }
 
 .panel {
@@ -63,7 +63,7 @@ padding-top: 50px;
 
 .panel-heading {
     color: #fff !important;
-    background-color:  #30C29E !important;
+    background-color:  #f4511e !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -73,19 +73,21 @@ padding-top: 50px;
 }
 
 
-h2{
-	
-	  font-family:georgia, serif;
-	  color:#381704;
-	  font-size:10px;
-	  letter-spacing:0.1em;
-	  line-height:200%;
-}
 
-.title{
-	text-align: center;
-	padding-top: 50px; 
-}
 nav{
   z-index:1;
 }
+
+
+.row{
+  color:#f4511e;
+}
+
+.col-sm-12> .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 20px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+
+.gi-4x{font-size: 4em;}

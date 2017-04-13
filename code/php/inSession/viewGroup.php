@@ -147,8 +147,19 @@
 		<div id="page-content">
 
 
-		<div class="title"> <h1>GROUP PAGE </h1><br>
-		<h2>Here is where you will be able to upload and download the files for your project.</h2></div>
+		
+		<div class="col-sm-12"><div class="jumbotron text-center"><div class="panel-body">
+		
+		
+		 <h1>GROUP PAGE </h1>
+		 
+		 <span class="glyphicon glyphicon-user gi-4x"></span> <span class="glyphicon glyphicon-user gi-4x"></span> <span class="glyphicon glyphicon-user gi-4x"></span>
+		 
+		 
+		 
+		<p>Here is where you will be able to upload and download the files for your project.</p>
+		
+		</div></div>
 		
 
 							
@@ -243,7 +254,7 @@
 			
 			<div class="col-sm-3"></div>
 	   
-			<div class="col-sm-6"> <span class ="glyphicon glyphicon-cloud-upload"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Upload a file</h1></div><div class="panel-body">
+			<div class="col-sm-6"> <span class ="glyphicon glyphicon-cloud-upload " ></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Upload a file</h1></div><div class="panel-body">
 					
 			
 						<form method="post" enctype="multipart/form-data" class="uploadForm">
@@ -258,7 +269,7 @@
 
 									</td>
 									<td width="80">
-										<input name="upload" type="submit" class="uploadButton" id="upload" value=" Upload ">
+										<input name="upload" type="submit" class="uploadButton" id="upload" value="Upload ">
 									</td>
 								</tr>
 							</table>
