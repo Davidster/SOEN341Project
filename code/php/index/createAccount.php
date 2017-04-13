@@ -84,65 +84,69 @@
 		</div>
 
 		<?php
-			$queryFindClasses = "SELECT * FROM ClassList";
-			$passQuery = mysqli_query($dbc , $queryFindClasses);
-			$classes_sections = array();
-			$inc = 0;
-			$together = "";
+			function classDropdown(){
+				global $dbc;
+				$queryFindClasses = "SELECT * FROM ClassList";
+				$passQuery = mysqli_query($dbc , $queryFindClasses);
+				$classes_sections = array();
+				$inc = 0;
+			  $together = "";
 
-			while( $rowAllClasses = mysqli_fetch_assoc( $passQuery)){
-				++$inc;
-				$classes_sections[] =
+				while( $rowAllClasses = mysqli_fetch_assoc( $passQuery)){
 
-				"var classText". $inc . " = document.createTextNode(\"" .  $rowAllClasses['class'] . " " . $rowAllClasses['section'] . "\");
-				var optionClass". $inc ." = document.createElement(\"option\");
-				optionClass". $inc .".appendChild(classText". $inc .");
-				selectClass.appendChild(optionClass". $inc .");";
-
-			}
-
-			for ($key = 0, $size = count($classes_sections); $key < $size; $key++) {
-				$together .= $classes_sections[$key] . " ";
-			}
-
-			echo
-		'<script>
-			document.onload = hello();
-			function hello(){
-				var number = document.getElementById("sel1").value;
-
-				// Container <div> where dynamic content will be placed
-				var container = document.getElementById("container");
-				//var stuff = document.createElement("input");
-				//container.appendChild(stuff);
-				while (container.hasChildNodes()) {
-					container.removeChild(container.lastChild);
+					++$inc;
+					$classes_sections[] =
+					"var classText". $inc . " = document.createTextNode(\"" .  $rowAllClasses['class'] . " " . $rowAllClasses['section'] . "\");
+					var optionClass". $inc ." = document.createElement(\"option\");
+					optionClass". $inc .".appendChild(classText". $inc .");
+					selectClass.appendChild(optionClass". $inc .");";
 				}
-				for (i=0;i<number;i++){
-					// Create an <input> element, set its type and name attributes
-					var div = document.createElement("div");
-					div.className = "form-group";
-					var label = document.createElement("label");
-					var p = document.createElement("p");
-					var text = document.createTextNode("Enter your class and section:");
-					p.appendChild(text);
-					label.appendChild(p);
-					div.appendChild(label);
+				//looping through all classes + sections and storing it as one long string into $together
+				for ($key = 0, $size = count($classes_sections); $key < $size; $key++) {
+					$together .= $classes_sections[$key] . " ";
+				}
 
-					//creating Class dropdown selection
-					var number1 = i + 1;
-					var selectClass = document.createElement("select");
-					selectClass.className = "form-control";
-					selectClass.placeholder = "Class";
-					selectClass.name = "c" + number1;
+				echo
+				'<script>
+					document.onload = dropdown();
+					function dropdown(){
+						var number = document.getElementById("sel1").value;
 
-					' . $together . '
+						// Container <div> where dynamic content will be placed
+						var container = document.getElementById("container");
+						//var stuff = document.createElement("input");
+						//container.appendChild(stuff);
+						while (container.hasChildNodes()) {
+							container.removeChild(container.lastChild);
+						}
+						for (i=0;i<number;i++){
+							// Create an <input> element, set its type and name attributes
+							var div = document.createElement("div");
+							div.className = "form-group";
+							var label = document.createElement("label");
+							var p = document.createElement("p");
+							var text = document.createTextNode("Enter your class and section:");
+							p.appendChild(text);
+							label.appendChild(p);
+							div.appendChild(label);
 
-					div.appendChild(selectClass);
-					container.appendChild(div);
-                }
-			}
+							//creating Class dropdown selection
+							var number1 = i + 1;
+							var selectClass = document.createElement("select");
+							selectClass.className = "form-control";
+							selectClass.placeholder = "Class";
+							selectClass.name = "c" + number1;
+
+							' . $together . '
+
+							div.appendChild(selectClass);
+							container.appendChild(div);
+            }
+					}
 		</script>';
+		}
+
+		classDropdown();
 				//gets user input
 				if(isset($_POST['register'])){
 
