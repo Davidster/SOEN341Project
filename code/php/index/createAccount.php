@@ -147,6 +147,8 @@
 		}
 
 		function accountValidation(){
+
+				global $dbc;
 				//gets user input
 				if(isset($_POST['register'])){
 
