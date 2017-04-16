@@ -258,14 +258,13 @@
 			
 			<div class="col-sm-3"></div>
 	   
-			<div class="col-sm-6"> <span class ="glyphicon glyphicon-cloud-upload " ></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Upload a file</h1></div><div class="panel-body">
+			<div class="col-sm-6"> <span class ="glyphicon glyphicon-cloud-upload " ></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Upload a file (Max 1MB)</h1></div><div class="panel-body">
 					
 			
 						<form method="post" enctype="multipart/form-data" class="uploadForm">
 							<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
 								<tr>
 									<td width="246">
-										<input type="hidden" name="MAX_FILE_SIZE" value="50000">
 										<input name="file" type="file" id="file" class="fileInput" required>
 										<?php if(!$TA)echo "<input type='text' name='pid' placeholder='Project ID' value='205' required>";?>
 										<?php if(!$TA)echo "<input type='text' name='class' placeholder='Class' value='SOEN341' required>";?>
