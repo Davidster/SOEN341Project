@@ -45,11 +45,62 @@ final class Test extends \PHPUnit_Framework_TestCase
 		$this->assertTrue(file_exists($pathToPublic));
 	}
 
+	// test various login permutations
+	// existing accounts:
+	// Student --> email: dave@gmail.com, password: dave
+	// TA --> email: mike@gmail.com, password: mike
 	public function testLogin(){
 		
 		//connect to database
 		$dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
+		// make sure we have a session variable and assume we start off not logged on
+		if(!isset($_SESSION)){
+			$_SESSION = array();
+			$_SESSION['logon'] = false;
+		}
+
+		// test login with wrong email
+		$email = "dave@hotmail.com";
+		$password = "dave";
+
+		loginUser($email, $password, $dbc, true);
+
+		$this->assertFalse($_SESSION['logon']);
+
+		// test login with wrong password
+		$email = "dave@gmail.com";
+		$password = "wrong";
+
+		loginUser($email, $password, $dbc, true);
+
+		$this->assertFalse($_SESSION['logon']);
+
+		// test TA ogin with wrong password
+		$email = "mike@gmail.com";
+		$password = "wrong";
+
+		loginUser($email, $password, $dbc, true);
+
+		$this->assertFalse($_SESSION['logon']);
+
+		// test login with empty email
+		$email = "";
+		$password = "dave";
+
+		loginUser($email, $password, $dbc, true);
+
+		$this->assertFalse($_SESSION['logon']);
+
+		// test login with empty password
+		$email = "dave@gmail.com";
+		$password = "";
+
+		loginUser($email, $password, $dbc, true);
+
+		$this->assertFalse($_SESSION['logon']);
+
+		// test login with correct student account
 		$email = "dave@gmail.com";
 		$password = "dave";
 
@@ -57,5 +108,14 @@ final class Test extends \PHPUnit_Framework_TestCase
 
 		$this->assertTrue($_SESSION['logon']);
 		$this->assertEquals($_SESSION['name'], 'dave');
+
+		// test login with correct TA account
+		$email = "mike@gmail.com";
+		$password = "mike";
+
+		loginUser($email, $password, $dbc, true);
+
+		$this->assertTrue($_SESSION['logon']);
+		$this->assertEquals($_SESSION['name'], 'mike');
 	}
 }

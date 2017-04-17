@@ -1,5 +1,6 @@
 php -l ./code/sql_connect.php
 php -l ./code/index.php
+php -l ./code/php/tests/unitTests.php
 php -l ./code/php/index/about.php
 php -l ./code/php/index/createAccount.php
 php -l ./code/php/index/home.php
