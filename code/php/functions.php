@@ -1,5 +1,83 @@
 <?php 
 
+	function attemptRegistration($id, $name, $email, $password, $repassword, $classList, $dbc){
+
+		$result = '';
+
+		//check if passwords are exact
+		if($password === $repassword){
+			//check if id is enrolled student list
+			$studentSearchQuery = "SELECT * from StudentList where sid = '$id'";
+			$studentQueryRes = mysqli_query($dbc, $studentSearchQuery); //pass this query to our db
+			$studentFound = mysqli_num_rows($studentQueryRes); //returns number of found rows
+
+			//check if id is enrolled in class list
+			$checkTA = "SELECT * from ClassList where ta = '$id'";
+			$taQueryRes = mysqli_query($dbc, $checkTA); //pass this query to our db
+			$taFound = mysqli_num_rows($taQueryRes); //returns number of found rows
+
+
+			//student input
+			if($studentFound == 1){
+
+				$registerQuery = "INSERT INTO Student (sid, name, email, password) VALUES ('$id','$name','$email', '$password')";
+
+
+				//create student record
+				if(mysqli_query($dbc, $registerQuery)){
+					//look through all his classes input
+					foreach($classList as &$mClass){
+
+						$seperate = (explode(" ", $mClass));
+						$class = $seperate[0];
+						$section = $seperate[1];
+
+						//find ta for that class and section
+						$returnedTA = mysqli_query($dbc, "SELECT * FROM ClassList WHERE class='$class' && section='$section'");
+
+						$row = mysqli_fetch_assoc($returnedTA);
+						$t = $row['ta'];
+						$p = 0;
+
+						//place the student in the TAs class
+						$createProjQuery = "INSERT INTO Project(sid, ta, pid) VALUES ('$id','$t','$p')";
+						mysqli_query($dbc, $createProjQuery);
+					}
+					$result = "<h2>Record created successfully!</h2>";
+				}
+				else{
+					$result = "<h2> Sorry. This Concordia ID is already registered in the system</h2>";
+				}
+			}
+			//registers a TA
+			else if($taFound == 1 ){
+
+				//find TAs class and section
+				$row = mysqli_fetch_assoc($taQueryRes);
+				$class = $row['class'];
+				$section = $row['section'];
+
+				$registerQuery = "INSERT INTO Ta (ta, class, section, name, email, password) VALUES ('$id','$class', '$section','$name','$email', '$password')";
+
+				if(mysqli_query($dbc, $registerQuery)){
+					$result = "<h2>Record created successfully!</h2>";
+				}
+				else{
+					$result = "<h2> Sorry. This Concordia ID is already registered in the system</h2>";
+				}
+
+			}
+			else {
+				$result = "<h2> Sorry, you are not enrolled in our database! </h2>";
+			}
+		}
+		else{
+			$result = "<h2> The passwords you entered do not match. Try again.</h2>";
+		}
+
+		return $result;
+	}
+
 	function loginUser($email, $password, $dbc, $isTest){
 		$emailSearchQuery = "SELECT * FROM Ta where email = '$email'";
 		$emailQueryRes = mysqli_query($dbc, $emailSearchQuery); //pass this query to our db
