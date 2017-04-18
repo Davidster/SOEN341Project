@@ -1,1 +1,25 @@
+Sequence diagrams are available here: https://drive.google.com/file/d/0B3VqI_Fzw9c1QjFrYzJBa1JGUWM/view?usp=sharing
+Using the user story tag (USXX) - nameOfTheStory, you can navigate through the pages and access the different diagrams. 
 
+US1 - user account: As a student or teacher's assistant, I want to be able to log into the website with my personal account.
+
+US4 - communication: As a teacher assistant, I want to be able to communicate with a specific team
+in private through a chat in order to give them directive and feedback on
+their work.
+
+US6 - viewing materials: As a student, I would like to be able to view the course materials that the teacher's assistant
+might upload into my group.
+
+US7- uploading files: As a teacher assistant, I want to be able to upload or remove course related
+materials in order to provide tasks to students.
+
+US11 - online participation: As a teacher assistant, I want to be able to track the contribution of each team member, in order to 
+evaluate every participant fairly. 
+
+US12 - view group page: As a teaching assistant, I want to be able to view a page dedicated to a certain group, allowing me to view 
+relevant information and interact with the team.
+
+US20 - student profile: As a student, I want to have a profile page where I can select for which project of mine I wish to work on. 
+
+US34 - class division: As a teacher assistant, I want to be able to divide my class into groups myself so that students don't lose
+time to make the group themselves or no student is left alone.
