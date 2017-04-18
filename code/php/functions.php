@@ -89,7 +89,7 @@
 	}
 
 	function uploadFile($preFileName, $tmpName, $fileSize, $pid, $class, $section, $TA, $pathToUploads, $pathToPublic){
-		$maxUploadSize = 50000;
+		$maxUploadSize = 1000000;
 
 		if($fileSize >= 0 && $fileSize <= $maxUploadSize){
 
@@ -109,11 +109,11 @@
 			if (move_uploaded_file($tmpName, $finalUploadPath)) {
 		        echo "The file ". basename($preFileName). " has been uploaded.";
 		    } else {
-		        echo "Sorry, there was an error uploading your file.";
+		        echo "Sorry, there was an unknown error uploading your file.";
 		    }
 		}
 		else {
-			echo "File above the 50kb limit. Did not upload";
+			echo "File was above the 1MB limit. Did not upload";
 		}
 	}
 

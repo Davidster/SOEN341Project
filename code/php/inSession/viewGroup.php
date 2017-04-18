@@ -37,18 +37,23 @@
 	}
 	
 	function addFileLink($filePath, $fileName){
-		echo "<a href='".$filePath.$fileName."' target='_blank' download>".$fileName."</a><br/>";
+		return "<a href='".$filePath.$fileName."' target='_blank' download>".$fileName."</a><br/>";
 	}
 
 	function listFilesInDir($dir){
+		$res = 'None';
 		if ($handle = opendir($dir)) {
 		    while (false !== ($entry = readdir($handle))) {
 		        if ($entry != "." && $entry != ".." && $entry != "public") {
-		        	addFileLink($dir, $entry);
+		        	if($res == "None"){
+		        		$res = '';
+		        	}
+		        	$res = $res.addFileLink($dir, $entry);
 		        }
 		    }
 		    closedir($handle);
 		}
+		return $res;
 	}
 ?>
 
@@ -64,6 +69,7 @@
 			var $j = jQuery.noConflict();
 
 			$j(document).ready(function(){
+
 			    $j("a[href='logOut.php']").click(function(e){
 			  		//call the internal disconnect function of phpfreechat
 					pfc.connect_disconnect();
@@ -174,18 +180,13 @@
             <div class="col-sm-3"></div>
 			<div class="col-sm-6"> <span class ="glyphicon glyphicon-file"></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Uploaded Files</h1></div><div class="panel-body">
 		
-                <p> <b>UPLOADED BY TA </b></p>
-			
-							<?php
-								listFilesInDir($pathToPublic);
-							?>
+                <p> <b>UPLOADED BY TA</b></p>
+
+                	<div id="taUploadList"></div>
 							
                 <p><b>UPLOADED BY STUDENT</b></p>
-									
-						
-							<?php
-								listFilesInDir($pathToUploads);
-							?>
+
+					<div id="studentUploadList"></div>		
 					
 			
 			</div></div></div>
@@ -258,14 +259,13 @@
 			
 			<div class="col-sm-3"></div>
 	   
-			<div class="col-sm-6"> <span class ="glyphicon glyphicon-cloud-upload " ></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Upload a file</h1></div><div class="panel-body">
+			<div class="col-sm-6"> <span class ="glyphicon glyphicon-cloud-upload " ></span><div class="panel panel-default text-center"><div class="panel-heading"><h1>Upload a file (Max 1MB)</h1></div><div class="panel-body">
 					
 			
 						<form method="post" enctype="multipart/form-data" class="uploadForm">
 							<table width="350" border="0" cellpadding="1" cellspacing="1" class="uploadTable">
 								<tr>
 									<td width="246">
-										<input type="hidden" name="MAX_FILE_SIZE" value="50000">
 										<input name="file" type="file" id="file" class="fileInput" required>
 										<?php if(!$TA)echo "<input type='text' name='pid' placeholder='Project ID' value='205' required>";?>
 										<?php if(!$TA)echo "<input type='text' name='class' placeholder='Class' value='SOEN341' required>";?>
@@ -293,6 +293,16 @@
 											uploadFile($preFileName, $tmpName, $fileSize, '', '', '', $TA, $pathToUploads, $pathToPublic);
 										}
 									}
+
+									$taUploadList = listFilesInDir($pathToPublic);
+									$studentUploadList = listFilesInDir($pathToUploads);
+
+									// make sure we update the file upload list after files have been uploaded
+									echo '<script> 
+											$j("#taUploadList").html("'.$taUploadList.'");
+											$j("#studentUploadList").html("'.$studentUploadList.'");
+										 </script>';
+
 								?>
 							</div>
 						</form>
@@ -320,6 +330,8 @@
 				</p>
 			</div>
         </footer>
+
+
 
 	<script src="../../js/jquery-1.11.2.min.js"></script>
 	<script src="../../js/animsition/animsition.min.js"></script>
