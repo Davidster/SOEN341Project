@@ -1,0 +1,826 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hey guys i did story #34  class division i will push when sai's push is merged plz go review her push asap",
+        "ts": "1490276610.648754"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "İf you want ı can make it like home page",
+        "ts": "1490276612.649666"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Once class division is pushed alex and I will work on the group page ",
+        "ts": "1490276677.680991"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Alex sai and will can you do front-end for the class division feature?",
+        "ts": "1490276699.691527"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Np ",
+        "ts": "1490276710.697183"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": ":)",
+        "ts": "1490276750.717338"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "What about file upload back-end",
+        "ts": "1490276758.721010"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "?",
+        "ts": "1490276760.721883"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Thx",
+        "ts": "1490276856.768456"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Thats what im about to work on",
+        "ts": "1490276864.772324"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Where did you put the class division ?? ",
+        "ts": "1490276984.830020"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "do you want me to review pull reuqest #66 ?",
+        "ts": "1490277047.861562"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "i was gunna let others do it",
+        "ts": "1490277056.866265"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Go ahead",
+        "ts": "1490277075.875333"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "oh nvm looks like im already a reviewer :stuck_out_tongue:",
+        "ts": "1490277114.895361"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I haveny pushed on master yet its on my branch",
+        "ts": "1490277114.895490"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Next time I will be the reviewer",
+        "ts": "1490277150.913556"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": ":+1::skin-tone-2::smile:",
+        "ts": "1490277155.915985"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Nick tonight I can work on file upload front end",
+        "ts": "1490277175.926184"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "For front-end the navbar needs to be put as priority over the page content. On the phone once you open the navbar you can't click on any links",
+        "ts": "1490277267.972994"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "In css it's usually z-index",
+        "ts": "1490277290.984824"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Finally alex reviewed it!",
+        "ts": "1490277326.003488"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "He just merged it ",
+        "ts": "1490277334.007893",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Z-index:1001;",
+        "ts": "1490277337.009438"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ok yes erdem sounds good",
+        "ts": "1490277417.051639"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": ":+1::skin-tone-2:",
+        "ts": "1490277557.125706"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "And mikel wanted to remove the left to right mouvement ",
+        "ts": "1490277569.131815"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Idk what you guys think, i dont really mind ",
+        "ts": "1490277596.146522"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I will fix it tonight",
+        "ts": "1490277597.146985"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "When I work on front end",
+        "ts": "1490277607.153847"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I couldn't care less about the style of the site as long as it works",
+        "ts": "1490277623.163346"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the TA likely shares the same sentiment",
+        "ts": "1490277660.184158"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "<@U3WD63E7N> did you test the website?",
+        "ts": "1490277669.188736"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "doing it right now",
+        "ts": "1490277677.193368"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Trust me you'll notice it",
+        "ts": "1490277688.199391"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I approved the pull request that contained the addition of that animation",
+        "ts": "1490277711.211525"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I noticed that our image files are all over the place - im gunna reorganize and submit a pull request",
+        "ts": "1490277736.225247"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Alright",
+        "ts": "1490277747.230986"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "I'll add groups to chat later today. right now chats only link classes and sections",
+        "ts": "1490277791.253617",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3XFMDQ2J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Remember to add story reference # in commits",
+        "ts": "1490278199.466554"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "OMG i always forget",
+        "ts": "1490278210.472347"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so annoying",
+        "ts": "1490278215.474856"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "thx",
+        "ts": "1490278223.480017"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Also i think there is new documentation to be presented",
+        "ts": "1490278223.480277"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hehe",
+        "ts": "1490278232.484696"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "And the page where we slides the task ",
+        "ts": "1490278250.494286"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "In github needs reorganization from what i recall",
+        "ts": "1490278271.505560"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah i did a little rework on github already idk what else t change",
+        "ts": "1490278537.646301"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Nice",
+        "ts": "1490278716.743460"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I like the new myprofile",
+        "ts": "1490278832.807339"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "hey",
+        "ts": "1490284973.425217"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "where is the chat going to be",
+        "ts": "1490284982.430255"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "into the group pages",
+        "ts": "1490284986.433025"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "or",
+        "ts": "1490284987.433438"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "another page",
+        "ts": "1490284994.437032"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "I think into group page is better",
+        "ts": "1490285529.747578"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "To reduce amount of files and code",
+        "ts": "1490285563.767220"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "so the group page got",
+        "ts": "1490285637.808739"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "-names\n-email\n-chat\n-upload files",
+        "ts": "1490285663.823702"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Yes maybe we'll add more stuffs",
+        "ts": "1490285743.868623"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Submitted pull request",
+        "ts": "1490286186.118310"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Alex and sai, I would like for you to change display of students once teams are made(teams made == pid not zero)",
+        "ts": "1490286288.176203"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "In pull request comments I go over this",
+        "ts": "1490286326.197354"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "yeepp",
+        "ts": "1490286384.230223"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "will do",
+        "ts": "1490286387.232306"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ty",
+        "ts": "1490286750.437791"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3WD98GTC|nickhorta> uploaded a file: <https:\/\/soen341project.slack.com\/files\/nickhorta\/F4PDVBFE2\/pasted_image_at_2017_03_23_12_38_pm.png|Pasted image at 2017-03-23, 12:38 PM> and commented: Whats unit test?",
+        "file": {
+            "id": "F4PDVBFE2",
+            "created": 1490287102,
+            "timestamp": 1490287102,
+            "name": "Pasted image at 2017_03_23 12_38 PM.png",
+            "title": "Pasted image at 2017-03-23, 12:38 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U3WD98GTC",
+            "editable": false,
+            "size": 138137,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4PDVBFE2\/pasted_image_at_2017_03_23_12_38_pm.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4PDVBFE2\/download\/pasted_image_at_2017_03_23_12_38_pm.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4PDVBFE2-3288f6db05\/pasted_image_at_2017_03_23_12_38_pm_64.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4PDVBFE2-3288f6db05\/pasted_image_at_2017_03_23_12_38_pm_80.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4PDVBFE2-3288f6db05\/pasted_image_at_2017_03_23_12_38_pm_360.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360_w": 360,
+            "thumb_360_h": 89,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4PDVBFE2-3288f6db05\/pasted_image_at_2017_03_23_12_38_pm_480.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_480_w": 480,
+            "thumb_480_h": 118,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4PDVBFE2-3288f6db05\/pasted_image_at_2017_03_23_12_38_pm_160.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4PDVBFE2-3288f6db05\/pasted_image_at_2017_03_23_12_38_pm_720.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720_w": 720,
+            "thumb_720_h": 178,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4PDVBFE2-3288f6db05\/pasted_image_at_2017_03_23_12_38_pm_960.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_960_w": 960,
+            "thumb_960_h": 237,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4PDVBFE2-3288f6db05\/pasted_image_at_2017_03_23_12_38_pm_1024.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 253,
+            "image_exif_rotation": 1,
+            "original_w": 1811,
+            "original_h": 447,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/nickhorta\/F4PDVBFE2\/pasted_image_at_2017_03_23_12_38_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4PDVBFE2-49091abefd",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4N3B2EQZ",
+                "created": 1490287102,
+                "timestamp": 1490287102,
+                "user": "U3WD98GTC",
+                "is_intro": true,
+                "comment": "Whats unit test?",
+                "channel": ""
+            }
+        },
+        "user": "U3WD98GTC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "nickhorta",
+        "bot_id": null,
+        "ts": "1490287104.635183"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Will and David can you go over the project and change all variable names to camelCase std",
+        "ts": "1490287155.663017"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "sure",
+        "ts": "1490287164.668670"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "from now lets all use camelCase",
+        "ts": "1490287167.670270"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "ez points",
+        "ts": "1490287174.673958"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "thx",
+        "ts": "1490287174.674436"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "isnt it the part where he will test our projet ??",
+        "ts": "1490287177.675769"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "no sure tho",
+        "ts": "1490287179.677089"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "yes i think youre right",
+        "ts": "1490287220.699300"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "unit tests are additional code which runs your project and performs some assertions",
+        "ts": "1490287220.699413"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "hm",
+        "ts": "1490287231.705738"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "sounds complicated",
+        "ts": "1490287239.709891"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I already added the skeleton for creating unit tests: <https:\/\/github.com\/Davidster\/SOEN341Project\/blob\/master\/code\/php\/tests\/test.php>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Davidster\/SOEN341Project",
+                "title_link": "https:\/\/github.com\/Davidster\/SOEN341Project\/blob\/master\/code\/php\/tests\/test.php",
+                "text": "SOEN341Project - Github repository for holding SOEN 341 group project",
+                "fallback": "GitHub: Davidster\/SOEN341Project",
+                "from_url": "https:\/\/github.com\/Davidster\/SOEN341Project\/blob\/master\/code\/php\/tests\/test.php",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/2389735?v=3&s=400",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1490287264.723286"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I can look into creating some actual tests if you want",
+        "ts": "1490287278.731149"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it's already set up so that Travis CI will run whatever unit tests we add as part of the build validation process",
+        "ts": "1490287307.747103"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "yeah thatd be great",
+        "ts": "1490287316.752205"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "ok",
+        "ts": "1490287325.757011"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "What do you mean by camelCase? can you please explain",
+        "ts": "1490287372.783573"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "naming convention",
+        "ts": "1490287485.846186"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "nameEverythingThisWay rather than name_everything_this_way",
+        "ts": "1490287579.897668"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "thx dave",
+        "ts": "1490287594.906788"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Guys I'm currently at the hospital and won't be able to work on anything until later this evening. I try to stay up to speed with chat.",
+        "ts": "1490288756.569891"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Np, take your time, hope everything is fine :o ",
+        "ts": "1490288832.610986"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Also Chat is almost done i simply need to add groups and block nickname change and it's finito :)",
+        "ts": "1490288835.612800"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "yeah take care bud",
+        "ts": "1490288952.675261"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Thanks",
+        "ts": "1490288985.694356"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Upload works",
+        "ts": "1490303750.984709"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "It doesnt look too good, its not drag and drop... user has to text input his class and the project id to choose which project he uploads to",
+        "ts": "1490303809.008946"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "If we can change this to buttons that hold multiple value (class,section and pid) thad be sweet",
+        "ts": "1490303854.028103"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I tried to do with js but failed lol",
+        "ts": "1490303871.034803"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I know that <@U3VNUBS1X> wanted to work on the frontend for upload ",
+        "ts": "1490303928.058326"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "will work on it tonight",
+        "ts": "1490303979.078968"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "have midterm in an hour",
+        "ts": "1490303984.080633"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I guess some of us have it too :stuck_out_tongue:",
+        "ts": "1490303997.086346"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "In 391 right ?",
+        "ts": "1490304022.096503"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yep haha",
+        "ts": "1490306517.041832"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "RIP",
+        "ts": "1490306521.043183"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Aha same",
+        "ts": "1490307001.204996"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "kk im stuck in the download files in myProfile.php",
+        "ts": "1490315153.225346"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<http:\/\/users.encs.concordia.ca\/~n_hortaa|users.encs.concordia.ca\/~n_hortaa> login as <mailto:nick@gmail.com|nick@gmail.com> -p nick",
+        "ts": "1490315179.230333"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "under upload button files for each class should be displayed and clickable to download",
+        "ts": "1490315213.236847"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i pushed anyways because i have something else to do for now, this way you have something to work with in the mean time",
+        "ts": "1490315269.247420"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "merge the pull request",
+        "ts": "1490315280.249386"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "can i merge it",
+        "ts": "1490316331.441653"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "??",
+        "ts": "1490316332.441777"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yea",
+        "ts": "1490317164.592410"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "if anybody is editing pre-existing php code tonight\/tmrw morning then please let me know because there might be merge conflicts with the refactoring that i'm currently doing. Basically I will need you to push your changes to your branch (remote) before I can complete my own changes",
+        "ts": "1490322567.508329"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I am gonna check",
+        "ts": "1490323687.687176"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "And work on it now",
+        "ts": "1490323691.687725"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "If someone can review david's pull request",
+        "ts": "1490330178.629044"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "and merge",
+        "ts": "1490330185.630194"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it's ok we don't need more reviewers",
+        "ts": "1490330197.631679"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I will start on designing the page",
+        "ts": "1490330199.631869"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I am merging then",
+        "ts": "1490330204.632537"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yep go ahead",
+        "ts": "1490330209.633188"
+    }
+]

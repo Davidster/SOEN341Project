@@ -1,0 +1,79 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "\"Alright.\n\nI will confirm you the time later. Shoot me a message as a reminder around 11th\nof April. Thanks.\"",
+        "ts": "1491252938.219404"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "- Mr TA",
+        "ts": "1491252957.228285"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VSA7GPK|alexrobert> uploaded a file: <https:\/\/soen341project.slack.com\/files\/alexrobert\/F4UKECWRL\/soen_341_final.docx|SOEN 341 FINAL.docx> and commented: Enjoy",
+        "file": {
+            "id": "F4UKECWRL",
+            "created": 1491268918,
+            "timestamp": 1491268918,
+            "name": "SOEN 341 FINAL.docx",
+            "title": "SOEN 341 FINAL.docx",
+            "mimetype": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "filetype": "docx",
+            "pretty_type": "Word Document",
+            "user": "U3VSA7GPK",
+            "editable": false,
+            "size": 18801,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4UKECWRL\/soen_341_final.docx?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4UKECWRL\/download\/soen_341_final.docx?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "permalink": "https:\/\/soen341project.slack.com\/files\/alexrobert\/F4UKECWRL\/soen_341_final.docx",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4UKECWRL-d4c23b90a7",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4U20H82H",
+                "created": 1491268918,
+                "timestamp": 1491268918,
+                "user": "U3VSA7GPK",
+                "is_intro": true,
+                "comment": "Enjoy",
+                "channel": ""
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U3XFMDQ2J"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U3VSA7GPK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "alexrobert",
+        "bot_id": null,
+        "ts": "1491268919.389611"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "thanx alexrobert  :slightly_smiling_face:",
+        "ts": "1491270267.623739"
+    }
+]

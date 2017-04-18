@@ -1,0 +1,98 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hello guys",
+        "ts": "1490017020.457594"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ill be pushing something this afternoon plz dont push anything until then",
+        "ts": "1490017042.467334"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "okay",
+        "ts": "1490017056.473406"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "If anyone is working on the project and a new version gets merged and you are still using the 'last' version you can use stash to save your changes then you pull the new version and you pop the stash ( if there is no conflict) it should behave correctly ",
+        "ts": "1490017265.564836"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Git stash \nGit pull \nGit stash pop ",
+        "ts": "1490017277.570232"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "cool",
+        "ts": "1490017308.583973"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Also for this friday weve agreed to complete stories #7 file upload; #34 class division and (#13 i think?) The chat story",
+        "ts": "1490017314.586519"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ty sai",
+        "ts": "1490017403.626441"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Yes and view group page also ",
+        "ts": "1490017457.650621"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yes true",
+        "ts": "1490017725.773708"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ok I pushed plz go review asap",
+        "ts": "1490039498.958095"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Also everyone has an account \n<mailto:will@gmail.com|will@gmail.com>\n<mailto:sai@gmail.com|sai@gmail.com>\n<mailto:alex@gmail.com|alex@gmail.com>\n<mailto:erde@gmail.com|erde@gmail.com>\n<mailto:dave@gmail.com|dave@gmail.com>\n<mailto:mike@gmail.com|mike@gmail.com>\n\nFirst part of email is password",
+        "ts": "1490039585.997056"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Basically this push stores all information about logged in user in $_SESSION variables which are like globals",
+        "ts": "1490039701.049795"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Use my webspace n_hortaa to see for yourself",
+        "ts": "1490039735.064753"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":+1: ",
+        "ts": "1490039793.091194"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Will take a look in a bit",
+        "ts": "1490039803.095901"
+    }
+]

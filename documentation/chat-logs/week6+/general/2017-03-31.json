@@ -1,0 +1,663 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "hey guys so me, saishan and alex made some additions which are up as pull requests. I tried merging it all together locally (no changes to remote repo) and noticed that there were some conflicts that github is sure to complain about once we try to merge it all into master. I resolved the conflicts on my computer and so now the most updated version of the site is up on my `~d_hucul`, which we should use to show to the TA today. That being said, we should probably refrain from merging my pull request until after the meeting. If we want we can merge sai + alex's PRs only, and that will allow us to close issue #20 which the TA will like.",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1490959268.000000"
+        },
+        "ts": "1490959066.071034",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3XFMDQ2J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "sorry for the essay :hankey: hope it made sense",
+        "ts": "1490959106.080598"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yup makes sense",
+        "ts": "1490960416.406794"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "yup makes so much  sense",
+        "ts": "1490972494.339667"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "submitted a new pull request that removed the duplicate like <@U3WD98GTC> resquested",
+        "ts": "1490975439.895277"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "random question guys is our final next friday?",
+        "ts": "1490975536.944593"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Yes ",
+        "ts": "1490975550.952523"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "o snap",
+        "ts": "1490975555.955272"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "AHHAHAH ",
+        "ts": "1490975567.961125"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Sad pife",
+        "ts": "1490975571.963250"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Life **",
+        "ts": "1490975578.966994"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "50% ... ",
+        "ts": "1490975582.969115"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "can you guys review and merge the pull request of alex and saishan before we go to tutorial",
+        "ts": "1490977394.872734"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "You can do it... they reviewed it in the previous pull requ (if you want ) ",
+        "ts": "1490977435.892447"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "*my pull ",
+        "ts": "1490977451.899991"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "done",
+        "ts": "1490977500.923142"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "should we close issue #20?",
+        "ts": "1490978398.341743"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "seems like we should",
+        "ts": "1490978425.353756"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Yess",
+        "ts": "1490978433.357507"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Allright cool will accept and merge shortly",
+        "ts": "1490978485.380023"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "adding burdown chart",
+        "ts": "1490978500.386889"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Oh lol",
+        "ts": "1490978501.387127"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "can you please wait till I upload the burndownchart to the master branch",
+        "ts": "1490978538.404390"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Oki doki",
+        "ts": "1490978556.412892"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "thx :slightly_smiling_face:",
+        "ts": "1490978565.416842"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "done!",
+        "ts": "1490979178.700785"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Im on the 8th couches on the side",
+        "ts": "1490979612.906583"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "is the burndownchart adeed?",
+        "ts": "1490979767.982632"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": " Ye",
+        "ts": "1490979784.990751"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "alright thanx",
+        "ts": "1490979811.003840"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "can we merge alex's pull",
+        "ts": "1490979836.015509"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "??",
+        "ts": "1490979837.015863"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Yea go ahead",
+        "ts": "1490980448.295654"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "The changes are very minor",
+        "ts": "1490980458.300104"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "alex is pushing changes in the view gorup page",
+        "ts": "1490980672.398503"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "is anybody on h8?",
+        "ts": "1490980741.429616"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Ya Nick is",
+        "ts": "1490980770.442773"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "you know where he is?",
+        "ts": "1490980801.456950"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Couches on the side",
+        "ts": "1490980947.525155"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Scroll up",
+        "ts": "1490980950.526310"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Everyone coming? Tas not late this time",
+        "ts": "1490981561.815183"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I'm on the way. Did u start already??",
+        "ts": "1490981584.826078"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Nono",
+        "ts": "1490981605.836065"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Okay. I'm there in like 20 mins :\/",
+        "ts": "1490981632.848294"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Nvm hes late group 3 is up",
+        "ts": "1490981720.889100"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":sweat_drops:",
+        "ts": "1490981796.924504"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I am On my way too",
+        "ts": "1490981902.974051"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Same on my way",
+        "ts": "1490982039.036724"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Im at H9",
+        "ts": "1490982041.037929"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Trying to push something",
+        "ts": "1490982053.043072"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Wru guys",
+        "ts": "1490982484.246810"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "8 side couch",
+        "ts": "1490982515.261922"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Guys can you merge my pull request",
+        "ts": "1490984723.321718"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Please :sweat_smile:",
+        "ts": "1490984729.324207"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Hey im sorry guys, i hope it wont affect your grades :\/",
+        "ts": "1490988570.054982"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Please don't worry about it, because none of the rest of us are :)",
+        "ts": "1490988607.070873",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD98GTC",
+                    "U3VNUBS1X"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Dont worry, just front-end",
+        "ts": "1490988952.217495"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "We are a team",
+        "ts": "1490989894.608590"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "We stick together",
+        "ts": "1490989897.609759"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": ":fist: ",
+        "ts": "1490989957.634657"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Like power rangers",
+        "ts": "1490989979.643526"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": ":joy::joy::joy:",
+        "ts": "1490990125.704657"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":dart: ",
+        "ts": "1490990151.715584"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": ":joy: :joy: :joy: ",
+        "ts": "1490990183.729355"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Just cause he said it could affect the team ",
+        "ts": "1490990193.733946"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "We could put power rangers team picture to the home page :joy:",
+        "ts": "1490991031.087251"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "YES",
+        "ts": "1490991048.094047"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Hahaha don't kill me",
+        "ts": "1490991387.230890"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Haha",
+        "ts": "1490991979.473801"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "hahahaha",
+        "ts": "1490996708.186860"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3WS26PT3|mikel.shifrin> uploaded a file: <https:\/\/soen341project.slack.com\/files\/mikel.shifrin\/F4TLAEMHV\/demo1.html|demo1.html> and commented: all 7 off us there + ta and dude that dropped class",
+        "file": {
+            "id": "F4TLAEMHV",
+            "created": 1490997029,
+            "timestamp": 1490997029,
+            "name": "demo1.html",
+            "title": "demo1.html",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U3WS26PT3",
+            "editable": true,
+            "size": 6457,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4TLAEMHV\/demo1.html?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4TLAEMHV\/download\/demo1.html?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "permalink": "https:\/\/soen341project.slack.com\/files\/mikel.shifrin\/F4TLAEMHV\/demo1.html",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4TLAEMHV-1e1300f9b4",
+            "edit_link": "https:\/\/soen341project.slack.com\/files\/mikel.shifrin\/F4TLAEMHV\/demo1.html\/edit",
+            "preview": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\t<head>\r\n\t\t<title>Bootstrap Example<\/title>\r\n\t\t<meta charset=\"UTF-8\">\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">&lt;!DOCTYPE html&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span> <span class=\"cm-attribute\">lang<\/span>=<span class=\"cm-string\">&quot;en&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span>Bootstrap Example<span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">meta<\/span> <span class=\"cm-attribute\">charset<\/span>=<span class=\"cm-string\">&quot;UTF-8&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 156,
+            "lines_more": 151,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4TLAER9V",
+                "created": 1490997029,
+                "timestamp": 1490997029,
+                "user": "U3WS26PT3",
+                "is_intro": true,
+                "comment": "all 7 off us there + ta and dude that dropped class",
+                "channel": ""
+            }
+        },
+        "user": "U3WS26PT3",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mikel.shifrin",
+        "bot_id": null,
+        "ts": "1490997030.281036"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "download it and open with browser. You won't regret :slightly_smiling_face:",
+        "ts": "1490997057.289040"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "prof sent a email",
+        "ts": "1490997526.419153"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "About?",
+        "ts": "1490997540.423130"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "we can postpone the sprint until april 13th as long as we ask the TA",
+        "ts": "1490997555.427016"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "which would postpone the final meeting as well",
+        "ts": "1490997567.430591"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Hmmm...",
+        "ts": "1490997575.432802"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Is it a poll or every team decides",
+        "ts": "1490997587.436111"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "so that we dont have the exam on the same day that we finish our proj",
+        "ts": "1490997587.436152"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "im not agianst the idea",
+        "ts": "1490997619.446422"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yeah honestly",
+        "ts": "1490997626.448612"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "also <@U3WS26PT3> that was amazing",
+        "ts": "1490997705.471602"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "What is mikel's thing?",
+        "ts": "1490997719.475430"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Im on my phone lol",
+        "ts": "1490997725.477116"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "check it out no spoilers",
+        "ts": "1490997730.478552"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "wait i'll put it up on my webspace",
+        "ts": "1490997753.484841"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yeee",
+        "ts": "1490997765.488227"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "sorry something wrong with the concordia server can't put it up",
+        "ts": "1490998183.594543"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ok ill look later :joy:",
+        "ts": "1490998272.616466"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Im curious",
+        "ts": "1490998274.617086"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Its really cool :joy: :joy: ",
+        "ts": "1490998486.668655"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "hahaha lol mikel.shifrin",
+        "ts": "1490999706.954189"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "well 13th would be really good for me too",
+        "ts": "1490999727.958791"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Doesn't have to be the 13th specifically that's just the latest time were allowed",
+        "ts": "1490999802.975175"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Looooooooooooooool Mikel",
+        "ts": "1491000230.068562"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "hahaha",
+        "ts": "1491000231.068943"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I am free except 12th afternoon",
+        "ts": "1491017606.062487"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "And 11th",
+        "ts": "1491017613.063057"
+    }
+]

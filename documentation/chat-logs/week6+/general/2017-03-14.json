@@ -1,0 +1,76 @@
+[
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Alright all the people that will do front-end need to decide how that will happen. If you decide to use a framework everybody needs to use that framework (i.e. Bootstrap\/Foundation) or pure CSS or etc... The code needs to be consistent and reusable so you all need to agree on what to use. We can't freestyle.",
+        "ts": "1489515141.082618"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3WS26PT3|mikel.shifrin> uploaded a file: <https:\/\/soen341project.slack.com\/files\/mikel.shifrin\/F4K05NA9M\/demo.html|Demo of our Nav Bar with BootStrap> and commented: it makes text smaller",
+        "file": {
+            "id": "F4K05NA9M",
+            "created": 1489517295,
+            "timestamp": 1489517295,
+            "name": "demo.html",
+            "title": "Demo of our Nav Bar with BootStrap",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U3WS26PT3",
+            "editable": true,
+            "size": 1744,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4K05NA9M\/demo.html?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4K05NA9M\/download\/demo.html?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "permalink": "https:\/\/soen341project.slack.com\/files\/mikel.shifrin\/F4K05NA9M\/demo.html",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4K05NA9M-23b1100e4c",
+            "edit_link": "https:\/\/soen341project.slack.com\/files\/mikel.shifrin\/F4K05NA9M\/demo.html\/edit",
+            "preview": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\t<head>\r\n\t\t<title>Bootstrap Case<\/title>\r\n\t\t<meta charset=\"utf-8\">\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">&lt;!DOCTYPE html&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span> <span class=\"cm-attribute\">lang<\/span>=<span class=\"cm-string\">&quot;en&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span>Bootstrap Case<span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">title<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">meta<\/span> <span class=\"cm-attribute\">charset<\/span>=<span class=\"cm-string\">&quot;utf-8&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 41,
+            "lines_more": 36,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4HHUD34Y",
+                "created": 1489517295,
+                "timestamp": 1489517295,
+                "user": "U3WS26PT3",
+                "is_intro": true,
+                "comment": "it makes text smaller",
+                "channel": ""
+            }
+        },
+        "user": "U3WS26PT3",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mikel.shifrin",
+        "bot_id": null,
+        "ts": "1489517295.218251"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "I guess we gonna use Bootstrap it will make things easier",
+        "ts": "1489524863.879450"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "I like the nav bar",
+        "ts": "1489525644.257442"
+    }
+]

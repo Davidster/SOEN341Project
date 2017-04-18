@@ -1,0 +1,245 @@
+[
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "So what's up with the presentation?",
+        "ts": "1492294854.764546"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "hey so report and presentation ppt are due on the 17th before midnight",
+        "ts": "1492302261.610239"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "report is 5 pages max",
+        "ts": "1492302282.612493"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "how do we do that",
+        "ts": "1492302291.613497"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "heres how i think we should divide it",
+        "ts": "1492302301.614580"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "the ppt can be easily derived from the report",
+        "ts": "1492302556.642587"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "so first focus is on report",
+        "ts": "1492302559.643111"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<https:\/\/docs.google.com\/document\/d\/1TE1a9GzXtJRp-CS-tsSbJIiy2RY-5bvlll8x3tgZr4k\/edit?usp=sharing>",
+        "ts": "1492302562.643363"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "good template already",
+        "ts": "1492302605.648070"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i simply divided tasks in a way i think everyone can contribute and also in something they are somehwat familiar with",
+        "ts": "1492302638.651985"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i put your names next to titles",
+        "ts": "1492302651.653396"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "this is open to change obv.",
+        "ts": "1492302655.653892"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "lol nick you re everywhere",
+        "ts": "1492302675.656012"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "thanks man it's much appreciated",
+        "ts": "1492302693.658091"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "so David you're the team leader?",
+        "ts": "1492302719.660897"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "iterations means the sprints right?",
+        "ts": "1492303314.726138"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yes",
+        "ts": "1492303390.734501"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "if ur talking about the first part of the report then it seems nick is doing that part",
+        "ts": "1492303407.736432"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<@U3WD98GTC> u want us to count our story points and send them to u?",
+        "ts": "1492303461.742026"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Oh no i will do that for you",
+        "ts": "1492303795.778885"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "And upload and you guys can verify after",
+        "ts": "1492303808.780282"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":+1:",
+        "ts": "1492303815.781022"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": ":+1:",
+        "ts": "1492303913.792134"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Sai and mikel idk if ur github account not linked to previous commits is gonna be an issue for this, tbh idc we lose max 1 mark for that",
+        "ts": "1492304192.823330"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i think we individually will be penalized for that",
+        "ts": "1492304223.826602"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "me and mikel found a workaround for that",
+        "ts": "1492304229.827299"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "they can fork the repo and fix it for the forked version",
+        "ts": "1492304243.828933"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yea i can guide saisan through it",
+        "ts": "1492304363.842190"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "yea",
+        "ts": "1492304387.844824"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "even though",
+        "ts": "1492304391.845210"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i dotn have that much push",
+        "ts": "1492304395.845651"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "even before",
+        "ts": "1492304397.845921"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "actually <@U3WS26PT3> you can just fix it for her on your forked version",
+        "ts": "1492304399.846148"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "so i hope wont affect you guys",
+        "ts": "1492304404.846880"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "dw about it, the final evaluation is only worth 10% total",
+        "ts": "1492304429.850611"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yea i'll do that",
+        "ts": "1492304451.853216",
+        "reactions": [
+            {
+                "name": "grinning",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "thanx mikel",
+        "ts": "1492304618.873035"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": ":slightly_smiling_face:",
+        "ts": "1492304619.873113"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "would be great if you send points",
+        "ts": "1492305788.004573"
+    }
+]

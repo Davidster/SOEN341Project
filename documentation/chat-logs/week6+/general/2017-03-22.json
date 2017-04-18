@@ -1,0 +1,62 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hey when is the final exam for this class?",
+        "ts": "1490202564.923863"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "april 7th",
+        "ts": "1490202997.164679"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "its written on moodle",
+        "ts": "1490203002.167151"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "and presentation is on april 12 or april 18th",
+        "ts": "1490203035.185156"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Thx",
+        "ts": "1490203382.380484"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i submitted a pull request if you guys wanna take a look",
+        "ts": "1490213808.688144"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Small thing i noticed that everyone should know groups == projects , by default everyone is in project 0",
+        "ts": "1490214224.887020"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "So everyone has a  project",
+        "ts": "1490214231.890404"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Will check it in an hour",
+        "ts": "1490233901.696383"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "guys i really don't like the way the page goes from left to right when you go on a new page it kills me. Can it please be taken off? :cry:",
+        "ts": "1490242580.075572"
+    }
+]

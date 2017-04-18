@@ -1,0 +1,133 @@
+[
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "What exactly do we have to kniw for design patterns",
+        "ts": "1491522194.063280"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Be able to recognize one, differentiate them and apply one",
+        "ts": "1491522932.218870"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "So you gotta know them pretty well",
+        "ts": "1491522953.223463"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Check the cheat sheet on moodle",
+        "ts": "1491523027.239297"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Most important ones imo",
+        "ts": "1491523126.260859"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3WD98GTC|nickhorta> uploaded a file: <https:\/\/soen341project.slack.com\/files\/nickhorta\/F4VPMTZV1\/img_20170406_195912.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F4VPMTZV1",
+            "created": 1491523161,
+            "timestamp": 1491523161,
+            "name": "IMG_20170406_195912.jpg",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3WD98GTC",
+            "editable": false,
+            "size": 4014049,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4VPMTZV1\/img_20170406_195912.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4VPMTZV1\/download\/img_20170406_195912.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4VPMTZV1-87ca0c94e4\/img_20170406_195912_64.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4VPMTZV1-87ca0c94e4\/img_20170406_195912_80.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4VPMTZV1-87ca0c94e4\/img_20170406_195912_360.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4VPMTZV1-87ca0c94e4\/img_20170406_195912_480.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4VPMTZV1-87ca0c94e4\/img_20170406_195912_160.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4VPMTZV1-87ca0c94e4\/img_20170406_195912_720.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4VPMTZV1-87ca0c94e4\/img_20170406_195912_800.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_800_w": 450,
+            "thumb_800_h": 800,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4VPMTZV1-87ca0c94e4\/img_20170406_195912_960.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4VPMTZV1-87ca0c94e4\/img_20170406_195912_1024.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 5312,
+            "original_h": 2988,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/nickhorta\/F4VPMTZV1\/img_20170406_195912.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4VPMTZV1-4a53b3dc2f",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3WD98GTC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "nickhorta",
+        "bot_id": null,
+        "ts": "1491523166.269533"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I'll do my best haha",
+        "ts": "1491524025.453901"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Thanks!",
+        "ts": "1491524028.454419"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "But how apply one?",
+        "ts": "1491524040.456808"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I doubt he'll ask to implement anything",
+        "ts": "1491524729.586409"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "So its prob. Gonna be a wide question where you have to choosr which design to apply for said problem and briefly show the pattern design",
+        "ts": "1491524781.595465"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "yeah that will probably be the question",
+        "ts": "1491524815.601444"
+    }
+]

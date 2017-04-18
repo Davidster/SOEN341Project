@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "If the TA allows it",
+        "ts": "1491050059.013494"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Someone need to email TA asap",
+        "ts": "1491050075.014548"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "David...:P",
+        "ts": "1491050103.016436"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "We must pick a time first",
+        "ts": "1491058771.683952"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "13th at 11am or 1 pm",
+        "ts": "1491059950.792063"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "1pm is good ",
+        "ts": "1491061093.894994"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Like usual",
+        "ts": "1491061095.895209"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<!channel> everyone okay with the 13th at 1pm?",
+        "ts": "1491061390.921388"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Yep",
+        "ts": "1491061422.924315"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "yep",
+        "ts": "1491061718.950741"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yep",
+        "ts": "1491070358.728899"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "alright guys I did some front end work on home, createAccount, login, and about. I won't push it since I know some of you can get in trouble on github instead once I finish with it I'll put the source code on slack for someone else to push it. First I'll give the code to <@U3XFMDQ2J> ",
+        "ts": "1491109618.269995"
+    }
+]

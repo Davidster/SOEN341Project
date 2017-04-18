@@ -1,0 +1,104 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "So i merged the pull request #75 and went on to test on <http:\/\/users.encs.concordia.ca\/~n_hortaa|users.encs.concordia.ca\/~n_hortaa>",
+        "ts": "1490806465.351552"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "And nothing happens its just a blank page",
+        "ts": "1490806519.382776"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "can you go back to old versıon",
+        "ts": "1490806559.403908"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I will fix it tonight or tomorrow",
+        "ts": "1490806574.411376"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "let me check",
+        "ts": "1490806618.434579"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Np",
+        "ts": "1490806682.468059"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "btw",
+        "ts": "1490808140.201053"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "you were taking engr 233 right?",
+        "ts": "1490808149.205404"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yea",
+        "ts": "1490808362.312314"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Still dont work so im guessing it wasnt your merge but it happened before",
+        "ts": "1490823253.520895"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Or its my webspace",
+        "ts": "1490823297.538087"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Does it work for any of you guys?",
+        "ts": "1490823371.566167"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Uncaught SyntaxError: missing ) after argument list, main.js:39",
+        "ts": "1490823485.609990"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "culprit: `$('.removeButton').previousSibling($('.fileUploads');`",
+        "ts": "1490823508.618434"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": " Voila",
+        "ts": "1490823778.720304"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Thx",
+        "ts": "1490823779.721044"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Theres a couple of animation, scrolling through a page, duplication issues going on that need to be fixed :smiley:",
+        "ts": "1490824669.044152"
+    }
+]

@@ -1,0 +1,333 @@
+[
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "İs there any guideline for that?",
+        "ts": "1488550733.000033"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Btw sprint is next week",
+        "ts": "1488550867.000034"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Chat is very cool btw gj",
+        "ts": "1488551065.000035"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yes sprint 3 is next week",
+        "ts": "1488551076.000036"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hum for burndown chart checkout slides: agile planning from jan29th",
+        "ts": "1488551106.000037"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": ":+1::skin-tone-2:",
+        "ts": "1488551259.000038"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Struggled making user sessions and ta privilege page",
+        "ts": "1488557674.000039"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "The css navbar is annoying me",
+        "ts": "1488557706.000040"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "So no pull request on my side",
+        "ts": "1488557886.000041"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VNUBS1X|erdemkepenek> uploaded a file: <https:\/\/soen341project.slack.com\/files\/erdemkepenek\/F4DCZJLVA\/problem.png|problem.PNG>",
+        "file": {
+            "id": "F4DCZJLVA",
+            "created": 1488558069,
+            "timestamp": 1488558069,
+            "name": "problem.PNG",
+            "title": "problem.PNG",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U3VNUBS1X",
+            "editable": false,
+            "size": 52412,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4DCZJLVA\/problem.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4DCZJLVA\/download\/problem.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4DCZJLVA-fc6a80dc22\/problem_64.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4DCZJLVA-fc6a80dc22\/problem_80.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4DCZJLVA-fc6a80dc22\/problem_360.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360_w": 360,
+            "thumb_360_h": 134,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4DCZJLVA-fc6a80dc22\/problem_480.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_480_w": 480,
+            "thumb_480_h": 179,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4DCZJLVA-fc6a80dc22\/problem_160.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4DCZJLVA-fc6a80dc22\/problem_720.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720_w": 720,
+            "thumb_720_h": 268,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4DCZJLVA-fc6a80dc22\/problem_960.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_960_w": 960,
+            "thumb_960_h": 358,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4DCZJLVA-fc6a80dc22\/problem_1024.png?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 381,
+            "image_exif_rotation": 1,
+            "original_w": 1353,
+            "original_h": 504,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/erdemkepenek\/F4DCZJLVA\/problem.png",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4DCZJLVA-57209f65d6",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3VNUBS1X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "erdemkepenek",
+        "bot_id": null,
+        "ts": "1488558071.000042"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "anybody might know the reason why I am getting this error",
+        "ts": "1488558082.000043"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Sorry guys on my side. I couldnt find a solution on time",
+        "ts": "1488558543.000044"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I'll make an extra effort for the sprint",
+        "ts": "1488558558.000045"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I'll need your help nick :sleepy:",
+        "ts": "1488558570.000046"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Im working on the student profil issue ",
+        "ts": "1488558691.000047"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "But wont make a pull before the meeting ",
+        "ts": "1488558708.000048"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<@U3VNUBS1X>  looks like concordia server constraints",
+        "ts": "1488558774.000049"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VNUBS1X|erdemkepenek> uploaded a file: <https:\/\/soen341project.slack.com\/files\/erdemkepenek\/F4E2QQ0MC\/burndownchart.pdf|BurndownChart.pdf>",
+        "file": {
+            "id": "F4E2QQ0MC",
+            "created": 1488558784,
+            "timestamp": 1488558784,
+            "name": "BurndownChart.pdf",
+            "title": "BurndownChart.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U3VNUBS1X",
+            "editable": false,
+            "size": 349198,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4E2QQ0MC\/burndownchart.pdf?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4E2QQ0MC\/download\/burndownchart.pdf?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "permalink": "https:\/\/soen341project.slack.com\/files\/erdemkepenek\/F4E2QQ0MC\/burndownchart.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4E2QQ0MC-b70cebc557",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3VNUBS1X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "erdemkepenek",
+        "bot_id": null,
+        "ts": "1488558784.000050"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "<@U3WD98GTC> thanks :slightly_smiling_face:",
+        "ts": "1488558800.000051"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Seems good?",
+        "ts": "1488558804.000052"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Good",
+        "ts": "1488558815.000053"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I like it",
+        "ts": "1488558818.000054"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I gave 8 hours per task",
+        "ts": "1488558839.000055"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I dont know how you guys worked , like what day how much percent of the task completed, if you want more realistic chart, I need those datas :slightly_smiling_face:",
+        "ts": "1488558893.000056"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Its good",
+        "ts": "1488559102.000057"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "🖒",
+        "ts": "1488559112.000058"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": ":slightly_smiling_face:",
+        "ts": "1488559190.000059"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I havent done anything for today but I have been going through javascript, will start working on my task this weekend",
+        "ts": "1488559268.000060"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Wish one ",
+        "ts": "1488559359.000061"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Same",
+        "ts": "1488559738.000062"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Which ** ",
+        "ts": "1488559836.000063"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Damn I totally thought the Sprint was today",
+        "ts": "1488561281.000064"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "probably the file upload one, less php needed :stuck_out_tongue:",
+        "ts": "1488561339.000065"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "The burn down chart looks good <@U3VNUBS1X> but I don't think the TA will ask to see one today.. my bad",
+        "ts": "1488561588.000066"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "its all good, and the chat system seems nice!",
+        "ts": "1488561619.000067"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I have been having issue to push the burndown chart, will bring my laptop, might ask a question",
+        "ts": "1488561661.000068"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Good idea",
+        "ts": "1488561872.000069"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "so we meet there at 13:30?",
+        "ts": "1488563008.000070"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Yeah about",
+        "ts": "1488563165.000071"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Teams are always late",
+        "ts": "1488563169.000072"
+    }
+]

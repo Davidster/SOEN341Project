@@ -1,0 +1,280 @@
+[
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I cant login anymore either",
+        "ts": "1489672369.738814"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": ":confused:",
+        "ts": "1489672376.742251"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Last pull request canceled some changes i had made before",
+        "ts": "1489675667.495605"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Also last pull request doesnt work when you try to login",
+        "ts": "1489676313.867511"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "But I liked the home login symbols",
+        "ts": "1489676326.875128"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "I think It's because I changed smthg with the submit and enter buttons",
+        "edited": {
+            "user": "U3WKEASEN",
+            "ts": "1489676397.000000"
+        },
+        "ts": "1489676373.903575"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I have made some changes too, will push it tonight",
+        "ts": "1489676391.913945"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "In the open pull request i see php files we had in our previous versions which are not supported anymore in new version",
+        "ts": "1489679613.815922"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "o fuck",
+        "ts": "1489679648.836441"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yea i see then too",
+        "ts": "1489679655.840672"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Trick to solve future issues like this is before committing changes on your branch; go to master branch pull remote master; go back to branch and merge master",
+        "ts": "1489679797.927211",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1::skin-tone-5",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1::skin-tone-6",
+                "users": [
+                    "U3WD63E7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "This assures youre making changes to latest version",
+        "ts": "1489679815.937595"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "look at the code currently existing on master on github you will see that the files are different",
+        "ts": "1489680042.079439"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "William",
+        "ts": "1489682497.449793"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "And alex",
+        "ts": "1489682500.451309"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I am gonna use your code",
+        "ts": "1489682508.455693"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "So no worries about the stuff you have merged",
+        "ts": "1489682543.474466"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "carefull cause the login doesnt work in their version",
+        "ts": "1489682575.491555"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Even createAccount doesn't work..",
+        "ts": "1489683359.924218"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ok new pull request should fix issues and implement all your work guys",
+        "ts": "1489697594.987950"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "user story #1 is completed",
+        "ts": "1489697614.997944"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i like the new homepage btw",
+        "ts": "1489697661.019190"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "for a student login use <mailto:nick@gmail.com|nick@gmail.com> -p nick",
+        "ts": "1489697713.042289"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "ta login use <mailto:mike@gmail.com|mike@gmail.com> -p mike",
+        "ts": "1489697721.045996"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "working on the student profil",
+        "ts": "1489697889.123375",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WS26PT3",
+                    "U3VNUBS1X"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Remember to reference the user stories when comitting :)",
+        "ts": "1489703271.114417"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": ":+1::skin-tone-2: ",
+        "ts": "1489703561.199598"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "where did u find that picture in the home page",
+        "ts": "1489703971.313942"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "gonna make like a slide show with some other pics",
+        "ts": "1489703984.317590"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "and gonna put some fade effects",
+        "ts": "1489703994.320241"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "put up pull request which will make the deploy script go wayyyy faster",
+        "ts": "1489704751.529768"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "<@U3VSA7GPK> fixed your banner.jpg issue, pushed the change directly to master",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1489705617.000000"
+        },
+        "ts": "1489705576.745075"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "when you click the about page, the \"Moodle 2.0\" thingy sticks to the left of the page",
+        "ts": "1489706271.893569"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "have you pushed it",
+        "ts": "1489707441.125377"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it's an issue, im just letting you guys know it exists",
+        "ts": "1489707463.129513"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": ":+1: ",
+        "ts": "1489709388.515546"
+    }
+]

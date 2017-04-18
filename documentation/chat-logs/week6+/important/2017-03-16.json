@@ -1,0 +1,8 @@
+[
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Everybody check if your local master branch is the same as the github master branch. We ran into a problem with versions. So to avoid you extra work please verify that  your local version is up to date",
+        "ts": "1489681881.508554"
+    }
+]

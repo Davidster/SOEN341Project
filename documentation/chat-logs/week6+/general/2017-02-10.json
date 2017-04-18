@@ -1,0 +1,287 @@
+[
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "So at 12:15pm at H8 on the couches",
+        "ts": "1486732204.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Okok",
+        "ts": "1486732565.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "yea 12:15 sounds good",
+        "ts": "1486735440.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Im there",
+        "ts": "1486746396.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Couches H8 near the escalators going down",
+        "ts": "1486746419.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Will be there in 10 min",
+        "ts": "1486746593.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "I have tuto til 1 I'll be there after that",
+        "ts": "1486746920.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<https:\/\/winscp.net\/eng\/download.php>",
+        "attachments": [
+            {
+                "title": "WinSCP :: Official Site :: Download",
+                "title_link": "https:\/\/winscp.net\/eng\/download.php",
+                "text": "Open source freeware SFTP, SCP and FTP client for Windows.",
+                "fallback": "WinSCP :: Official Site :: Download",
+                "from_url": "https:\/\/winscp.net\/eng\/download.php",
+                "service_icon": "https:\/\/winscp.net\/eng\/favicon.ico",
+                "service_name": "winscp.net",
+                "id": 1
+            }
+        ],
+        "ts": "1486748121.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "or",
+        "ts": "1486748138.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<https:\/\/filezilla-project.org\/>",
+        "attachments": [
+            {
+                "title": "FileZilla - The free FTP solution",
+                "title_link": "https:\/\/filezilla-project.org\/",
+                "text": "FileZilla - The free FTP solution for both client and server. Filezilla is open source software distributed free of charge.",
+                "fallback": "FileZilla - The free FTP solution",
+                "from_url": "https:\/\/filezilla-project.org\/",
+                "service_icon": "https:\/\/filezilla-project.org\/favicon.ico",
+                "service_name": "filezilla-project.org",
+                "id": 1
+            }
+        ],
+        "ts": "1486748138.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VNUBS1X|erdemkepenek> uploaded a file: <https:\/\/soen341project.slack.com\/files\/erdemkepenek\/F4416URV2\/image_uploaded_from_ios.jpg|Image uploaded from iOS>",
+        "file": {
+            "id": "F4416URV2",
+            "created": 1486748222,
+            "timestamp": 1486748222,
+            "name": "Image uploaded from iOS.jpg",
+            "title": "Image uploaded from iOS",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3VNUBS1X",
+            "editable": false,
+            "size": 3769085,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4416URV2\/image_uploaded_from_ios.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4416URV2\/download\/image_uploaded_from_ios.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4416URV2-e989154220\/image_uploaded_from_ios_64.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4416URV2-e989154220\/image_uploaded_from_ios_80.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4416URV2-e989154220\/image_uploaded_from_ios_360.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360_w": 270,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4416URV2-e989154220\/image_uploaded_from_ios_480.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_480_w": 360,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4416URV2-e989154220\/image_uploaded_from_ios_160.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4416URV2-e989154220\/image_uploaded_from_ios_720.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720_w": 540,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4416URV2-e989154220\/image_uploaded_from_ios_960.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_960_w": 720,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4416URV2-e989154220\/image_uploaded_from_ios_1024.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_1024_w": 768,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 2448,
+            "original_h": 3264,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/erdemkepenek\/F4416URV2\/image_uploaded_from_ios.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4416URV2-9f7796f8a9",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3VNUBS1X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "erdemkepenek",
+        "bot_id": null,
+        "upload_reply_to": "008835B2-F707-4891-B193-89AC8D5CCC0A",
+        "ts": "1486748226.000011"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VSA7GPK|alexrobert> uploaded a file: <https:\/\/soen341project.slack.com\/files\/alexrobert\/F43SLH5PD\/20170210_125423.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F43SLH5PD",
+            "created": 1486749291,
+            "timestamp": 1486749291,
+            "name": "20170210_125423.jpg",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3VSA7GPK",
+            "editable": false,
+            "size": 4178465,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F43SLH5PD\/20170210_125423.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F43SLH5PD\/download\/20170210_125423.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F43SLH5PD-394e68dbb5\/20170210_125423_64.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F43SLH5PD-394e68dbb5\/20170210_125423_80.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F43SLH5PD-394e68dbb5\/20170210_125423_360.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F43SLH5PD-394e68dbb5\/20170210_125423_480.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F43SLH5PD-394e68dbb5\/20170210_125423_160.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F43SLH5PD-394e68dbb5\/20170210_125423_720.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F43SLH5PD-394e68dbb5\/20170210_125423_960.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F43SLH5PD-394e68dbb5\/20170210_125423_1024.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 4160,
+            "original_h": 2340,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/alexrobert\/F43SLH5PD\/20170210_125423.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F43SLH5PD-b5e2bd1674",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3VSA7GPK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "alexrobert",
+        "bot_id": null,
+        "ts": "1486749296.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Good job guys keep it up",
+        "ts": "1486755871.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": ":+1: ",
+        "ts": "1486755878.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Did the meeting go well?",
+        "ts": "1486757732.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Yes, well from what i understood ahah, we need to breakdown the tasks, comment what we are doing on the github repository (ie. Working in the user account on php myadmin) , ",
+        "ts": "1486758317.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "He said we were well organized and that we have a good progression",
+        "ts": "1486758365.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "I think he mentionned that we got full mark on sprint one",
+        "ts": "1486758392.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Ah nice, so we're doing well compared to the other group's then :) that's good",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1486758437.000000"
+        },
+        "ts": "1486758414.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Yea, we are a bit ahead from what he said",
+        "ts": "1486758433.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "he wants us to comment on the user stories. Example, Mikel and <@U3XFMDQ2J>  set up the php server and will procede to work on the account login in php",
+        "ts": "1486768957.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "he also wants us to divide into groups and work on separate tasks",
+        "ts": "1486768977.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Basically, he wants everyone to comment on commits, and be active, so that he will be able to see the team work. On the other hand, He wants us to explain more the user stories; how we are going to implement, like using php or javascript or ajax. and also he wants discussion of ideas how to implement the user stories so that he will also see the team discussion and idea sharing. With the user stories, I think he wants us to work on them groups of 2 and he wants to see the feedback of the other group members too. When comitting, he wants us to explain a little bit what we have done, like for example; \"changed style of the login page with css\".  He liked the way we organize, but he wants to see more like team work, team discussion so if we do things that I listed above, it will be fine for sprint 2. On the other hand, for the website, he thinks it seems fine for now, atleast for sprint 2. For more progression we can still work on it. I am gonna review javascript and work on jquery; ajax, and css with <@U3XFMDQ2J> . She was okay with that too.",
+        "ts": "1486774134.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Well said <@U3VNUBS1X> sorry I just got home. ",
+        "ts": "1486775846.000003"
+    }
+]

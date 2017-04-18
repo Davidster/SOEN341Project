@@ -1,0 +1,152 @@
+[
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Nice",
+        "ts": "1486493241.000215"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "I just created a pull request about the css file",
+        "ts": "1486493267.000216"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I made the php file to connect to db and tested it on my localhost, it works; ill wait for our apache server before pushing branch because otherwise itll just complicate things",
+        "ts": "1486494264.000217"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Basically you guys would have to download WAMP to process php files",
+        "ts": "1486494304.000218"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "But Apache is cool enough for us to just drop php file in www directory and it'll process for us",
+        "ts": "1486494345.000219"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "For now we can use our personal www directory",
+        "ts": "1486494373.000220"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Can you push your branch so I can take a look? No need to merge yet",
+        "ts": "1486494399.000221"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Oh allright",
+        "ts": "1486494441.000222"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ok tested on my www dir and nothing works",
+        "ts": "1486495558.000223"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Lol",
+        "ts": "1486495567.000224"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I pushed anyway",
+        "ts": "1486495571.000225"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Looks like youve got your work cut out for you :)",
+        "ts": "1486495591.000226"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hmhm",
+        "ts": "1486495725.000227"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i did some style additions and forms formating",
+        "ts": "1486514712.000228"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "pull request is up",
+        "ts": "1486515014.000229"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "your changes are slightly conflicting with william's changes",
+        "ts": "1486515951.000230"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "can you try to resolve the merge conflict?",
+        "ts": "1486515968.000231"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the forms look a lot nicer now, btw",
+        "ts": "1486515997.000232"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "good job",
+        "ts": "1486516001.000233"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i would love to how do I do that?",
+        "ts": "1486519783.000234"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i can't simplify the code right now",
+        "ts": "1486521944.000235"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i merged it",
+        "ts": "1486522549.000236"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "As long as the master branch looks the way you want now then it's all good",
+        "ts": "1486524820.000237"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i have a login system",
+        "ts": "1486529904.000238"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "its looks messy rn tho lol",
+        "ts": "1486529924.000239"
+    }
+]

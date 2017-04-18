@@ -1,0 +1,14 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Requirements for Sprint 1:\n• Make sure you are able to present how much each member has contributed. • We need to see at least 6 well deﬁned user stories, we may build on that from that point. • Progress is necessary in the form of a working system.(end-to-end system) • Make sure your user stories are mapping to your project’s vision and functionalities, as discussed in the last tutorial. • Please review the pull requests and a reminder: Only pull requests for contributions with at least 2 reviewers assigned. • It is advised that you submit your work by Thursday morning. So that the TAs can analyze your work better and do not rush through the feedback. • REMINDER: Please email(or message on moodle) your vision before the submission of your user stories. By Tuesday night preferably. 1 message\/team.",
+        "ts": "1485982107.000015"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "when you take on a user story, you're going to want to open up your own branch, and every commit message for that branch should include the number of the Github issue you're working on\n\nfor example:\n`git commit -m \"added log in box to UI #1\"`\n\nas you can see on the repository on Github, there is an issue #1 which pertains to user log in, hence the #1 at the end of the commit message\n\n*it seemed that the TA thought it was very important for us to do this ^*",
+        "ts": "1485982189.000016"
+    }
+]

@@ -1,0 +1,306 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Good job website looks good",
+        "ts": "1492082068.667230"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": ":trophy: ",
+        "ts": "1492082083.670436"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "is there anything that should be worked on?",
+        "ts": "1492091704.838082"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Idk talk with saishan",
+        "ts": "1492091951.958217"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Can we close the last 3 stories?",
+        "ts": "1492092338.155705"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Lets just do it",
+        "ts": "1492092346.159594"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Erdem can you do acceptance test?",
+        "ts": "1492092354.163414"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Wait still working on group page",
+        "ts": "1492092368.170256"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Basically read each user story and chrck if our system provides functionnality",
+        "ts": "1492092374.173039"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Just documentatio ",
+        "ts": "1492092381.176843"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "N",
+        "ts": "1492092383.177866"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "and write them down somewhere?",
+        "ts": "1492092418.195662"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah",
+        "ts": "1492092831.398778"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "some of the sub tasks are completed partially",
+        "ts": "1492092859.412463"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "should I mention that partially",
+        "ts": "1492092876.421508"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3WD98GTC|nickhorta> uploaded a file: <https:\/\/soen341project.slack.com\/files\/nickhorta\/F4Y66HB0R\/20170331_145012.jpg|Example for acceptance test>",
+        "file": {
+            "id": "F4Y66HB0R",
+            "created": 1492092877,
+            "timestamp": 1492092877,
+            "name": "20170331_145012.jpg",
+            "title": "Example for acceptance test",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U3WD98GTC",
+            "editable": false,
+            "size": 3341927,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4Y66HB0R\/20170331_145012.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4Y66HB0R\/download\/20170331_145012.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4Y66HB0R-6de17d3b77\/20170331_145012_64.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4Y66HB0R-6de17d3b77\/20170331_145012_80.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4Y66HB0R-6de17d3b77\/20170331_145012_360.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4Y66HB0R-6de17d3b77\/20170331_145012_480.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4Y66HB0R-6de17d3b77\/20170331_145012_160.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4Y66HB0R-6de17d3b77\/20170331_145012_720.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4Y66HB0R-6de17d3b77\/20170331_145012_800.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4Y66HB0R-6de17d3b77\/20170331_145012_960.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3X1T5M63-F4Y66HB0R-6de17d3b77\/20170331_145012_1024.jpg?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 5312,
+            "original_h": 2988,
+            "permalink": "https:\/\/soen341project.slack.com\/files\/nickhorta\/F4Y66HB0R\/20170331_145012.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4Y66HB0R-cbf1272a42",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3WD98GTC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "nickhorta",
+        "bot_id": null,
+        "ts": "1492092883.424971"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "gotcha",
+        "ts": "1492092922.445368"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Also yes",
+        "ts": "1492092980.474569"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "sorry guys I tried very very hard but I was only able to write 4 unit tests for today with 6 assertions total",
+        "ts": "1492099203.743715"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the pull request is up",
+        "ts": "1492099209.747811"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think we need to close the remaining issues before our meeting starts",
+        "ts": "1492099291.793674"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "I finished my work so you can do so",
+        "ts": "1492099316.806932"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Good job david no worries",
+        "ts": "1492100221.247113"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "yeah no worries",
+        "ts": "1492100319.293422"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<@U3VNUBS1X>  hows documentation going? Im at school if you need a hand",
+        "ts": "1492100546.401656"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "give me like 20 min",
+        "ts": "1492100566.411187"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "almost done with the documentation",
+        "ts": "1492100572.414166"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "and then will do the burndown",
+        "ts": "1492100577.416227"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Sweet",
+        "ts": "1492100995.613613"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3VNUBS1X|erdemkepenek> uploaded a file: <https:\/\/soen341project.slack.com\/files\/erdemkepenek\/F4Y92JWHX\/acceptance_test.pdf|Acceptance Test.pdf>",
+        "file": {
+            "id": "F4Y92JWHX",
+            "created": 1492101542,
+            "timestamp": 1492101542,
+            "name": "Acceptance Test.pdf",
+            "title": "Acceptance Test.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U3VNUBS1X",
+            "editable": false,
+            "size": 337802,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4Y92JWHX\/acceptance_test.pdf?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4Y92JWHX\/download\/acceptance_test.pdf?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "permalink": "https:\/\/soen341project.slack.com\/files\/erdemkepenek\/F4Y92JWHX\/acceptance_test.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4Y92JWHX-23a3928782",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3VNUBS1X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "erdemkepenek",
+        "bot_id": null,
+        "ts": "1492101542.867848"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "if it is good I am going to push it to master with burndown chart",
+        "ts": "1492102637.374153"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah just reference stories with their issue number pls",
+        "ts": "1492103134.614067"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "ok updating",
+        "ts": "1492103154.623297"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "So im closing everything and merging everything",
+        "ts": "1492103740.893869"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I updated",
+        "ts": "1492103768.906343"
+    }
+]

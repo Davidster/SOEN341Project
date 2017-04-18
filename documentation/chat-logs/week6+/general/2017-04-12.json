@@ -1,0 +1,296 @@
+[
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "guys we need to say all the things that need to be done by tomorrow.",
+        "ts": "1492007410.553130"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "for now I think front end of myProfile page anf group page need to be fixed. I'm curently working on visuals for myProfile ",
+        "ts": "1492007543.626590"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "no no no",
+        "ts": "1492007583.648935"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "you are working on changes that have made and pushed to master branch",
+        "ts": "1492007583.648954"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "dont",
+        "ts": "1492007585.650090"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "?",
+        "ts": "1492007593.654448"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "<@U3WS26PT3> we are working on front end",
+        "ts": "1492007600.658952"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "or alex's branch",
+        "ts": "1492007602.660105"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "william finished myProfile",
+        "ts": "1492007612.665124"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "alright then what needs to be worked on",
+        "ts": "1492007636.678532"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "?",
+        "ts": "1492007639.680078"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "because here is the situation",
+        "ts": "1492007651.686388"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "saisha william and I are finishing front end",
+        "ts": "1492007680.703031"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "will finished myProfile for student]",
+        "ts": "1492007692.709210"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "im adding features for myprofile TA",
+        "ts": "1492007700.713733"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "erdem has to do the upload thing",
+        "ts": "1492007712.720569"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "is there anything making the page look different cause it doesn't look too good right now ",
+        "ts": "1492007750.741575"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "which one?",
+        "ts": "1492007764.749343"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "myProfile student looks great",
+        "ts": "1492007775.754668"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Check the last version we just merged ",
+        "ts": "1492007826.783536"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "who has it up on their webspace.",
+        "ts": "1492007843.792580"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": ".",
+        "ts": "1492007846.794059"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "?",
+        "ts": "1492007848.795341"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "w_kingbe",
+        "ts": "1492007854.798226"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "We are working on the TA ",
+        "ts": "1492007878.811136"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Prifile",
+        "ts": "1492007884.814436"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I will work on it once you guys pushed all",
+        "ts": "1492007919.834554"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I will work on the upload page",
+        "ts": "1492007927.838603"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "The upload page is viewgroup",
+        "ts": "1492007947.849478"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "And you can work on it at the same time ",
+        "ts": "1492007957.854777"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "i just added some features to myProfile.php",
+        "ts": "1492007993.874500"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "myprofile for TA",
+        "ts": "1492008001.879319"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "then starting working on it",
+        "ts": "1492008005.881032"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "yeah yeah we'll do it",
+        "ts": "1492008019.889013"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "but make sure your code is working",
+        "ts": "1492008026.892781"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "absolutely",
+        "ts": "1492008043.901868"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I'll boxify the content for myProfile TA, so dont touch that people",
+        "ts": "1492008075.919059"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "myProfile is looking good. only 1 problem I see is the page is a little bigger then screen so you need to scroll a little can someone fix that it shouldn't be too hard",
+        "ts": "1492008426.112552"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "yeah yeah we'll do",
+        "ts": "1492008440.120721"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hello everyone just a reminder to reference user stories when pushing #likethis and comment changes made. I think youre already doing that so keep it up",
+        "ts": "1492008563.188900"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Well need to do acceptance testing for tommorow which is basically checking that every story functionnality is covered by our system",
+        "ts": "1492008632.227608"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Does the project need to be fully completed for tomorrow?",
+        "ts": "1492009629.799144"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I will be working on unit tests as well as I can. ",
+        "ts": "1492009669.822715"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I guess so",
+        "ts": "1492009731.857484"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Well we can add stuff after but it ll be to impress the class",
+        "ts": "1492010488.277159"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yeah pretty much",
+        "ts": "1492011440.815600"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Stories need to be completed",
+        "ts": "1492011448.819556"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "are people still working currently?",
+        "ts": "1492049821.009921"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "yep",
+        "ts": "1492051684.299248"
+    }
+]

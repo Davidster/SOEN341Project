@@ -1,0 +1,873 @@
+[
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "is there a more specific guideline for the report cause i still find it a bit general",
+        "ts": "1492442064.626295"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "?",
+        "ts": "1492442066.627191"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i dont think there is",
+        "ts": "1492443637.358982"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Same here but I think it is thaat simple",
+        "ts": "1492443646.362838"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "and btw the files upload",
+        "ts": "1492443648.363934"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "is directly with the computer",
+        "ts": "1492443656.367780"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "??",
+        "ts": "1492443658.368626"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "download and upload",
+        "ts": "1492443662.370687"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "?",
+        "ts": "1492443664.371209"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Ya the files get copied into web space",
+        "ts": "1492443700.388360"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "In a folder called uploads",
+        "ts": "1492443711.393613"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "so for the sequence diagram",
+        "ts": "1492443736.405349"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "we should put webstace",
+        "ts": "1492443747.410417"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "space*",
+        "ts": "1492443747.410539"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i think we need a google doc for the report and all work on that doc",
+        "ts": "1492444184.615124"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "nick as one",
+        "ts": "1492444208.625932"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "but we cant modify on it",
+        "ts": "1492444215.628852"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "alex an i are working on all the diagrams and UML on a google doc using draw io",
+        "ts": "1492444258.649886"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "it's long but we are getting there",
+        "ts": "1492444279.659488"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "can you add all of use into the google doc so we all work on same copy?",
+        "ts": "1492444328.682154"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "you guys might want to review them after, maybe we missed something",
+        "ts": "1492444330.683315"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "yeah it's better we finish them first, otherwise it'll get messy",
+        "ts": "1492444363.699033"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "ok",
+        "ts": "1492444373.703848"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "but we can c\\share our",
+        "ts": "1492444378.706174"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "google doc",
+        "ts": "1492444381.707661"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "the other one",
+        "ts": "1492444385.709597"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<https:\/\/docs.google.com\/document\/d\/1812l1zXC3etP1ozdKjZkhmVArOrcFmSatqMyKMuTBic\/edit?usp=sharing>",
+        "ts": "1492444448.738713"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "this one",
+        "ts": "1492444451.739855"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "every one with the link can modify",
+        "ts": "1492444459.744162"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "actually can you put iton @important so we can easily get to it?",
+        "ts": "1492444505.765463"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "hey all",
+        "ts": "1492444510.768022"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "i need your student ids and full names plz",
+        "ts": "1492444530.777729"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "sai-shan gagnon 40017721",
+        "ts": "1492444546.785661"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "David Huculak 27516495",
+        "ts": "1492444562.792877"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Alexandre Robert 27414889",
+        "ts": "1492444565.794376"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "Mikel Shifrin 40001737",
+        "ts": "1492444581.802147"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<@U3WS26PT3>  sure :slightly_smiling_face:",
+        "ts": "1492444582.802725",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3WS26PT3"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "double check your personnal story points your collaborated on (must have committed)",
+        "ts": "1492447772.288377"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "william and erdem fill in your student IDs",
+        "ts": "1492447791.297200"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I wrote down all the list of user stories done in the past sprints",
+        "ts": "1492448365.575333"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "we dont have any milestone for sprint 2 and 3",
+        "ts": "1492448387.585918"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I just created them",
+        "ts": "1492448570.677631"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I believe sprints 1 and 2 we didnt complete any story",
+        "ts": "1492448586.685350"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Idk if now we can swap issues closed in milestones 4 to miledtone 3",
+        "ts": "1492448642.712947"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "hey i wasnt able to get off at work, ill be back tonight around 10... i wanted to do the acceptance test  part but if someone can do thatd be great",
+        "ts": "1492448913.841223"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "William Kingbede 27324383",
+        "ts": "1492448914.841704"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "also if u have questions ill look at slack every now and then",
+        "ts": "1492448941.854706"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "hey",
+        "ts": "1492459129.877366"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "guys",
+        "ts": "1492459131.878601"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "we need feedback for the",
+        "ts": "1492459180.902111"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "diagrams",
+        "ts": "1492459185.904570"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<https:\/\/drive.google.com\/file\/d\/0B3VqI_Fzw9c1QjFrYzJBa1JGUWM\/view?usp=sharing>",
+        "ts": "1492459185.904622"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I am not at home",
+        "ts": "1492466346.063081"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it looks nice and official :slightly_smiling_face: in terms of correctness I really don't know cuz I didn't study that topic much, but I'm happy with it haha I approve",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1492466444.000000"
+        },
+        "ts": "1492466427.093833"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "did you check all of them",
+        "ts": "1492466503.122848"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "&gt;",
+        "ts": "1492466504.123203"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "oh shit I thought there was only 1",
+        "ts": "1492466523.130450"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":joy:",
+        "ts": "1492466528.132047"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I see the other ones now",
+        "ts": "1492466536.135304"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "no ahah",
+        "ts": "1492466563.145868"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "omg this must have been SO annoying to do I feel bad for you guys",
+        "ts": "1492466710.199472"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think you forgot to add the student login alt in US1_userAccount",
+        "ts": "1492466781.224884"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "OH we forgot to put it back",
+        "ts": "1492466862.252970"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "more than annoying ahhaha",
+        "ts": "1492466870.255673"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "added it!",
+        "ts": "1492466936.278357"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "for viewingMaterials, I think you should change \"download into uploads\" to \"download local copy\"",
+        "ts": "1492466951.283382"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it's unclear what is meant by \"uploads\"",
+        "ts": "1492466968.289217"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "userAccount looks good",
+        "ts": "1492466996.298575"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "yea didnt know what to put",
+        "ts": "1492467029.310171"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "AHAH",
+        "ts": "1492467030.310484"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I looked at the rest of the files it seems fine to me",
+        "ts": "1492467337.411305"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "all right thanx for the review",
+        "ts": "1492467350.415638"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": ":))",
+        "ts": "1492467353.416445"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "np",
+        "ts": "1492467357.418017"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<https:\/\/docs.google.com\/presentation\/d\/1e5rDJAjI6gZEjP6WKs_VfE_8xfxE-VZGWX9leuAEJZ0\/edit?usp=sharing>",
+        "ts": "1492467381.425881"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "for the slides",
+        "ts": "1492467390.429074"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "So guys how do we organize for the PP",
+        "ts": "1492467464.453429"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "and the presentation",
+        "ts": "1492467474.456958"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "And btw mooddle is having issues .. so we all see the upload from the other team",
+        "ts": "1492467547.478686"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "rn",
+        "ts": "1492467548.478967"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "we can see and ddl their ppt :s",
+        "ts": "1492467560.482423"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "lmaooo",
+        "ts": "1492467574.486656"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "but uploading ours will change their submission as well",
+        "ts": "1492467610.496465"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Wtf!?",
+        "ts": "1492467660.510734"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "thats fucked haha",
+        "ts": "1492467671.513678"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "yea i know",
+        "ts": "1492467680.516350"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "happened in my 282  classs",
+        "ts": "1492467689.518911"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "everyone took the proposal that was there",
+        "ts": "1492467707.524190"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "if I had a dollar for every time Concordia has left me utterly unimpressed...",
+        "ts": "1492467758.538831"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "uni life",
+        "ts": "1492467771.542461"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "forbes 1. <@U3WD63E7N>",
+        "ts": "1492467797.549596"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":joy:",
+        "ts": "1492467818.555868"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "hows your parts going??",
+        "ts": "1492468146.651174"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I'm still writing unit tests",
+        "ts": "1492468171.658240"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "is it long :s",
+        "ts": "1492468202.667325"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "i mean nick cant help you",
+        "ts": "1492468211.669778"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "yup still quite a few hours away from completion, and I gotta finish them before I can write the section of the report pertaining to testing",
+        "ts": "1492468266.686172"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "the write-up will only take a few minutes tho which is good",
+        "ts": "1492468289.693197"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "ish",
+        "ts": "1492468306.698495"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": ":S",
+        "ts": "1492468307.698748"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "ok guys the presentation, the ppt needs to be completed..",
+        "ts": "1492476673.588474"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "<@U3VNUBS1X>  and <@U3WKEASEN>",
+        "ts": "1492476680.590629"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "can you do it",
+        "ts": "1492476683.591640"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "guys there are too many slides",
+        "ts": "1492478306.989037"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "in the powerpoint",
+        "ts": "1492478312.990018"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "10 minutes = max 12-13 slides",
+        "ts": "1492478324.992058"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "where is it written",
+        "ts": "1492478748.064235"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "I'm just saying out of experience",
+        "ts": "1492478904.088960"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "oh okok",
+        "ts": "1492479299.157378"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "well",
+        "ts": "1492479302.157905"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "the slides dont way that much",
+        "ts": "1492479311.159613"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "tbh",
+        "ts": "1492479313.159967"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "I just came home",
+        "ts": "1492480486.360950"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "<@U3WKEASEN> can you do naming convention cause i'm busy with infrastructure",
+        "ts": "1492480608.382380"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "That is the part I dont even know what to put but I'll figure out smthg",
+        "ts": "1492480688.395945"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "we used camelCase",
+        "ts": "1492480707.399491"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "That's it ?",
+        "ts": "1492480726.402840"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "This part is just links anyway so it does not take too long",
+        "ts": "1492480756.407944"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "you need to find a link that uses the same naming convention as what we used",
+        "ts": "1492480785.413207"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Okok",
+        "ts": "1492480827.421776"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "btw we still need to divide the slides ..",
+        "ts": "1492481406.519599"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "we are meeting early tomorrow before the presentation",
+        "ts": "1492481456.528516"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "oh",
+        "ts": "1492481475.532221"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "what time :slightly_smiling_face:",
+        "ts": "1492481479.533189"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "ahha",
+        "ts": "1492481481.533547"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ill be there and available after 10h40",
+        "ts": "1492481496.536156"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "we gotta be in the room at 2:45 so let's meet around 12-1230?",
+        "ts": "1492481608.557602"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "omg idk really know what to say for the ppt i can make a slide about db lol thats about it",
+        "ts": "1492482662.830749"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "alex and sai good job on the slides",
+        "ts": "1492482690.839369"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "jmsb level type of stuff :joy:",
+        "ts": "1492482740.853876"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "honestly chat, <@U3WS26PT3>  might wanna take that slide :smile:",
+        "ts": "1492482956.917758"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": ":joy: i'll talk for 10min",
+        "ts": "1492482990.927929"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "well talk for 5",
+        "ts": "1492483019.936201"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "so we have less time to talk",
+        "ts": "1492483025.937867"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "you know id be down to talk for a big big 30 seconds max :smile: :smile: :smile:",
+        "ts": "1492483039.942042"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "im done with these fucking unit tests. PR is up",
+        "ts": "1492483079.953750"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": ":rage:",
+        "ts": "1492483101.959865"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "ayyyyyy",
+        "ts": "1492483132.969010"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "nice",
+        "ts": "1492483133.969388"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "dont be angry .. remember thos diagrams",
+        "ts": "1492483148.973471"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": ":joy:",
+        "ts": "1492483158.976651"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "but question, those diagrams if I include them all, the report is more than 5 pages",
+        "ts": "1492483196.987703"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "375 commits on this repository guys that's pretty cool... something to be proud of.",
+        "ts": "1492483246.003000"
+    }
+]

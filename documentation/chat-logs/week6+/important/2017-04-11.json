@@ -1,0 +1,48 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "1:30-1:50 on thursday\nEV 3.274",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1491934095.000000"
+        },
+        "ts": "1491934085.286783"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ok mikel ok david",
+        "ts": "1491937348.902098"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I have an issue",
+        "ts": "1491966999.237787"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I did a pull request but there is a conflict",
+        "ts": "1491967013.239725"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "talk in <#C3W8W4TEF|general>",
+        "ts": "1491967021.240893"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ok my bad",
+        "ts": "1491967029.241883"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "sall good :slightly_smiling_face:",
+        "ts": "1491967034.242521"
+    }
+]

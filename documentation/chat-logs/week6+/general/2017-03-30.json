@@ -1,0 +1,88 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hey i think thats enough front-end work for about page, do front-end for other pages like my profile viewgroup and stuff",
+        "ts": "1490878009.480202"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "there are still bugs once you login chat page is blank ",
+        "ts": "1490891517.512790"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "where do you see the bugs? I will try to fix them tonight and will work on front-end after 8ish",
+        "ts": "1490903042.266953"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "that chat bug is brutal - fixing it right now",
+        "ts": "1490925015.859659"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "you guys ok if I push the fix directly to master?",
+        "ts": "1490925142.880425"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Yup",
+        "ts": "1490925643.964913"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Do your thing",
+        "ts": "1490925656.967272"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "as long as ta going to be ok with it",
+        "ts": "1490925835.997188"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "he wont notice",
+        "edited": {
+            "user": "U3WD63E7N",
+            "ts": "1490925860.000000"
+        },
+        "ts": "1490925850.999502"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": ":+1:",
+        "ts": "1490925870.002895"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "alright the bug is fixed you can sync your web dir with master to fix the chat page",
+        "ts": "1490926098.039211"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "i confirm it works",
+        "ts": "1490926576.112973",
+        "reactions": [
+            {
+                "name": "grin",
+                "users": [
+                    "U3WD63E7N",
+                    "U3WD98GTC"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

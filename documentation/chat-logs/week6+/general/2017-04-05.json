@@ -1,0 +1,148 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "hey today in class he went over chapters covered in class",
+        "ts": "1491409901.827733"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3WD98GTC|nickhorta> uploaded a file: <https:\/\/soen341project.slack.com\/files\/nickhorta\/F4V28MNUV\/soen341review.pdf|SOEN341REVIEW.pdf> and commented: what you should focus on",
+        "file": {
+            "id": "F4V28MNUV",
+            "created": 1491409962,
+            "timestamp": 1491409962,
+            "name": "SOEN341REVIEW.pdf",
+            "title": "SOEN341REVIEW.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U3WD98GTC",
+            "editable": false,
+            "size": 1051957,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4V28MNUV\/soen341review.pdf?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3X1T5M63-F4V28MNUV\/download\/soen341review.pdf?t=xoxe-133061191207-171134991846-170369520963-0355a57c91",
+            "permalink": "https:\/\/soen341project.slack.com\/files\/nickhorta\/F4V28MNUV\/soen341review.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T3X1T5M63-F4V28MNUV-a78154df12",
+            "channels": [
+                "C3W8W4TEF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4UT0MX5H",
+                "created": 1491409962,
+                "timestamp": 1491409962,
+                "user": "U3WD98GTC",
+                "is_intro": true,
+                "comment": "what you should focus on",
+                "channel": ""
+            }
+        },
+        "user": "U3WD98GTC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "nickhorta",
+        "bot_id": null,
+        "ts": "1491409963.859053"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Cool man! Thanks",
+        "ts": "1491410310.030621"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Thaank youuuu!!!!!! ",
+        "ts": "1491410354.051967"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "thanks",
+        "ts": "1491414784.286148"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Nice rhx :)",
+        "ts": "1491419719.805533"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Thx:)",
+        "ts": "1491419722.807130"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "For schedulling know how to find the critical path in diagrams too",
+        "ts": "1491427789.462833"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ohh good",
+        "ts": "1491427975.537862"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "From the quiz solution id say its the one that has no float ",
+        "ts": "1491428002.548310"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "<@U3XFMDQ2J>  What do u mean?",
+        "ts": "1491428315.665655"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "you always have a path that the ES and LS are the same for every task (and the ends are the same as well) , they have no float (addition of the difference between ES and LS and the difference between EF and LF)",
+        "ts": "1491434109.387410"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "that is the critical path",
+        "ts": "1491434119.389503"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ahhhhhhhh :+1::+1:",
+        "ts": "1491434155.398989"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "from the answer from the quiz .. looks like thats the critical path",
+        "ts": "1491434222.415092"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "Tools that you can use\n• Java\n• FindBugs,PMD, Checkstyle\n• Python\n• PyLint\n• Javascript\n• Javascriptlint, JSLINT\n• PHP\n• PHPMD\nA report based on one of these tools is required\nfor your final project report.",
+        "ts": "1491437285.101843"
+    },
+    {
+        "type": "message",
+        "user": "U3XFMDQ2J",
+        "text": "last slides of coding",
+        "ts": "1491437305.106093"
+    }
+]

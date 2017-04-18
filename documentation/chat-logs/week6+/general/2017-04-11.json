@@ -1,0 +1,80 @@
+[
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "1:30-1:50 on thursday\nEV 3.274",
+        "ts": "1491934074.331067"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "So yeah I did a pull request and there happens to be a conflict",
+        "ts": "1491967047.433541"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "The weird thing is that i pulled before making any changes",
+        "ts": "1491967059.435142"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Now i want to know how I can solve the issue",
+        "ts": "1491967075.437293"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it means that somebody made a change to a file which you also changed and pushed it to master after you did your pull",
+        "ts": "1491967118.443309"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "damn that didn't make much sense",
+        "ts": "1491967137.445827"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Ohhhh",
+        "ts": "1491967151.447720"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "I get it",
+        "ts": "1491967154.447973"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "I think github gives you a way to resolve it on the site",
+        "ts": "1491967173.450844"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "you can try puling again like you did before starting your changes",
+        "ts": "1491967193.453561"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "it should give you the same conflict error",
+        "ts": "1491967209.455808"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "then you go to the file where the error occured, resolve the issues, then `git add` `git commit` as per usual",
+        "ts": "1491967244.461038"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "Just did and it says up to date",
+        "ts": "1491967249.461648"
+    }
+]

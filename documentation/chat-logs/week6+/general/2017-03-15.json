@@ -1,0 +1,131 @@
+[
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "Bootstrap 3 or 4?",
+        "ts": "1489585023.519665"
+    },
+    {
+        "type": "message",
+        "user": "U3WKEASEN",
+        "text": "Check my pull request I used Bootstrap 3",
+        "ts": "1489599828.846012"
+    },
+    {
+        "type": "message",
+        "user": "U3VNUBS1X",
+        "text": "for some reason I cant login to the page",
+        "ts": "1489611071.551153"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Srry i deleted a bunch of accounts when changing the database",
+        "ts": "1489611199.612125"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "For now use <mailto:nick@gmail.com|nick@gmail.com> password nick",
+        "ts": "1489611673.839240"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Ta is <mailto:mike@gmail.com|mike@gmail.com> password mike",
+        "ts": "1489611697.851256"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "yeah I was wondering where it all went",
+        "ts": "1489615632.447928"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "i cant login with <mailto:nick@gmail.com|nick@gmail.com>",
+        "ts": "1489615847.522872"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "Hum test on n_hortaa",
+        "ts": "1489615909.543645"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "I think you guys need to empty your webfolder and reupload",
+        "ts": "1489615927.549220"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "n_hortaa password doesnt work either",
+        "ts": "1489616031.583233"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "you can also try clearing your site cache, it helps sometimes",
+        "ts": "1489616065.594035"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "this is a useful chrome extension for web-dev which clears your cache for you easily: <https:\/\/chrome.google.com\/webstore\/detail\/cache-killer\/jpfbieopdmepaolggioebjmedmclkbap>",
+        "attachments": [
+            {
+                "title": "Cache Killer",
+                "title_link": "https:\/\/chrome.google.com\/webstore\/detail\/cache-killer\/jpfbieopdmepaolggioebjmedmclkbap",
+                "text": "Automatically clear your browser cache before loading a page. Can be enabled\/disabled with a single mouse click.",
+                "fallback": "Cache Killer",
+                "from_url": "https:\/\/chrome.google.com\/webstore\/detail\/cache-killer\/jpfbieopdmepaolggioebjmedmclkbap",
+                "thumb_url": "https:\/\/lh3.googleusercontent.com\/rSYSSLIfqPt7Cerh0nF7YDBcmZXMIlXng0m6RidcMYdK6ugwFf_lwZp_3INeU5RmqD7BrMRlEWQ",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "service_icon": "https:\/\/www.google.com\/images\/icons\/product\/chrome_web_store-32.png",
+                "service_name": "chrome.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1489616115.609928"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<http:\/\/Users.encs.concordia.ca\/~n_hortaa|Users.encs.concordia.ca\/~n_hortaa>",
+        "ts": "1489616140.618102"
+    },
+    {
+        "type": "message",
+        "user": "U3WD98GTC",
+        "text": "<mailto:nick@gmail.com|nick@gmail.com> password: nick",
+        "ts": "1489616158.624090"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "nope :confused:",
+        "ts": "1489616243.651192"
+    },
+    {
+        "type": "message",
+        "user": "U3VSA7GPK",
+        "text": "ill try the cache thing",
+        "ts": "1489616253.654667"
+    },
+    {
+        "type": "message",
+        "user": "U3WS26PT3",
+        "text": "I'll deal with form validation tonight",
+        "ts": "1489618534.341490"
+    },
+    {
+        "type": "message",
+        "user": "U3WD63E7N",
+        "text": "Thanks ",
+        "ts": "1489621854.181365"
+    }
+]
