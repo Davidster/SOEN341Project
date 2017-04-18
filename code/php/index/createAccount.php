@@ -162,7 +162,7 @@
 					for($i = 1; $i <= $_POST["sel1"]; $i++){
 						$c = "c$i";
 						if(isset($_POST[$c])){
-							$classList[] = $c;
+							$classList[] = $_POST[$c];
 						}
 					}
 

@@ -28,7 +28,7 @@
 					//look through all his classes input
 					foreach($classList as &$mClass){
 
-						$seperate = (explode(" ",$mClass));
+						$seperate = (explode(" ", $mClass));
 						$class = $seperate[0];
 						$section = $seperate[1];
 
