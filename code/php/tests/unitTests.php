@@ -126,6 +126,9 @@ final class Test extends \PHPUnit_Framework_TestCase
 	}
 
 
+	// test various student account creation permutations
+	// existing associations:
+	// course SOEN341 AA is already assigned ta id: 100
 	function testCreateStudentAccount(){
 
 		//connect to database
@@ -200,6 +203,9 @@ final class Test extends \PHPUnit_Framework_TestCase
 
 	}
 
+	// test TA account creation
+	// existing associations:
+	// course ENCS282 AA is already assigned ta id: 104
 	function testCreateTAAccount(){
 
 		//connect to database
